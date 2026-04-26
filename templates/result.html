@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="result-container">
+    <div class="result-header">
+        <h2>{{ subject.title() }} — {{ mode.upper() }} Result</h2>
+        {% if name %}<p>Candidate: <strong>{{ name }}</strong></p>{% endif %}
+    </div>
+
+    <div class="score-card">
+        <div class="result-score">{{ score }}/{{ total }}</div>
+        {% if percentage is defined %}
+        <div class="score-pct">{{ percentage }}%</div>
+        {% endif %}
+        <div class="score-label">
+            {% if percentage >= 70 %}🎉 Excellent!
+            {% elif percentage >= 50 %}👍 Good job!
+            {% else %}📚 Keep studying!
+            {% endif %}
+        </div>
+    </div>
+
+    {% if details %}
+    <h3 style="margin-top:2rem; margin-bottom:1rem;">Answer Review</h3>
+
+    {% for item in details %}
+    <div class="detail-item {{ 'correct' if item.correct else 'incorrect' }}">
+        <div class="detail-header">
+            {{ '✅' if item.correct else '❌' }}
+            <span>Q{{ loop.index }}. {{ item.question | safe }}</span>
+        </div>
+        <div class="detail-body">
+            <div class="label">Your Answer</div>
+            <div class="value">{{ item.selected or '(no answer)' | safe }}</div>
+
+            {% if not item.correct %}
+            <div class="label">Correct Answer</div>
+            <div class="value">{{ item.answer | safe }}</div>
+            {% endif %}
+
+            {% if item.get('solution') %}
+            <div class="solution-box">
+                <div class="solution-label">📝 Solution</div>
+                {{ item.solution | safe }}
+            </div>
+            {% elif item.get('explanation') %}
+            <div class="explanation">
+                <div class="expl-label">💡 Explanation</div>
+                {{ item.explanation | safe }}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    <div class="result-actions">
+        <a href="{{ url_for('quiz', subject=subject, mode=mode) }}" class="btn-retry">Try Again</a>
+        <a href="{{ url_for('index') }}" class="btn-home">Choose Subject</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Submitted Results</h2>
+{% if results %}
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Score</th>
+                <th>Total</th>
+                <th>%</th>
+                <th>Answers</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for r in results %}
+            <tr>
+                <td>{{ r.name }}</td>
+                <td>{{ r.subject }}</td>
+                <td>{{ r.score }}</td>
+                <td>{{ r.total }}</td>
+                <td>{{ r.percentage if r.percentage is defined else '' }}</td>
+                <td>{{ r.answers }}</td>
+                <td>{{ r.timestamp }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <p>No results submitted yet.</p>
+{% endif %}
+{% endblock %}

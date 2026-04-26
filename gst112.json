@@ -1,0 +1,3044 @@
+[
+  {
+    "id": 1,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "The evidence of earliest human habitation in Nigeria came from the artifacts excavated in __________?",
+    "options": {
+      "A": "Ife",
+      "B": "Diama",
+      "C": "Nok",
+      "D": "Iwo-Eleru"
+    },
+    "answer": "D",
+    "explanation": "The Iwo-Eleru rock shelter in Ondo State yielded the oldest known human skeletal remains in Nigeria (~11,000 years ago)."
+  },
+  {
+    "id": 2,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "Which of the following ethnic groups established the Kanem-Borno state?",
+    "options": {
+      "A": "Kanuri",
+      "B": "Fulani",
+      "C": "Jukun",
+      "D": "Hausa"
+    },
+    "answer": "A",
+    "explanation": "The Kanuri people were the founding ethnic group of the Kanem-Borno Empire."
+  },
+  {
+    "id": 3,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "Which of the following geo-political zones in Nigeria may have the least number of ethnic groups?",
+    "options": {
+      "A": "South-east",
+      "B": "South-south",
+      "C": "North-east",
+      "D": "North-central"
+    },
+    "answer": "A",
+    "explanation": "The South-east zone is dominated by the Igbo, making it the least ethnically diverse geo-political zone."
+  },
+  {
+    "id": 4,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "The Igala occupy which part of Nigeria?",
+    "options": {
+      "A": "South-west",
+      "B": "North-central",
+      "C": "South-south",
+      "D": "North-west"
+    },
+    "answer": "B",
+    "explanation": "The Igala are found in Kogi State, which falls within the North-central geo-political zone."
+  },
+  {
+    "id": 5,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "The Hausa are found in large numbers in which of these states?",
+    "options": {
+      "A": "Kogi, Adamawa, Edo",
+      "B": "Sokoto, Nasarawa, Adamawa",
+      "C": "Kebbi, Kaduna, Kano",
+      "D": "Adamawa, Taraba, Kogi"
+    },
+    "answer": "C",
+    "explanation": "Hausa people are most concentrated in the north-west and north-central belt — especially Kebbi, Kaduna, and Kano States."
+  },
+  {
+    "id": 6,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "The major ethnic occupants of Edo Central Senatorial District are the __________?",
+    "options": {
+      "A": "Esakon",
+      "B": "Esan",
+      "C": "Esa-Oke",
+      "D": "Esagban"
+    },
+    "answer": "B",
+    "explanation": "The Esan people are the dominant ethnic group in the Edo Central Senatorial District."
+  },
+  {
+    "id": 7,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "The ethnic Ijaw are concentrated mainly in the following states __________",
+    "options": {
+      "A": "Delta & Bayelsa",
+      "B": "Oyo & Edo",
+      "C": "Plateau & Zamfara",
+      "D": "Ondo & Benue"
+    },
+    "answer": "A",
+    "explanation": "The Ijaw (or Izon) people are concentrated in Delta and Bayelsa States in the Niger Delta."
+  },
+  {
+    "id": 8,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "Nigeria occupies an area of __________ sq km",
+    "options": {
+      "A": "914,768",
+      "B": "923,768",
+      "C": "900,220",
+      "D": "980,230"
+    },
+    "answer": "B",
+    "explanation": "Nigeria covers approximately 923,768 square kilometres, making it the 32nd largest country in the world."
+  },
+  {
+    "id": 9,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "Which of these are the two groups amongst the Fulani?",
+    "options": {
+      "A": "Nomadic Fulani and Cattle Fulani",
+      "B": "Educated Fulani and Non-educated Fulani",
+      "C": "Good Fulani and Bad Fulani",
+      "D": "Town Fulani and Cattle Fulani"
+    },
+    "answer": "D",
+    "explanation": "The Fulani are divided into: Town Fulani (settled, educated, urban) and Cattle/Pastoral Fulani (nomadic herders)."
+  },
+  {
+    "id": 10,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "In the pre-colonial times, several Nigerian communities comprised __________",
+    "options": {
+      "A": "Big cities",
+      "B": "Urbanised areas",
+      "C": "Largely self-sufficient traditional communities",
+      "D": "Metro centres"
+    },
+    "answer": "C",
+    "explanation": "Before colonialism, Nigerian communities were largely self-sufficient traditional units organised around subsistence agriculture, trade, and crafts."
+  },
+  {
+    "id": 11,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "Usman Dan Fodio was ethnically connected to the __________ ?",
+    "options": {
+      "A": "Fulani",
+      "B": "Habe",
+      "C": "Hausa",
+      "D": "Yoruba"
+    },
+    "answer": "A",
+    "explanation": "Usman dan Fodio was a Fulani scholar, poet, and Islamic revivalist who launched the 1804 Jihad."
+  },
+  {
+    "id": 12,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "The Ibin-Ukpabi (Long Juju oracle) belonged to the",
+    "options": {
+      "A": "Edo",
+      "B": "Yoruba",
+      "C": "Aro",
+      "D": "Fulani"
+    },
+    "answer": "C",
+    "explanation": "The Ibin-Ukpabi (Arochukwu Long Juju) was controlled by the Aro Igbo sub-group, who used it to consolidate trade and influence in south-eastern Nigeria."
+  },
+  {
+    "id": 13,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "The Tripoli-Fezzan-Bilma trans-Saharan trade route ended in",
+    "options": {
+      "A": "Kanem-Borno",
+      "B": "Kilwa",
+      "C": "Benue",
+      "D": "Lagos"
+    },
+    "answer": "A",
+    "explanation": "The Tripoli-Fezzan-Bilma route was one of the major trans-Saharan routes that terminated in the Kanem-Borno Empire."
+  },
+  {
+    "id": 14,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "The Brazilian returnees settled mainly in __________",
+    "options": {
+      "A": "Lagos and Abeokuta",
+      "B": "Republic of Benin",
+      "C": "Lagos and Ibadan",
+      "D": "Abuja and Lagos"
+    },
+    "answer": "A",
+    "explanation": "Freed Brazilian slaves (Aguda/Saro) returned to West Africa and settled mainly in Lagos and Abeokuta from the early 19th century."
+  },
+  {
+    "id": 15,
+    "topic": "Nigerian Prehistory, Peoples & Geography",
+    "question": "\"Egba Omo Oduduwa\", a pan-Yoruba organisation, was formed in 1945 in __________ ?",
+    "options": {
+      "A": "Lagos",
+      "B": "London",
+      "C": "Ife",
+      "D": "Ibadan"
+    },
+    "answer": "B",
+    "explanation": "Egbe Omo Oduduwa was founded in London in 1945 by Obafemi Awolowo and other Yoruba intellectuals studying abroad."
+  },
+  {
+    "id": 16,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "In Hausaland, __________ was ruled by a Queen in the pre-Bayajidda era?",
+    "options": {
+      "A": "Zazzau",
+      "B": "Kano",
+      "C": "Kebbi",
+      "D": "Daura"
+    },
+    "answer": "D",
+    "explanation": "According to Hausa oral tradition, Daura was ruled by Queen Daurama before Bayajidda arrived and slew the sacred snake, becoming king."
+  },
+  {
+    "id": 17,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "The seven states established by Bayajidda's legitimate sons were known as",
+    "options": {
+      "A": "Hausa Banza Bakwai",
+      "B": "Hausa Banza",
+      "C": "Hausa Bakwai",
+      "D": "Hausa Kai Bakwai"
+    },
+    "answer": "C",
+    "explanation": "The seven legitimate states of Bayajidda's sons are the Hausa Bakwai (authentic seven): Daura, Kano, Zazzau, Gobir, Katsina, Rano, and Biram."
+  },
+  {
+    "id": 18,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "The Confluence State consists of __________ rivers",
+    "options": {
+      "A": "Niger and Benue",
+      "B": "Niger and Shiroro",
+      "C": "Benue and Kwarari",
+      "D": "Niger and Lagoon"
+    },
+    "answer": "A",
+    "explanation": "Kogi State is the \"Confluence State\" where the River Niger and River Benue meet at Lokoja."
+  },
+  {
+    "id": 19,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "Ikom is located in which state of Nigeria?",
+    "options": {
+      "A": "Ogun",
+      "B": "Lagos",
+      "C": "Edo",
+      "D": "Cross River"
+    },
+    "answer": "D",
+    "explanation": "Ikom is a town in Cross River State, known for its ancient Akwanshi monoliths."
+  },
+  {
+    "id": 20,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "The Itshekiri oral tradition credits the founding of the kingdom to __________?",
+    "options": {
+      "A": "Olu Ishekiri",
+      "B": "Iginua",
+      "C": "Idah",
+      "D": "Umale"
+    },
+    "answer": "B",
+    "explanation": "Itsekiri tradition traces the founding of the Itsekiri kingdom to Iginua, a prince from the Benin royal house."
+  },
+  {
+    "id": 21,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "Until the Usman Dan Fodio Jihad, Hausaland was ruled by the __________ ?",
+    "options": {
+      "A": "Cattle herders",
+      "B": "Habe",
+      "C": "Traders",
+      "D": "Emirs"
+    },
+    "answer": "B",
+    "explanation": "The Habe (Hausa) kings ruled Hausaland before they were overthrown during the Fulani Jihad of 1804."
+  },
+  {
+    "id": 22,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "The name 'Yoruba' was first applied to which of the Yoruba sub-groups?",
+    "options": {
+      "A": "Oyo",
+      "B": "Egba",
+      "C": "Ijebu",
+      "D": "Ekiti"
+    },
+    "answer": "A",
+    "explanation": "The term 'Yoruba' was first used specifically for the Oyo people by the Hausa and was later extended to encompass all related groups by missionaries."
+  },
+  {
+    "id": 23,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "Kanem-Borno is another name for the __________",
+    "options": {
+      "A": "Kanuri Empire",
+      "B": "Zaghawa people",
+      "C": "Sokoto Caliphate",
+      "D": "Kingdom of Nupe"
+    },
+    "answer": "A",
+    "explanation": "Kanem-Borno was the Kanuri Empire — one of the longest-lasting empires in African history, stretching from the Lake Chad basin."
+  },
+  {
+    "id": 24,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "Samuel Johnson wrote his famous 'History of the Yorubas' in __________",
+    "options": {
+      "A": "1898",
+      "B": "1912",
+      "C": "1897",
+      "D": "1906"
+    },
+    "answer": "C",
+    "explanation": "Samuel Johnson completed his monumental 'History of the Yorubas' around 1897, though it was not published until 1921."
+  },
+  {
+    "id": 25,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "In the 'constitutional village monarchies' of Onitsha, Oguta, Osommari and Aboh, the ruler is known as the",
+    "options": {
+      "A": "Okpara",
+      "B": "Oba",
+      "C": "Igwe",
+      "D": "Obi"
+    },
+    "answer": "D",
+    "explanation": "In these Niger Delta/Igbo riverine communities, the paramount ruler bears the title Obi."
+  },
+  {
+    "id": 26,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "The name Yoruba was first applied to which of the Yoruba sub-groups?",
+    "options": {
+      "A": "Oyo",
+      "B": "Egba",
+      "C": "Ijebu",
+      "D": "Ekiti"
+    },
+    "answer": "A",
+    "explanation": "Scholars note the Hausa first called the Oyo people 'Yoruba'; missionaries like Schön and Crowther extended this to the wider group."
+  },
+  {
+    "id": 27,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "Lagos Colony was merged with the Southern Protectorate of Nigeria in __________?",
+    "options": {
+      "A": "1914",
+      "B": "1903",
+      "C": "1900",
+      "D": "1906"
+    },
+    "answer": "D",
+    "explanation": "In 1906, the Lagos Colony was merged with the Protectorate of Southern Nigeria under the administration of Sir Walter Egerton."
+  },
+  {
+    "id": 28,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "Nigeria emerged as one entity in the __________",
+    "options": {
+      "A": "1906 amalgamation of Southern Nigeria",
+      "B": "1961 annexation of Lagos",
+      "C": "1922 Clifford Constitution",
+      "D": "1914 after the amalgamation"
+    },
+    "answer": "D",
+    "explanation": "On 1 January 1914, Lord Frederick Lugard amalgamated the Northern and Southern Protectorates to form the Colony and Protectorate of Nigeria."
+  },
+  {
+    "id": 29,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "The king of Lagos that ceded territory to the British in 1861 was __________?",
+    "options": {
+      "A": "Oba Dosunmu",
+      "B": "Oba Akitoye",
+      "C": "Oba Akinolu",
+      "D": "Oba Kosoko"
+    },
+    "answer": "A",
+    "explanation": "Oba Dosunmu signed the Treaty of Cession on 6 August 1861, ceding Lagos to the British Crown under pressure."
+  },
+  {
+    "id": 30,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "Ajayi Crowther wrote the Grammar and Vocabulary of the Yoruba Language in __________",
+    "options": {
+      "A": "1929",
+      "B": "1843",
+      "C": "1900",
+      "D": "1678"
+    },
+    "answer": "B",
+    "explanation": "Samuel Ajayi Crowther published 'A Vocabulary of the Yoruba Language' in 1843, pioneering the written study of Yoruba."
+  },
+  {
+    "id": 31,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "Barewa College, Zaria was initially called __________?",
+    "options": {
+      "A": "Arewa College",
+      "B": "Musilimi College",
+      "C": "Government College",
+      "D": "Northern Nigeria College"
+    },
+    "answer": "D",
+    "explanation": "Barewa College was originally established as the Nassarawa School in 1907, then became the Northern Nigeria College, Katsina before its move to Zaria."
+  },
+  {
+    "id": 32,
+    "topic": "Pre-Colonial Empires & Kingdoms",
+    "question": "Who was the last British colonial administrator of Nigeria?",
+    "options": {
+      "A": "James Macpherson",
+      "B": "Sir John Macpherson",
+      "C": "Frederick Lugard",
+      "D": "James Robertson"
+    },
+    "answer": "D",
+    "explanation": "Sir James Robertson served as the last Governor-General of Nigeria before independence on October 1, 1960."
+  },
+  {
+    "id": 33,
+    "topic": "Islam in Nigeria",
+    "question": "The earliest indication of the presence of Islam in Nigeria was in the __________ area?",
+    "options": {
+      "A": "Borno",
+      "B": "Zamfara",
+      "C": "Sokoto",
+      "D": "Kano"
+    },
+    "answer": "A",
+    "explanation": "The Kanem-Borno region near Lake Chad has the earliest evidence of Islam in Nigeria, traceable to the 9th–11th centuries."
+  },
+  {
+    "id": 34,
+    "topic": "Islam in Nigeria",
+    "question": "Kanem-Borno was first Islamised during the __________",
+    "options": {
+      "A": "Elkanemi dynasty",
+      "B": "Seifawa dynasty",
+      "C": "Shehu dynasty",
+      "D": "Bulala dynasty"
+    },
+    "answer": "B",
+    "explanation": "The Seifawa dynasty introduced Islam to Kanem-Borno; Mai Umme Jilmi (late 11th century) is widely regarded as the first ruler to formally accept Islam."
+  },
+  {
+    "id": 35,
+    "topic": "Islam in Nigeria",
+    "question": "Who is believed to be the first Kanem-Borno ruler to accept Islam?",
+    "options": {
+      "A": "Mai Idris Bakr",
+      "B": "Mai Ali Ghaji",
+      "C": "Mai Idris Alooma",
+      "D": "Mai Umme Jilmi (Jilme)"
+    },
+    "answer": "D",
+    "explanation": "Mai Umme Jilmi (c.1085–1097) is regarded as the first Kanem ruler to convert to Islam, ushering in the Islamisation of the Seifawa dynasty."
+  },
+  {
+    "id": 36,
+    "topic": "Islam in Nigeria",
+    "question": "The real process of Islamisation in Kanem-Borno began in the ___",
+    "options": {
+      "A": "4th Century",
+      "B": "6th Century",
+      "C": "5th Century",
+      "D": "11th Century"
+    },
+    "answer": "D",
+    "explanation": "Substantive Islamisation of the Kanem-Borno ruling class began in the 11th century under the Seifawa dynasty."
+  },
+  {
+    "id": 37,
+    "topic": "Islam in Nigeria",
+    "question": "The Islamisation of Borno reached its peak during the reign of __________",
+    "options": {
+      "A": "Mai Idris Bakr",
+      "B": "Mai Idris Alooma",
+      "C": "Mai Mohammed Idris",
+      "D": "Mai Umme Jilmi (Jilme)"
+    },
+    "answer": "B",
+    "explanation": "Mai Idris Alooma (r. 1570–1602) is celebrated as the greatest Borno ruler who built mosques, introduced Islamic courts, and conducted military jihads to enforce Islam."
+  },
+  {
+    "id": 38,
+    "topic": "Islam in Nigeria",
+    "question": "The Borno ruler best known for the expansion of Islam was",
+    "options": {
+      "A": "Alimi and Afonja",
+      "B": "The Shehus",
+      "C": "Mai Dumnami",
+      "D": "Mai Idris Alooma"
+    },
+    "answer": "D",
+    "explanation": "Mai Idris Alooma was the most renowned Borno ruler for his promotion and expansion of Islam throughout the empire."
+  },
+  {
+    "id": 39,
+    "topic": "Islam in Nigeria",
+    "question": "__________ was regarded as the Amirul Mumineen (leader of the faithful) in Kanem-Borno in the 16th century?",
+    "options": {
+      "A": "Mai Dunama I",
+      "B": "Mai Umme Jilmi (Jilme)",
+      "C": "Mai Abdullah I",
+      "D": "Mai Idris Alooma"
+    },
+    "answer": "D",
+    "explanation": "Mai Idris Alooma was accorded the title Amirul Mumineen — Commander of the Faithful — reflecting his position as the supreme Islamic authority in Borno."
+  },
+  {
+    "id": 40,
+    "topic": "Islam in Nigeria",
+    "question": "Hausaland experienced the wave of Islamization during the reign of __________",
+    "options": {
+      "A": "Sarki Bako",
+      "B": "Sarki Gijimasu",
+      "C": "Sarki Rumfa",
+      "D": "Sarki Yaji"
+    },
+    "answer": "C",
+    "explanation": "Sarki Rumfa of Kano (r. 1463–1499) was the Hausa ruler under whom Islam was most aggressively promoted, aided by the Islamic scholar Al-Maghilli."
+  },
+  {
+    "id": 41,
+    "topic": "Islam in Nigeria",
+    "question": "Islam in Hausaland was aggressively promoted in the 15th century by __________",
+    "options": {
+      "A": "Abdul Karim Al-Maghilli",
+      "B": "Sarki Rumfa",
+      "C": "Sarki Yaji",
+      "D": "Sarki Mohammed"
+    },
+    "answer": "A",
+    "explanation": "Al-Maghilli, a North African Islamic scholar, visited Kano and wrote 'The Obligation of Princes' for Sarki Rumfa, becoming the chief promoter of Islamic reform."
+  },
+  {
+    "id": 42,
+    "topic": "Islam in Nigeria",
+    "question": "Sarki Rumfa of Hausaland worked with a major chronicler named __________",
+    "options": {
+      "A": "Ibn Batuta",
+      "B": "Abdul Karim Al-Maghilli",
+      "C": "Ibn Malik",
+      "D": "Al-Kerim"
+    },
+    "answer": "B",
+    "explanation": "Al-Maghilli served as the key Islamic scholar and chronicler advising Sarki Rumfa of Kano during the Islamisation of Hausaland."
+  },
+  {
+    "id": 43,
+    "topic": "Islam in Nigeria",
+    "question": "The Islamic scholar who visited Kano during the reign of Mohammed Rumfa was __________ ?",
+    "options": {
+      "A": "Al-Maghilli",
+      "B": "Ibn-Battuta",
+      "C": "Al-Bakri",
+      "D": "Al-Fazari"
+    },
+    "answer": "A",
+    "explanation": "Muhammad al-Maghilli visited Kano around 1490 during Sarki Rumfa's reign and wrote his famous political treatise on Islamic governance."
+  },
+  {
+    "id": 44,
+    "topic": "Islam in Nigeria",
+    "question": "Islamization in Hausaland during Sarki Rumfa facilitated the expansion of __________",
+    "options": {
+      "A": "Wrangling",
+      "B": "Trade",
+      "C": "Conquest",
+      "D": "Agriculture"
+    },
+    "answer": "B",
+    "explanation": "Islamisation under Rumfa expanded long-distance trade networks linking Hausaland to North Africa and the Arab world through shared Islamic commercial law."
+  },
+  {
+    "id": 45,
+    "topic": "Islam in Nigeria",
+    "question": "The Fulani Jihad was launched at the beginning of the __________ century?",
+    "options": {
+      "A": "17th",
+      "B": "20th",
+      "C": "19th",
+      "D": "18th"
+    },
+    "answer": "C",
+    "explanation": "The Fulani Jihad (Sokoto Jihad) was launched by Usman dan Fodio in 1804, at the beginning of the 19th century."
+  },
+  {
+    "id": 46,
+    "topic": "Islam in Nigeria",
+    "question": "During the reign of Shehu Usman dan Fodio, the political system was governed by the __________",
+    "options": {
+      "A": "Traditional law",
+      "B": "Habe law",
+      "C": "Civil law",
+      "D": "Sharia law"
+    },
+    "answer": "D",
+    "explanation": "Usman dan Fodio established the Sokoto Caliphate based strictly on Sharia (Islamic law), replacing the Habe traditional governance structures."
+  },
+  {
+    "id": 47,
+    "topic": "Islam in Nigeria",
+    "question": "The Jihad against the Habe rulers in the early 19th century was led by __________",
+    "options": {
+      "A": "Al-Kanti",
+      "B": "Mohammed Bako",
+      "C": "Sani Ahmed",
+      "D": "Shehu Usman dan Fodio"
+    },
+    "answer": "D",
+    "explanation": "Shehu Usman dan Fodio launched the Sokoto Jihad in 1804, defeating the Habe rulers and establishing the Sokoto Caliphate by 1812."
+  },
+  {
+    "id": 48,
+    "topic": "Islam in Nigeria",
+    "question": "All except one of the following were widespread in pre-jihad Hausaland",
+    "options": {
+      "A": "The practice of pouring libations on rocks",
+      "B": "Christian missionary activities",
+      "C": "The practice of venerating trees and rocks",
+      "D": "Religious polytheism"
+    },
+    "answer": "B",
+    "explanation": "Christian missionaries had not penetrated Hausaland before the 1804 Jihad. The others — spirit veneration, polytheism, libations — were common syncretic pre-jihad practices."
+  },
+  {
+    "id": 49,
+    "topic": "Islam in Nigeria",
+    "question": "A major reason given for the Fulani Jihad of 1804 was the level of __________",
+    "options": {
+      "A": "Religious purity among the Habe rulers",
+      "B": "Religious experiences among the Habe rulers",
+      "C": "Synthesis of the social system by Hausaland",
+      "D": "Syncretic practices among the Habe rulers"
+    },
+    "answer": "D",
+    "explanation": "Dan Fodio condemned the syncretic (mixed Islam/traditional) practices of the Habe rulers as un-Islamic, using this as a primary justification for the Jihad."
+  },
+  {
+    "id": 50,
+    "topic": "Islam in Nigeria",
+    "question": "Generally, Hausaland in the pre-jihad period remained divided between __________",
+    "options": {
+      "A": "Muslim urban elite and the local traditionalists",
+      "B": "Africanists and Arabs",
+      "C": "Muslims and Pentecostals",
+      "D": "Christians and Muslims"
+    },
+    "answer": "A",
+    "explanation": "Pre-jihad Hausaland was split between the educated, urban Muslim elite (scholars and merchants) and the rural traditionalist population who maintained animistic practices."
+  },
+  {
+    "id": 51,
+    "topic": "Islam in Nigeria",
+    "question": "The Sokoto Caliphate was conquered by the British in __________",
+    "options": {
+      "A": "1904",
+      "B": "1903",
+      "C": "1902",
+      "D": "1901"
+    },
+    "answer": "B",
+    "explanation": "The British Forces under Frederick Lugard defeated the Sultan of Sokoto at the Battle of Kware on 15 March 1903, ending the Sokoto Caliphate's political independence."
+  },
+  {
+    "id": 52,
+    "topic": "Islam in Nigeria",
+    "question": "One of these factors did not contribute to the spread of Islam in Yorubaland",
+    "options": {
+      "A": "The wars that ravaged Yorubaland during the 19th century",
+      "B": "The installation of the Ooni in the 19th century",
+      "C": "The influx of the liberated slaves to Lagos and Badagry",
+      "D": "The emergence of Ilorin as a frontier emirate of the Sokoto Caliphate"
+    },
+    "answer": "B",
+    "explanation": "The installation of the Ooni was a traditional Yoruba ceremony unrelated to Islam's spread. Wars, returning slaves, and Ilorin's emirate status all contributed to Islam's spread in Yorubaland."
+  },
+  {
+    "id": 53,
+    "topic": "Islam in Nigeria",
+    "question": "The functions of the Ulama included all except __________",
+    "options": {
+      "A": "Conquest of the faithful",
+      "B": "Interpreters of religious knowledge",
+      "C": "Guardians",
+      "D": "Legal support"
+    },
+    "answer": "A",
+    "explanation": "The Ulama's roles were scholarly — interpreting Islam, providing legal opinions (fatwa), and guarding doctrine. Conquest was a military/political function, not scholarly."
+  },
+  {
+    "id": 54,
+    "topic": "Islam in Nigeria",
+    "question": "Islam did not contribute to the development of Nigeria through __________",
+    "options": {
+      "A": "Influence on mode of dressing",
+      "B": "Nepotism",
+      "C": "Inculcation of the Arabic language",
+      "D": "Architecture"
+    },
+    "answer": "B",
+    "explanation": "Islam contributed positively through architecture (mosque design), Arabic literacy, education, dress codes, and trade. Nepotism is a negative social practice, not an Islamic contribution."
+  },
+  {
+    "id": 55,
+    "topic": "Islam in Nigeria",
+    "question": "Which of the following is true about the development of Islam in Nigeria?",
+    "options": {
+      "A": "There was Islam in Nupe kingdom before the 18th century",
+      "B": "There was no trace of Islam in Yorubaland until the 19th century Fulani field jihad",
+      "C": "There was no Islam in Hausaland until the 19th century jihad",
+      "D": "All of the above"
+    },
+    "answer": "A",
+    "explanation": "Islam reached the Nupe kingdom through trade and scholarly contacts well before the 18th century. Islam existed in Hausaland from the 14th century and in Yorubaland before the jihad via Oyo-era contacts."
+  },
+  {
+    "id": 56,
+    "topic": "Islam in Nigeria",
+    "question": "During the period of the introduction of Islam to West Africa, the following groups had several interactions",
+    "options": {
+      "A": "Borno and Bantu",
+      "B": "Borno and the Berber merchants/clerics",
+      "C": "Berbers and Yoruba",
+      "D": "Berbers and Bini"
+    },
+    "answer": "B",
+    "explanation": "The Berber merchants and clerics from North Africa were the primary carriers of Islam to Borno via trans-Saharan trade routes."
+  },
+  {
+    "id": 57,
+    "topic": "Islam in Nigeria",
+    "question": "The major religious crisis in Northern Nigeria in the early 1980s was caused by the",
+    "options": {
+      "A": "Boko Haram group",
+      "B": "Maitatsine group",
+      "C": "El zakzaky group",
+      "D": "Mohakadima group"
+    },
+    "answer": "B",
+    "explanation": "The Maitatsine riots (1980–1985) were a series of Islamic uprisings led by Mohammed Marwa (Maitatsine) in Kano and other northern cities, causing thousands of deaths."
+  },
+  {
+    "id": 58,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The first attempt to introduce Christianity to Southern Nigeria was undertaken by the __________",
+    "options": {
+      "A": "Spaniards",
+      "B": "British",
+      "C": "Germans",
+      "D": "Portuguese"
+    },
+    "answer": "D",
+    "explanation": "Portuguese missionaries arrived in Benin Kingdom as early as 1486, making the first recorded attempt to introduce Christianity to Southern Nigeria."
+  },
+  {
+    "id": 59,
+    "topic": "Christianity & Missionary Activities",
+    "question": "Christianity was first introduced to the Southern part of Nigeria during the __________",
+    "options": {
+      "A": "19th century",
+      "B": "16th century",
+      "C": "15th century",
+      "D": "18th century"
+    },
+    "answer": "C",
+    "explanation": "Portuguese missionaries contacted Benin in the late 15th century (c.1486–1515), representing the first missionary contact with Southern Nigeria."
+  },
+  {
+    "id": 60,
+    "topic": "Christianity & Missionary Activities",
+    "question": "European and American missionaries re-introduced Christianity to Nigeria in the __________",
+    "options": {
+      "A": "19th century",
+      "B": "21st century",
+      "C": "20th century",
+      "D": "18th century"
+    },
+    "answer": "A",
+    "explanation": "The systematic re-introduction of Christianity to Nigeria began in earnest in the 19th century with the CMS, Methodists, and Baptist missionaries arriving from the 1840s onwards."
+  },
+  {
+    "id": 61,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The early Christian missionary activities in Nigeria had a three-pronged approach, namely",
+    "options": {
+      "A": "Christianisation, conversion and custom",
+      "B": "Culture, custom and consistency",
+      "C": "Capacity, capability and credibility",
+      "D": "Christianization, Commerce and Civilization"
+    },
+    "answer": "D",
+    "explanation": "The famous '3 Cs' of Victorian-era missionary activity were Christianization, Commerce, and Civilization — associated with David Livingstone and the CMS approach."
+  },
+  {
+    "id": 62,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The first black man to be consecrated as Anglican Bishop was __________",
+    "options": {
+      "A": "Bishop Seyi Olumuyiwa",
+      "B": "Samuel Ajayi Crowther",
+      "C": "Samuel Adeboye Crowther",
+      "D": "Pastor L.C. Okojie"
+    },
+    "answer": "B",
+    "explanation": "Samuel Ajayi Crowther was consecrated as Bishop of West Africa (for the territories on the banks of the Niger) on 29 June 1864, becoming the first African Anglican bishop."
+  },
+  {
+    "id": 63,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The \"Iwe Irohin\" was published by?",
+    "options": {
+      "A": "RCCG",
+      "B": "MFM",
+      "C": "CMS",
+      "D": "Catholic"
+    },
+    "answer": "C",
+    "explanation": "Iwe Irohin, Nigeria's first newspaper, was published by the Church Missionary Society (CMS) through Henry Townsend in Abeokuta from 1859."
+  },
+  {
+    "id": 64,
+    "topic": "Christianity & Missionary Activities",
+    "question": "Some of the earliest churches in Nigeria included all but one of the following __________",
+    "options": {
+      "A": "Believers Love World",
+      "B": "Wesleyan (Methodists)",
+      "C": "Church Missionary Society (CMS)",
+      "D": "Roman Catholic Church"
+    },
+    "answer": "A",
+    "explanation": "Believers Love World (Christ Embassy) is a late 20th-century church. The earliest churches were the CMS (1842), Methodists (1842), and Roman Catholic Church (returning in the 1860s)."
+  },
+  {
+    "id": 65,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The first-half of the 20th century witnessed the following African Churches except the __________",
+    "options": {
+      "A": "Christ Apostolic Church (CAC)",
+      "B": "Charismatic Renewals World (CRW)",
+      "C": "Cherubim and Seraphim (C&S)",
+      "D": "Church of the Lord, Aladura (CLA)"
+    },
+    "answer": "B",
+    "explanation": "The CAC (1930s), C&S (1925), and Church of the Lord/Aladura (1930) all emerged in the early 20th century. Charismatic Renewals World is not a recognised historic African church body."
+  },
+  {
+    "id": 66,
+    "topic": "Christianity & Missionary Activities",
+    "question": "20th century indigenous Pentecostal Churches in Nigeria included all except the __",
+    "options": {
+      "A": "Church of God Missions",
+      "B": "Deeper Life Christian Ministry",
+      "C": "Redeemed Christian Church of God",
+      "D": "Christian Missionary Society (CMS)"
+    },
+    "answer": "D",
+    "explanation": "CMS is a 19th-century Anglican missionary society, not a 20th-century Pentecostal church. The others (RCCG, Deeper Life, Church of God Mission) are indigenous 20th-century Pentecostal bodies."
+  },
+  {
+    "id": 67,
+    "topic": "Christianity & Missionary Activities",
+    "question": "In the 20th century in Nigeria, a new Pentecostal wave on campuses led to the establishment of all except __________",
+    "options": {
+      "A": "Christ Embassy",
+      "B": "Catholic Church",
+      "C": "Living Faith Ministries",
+      "D": "Deeper Life Christian Ministry"
+    },
+    "answer": "B",
+    "explanation": "The Catholic Church predates the Pentecostal campus wave. Christ Embassy, Living Faith (Winners' Chapel), and Deeper Life all grew from the 1970s–1990s campus revival movements."
+  },
+  {
+    "id": 68,
+    "topic": "Christianity & Missionary Activities",
+    "question": "One of the major umbrella Christian organisations in Nigeria is the __________",
+    "options": {
+      "A": "Association of Nigerian Christians (ANC)",
+      "B": "Association of Nigerian Worshippers (ANW)",
+      "C": "Christian Association of Nigeria (CAN)",
+      "D": "Living Christian Association of Nigeria (LCAN)"
+    },
+    "answer": "C",
+    "explanation": "The Christian Association of Nigeria (CAN), founded in 1976, is the apex body representing all Christian denominations in Nigeria."
+  },
+  {
+    "id": 69,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The need for a new dimension to women's participation in Christianity led to the __________",
+    "options": {
+      "A": "Overthrow of male bishops by female members of their church",
+      "B": "Overthrow of male pastors by their wives",
+      "C": "Establishment of churches by women",
+      "D": "Exclusion of male Christians from female-dominated churches"
+    },
+    "answer": "C",
+    "explanation": "Women frustrated by patriarchal exclusions in mainline and Pentecostal churches established their own ministries and congregations, creating a distinct space for female Christian leadership."
+  },
+  {
+    "id": 70,
+    "topic": "Christianity & Missionary Activities",
+    "question": "Patriarchal structures do not hinder the elevation of women in the __________",
+    "options": {
+      "A": "African Indigenous Churches (AICs)",
+      "B": "Foreign Pentecostal Churches in Nigeria",
+      "C": "Catholic Churches in Nigeria",
+      "D": "Anglican Churches in Nigeria"
+    },
+    "answer": "A",
+    "explanation": "African Indigenous Churches (AICs like C&S, Aladura) have historically been more open to women in prophetic and leadership roles than the mainline or foreign Pentecostal churches."
+  },
+  {
+    "id": 71,
+    "topic": "Christianity & Missionary Activities",
+    "question": "Women could not be ordained as bishops/prophetesses in the __________",
+    "options": {
+      "A": "Celestial Church of Christ (CCC) congregations",
+      "B": "Cherubim and Seraphim (C&S)",
+      "C": "Catholic Church of Nigeria",
+      "D": "Church of the Lord, Aladura (CLA)"
+    },
+    "answer": "C",
+    "explanation": "The Roman Catholic Church's doctrine prohibits women from ordination as priests or bishops. The other AICs listed allow or have had women in senior prophetic roles."
+  },
+  {
+    "id": 72,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The features of the foreign Pentecostal Churches initially excluded __________",
+    "options": {
+      "A": "Discriminations against African priests",
+      "B": "Willingness of white priests to subordinate themselves to African leadership",
+      "C": "Reluctance of white missionaries to affirm the leadership qualities of black priests",
+      "D": "Mistreatment and humiliation of black priests"
+    },
+    "answer": "B",
+    "explanation": "Foreign Pentecostal churches were characterised by racial hierarchy, not subordination of whites to African leaders. The willingness to submit to African leadership was notably absent."
+  },
+  {
+    "id": 73,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The attitude of white priests in the foreign Pentecostal Churches in Nigeria led to the establishment of __________",
+    "options": {
+      "A": "Aristocratic African Churches",
+      "B": "All white African Churches",
+      "C": "\"African\" or \"Native\" Churches",
+      "D": "Mixed African Churches"
+    },
+    "answer": "C",
+    "explanation": "Frustrated by racial condescension, Nigerian Christians broke away to form independent \"African\" or \"Native\" churches that they could lead themselves."
+  },
+  {
+    "id": 74,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The \"African\" or \"Native\" Churches in Nigeria were led exclusively by __________",
+    "options": {
+      "A": "Other Africans",
+      "B": "The British",
+      "C": "Nigerians",
+      "D": "Europeans"
+    },
+    "answer": "C",
+    "explanation": "The breakaway African/Native Churches (e.g., United Native African Church, 1891) were deliberately established to be led entirely by Nigerians, free from European oversight."
+  },
+  {
+    "id": 75,
+    "topic": "Christianity & Missionary Activities",
+    "question": "Some of the earliest \"Nigerian Native Pentecostal Churches\" included the __________",
+    "options": {
+      "A": "United Native African Church",
+      "B": "Ebenezer Baptist Church",
+      "C": "Deeper Life Bible Church",
+      "D": "African Church, Bethel"
+    },
+    "answer": "A",
+    "explanation": "The United Native African Church (1891), founded as a breakaway from the CMS, was among the earliest indigenous Nigerian churches asserting African church leadership."
+  },
+  {
+    "id": 76,
+    "topic": "Christianity & Missionary Activities",
+    "question": "Some mainline Churches criticized African Indigenous Churches due to all of the following except __________",
+    "options": {
+      "A": "Boisterous music and dance",
+      "B": "Ritual consultation with prophets",
+      "C": "Emphasis on the use of white garments",
+      "D": "Acceptance of Christ as their Saviour"
+    },
+    "answer": "D",
+    "explanation": "All AICs affirm Christ as Saviour — that was not a point of criticism. Mainline churches objected to ecstatic worship styles, prophet consultations, and white-garment symbolism."
+  },
+  {
+    "id": 77,
+    "topic": "Christianity & Missionary Activities",
+    "question": "African Indigenous Churches sometimes derided mainline Churches for being __________",
+    "options": {
+      "A": "Too Christ-like",
+      "B": "Dead congregations with no power and anointing",
+      "C": "People of God",
+      "D": "Ardent Christians"
+    },
+    "answer": "B",
+    "explanation": "AICs viewed mainline (Catholic/Anglican/Methodist) worship as stiff, lifeless, and lacking the Holy Spirit's power, hence calling them 'dead congregations.'"
+  },
+  {
+    "id": 78,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The major purveyors of cultural nationalism in the late 19th century were all products of __________",
+    "options": {
+      "A": "Traditional schools",
+      "B": "Missionary schools",
+      "C": "Arabic schools",
+      "D": "Oriental schools"
+    },
+    "answer": "B",
+    "explanation": "Educated African nationalists of the late 19th century (like Herbert Macaulay, J.P. Jackson) were products of missionary schools, yet used their education to challenge colonial dominance."
+  },
+  {
+    "id": 79,
+    "topic": "Christianity & Missionary Activities",
+    "question": "A major contribution of Christianity to politics in Nigeria was its __________",
+    "options": {
+      "A": "Critique of intellectual ills",
+      "B": "Tradition of socio-political activism",
+      "C": "Emphasis on purity",
+      "D": "Human rights advocacy"
+    },
+    "answer": "B",
+    "explanation": "The church's tradition of socio-political activism — from anti-slavery advocacy to nationalist support — was Christianity's defining political contribution to Nigeria."
+  },
+  {
+    "id": 80,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The initial assumption of some Christian leaders was that politics is __________",
+    "options": {
+      "A": "The only option for Christians",
+      "B": "The best option for Christians",
+      "C": "The last option for Christians",
+      "D": "A \"dirty game\" unfit for heavenly-minded Christians"
+    },
+    "answer": "D",
+    "explanation": "Many early Nigerian Christian leaders viewed political engagement as a moral contamination incompatible with Christian piety, hence avoided it as a 'dirty game.'"
+  },
+  {
+    "id": 81,
+    "topic": "Christianity & Missionary Activities",
+    "question": "During the military era in Nigeria, the Christian church demonstrated willingness NOT to __________",
+    "options": {
+      "A": "Oppose undemocratic governments",
+      "B": "Assist the government in the persecution of Christians",
+      "C": "Protect the rights of Nigerians",
+      "D": "Protest the violation of human rights"
+    },
+    "answer": "A",
+    "explanation": "A major critique of Nigerian churches during military rule was their relative silence and unwillingness to openly challenge authoritarian regimes."
+  },
+  {
+    "id": 82,
+    "topic": "Christianity & Missionary Activities",
+    "question": "Which Nigerian governor first introduced the Sharia Penal Code in 1999/2000?",
+    "options": {
+      "A": "Ahmed Sanni Yerima",
+      "B": "Attahiru Bafarawa",
+      "C": "Bukola Saraki",
+      "D": "Adamu Aliero"
+    },
+    "answer": "A",
+    "explanation": "Governor Ahmed Sanni Yerima of Zamfara State was the first to implement full Sharia criminal law in Nigeria in 2000, triggering a broader debate about religion and the constitution."
+  },
+  {
+    "id": 83,
+    "topic": "Christianity & Missionary Activities",
+    "question": "Religious crises in Nigeria could take the form of all except __________",
+    "options": {
+      "A": "Ethno-religious",
+      "B": "Intra-religious",
+      "C": "Inter-royal",
+      "D": "Inter-religious (Muslim-Christian)"
+    },
+    "answer": "C",
+    "explanation": "Religious crises take ethno-religious, intra-religious (within a faith), and inter-religious (Muslim-Christian) forms. 'Inter-royal' is a political/monarchical concept, not a religious category."
+  },
+  {
+    "id": 84,
+    "topic": "Christianity & Missionary Activities",
+    "question": "On matters of faith, the following Christian group could be considered the most intolerant __________",
+    "options": {
+      "A": "The Anglicans",
+      "B": "The Catholics",
+      "C": "African Native Churches",
+      "D": "The Pentecostals"
+    },
+    "answer": "D",
+    "explanation": "Pentecostal churches in Nigeria have been critiqued for rigid doctrinal exclusivism — condemning other denominations, syncretic practices, and African traditional religion with particular intolerance."
+  },
+  {
+    "id": 85,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The Ebenezer Baptist Church was founded in Lagos in __________",
+    "options": {
+      "A": "1890",
+      "B": "1888",
+      "C": "1887",
+      "D": "1889"
+    },
+    "answer": "B",
+    "explanation": "The Ebenezer Baptist Church was established in Lagos in 1888 as part of the Baptist missionary expansion in southern Nigeria."
+  },
+  {
+    "id": 86,
+    "topic": "Christianity & Missionary Activities",
+    "question": "According to J.F. Ade Ajayi, the relics of early missionary activities in Nigeria included the __",
+    "options": {
+      "A": "First Storey Building in Badagry",
+      "B": "Huge Cross at the Redemption Camp",
+      "C": "Huge Cross in the centre of Old Warri",
+      "D": "Cathedral of Our Lord, Lagos"
+    },
+    "answer": "A",
+    "explanation": "The two-storey building at Badagry (built ~1842 by the Wesleyans) is one of the most cited relics of early missionary work in Nigeria, referenced by historians like J.F. Ade Ajayi."
+  },
+  {
+    "id": 87,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The nationalist movement in Nigeria __________",
+    "options": {
+      "A": "Did not support the activities of Pentecostal Churches",
+      "B": "Was subverted by the activities of African Christian leaders",
+      "C": "Was hindered by Nigerian take-over of Pentecostal Churches",
+      "D": "Drew inspiration from the emancipatory moves of Nigerian Church leaders"
+    },
+    "answer": "D",
+    "explanation": "Nigerian nationalists drew inspiration from African church leaders who challenged European racial paternalism, seeing church self-governance as a model for political independence."
+  },
+  {
+    "id": 88,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The establishment of \"Nigerian Native Churches\" was an indication that Nigerians could",
+    "options": {
+      "A": "Throw off African leadership",
+      "B": "Throw off the yoke of 'spiritual or religious' colonialism",
+      "C": "Be patient with Nigerian collaborators of colonialism",
+      "D": "Be patient with European colonialists"
+    },
+    "answer": "B",
+    "explanation": "The formation of independent Nigerian churches symbolised the rejection of religious colonialism — asserting that Africans could lead, interpret, and govern their own spiritual affairs."
+  },
+  {
+    "id": 89,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The failure to successfully introduce Christianity to Nigeria in the initial period was due to all except __________",
+    "options": {
+      "A": "Absent of Arab missionaries",
+      "B": "Overwhelming influence of traditional religion",
+      "C": "Fewer numbers of the missionaries",
+      "D": "Concentration on the slave trade by the Europeans"
+    },
+    "answer": "A",
+    "explanation": "Arab missionaries were never a feature of Nigerian Christian history. The actual obstacles were: strong traditional religion, too few missionaries, and European focus on slave trade profit."
+  },
+  {
+    "id": 90,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The Leader of Faith Revival Ministries World Outreach in Lagos is __________",
+    "options": {
+      "A": "Bishop Ann Okonkwo",
+      "B": "Bishop Dorcas Olaniyi",
+      "C": "Bishop Bola Odeleke",
+      "D": "Rev. (Mrs.) Nkechi Anayo-Iloputaife"
+    },
+    "answer": "D",
+    "explanation": "Rev. (Mrs.) Nkechi Anayo-Iloputaife leads Faith Revival Ministries World Outreach in Lagos — one of the prominent women-led ministries in Nigeria."
+  },
+  {
+    "id": 91,
+    "topic": "Christianity & Missionary Activities",
+    "question": "The following church/ministry in Nigeria was NOT founded by a woman",
+    "options": {
+      "A": "The Power Pentecostal Church",
+      "B": "The Redeemed Christian Church of God",
+      "C": "The Agbala Daniel Church",
+      "D": "The Daughters of Deborah International Ministry"
+    },
+    "answer": "B",
+    "explanation": "The Redeemed Christian Church of God (RCCG) was founded in 1952 by Rev. Josiah Akindayomi (male). The other ministries listed were founded by women."
+  },
+  {
+    "id": 92,
+    "topic": "Christianity & Missionary Activities",
+    "question": "Christianity in Nigeria is __________",
+    "options": {
+      "A": "Aboriginal",
+      "B": "Multi-faceted",
+      "C": "Indigenous",
+      "D": "Homogenous"
+    },
+    "answer": "B",
+    "explanation": "Christianity in Nigeria is described as multi-faceted due to its many denominations, expressions, and adaptations — from Roman Catholicism to Pentecostalism to African Indigenous Churches."
+  },
+  {
+    "id": 93,
+    "topic": "Colonialism & Political Economy",
+    "question": "The political economy of colonialism was __________",
+    "options": {
+      "A": "Developmental and impactful",
+      "B": "Revolutionary for the Nigerian people",
+      "C": "Anti-indigenous culture and ethics",
+      "D": "Exploitative"
+    },
+    "answer": "D",
+    "explanation": "Colonial political economy was fundamentally exploitative — structured to extract raw materials, labour, and resources from Nigeria for metropolitan benefit."
+  },
+  {
+    "id": 94,
+    "topic": "Colonialism & Political Economy",
+    "question": "The backbone of the colonial economy was __________",
+    "options": {
+      "A": "Agriculture",
+      "B": "Oil and gas",
+      "C": "Manufacturing",
+      "D": "Trading"
+    },
+    "answer": "A",
+    "explanation": "Agriculture was the backbone of the colonial economy, with groundnuts (north), cocoa (west), and palm produce (east) as major cash crops driving export revenues."
+  },
+  {
+    "id": 95,
+    "topic": "Colonialism & Political Economy",
+    "question": "Political Economy as a discipline or method of inquiry recognizes __________",
+    "options": {
+      "A": "The primacy of the economy and material production as the foundation of society",
+      "B": "The monopolisation of means of production in the hands of the lower class",
+      "C": "The exploitation of one group by another powerful group",
+      "D": "The gross capital expenditures as the basis for development"
+    },
+    "answer": "A",
+    "explanation": "Political economy (in the Marxist and classical tradition) holds that economic/material production is the foundational determinant of social, political, and cultural structures."
+  },
+  {
+    "id": 96,
+    "topic": "Colonialism & Political Economy",
+    "question": "The structure of ownership of the means of production is termed __________",
+    "options": {
+      "A": "Wealth of nature",
+      "B": "Social capital",
+      "C": "Investment infrastructure",
+      "D": "Property relations"
+    },
+    "answer": "D",
+    "explanation": "'Property relations' is the Marxist term for who owns the means of production (land, factories, capital) — the fundamental determinant of class structure and social relations."
+  },
+  {
+    "id": 97,
+    "topic": "Colonialism & Political Economy",
+    "question": "Every production system has a corresponding __________",
+    "options": {
+      "A": "Political system",
+      "B": "Social theory",
+      "C": "Political class",
+      "D": "Cultural beliefs"
+    },
+    "answer": "A",
+    "explanation": "Marxist political economy holds that the mode of economic production (feudalism, capitalism, etc.) generates a corresponding political superstructure (political system, state forms)."
+  },
+  {
+    "id": 98,
+    "topic": "Colonialism & Political Economy",
+    "question": "The involvement of people in production naturally led to __________",
+    "options": {
+      "A": "War and competition",
+      "B": "Injustice and inequality",
+      "C": "Exchange and trade",
+      "D": "Corruption and nepotism"
+    },
+    "answer": "C",
+    "explanation": "Human productive activity generates surpluses, which naturally leads to exchange (barter, then market trade) as a means of distributing goods between communities."
+  },
+  {
+    "id": 99,
+    "topic": "Colonialism & Political Economy",
+    "question": "One of the main features of dependency is that the colony __________",
+    "options": {
+      "A": "Depended on the traditional means of exchange",
+      "B": "Decided to produce what it liked",
+      "C": "Disregarded the rules that govern international trade",
+      "D": "Depended on the external or metropolitan economy"
+    },
+    "answer": "D",
+    "explanation": "Dependency theory describes how colonial economies were structured to be dependent on and peripheral to the metropolitan (European) economy — exporting raw materials, importing manufactured goods."
+  },
+  {
+    "id": 100,
+    "topic": "Colonialism & Political Economy",
+    "question": "Before the colonization of Nigeria, the different peoples and empires had __________",
+    "options": {
+      "A": "Organised the production of their own food, clothing and shelter",
+      "B": "Members of the ECOWAS and African Union",
+      "C": "Been waiting for the Europeans to come and teach them how to manage their economy",
+      "D": "Already existing as Federal Republic of Nigeria"
+    },
+    "answer": "A",
+    "explanation": "Nigerian pre-colonial societies had sophisticated, self-sufficient economies producing food (farming, fishing, hunting), clothing (weaving, dyeing), and shelter (construction trades)."
+  },
+  {
+    "id": 101,
+    "topic": "Colonialism & Political Economy",
+    "question": "While crude oil was discovered in the 1950s, production started in __________",
+    "options": {
+      "A": "1960",
+      "B": "1968",
+      "C": "1958",
+      "D": "1970"
+    },
+    "answer": "C",
+    "explanation": "Commercial oil production began in Nigeria in 1958, when the first shipment of crude was exported — two years after oil was struck at Oloibiri in 1956."
+  },
+  {
+    "id": 102,
+    "topic": "Colonialism & Political Economy",
+    "question": "Crude oil was struck at Otuakeme village near Oloibiri in present-day Bayelsa State in __________",
+    "options": {
+      "A": "1956",
+      "B": "1901",
+      "C": "2006",
+      "D": "1966"
+    },
+    "answer": "A",
+    "explanation": "Shell-BP struck oil at Oloibiri (Bayelsa State) on 15 January 1956 — the first commercially viable oil discovery in Nigeria."
+  },
+  {
+    "id": 103,
+    "topic": "Colonialism & Political Economy",
+    "question": "The first shipment of Nigerian crude oil was exported through __________",
+    "options": {
+      "A": "Warri Port",
+      "B": "Sapele Port",
+      "C": "Lagos Port",
+      "D": "Port Harcourt"
+    },
+    "answer": "D",
+    "explanation": "Nigeria's first crude oil export was loaded at Port Harcourt and shipped in 1958, initiating the country's petroleum export industry."
+  },
+  {
+    "id": 104,
+    "topic": "Colonialism & Political Economy",
+    "question": "Nigeria began petroleum production with the bold initiative of establishing refineries at __________",
+    "options": {
+      "A": "Badagry, Kaduna and Niger",
+      "B": "Abia, Imo and Lagos",
+      "C": "Port Harcourt, Warri and Kaduna",
+      "D": "Oyo, Ondo and Port Harcourt"
+    },
+    "answer": "C",
+    "explanation": "Nigeria built its first refinery in Port Harcourt (1965), then in Warri (1978) and Kaduna (1980), forming the initial backbone of domestic petroleum refining."
+  },
+  {
+    "id": 105,
+    "topic": "Colonialism & Political Economy",
+    "question": "The United African Company moved its base to Sapele in __________",
+    "options": {
+      "A": "1917",
+      "B": "1929",
+      "C": "1935",
+      "D": "1930"
+    },
+    "answer": "A",
+    "explanation": "The United Africa Company (UAC) relocated its operations to Sapele in 1917, leveraging the area's timber and rubber resources."
+  },
+  {
+    "id": 106,
+    "topic": "Colonialism & Political Economy",
+    "question": "Which company pioneered and facilitated rubber production in Sapele?",
+    "options": {
+      "A": "The Miller Brothers",
+      "B": "The Capper Brothers",
+      "C": "The Lander Brothers",
+      "D": "The United African Company"
+    },
+    "answer": "A",
+    "explanation": "The Miller Brothers (P.B. Miller & Company) pioneered rubber production in Sapele from the early 20th century, establishing the first significant rubber plantation operations in the area."
+  },
+  {
+    "id": 107,
+    "topic": "Colonialism & Political Economy",
+    "question": "The Nigerian Export Timber Trade at Koko was established in __________",
+    "options": {
+      "A": "1918",
+      "B": "1919",
+      "C": "1917",
+      "D": "1916"
+    },
+    "answer": "C",
+    "explanation": "The Nigerian Timber Export Trade at Koko (Delta State) was established in 1917, taking advantage of the mangrove and hardwood forests of the Niger Delta region."
+  },
+  {
+    "id": 108,
+    "topic": "Colonialism & Political Economy",
+    "question": "Slavery was also an important __________ both for domestic and agricultural activities",
+    "options": {
+      "A": "Means of labour recruitment",
+      "B": "Means of accumulating wealth",
+      "C": "Means of generating money",
+      "D": "Fighting wars and conquering neighbours"
+    },
+    "answer": "A",
+    "explanation": "In pre-colonial and early colonial Nigerian societies, slavery served as the primary means of recruiting unfree labour for agricultural production and domestic service."
+  },
+  {
+    "id": 109,
+    "topic": "Colonialism & Political Economy",
+    "question": "The pre-colonial labour system in many communities in Nigeria did not attract __________",
+    "options": {
+      "A": "Wages or remuneration",
+      "B": "Penalty and charges",
+      "C": "Training and professionalism",
+      "D": "Honorarium and gifts"
+    },
+    "answer": "A",
+    "explanation": "Pre-colonial labour was organised around communal/reciprocal work (owe, aro), tribute, and slavery — formal wages as monetary compensation were not a feature of these systems."
+  },
+  {
+    "id": 110,
+    "topic": "Colonialism & Political Economy",
+    "question": "Lagos Colony was merged with the Southern Protectorate of Nigeria in __________?",
+    "options": {
+      "A": "1914",
+      "B": "1903",
+      "C": "1900",
+      "D": "1906"
+    },
+    "answer": "D",
+    "explanation": "In 1906, Lagos Colony was amalgamated with the Protectorate of Southern Nigeria, creating a unified administrative entity in the south."
+  },
+  {
+    "id": 111,
+    "topic": "Colonialism & Political Economy",
+    "question": "The Second World War stimulated in Nigerians a sense of __________",
+    "options": {
+      "A": "Internationalism",
+      "B": "International cooperation",
+      "C": "Nationalism",
+      "D": "Colonial oppression"
+    },
+    "answer": "C",
+    "explanation": "Nigerian soldiers who fought in WWII returned with a heightened sense of nationalism — having risked their lives for a Britain that denied them equal rights, they accelerated the independence movement."
+  },
+  {
+    "id": 112,
+    "topic": "Colonialism & Political Economy",
+    "question": "British conquest of Nigerian communities attracted __________ from Nigerians",
+    "options": {
+      "A": "Apathy",
+      "B": "Encouragement",
+      "C": "Cooperation",
+      "D": "Resistance"
+    },
+    "answer": "D",
+    "explanation": "British colonial conquest was met with fierce resistance across Nigeria — the Sokoto Jihad states, Benin Kingdom (1897), Aro Confederacy (1901), and many others resisted British annexation."
+  },
+  {
+    "id": 113,
+    "topic": "Colonialism & Political Economy",
+    "question": "In principle, the British Indirect Rule system in Nigeria favoured __________",
+    "options": {
+      "A": "Centralisation of power",
+      "B": "Local autonomy",
+      "C": "Equality of all regions",
+      "D": "Centrality"
+    },
+    "answer": "B",
+    "explanation": "Indirect Rule, designed by Lugard, theoretically preserved local autonomy by using existing indigenous rulers as intermediaries, though in practice it was manipulative and exploitative."
+  },
+  {
+    "id": 114,
+    "topic": "Colonialism & Political Economy",
+    "question": "The Indirect Rule system of administration in Nigeria promoted elements of __________",
+    "options": {
+      "A": "Asian administrative system",
+      "B": "Pre-colonial monetary values",
+      "C": "British/Western monetary culture and administrative system",
+      "D": "Nigerian post-colonial culture"
+    },
+    "answer": "C",
+    "explanation": "While using indigenous rulers, the Indirect Rule system ultimately promoted British monetary systems, English law, and Western administrative practices at its core."
+  },
+  {
+    "id": 115,
+    "topic": "Colonialism & Political Economy",
+    "question": "In the indirect rule system of administration, some corrupt leaders saw leadership as __________?",
+    "options": {
+      "A": "An avenue of personal enrichment",
+      "B": "A place for selfless service",
+      "C": "Compensatory options",
+      "D": "Highest forms of Nigerian value"
+    },
+    "answer": "A",
+    "explanation": "Warrant chiefs and colonial appointees, empowered by the Indirect Rule system without traditional legitimacy, frequently exploited their positions for personal enrichment."
+  },
+  {
+    "id": 116,
+    "topic": "Colonialism & Political Economy",
+    "question": "Between the 15th and 19th centuries, millions of people were forced out of the Nigerian area through the __________",
+    "options": {
+      "A": "Long distance trade",
+      "B": "Relocation to the urban centres",
+      "C": "Trans-Atlantic Slave Trade",
+      "D": "Industrial revolution"
+    },
+    "answer": "C",
+    "explanation": "The Trans-Atlantic Slave Trade (c.1450–1867) forcibly removed an estimated 3–4 million Nigerians to the Americas, devastating population and destabilising many societies."
+  },
+  {
+    "id": 117,
+    "topic": "Colonialism & Political Economy",
+    "question": "The administration of land in most pre-colonial societies was entrusted with which of these?",
+    "options": {
+      "A": "Labourers",
+      "B": "Chiefs and rulers",
+      "C": "Contractors",
+      "D": "Estate Managers"
+    },
+    "answer": "B",
+    "explanation": "In pre-colonial Nigeria, land was communally held and administered by chiefs, elders, and rulers as trustees on behalf of the community — not privately owned."
+  },
+  {
+    "id": 118,
+    "topic": "Colonialism & Political Economy",
+    "question": "Colonialism discriminated against Nigerians by encouraging __________",
+    "options": {
+      "A": "Frugal living",
+      "B": "Segregated reservations or settlements",
+      "C": "Massive town planning",
+      "D": "Massive housing"
+    },
+    "answer": "B",
+    "explanation": "Colonial urban planning enforced racial segregation through separate European 'Government Reservation Areas' (GRAs) and African townships, institutionalising discrimination in spatial organisation."
+  },
+  {
+    "id": 119,
+    "topic": "Colonialism & Political Economy",
+    "question": "Colonialism freed women from domestic violence by introducing and enforcing some laws under the __________",
+    "options": {
+      "A": "Indirect Rule",
+      "B": "Neoliberal era",
+      "C": "Slave trade",
+      "D": "1999 constitution"
+    },
+    "answer": "A",
+    "explanation": "Under the Indirect Rule system, district and provincial courts introduced colonial laws that nominally addressed domestic violence against women, though enforcement was inconsistent."
+  },
+  {
+    "id": 120,
+    "topic": "Colonialism & Political Economy",
+    "question": "There is a general belief that colonialism __________",
+    "options": {
+      "A": "Eradicated corruption from Nigeria",
+      "B": "Discouraged corruption in Nigeria",
+      "C": "Worsened or liberalised corruption in Nigeria",
+      "D": "Abolished corruption from Nigeria"
+    },
+    "answer": "C",
+    "explanation": "Colonialism institutionalised corruption by monetising governance, empowering illegitimate warrant chiefs, and creating systems of patronage and bribery that became entrenched in post-colonial Nigeria."
+  },
+  {
+    "id": 121,
+    "topic": "Colonialism & Political Economy",
+    "question": "The monetisation policy promoted by colonialism made giving and receiving of bribes __________",
+    "options": {
+      "A": "Less alluring among Nigerians",
+      "B": "Much difficult among Nigerians",
+      "C": "Much cumbersome among Nigerians",
+      "D": "Much easier among Nigerians"
+    },
+    "answer": "D",
+    "explanation": "Introducing a cash economy made corruption more fluid — bribes could now be given discreetly in currency, removing the social visibility and shame attached to gift-giving in traditional economies."
+  },
+  {
+    "id": 122,
+    "topic": "Colonialism & Political Economy",
+    "question": "During colonialism, many of the warrant officers displayed all except __________ ?",
+    "options": {
+      "A": "Sound knowledge of local and European histories",
+      "B": "Corruption",
+      "C": "Brutality",
+      "D": "Questionable characters"
+    },
+    "answer": "A",
+    "explanation": "Warrant officers (colonial appointees) were generally not known for historical knowledge but for corruption, brutality, and questionable character — key grievances that sparked the 1929 Aba Women's Riot."
+  },
+  {
+    "id": 123,
+    "topic": "Colonialism & Political Economy",
+    "question": "One of the crises of the colonial regime in Nigeria was __________",
+    "options": {
+      "A": "Tribal aggression",
+      "B": "The spiral of repression",
+      "C": "Economic expansion",
+      "D": "The growth of European enterprise"
+    },
+    "answer": "B",
+    "explanation": "A defining crisis of colonial rule was a spiral of repression — as Nigerians resisted exploitation, colonial authorities responded with force, creating cycles of violence and grievance."
+  },
+  {
+    "id": 124,
+    "topic": "Colonialism & Political Economy",
+    "question": "During colonialism, Owerri grew rapidly from a market town into a beehive of all except __________",
+    "options": {
+      "A": "Administrative activities",
+      "B": "Political activities",
+      "C": "Commercial and social activities",
+      "D": "Religious pilgrimages and activities"
+    },
+    "answer": "D",
+    "explanation": "Colonial Owerri became a major hub of administration, commerce, and politics. Religious pilgrimage was not a feature of its colonial growth — it is not a major pilgrimage destination."
+  },
+  {
+    "id": 125,
+    "topic": "Women in Nigerian History",
+    "question": "Pre-colonial Nigerian women were __________",
+    "options": {
+      "A": "Active",
+      "B": "Neglected",
+      "C": "Passive",
+      "D": "Docile"
+    },
+    "answer": "A",
+    "explanation": "Pre-colonial Nigerian women were active participants in trade, agriculture, crafts, religion, and governance — contrary to colonial and post-colonial stereotypes of passivity."
+  },
+  {
+    "id": 126,
+    "topic": "Women in Nigerian History",
+    "question": "In which pre-colonial religion did women play key roles in Nigeria?",
+    "options": {
+      "A": "Islam",
+      "B": "Christianity",
+      "C": "Buddhism",
+      "D": "Traditional religion"
+    },
+    "answer": "D",
+    "explanation": "In African traditional religion, women served as priestesses, oracle consultants, healers, and intermediaries with deities — key spiritual roles largely denied to them in Islam and Christianity."
+  },
+  {
+    "id": 127,
+    "topic": "Women in Nigerian History",
+    "question": "Titles such as Erelu, Iyalode and Iyaloja were held by prominent __________",
+    "options": {
+      "A": "Hausa women",
+      "B": "Men",
+      "C": "Yoruba women",
+      "D": "Educated women"
+    },
+    "answer": "C",
+    "explanation": "Erelu, Iyalode (women's political representative), and Iyaloja (market queen) were senior titles held by distinguished Yoruba women in the palace and market hierarchies."
+  },
+  {
+    "id": 128,
+    "topic": "Women in Nigerian History",
+    "question": "In both Old Oyo and New Oyo under the Alafin, women titled office-holders played important role in __________",
+    "options": {
+      "A": "Household administration",
+      "B": "Economic activities",
+      "C": "Palace administration",
+      "D": "Farm management"
+    },
+    "answer": "C",
+    "explanation": "Women title-holders in the Oyo palace (e.g., the Iya Kere, Iyamode, and Arin) played constitutionally defined roles in palace administration, including advising the Alafin and managing royal household affairs."
+  },
+  {
+    "id": 129,
+    "topic": "Women in Nigerian History",
+    "question": "The Nupe women traders during the pre-colonial period were noted for their __________ ?",
+    "options": {
+      "A": "Involvement in unnecessary jubilations",
+      "B": "Involvement in both local and long distance trade",
+      "C": "Involvement in war",
+      "D": "Involvement in festivities"
+    },
+    "answer": "B",
+    "explanation": "Nupe women were renowned traders who participated actively in both local markets and long-distance trade networks across the Niger-Benue confluence region."
+  },
+  {
+    "id": 130,
+    "topic": "Women in Nigerian History",
+    "question": "The Aba Women Riot took place in __________?",
+    "options": {
+      "A": "1929",
+      "B": "1931",
+      "C": "1928",
+      "D": "1927"
+    },
+    "answer": "A",
+    "explanation": "The Aba Women's Riot (Ogu Umunwanyi / Women's War) occurred in November–December 1929 in south-eastern Nigeria, primarily in Owerri and Calabar Provinces."
+  },
+  {
+    "id": 131,
+    "topic": "Women in Nigerian History",
+    "question": "The Aba Women Riot was __________",
+    "options": {
+      "A": "Sustained by the British",
+      "B": "Crushed by the British",
+      "C": "Assisted by the British",
+      "D": "Encouraged by the British"
+    },
+    "answer": "B",
+    "explanation": "British colonial forces brutally suppressed the Aba Women's Riot, killing about 50 women and wounding many others at Utu Etim Ekpo and Abak."
+  },
+  {
+    "id": 132,
+    "topic": "Women in Nigerian History",
+    "question": "The Aba women riot of 1929 was essentially meant to protect the interest of women against __________",
+    "options": {
+      "A": "Non-recognition of women in the village assembly",
+      "B": "Conflict between Igbo leaders and colonial officials",
+      "C": "Oppressive policies of the colonial government",
+      "D": "The hazards of gender disparity"
+    },
+    "answer": "C",
+    "explanation": "The 1929 riot protested oppressive colonial policies — particularly fears of women's taxation, the corrupt warrant chief system, and market restrictions — threatening women's economic autonomy."
+  },
+  {
+    "id": 133,
+    "topic": "Women in Nigerian History",
+    "question": "The women organizations protested discrimination, exploitation, women's taxation, etc. under the __________",
+    "options": {
+      "A": "Postcolonial administration",
+      "B": "Obasanjo regime",
+      "C": "Pre-colonial kings",
+      "D": "Colonial government"
+    },
+    "answer": "D",
+    "explanation": "Women's collective organisations in colonial Nigeria directed their protests against the colonial government's extractive policies, warrant chiefs, and taxation threats."
+  },
+  {
+    "id": 134,
+    "topic": "Women in Nigerian History",
+    "question": "All the following hindered women participation in politics except __________",
+    "options": {
+      "A": "Violence in politics",
+      "B": "Ethnic-based rivalry",
+      "C": "Paternalistic structure of political parties",
+      "D": "Violence-free exercise"
+    },
+    "answer": "D",
+    "explanation": "A violence-free political environment would actually facilitate women's participation. The hindrances were: political violence, ethnic rivalry, and patriarchal party structures excluding women."
+  },
+  {
+    "id": 135,
+    "topic": "Women in Nigerian History",
+    "question": "Women have largely been __________ in Nigerian politics",
+    "options": {
+      "A": "Dominating",
+      "B": "Marginalized",
+      "C": "Uninvolved",
+      "D": "All of the above"
+    },
+    "answer": "B",
+    "explanation": "Despite their numerical majority, Nigerian women remain severely marginalized in elected and appointed political positions, consistently below 10% of federal and state representation."
+  },
+  {
+    "id": 136,
+    "topic": "Women in Nigerian History",
+    "question": "Which decade is referred to as the United Nations decade for women?",
+    "options": {
+      "A": "2000-2010",
+      "B": "1990-2000",
+      "C": "1975-1985",
+      "D": "1960-1970"
+    },
+    "answer": "C",
+    "explanation": "The United Nations declared 1976-1985 the UN Decade for Women, following the First World Conference on Women held in Mexico City in 1975."
+  },
+  {
+    "id": 137,
+    "topic": "Women in Nigerian History",
+    "question": "Education of women enhanced all of the following except __________",
+    "options": {
+      "A": "Less superstitious beliefs",
+      "B": "Violence",
+      "C": "More hygiene",
+      "D": "Informed motherhood"
+    },
+    "answer": "B",
+    "explanation": "Female education reduced superstition, improved hygiene practices, and fostered better parenting. Violence has no positive correlation with women's education; it is not an outcome of female empowerment."
+  },
+  {
+    "id": 138,
+    "topic": "Women in Nigerian History",
+    "question": "Education has enabled women to __________",
+    "options": {
+      "A": "Make lasting and meaningful contributions to national development",
+      "B": "Dominate their husbands and male folks in the family",
+      "C": "Compete unfavourably with the men in political issues",
+      "D": "Destroy the society through various agitations"
+    },
+    "answer": "A",
+    "explanation": "Education has empowered Nigerian women to contribute meaningfully to national development through professional work, civic engagement, entrepreneurship, and community leadership."
+  },
+  {
+    "id": 139,
+    "topic": "Women in Nigerian History",
+    "question": "Women made independent decisions to engage in both __________ which brought prosperity to their family and local communities",
+    "options": {
+      "A": "Fighting wars and farming",
+      "B": "Hunting and gathering",
+      "C": "Blacksmithing and gold-smithing",
+      "D": "Local and long distance trade"
+    },
+    "answer": "D",
+    "explanation": "Pre-colonial Nigerian women exercised economic agency by independently engaging in local and long-distance trade, generating income that sustained families and local economies."
+  },
+  {
+    "id": 140,
+    "topic": "Women in Nigerian History",
+    "question": "Some of the crafts women engaged in --- all but one of the following __________",
+    "options": {
+      "A": "Bead-making",
+      "B": "Banking",
+      "C": "Weaving",
+      "D": "Pottery"
+    },
+    "answer": "B",
+    "explanation": "Traditional crafts for women included bead-making, weaving, pottery, and dyeing. Banking (as a formal financial institution) was not a traditional women's craft."
+  },
+  {
+    "id": 141,
+    "topic": "Women in Nigerian History",
+    "question": "The following were some of the outspoken women leaders during colonial rule except __________",
+    "options": {
+      "A": "Olufunmilayo Kuti",
+      "B": "Margaret Ekpo",
+      "C": "G.I. Okoye",
+      "D": "Efunsetan Aniwura"
+    },
+    "answer": "D",
+    "explanation": "Efunsetan Aniwura was a prominent 19th-century (pre-colonial) Ibadan war-chief and merchant who died in 1874. Funmilayo Kuti, Margaret Ekpo, and G.I. Okoye were active colonial-era leaders."
+  },
+  {
+    "id": 142,
+    "topic": "Women in Nigerian History",
+    "question": "Which military regime appointed more women into the Constituent Assembly?",
+    "options": {
+      "A": "General Olusegun Obasanjo",
+      "B": "General Ibrahim Babangida",
+      "C": "General Murtala Muhammed",
+      "D": "General Shehu Shagari"
+    },
+    "answer": "B",
+    "explanation": "General Ibrahim Babangida's administration (1985–1993) appointed the most women into public institutions including the Constituent Assembly, as part of his political transition programme."
+  },
+  {
+    "id": 143,
+    "topic": "Women in Nigerian History",
+    "question": "The Women's Commission was created under whose regime?",
+    "options": {
+      "A": "General Ibrahim Babangida",
+      "B": "General Murtala Muhammed",
+      "C": "General Muhammad Buhari",
+      "D": "General Olusegun Obasanjo"
+    },
+    "answer": "A",
+    "explanation": "The National Commission for Women was established by the Babangida administration in 1989, under the Better Life for Rural Women programme championed by Maryam Babangida."
+  },
+  {
+    "id": 144,
+    "topic": "Women in Nigerian History",
+    "question": "Women organizations in Nigeria have contributed to all of the following except __________",
+    "options": {
+      "A": "Establishing orphanage homes",
+      "B": "Production of aircrafts",
+      "C": "Construction of maternity homes",
+      "D": "Construction of schools"
+    },
+    "answer": "B",
+    "explanation": "Nigerian women's organisations have contributed to orphanages, maternity homes, and schools. Aircraft manufacturing is an industrial/military endeavour far removed from women's organisational activities."
+  },
+  {
+    "id": 145,
+    "topic": "Women in Nigerian History",
+    "question": "What was the major challenge of the Better Life Programme?",
+    "options": {
+      "A": "Neglect of the men",
+      "B": "Neglect of rural women",
+      "C": "Neglect of urban middle-class women",
+      "D": "Neglect of all members of the society"
+    },
+    "answer": "C",
+    "explanation": "Critics noted the Better Life Programme (1987) largely failed to reach urban middle-class women while focusing on elites and rural audiences, creating an implementation gap."
+  },
+  {
+    "id": 146,
+    "topic": "Women in Nigerian History",
+    "question": "The sexual division of labour inevitably has caused __________",
+    "options": {
+      "A": "Women empowerment in Nigeria",
+      "B": "Gender stratification and an unequal distribution of rights and resources",
+      "C": "Inequality and injustice in Nigeria",
+      "D": "National integration in the society"
+    },
+    "answer": "B",
+    "explanation": "The sexual division of labour assigns different tasks to men and women along gender lines, resulting in gender stratification where women access fewer rights, resources, and power."
+  },
+  {
+    "id": 147,
+    "topic": "Women in Nigerian History",
+    "question": "Gender refers to cultural construction of __________",
+    "options": {
+      "A": "Male and female",
+      "B": "Mother and daughter",
+      "C": "Towns and cities",
+      "D": "Father and son"
+    },
+    "answer": "A",
+    "explanation": "Gender is the socially/culturally constructed roles, behaviours, and identities assigned to male and female persons — distinct from the biological concept of sex."
+  },
+  {
+    "id": 148,
+    "topic": "Women in Nigerian History",
+    "question": "Which of these has influenced gender roles over time?",
+    "options": {
+      "A": "Dependence",
+      "B": "Globalization",
+      "C": "Familiarity",
+      "D": "Global warming"
+    },
+    "answer": "B",
+    "explanation": "Globalization has profoundly influenced gender roles by exposing societies to new norms, increasing women's labour market participation, and challenging traditional patriarchal divisions of labour."
+  },
+  {
+    "id": 149,
+    "topic": "Women in Nigerian History",
+    "question": "Women in Nigeria have suffered a lot from lack of which of these?",
+    "options": {
+      "A": "Inspiration to be President",
+      "B": "Implementation of gender sensitive laws",
+      "C": "Romantic Spouses",
+      "D": "Access to space technology"
+    },
+    "answer": "B",
+    "explanation": "Despite legal provisions like CEDAW and national gender policies, the failure to implement gender-sensitive laws remains the primary structural obstacle to women's empowerment in Nigeria."
+  },
+  {
+    "id": 150,
+    "topic": "Women in Nigerian History",
+    "question": "Benjamin Nnamdi Azikiwe argued that education should __________",
+    "options": {
+      "A": "Be used only in the church and religious assemblies",
+      "B": "Be first point of reforms in post-war reconstruction in British West Africa",
+      "C": "Be rejected in order to promote indigenous culture",
+      "D": "Be given only to the Igbos and the Nupe"
+    },
+    "answer": "B",
+    "explanation": "Nnamdi Azikiwe argued passionately that education — particularly for women and all Nigerians — should be the first priority in post-war reconstruction across British West Africa."
+  },
+  {
+    "id": 151,
+    "topic": "The Nigerian Civil War",
+    "question": "On 30th May 1967, the independence of __________ was proclaimed",
+    "options": {
+      "A": "Nigeria",
+      "B": "Biafra",
+      "C": "Oduduwa",
+      "D": "Arewa"
+    },
+    "answer": "B",
+    "explanation": "On 30 May 1967, Lt-Col Odumegwu Ojukwu proclaimed the independent Republic of Biafra — breaking away the Eastern Region from Nigeria, triggering the civil war."
+  },
+  {
+    "id": 152,
+    "topic": "The Nigerian Civil War",
+    "question": "The Nigerian civil war covered __________",
+    "options": {
+      "A": "2000-2005",
+      "B": "1990-1993",
+      "C": "1967-1970",
+      "D": "1960-1963"
+    },
+    "answer": "C",
+    "explanation": "The Nigerian Civil War (Biafran War) lasted from July 1967 to January 1970 — approximately two and a half years."
+  },
+  {
+    "id": 153,
+    "topic": "The Nigerian Civil War",
+    "question": "The Nigerian civil war lasted for about __________ years?",
+    "options": {
+      "A": "Five",
+      "B": "Four",
+      "C": "Two",
+      "D": "Three"
+    },
+    "answer": "D",
+    "explanation": "The civil war lasted approximately three years (July 6, 1967 – January 15, 1970), ending with Biafra's surrender."
+  },
+  {
+    "id": 154,
+    "topic": "The Nigerian Civil War",
+    "question": "The Federal Government's use of \"police action\" during the Nigerian civil war was to __________",
+    "options": {
+      "A": "Make Ojukwu leader of the Eastern Region",
+      "B": "Capture Ojukwu and end secession",
+      "C": "Kill Ojukwu and decimate Igboland",
+      "D": "Destroy farmlands in Igboland"
+    },
+    "answer": "B",
+    "explanation": "The Federal Government's stated objective of the 'police action' was to capture Ojukwu, end the secession, and restore Nigerian sovereignty over the Eastern Region."
+  },
+  {
+    "id": 155,
+    "topic": "The Nigerian Civil War",
+    "question": "Gowon led Nigerians out of the civil war on the side of __________",
+    "options": {
+      "A": "\"One Nigeria\"",
+      "B": "A confederate state",
+      "C": "A disintegrated country",
+      "D": "A fractured country"
+    },
+    "answer": "A",
+    "explanation": "General Yakubu Gowon's slogan throughout the civil war was 'One Nigeria' — preserving national unity was his stated war aim, hence his famous post-war 'no victor, no vanquished' declaration."
+  },
+  {
+    "id": 156,
+    "topic": "The Nigerian Civil War",
+    "question": "At the end of the Nigerian civil war, Gowon extended __________",
+    "options": {
+      "A": "The desire to restructure Nigeria",
+      "B": "The readiness to punish all offenders",
+      "C": "Hostility towards Biafran soldiers",
+      "D": "The olive branch"
+    },
+    "answer": "D",
+    "explanation": "In his famous post-war speech on 15 January 1970, Gowon extended the olive branch, declaring: 'There is no victor, no vanquished' and calling for national reconciliation."
+  },
+  {
+    "id": 157,
+    "topic": "The Nigerian Civil War",
+    "question": "Who said, \"To keep Nigeria one is a task that must be done\"?",
+    "options": {
+      "A": "Yakubu Gowon",
+      "B": "Sani Abacha",
+      "C": "T.Y. Danjuma",
+      "D": "Olusegun Obasanjo"
+    },
+    "answer": "A",
+    "explanation": "This famous declaration was made by General Yakubu Gowon during the civil war, encapsulating his commitment to Nigerian national unity above all else."
+  },
+  {
+    "id": 158,
+    "topic": "The Nigerian Civil War",
+    "question": "Lt-Col Odumegwu Ojukwu's interpretation of the Aburi agreements was __________",
+    "options": {
+      "A": "Unitarism",
+      "B": "Centralisation",
+      "C": "A strong centre",
+      "D": "Extreme decentralisation"
+    },
+    "answer": "D",
+    "explanation": "Ojukwu interpreted the Aburi Accord (January 1967) as mandating extreme decentralisation/confederation, giving each region near-autonomous powers — an interpretation Gowon and the FG rejected."
+  },
+  {
+    "id": 159,
+    "topic": "The Nigerian Civil War",
+    "question": "Post-Civil War National Rehabilitation Commission of Nigeria was headed by __________",
+    "options": {
+      "A": "Mr. Matthew Mba",
+      "B": "Chief Ike Chukwu",
+      "C": "Mr. Timothy Omo-Bare",
+      "D": "Mr. Ukpabi Asika"
+    },
+    "answer": "D",
+    "explanation": "Mr. Ukpabi Asika served as the Administrator of East-Central State and headed the post-civil war rehabilitation and reconstruction efforts in the former Biafran territories."
+  },
+  {
+    "id": 160,
+    "topic": "The Nigerian Civil War",
+    "question": "Initially, the British adopted the attitude of __________ during the Nigerian Civil War",
+    "options": {
+      "A": "Indifference",
+      "B": "Direct support for the Federal Government",
+      "C": "Neutrality",
+      "D": "Direct support for Biafra"
+    },
+    "answer": "C",
+    "explanation": "Britain initially adopted a posture of neutrality during the civil war before eventually providing covert arms and diplomatic support to the Nigerian Federal Government."
+  },
+  {
+    "id": 161,
+    "topic": "The Nigerian Civil War",
+    "question": "Which of these former Nigerian presidents lost his Presidential election?",
+    "options": {
+      "A": "Jonathan",
+      "B": "Obasanjo",
+      "C": "Abacha",
+      "D": "Abiola"
+    },
+    "answer": "D",
+    "explanation": "MKO Abiola won the June 12, 1993 presidential election (widely regarded as Nigeria's freest), but the result was annulled by General Babangida. Abiola died in detention in 1998."
+  },
+  {
+    "id": 162,
+    "topic": "Corruption & Governance",
+    "question": "The current anti-corruption institution in Nigeria was established by",
+    "options": {
+      "A": "Alhaji Shehu Shagari",
+      "B": "Gen. Mohammadu Buhari",
+      "C": "Chief Olusegun Obasanjo",
+      "D": "Dr. Goodluck Jonathan"
+    },
+    "answer": "C",
+    "explanation": "The Economic and Financial Crimes Commission (EFCC) was established by President Olusegun Obasanjo in 2002 (EFCC Act 2004), following pressure from the FATF over Nigeria's financial crimes."
+  },
+  {
+    "id": 163,
+    "topic": "Corruption & Governance",
+    "question": "Corruption could be categorised as all except __________",
+    "options": {
+      "A": "Judicial corruption",
+      "B": "Electoral corruption",
+      "C": "Bureaucratic corruption",
+      "D": "Megalomania"
+    },
+    "answer": "D",
+    "explanation": "Corruption types include judicial (bribery of judges), electoral (vote-buying, rigging), and bureaucratic (civil service bribery). Megalomania is a psychological disorder — an excessive desire for power — not a category of corruption."
+  },
+  {
+    "id": 164,
+    "topic": "Corruption & Governance",
+    "question": "Corruption does not include __________",
+    "options": {
+      "A": "Abuse of public office",
+      "B": "Bribery",
+      "C": "Equity",
+      "D": "Extortion"
+    },
+    "answer": "C",
+    "explanation": "Corruption includes abuse of office, bribery, and extortion. Equity (fairness and justice) is the antithesis of corruption — a value corruption undermines, not an element of it."
+  },
+  {
+    "id": 165,
+    "topic": "Corruption & Governance",
+    "question": "Corruption can also be regarded as __________",
+    "options": {
+      "A": "Integrity",
+      "B": "Transparency",
+      "C": "Veracity",
+      "D": "\"Self-help\""
+    },
+    "answer": "D",
+    "explanation": "In sociological parlance, corruption is sometimes euphemistically called 'self-help' — individuals using public position to help themselves rather than serving the public interest."
+  },
+  {
+    "id": 166,
+    "topic": "Corruption & Governance",
+    "question": "There is no single definition of corruption because __________",
+    "options": {
+      "A": "It is gender-based",
+      "B": "It is an African phenomenon",
+      "C": "It is biblical",
+      "D": "The concept varies from one society to another"
+    },
+    "answer": "D",
+    "explanation": "Corruption resists a single definition because cultural, political, and legal standards of what constitutes corrupt behaviour vary significantly across societies and historical periods."
+  },
+  {
+    "id": 167,
+    "topic": "Corruption & Governance",
+    "question": "The legal system encourages corruption through the following ways except when it is __________",
+    "options": {
+      "A": "Incapable of punishing offenders",
+      "B": "Slow to address grievances",
+      "C": "Capable of pursuing justice and equity",
+      "D": "Tilted towards rewarding the unjust"
+    },
+    "answer": "C",
+    "explanation": "A legal system capable of pursuing justice and equity actively fights corruption. The others — inability to punish, slow justice, and biased outcomes — all create environments where corruption thrives."
+  },
+  {
+    "id": 168,
+    "topic": "Corruption & Governance",
+    "question": "Sometimes, corruption among civil servants and security personnel can be attributed to their __________",
+    "options": {
+      "A": "Poor level of education",
+      "B": "Low level of education",
+      "C": "Low or poor remuneration",
+      "D": "High level of education"
+    },
+    "answer": "C",
+    "explanation": "Low and irregular salaries for civil servants and security forces create economic desperation that drives corruption as a survival mechanism — a widely cited structural cause of institutional corruption."
+  },
+  {
+    "id": 169,
+    "topic": "Corruption & Governance",
+    "question": "One major economic effect of corruption is __________",
+    "options": {
+      "A": "Rapid foreign investment",
+      "B": "Diversified national development",
+      "C": "Destruction of national treasury",
+      "D": "Rapid economic diversification"
+    },
+    "answer": "C",
+    "explanation": "Corruption drains the national treasury through embezzlement, contract inflation, and diversion of public funds — directly reducing resources available for development."
+  },
+  {
+    "id": 170,
+    "topic": "Corruption & Governance",
+    "question": "One effect of corruption in Nigeria is __________",
+    "options": {
+      "A": "Economic growth",
+      "B": "Election rigging",
+      "C": "Electoral transparency",
+      "D": "Rapid development"
+    },
+    "answer": "B",
+    "explanation": "Election rigging is one of the most visible effects of corruption in Nigeria's political system, undermining democratic governance and popular representation."
+  },
+  {
+    "id": 171,
+    "topic": "Corruption & Governance",
+    "question": "A major social effect of corruption is that it has not become an/a __________",
+    "options": {
+      "A": "Catalyst for growth",
+      "B": "Bane",
+      "C": "Irritant",
+      "D": "Curse"
+    },
+    "answer": "A",
+    "explanation": "Corruption is a bane, irritant, and curse on society. It has notably NOT become a catalyst for growth — it retards development, erodes institutions, and stifles economic productivity."
+  },
+  {
+    "id": 172,
+    "topic": "Corruption & Governance",
+    "question": "Corruption in Nigeria is a __________",
+    "options": {
+      "A": "Dual-faceted social occurrence",
+      "B": "Triple-faceted social occurrence",
+      "C": "Mono-faceted social occurrence",
+      "D": "Multifaceted social occurrence"
+    },
+    "answer": "D",
+    "explanation": "Nigerian corruption is described as multifaceted because it manifests across multiple sectors simultaneously — political, judicial, bureaucratic, electoral, and security — requiring multi-pronged responses."
+  },
+  {
+    "id": 173,
+    "topic": "Corruption & Governance",
+    "question": "In the traditional Nigerian society, those who engaged in corrupt acts were",
+    "options": {
+      "A": "Celebrated",
+      "B": "Indulged",
+      "C": "Openly shamed",
+      "D": "Shielded"
+    },
+    "answer": "C",
+    "explanation": "Traditional Nigerian moral codes viewed corruption as an abomination. Violators were publicly shamed, ostracised, or punished — social accountability was a powerful pre-colonial anti-corruption mechanism."
+  },
+  {
+    "id": 174,
+    "topic": "Corruption & Governance",
+    "question": "Traditional Nigerian cultures enjoined every member NOT to __________",
+    "options": {
+      "A": "Pursue integrity",
+      "B": "Be untrustworthy",
+      "C": "Respect the rules of social conducts and engagements",
+      "D": "Shun corrupt acts"
+    },
+    "answer": "B",
+    "explanation": "Traditional codes forbade untrustworthiness, dishonesty, and betrayal. Community members were culturally required to be trustworthy, respect social norms, pursue integrity, and shun corruption."
+  },
+  {
+    "id": 175,
+    "topic": "Corruption & Governance",
+    "question": "One of these is NOT a social cankerworm __________?",
+    "options": {
+      "A": "Egalitarianism",
+      "B": "Nepotism",
+      "C": "Corruption",
+      "D": "Bribery"
+    },
+    "answer": "A",
+    "explanation": "Egalitarianism (belief in equal rights and opportunities for all) is a social virtue, not a cankerworm. Nepotism, corruption, and bribery are destructive social vices."
+  },
+  {
+    "id": 176,
+    "topic": "Corruption & Governance",
+    "question": "Which of the following is NOT anti-social?",
+    "options": {
+      "A": "Nepotism",
+      "B": "Corruption",
+      "C": "Diligence",
+      "D": "Narcissism"
+    },
+    "answer": "C",
+    "explanation": "Diligence (hard work and conscientiousness) is a pro-social virtue that benefits both individuals and communities. Nepotism, corruption, and narcissism are destructive, anti-social behaviours."
+  },
+  {
+    "id": 177,
+    "topic": "Corruption & Governance",
+    "question": "Nigeria has reached a situation of __________",
+    "options": {
+      "A": "The budding of the culture of corruption",
+      "B": "The prevalence of the culture of corruption",
+      "C": "Isolated cases of corrupt acts",
+      "D": "Ninety (90%) per cent anti-corruption fights"
+    },
+    "answer": "B",
+    "explanation": "Nigeria has moved beyond mere isolated incidents to the prevalence of a full-blown culture of corruption — where corrupt behaviour is normalised, expected, and systematically reproduced."
+  },
+  {
+    "id": 178,
+    "topic": "Corruption & Governance",
+    "question": "In the post-colonial period, the culture of corruption in Nigeria has",
+    "options": {
+      "A": "Decreased",
+      "B": "Spiraled to all segments of the Nigerian state",
+      "C": "Ameliorated",
+      "D": "Disappeared"
+    },
+    "answer": "B",
+    "explanation": "Post-colonial corruption has deepened and widened — from the political class to the civil service, judiciary, security forces, and private sector — permeating all segments of the Nigerian state."
+  },
+  {
+    "id": 179,
+    "topic": "Corruption & Governance",
+    "question": "The culture of corruption is established when __________",
+    "options": {
+      "A": "A people accept corruption as a way of life",
+      "B": "Fight corruption aggressively",
+      "C": "Fight corruption from all fronts",
+      "D": "Imbibe anti-corruption initiatives"
+    },
+    "answer": "A",
+    "explanation": "A culture of corruption becomes entrenched when members of a society normalise, accept, and participate in corrupt practices as a routine way of life rather than as deviant behaviour."
+  },
+  {
+    "id": 180,
+    "topic": "Corruption & Governance",
+    "question": "One of the following does NOT encourage corruption in Nigeria __________",
+    "options": {
+      "A": "Transparent allocation of resources",
+      "B": "Lack of basic necessities of life",
+      "C": "A corrupt judiciary",
+      "D": "Weak and ineffective institutions"
+    },
+    "answer": "A",
+    "explanation": "Transparent resource allocation actively reduces corruption by creating accountability. The others — deprivation, judicial corruption, and weak institutions — all create conditions for corruption to flourish."
+  },
+  {
+    "id": 181,
+    "topic": "Corruption & Governance",
+    "question": "To fight corruption, Nigerians need NOT __________",
+    "options": {
+      "A": "Have committed leadership",
+      "B": "Adopt the right value and attitude to life",
+      "C": "Stop the monetisation of politics",
+      "D": "Relent in promoting anti-corruption programmes"
+    },
+    "answer": "D",
+    "explanation": "Nigerians need to keep promoting anti-corruption programmes, NOT relent (i.e., stop/slow down). Relenting would weaken the fight. Committed leadership, right values, and de-monetising politics are all necessary."
+  },
+  {
+    "id": 182,
+    "topic": "Corruption & Governance",
+    "question": "The two major anti-corruption agencies in Nigeria are?",
+    "options": {
+      "A": "EFCC and APC",
+      "B": "EFCC and PDP",
+      "C": "ICPC and NAPTIP",
+      "D": "EFCC and ICPC"
+    },
+    "answer": "D",
+    "explanation": "The Economic and Financial Crimes Commission (EFCC, est. 2002) and the Independent Corrupt Practices and Other Related Offences Commission (ICPC, est. 2000) are Nigeria's two principal anti-corruption agencies."
+  },
+  {
+    "id": 183,
+    "topic": "Corruption & Governance",
+    "question": "Manipulation of the electoral processes will lead to all except __________?",
+    "options": {
+      "A": "Endangering of the democratic process",
+      "B": "Production of legitimate leaders",
+      "C": "Loss of transparency",
+      "D": "Loss of legitimacy"
+    },
+    "answer": "B",
+    "explanation": "Electoral manipulation cannot produce legitimate leaders — by definition, rigged elections yield leaders without popular mandate. It does endanger democracy, destroy transparency, and erode legitimacy."
+  },
+  {
+    "id": 184,
+    "topic": "Corruption & Governance",
+    "question": "Any attempt to manipulate laid-down procedures in order to benefit oneself is",
+    "options": {
+      "A": "Racism",
+      "B": "Narcissism",
+      "C": "Nepotism",
+      "D": "Corruption"
+    },
+    "answer": "D",
+    "explanation": "Corruption is defined as the abuse of entrusted power for private gain — including manipulating official procedures, rules, or processes for personal benefit."
+  },
+  {
+    "id": 185,
+    "topic": "Corruption & Governance",
+    "question": "The fight against corruption in Nigeria has NOT been worsened by",
+    "options": {
+      "A": "Ethnicity",
+      "B": "Tribalism",
+      "C": "Greed",
+      "D": "Spiritual forces"
+    },
+    "answer": "D",
+    "explanation": "Ethnicity, tribalism, and greed are recognised socio-political factors that worsen corruption. Spiritual forces are not empirically demonstrable drivers of systemic corruption."
+  },
+  {
+    "id": 186,
+    "topic": "Corruption & Governance",
+    "question": "Due to financial misappropriations, Nigeria has NOT experienced __________",
+    "options": {
+      "A": "Major volcanic eruption",
+      "B": "Maternal health crises",
+      "C": "Poor education",
+      "D": "Broken and dilapidated infrastructure"
+    },
+    "answer": "A",
+    "explanation": "Nigeria's lack of volcanic activity is geological, not due to financial corruption. But corruption has directly caused Nigeria's maternal health crises, education failures, and deteriorating infrastructure."
+  },
+  {
+    "id": 187,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "When was Enugu founded?",
+    "options": {
+      "A": "1906",
+      "B": "1908",
+      "C": "1907",
+      "D": "1909"
+    },
+    "answer": "D",
+    "explanation": "Enugu was founded in 1909 after Albert Ernest Kitson discovered coal in the area, leading to the establishment of a mining settlement that grew into a city."
+  },
+  {
+    "id": 188,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "Who discovered coal in Enugu area?",
+    "options": {
+      "A": "Christy Mier",
+      "B": "Mike Bernard",
+      "C": "Lord Frederick Lugard",
+      "D": "Albert Ernest Kitson"
+    },
+    "answer": "D",
+    "explanation": "Albert Ernest Kitson, a British geologist with the Geological Survey of Nigeria, discovered coal at Udi/Enugu in 1909, establishing the foundation for the city's colonial development."
+  },
+  {
+    "id": 189,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "The establishment of Port Harcourt was to facilitate the __________",
+    "options": {
+      "A": "Import of cars to Nigeria",
+      "B": "Export of coal",
+      "C": "Exploration of crude oil",
+      "D": "Export of groundnuts"
+    },
+    "answer": "B",
+    "explanation": "Port Harcourt was created in 1912 specifically to serve as a port for exporting coal from the Enugu coal mines via rail — it was named after Viscount Lewis Vernon Harcourt."
+  },
+  {
+    "id": 190,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "When was the city of Port Harcourt established?",
+    "options": {
+      "A": "1960",
+      "B": "1953",
+      "C": "1910",
+      "D": "1912"
+    },
+    "answer": "D",
+    "explanation": "Port Harcourt was established in 1912 by the British colonial administration to serve as a seaport terminal for the coal mined at Enugu."
+  },
+  {
+    "id": 191,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "Kaduna was favoured as an administrative headquarters due to its __________",
+    "options": {
+      "A": "Spiritual capital",
+      "B": "Proximity to the Lagos-Kano Railway",
+      "C": "Religious and cultural features",
+      "D": "Mineral resources"
+    },
+    "answer": "B",
+    "explanation": "Lugard chose Kaduna as the administrative capital of Northern Nigeria in 1912 primarily because of its strategic position on the Lagos-Kano railway line, facilitating troop movement and governance."
+  },
+  {
+    "id": 192,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "Kaduna became the capital of Nigeria's former Northern Region in",
+    "options": {
+      "A": "1914",
+      "B": "1917",
+      "C": "1916",
+      "D": "1913"
+    },
+    "answer": "A",
+    "explanation": "Kaduna became the administrative capital of the Northern Region in 1914, following the amalgamation of Northern and Southern Nigeria."
+  },
+  {
+    "id": 193,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "When was Kaduna founded by the British?",
+    "options": {
+      "A": "1910",
+      "B": "1912",
+      "C": "1913",
+      "D": "1909"
+    },
+    "answer": "B",
+    "explanation": "Kaduna was founded in 1912 by Lord Frederick Lugard as a new administrative centre for the Northern Protectorate, positioned along the railway line."
+  },
+  {
+    "id": 194,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "One of these cities was NOT established as a major trado-cultural centre __________",
+    "options": {
+      "A": "Kaduna",
+      "B": "Ile-Ife",
+      "C": "Oyo",
+      "D": "Benin City"
+    },
+    "answer": "A",
+    "explanation": "Ile-Ife (Yoruba cultural capital), Oyo (political capital of the Oyo Empire), and Benin City (capital of the Benin Empire) were all ancient trado-cultural centres. Kaduna was a colonial administrative creation."
+  },
+  {
+    "id": 195,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "Before the 1930s, one of the following was NOT an urban centre __________",
+    "options": {
+      "A": "Enugu",
+      "B": "Lagos",
+      "C": "Calabar",
+      "D": "Abuja"
+    },
+    "answer": "D",
+    "explanation": "Abuja was developed as Nigeria's new federal capital only from 1976 onwards (officially inaugurated in 1991). Lagos, Enugu, and Calabar were all established urban centres well before the 1930s."
+  },
+  {
+    "id": 196,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "Which of these cities was NOT directly influenced by colonial industrialisation/commercialisation efforts?",
+    "options": {
+      "A": "Oka-Akoko",
+      "B": "Sapele",
+      "C": "Jos",
+      "D": "Port Harcourt"
+    },
+    "answer": "A",
+    "explanation": "Oka-Akoko is a relatively small traditional Ondo State town not significantly developed by colonial commercial or industrial activity. Sapele (timber/rubber), Jos (tin mining), and Port Harcourt (coal/oil) were all colonial commercial cities."
+  },
+  {
+    "id": 197,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "In the pre-colonial period, the growth of Kano was influenced by its status as a __________",
+    "options": {
+      "A": "Political party centre",
+      "B": "Commercial centre",
+      "C": "Colonial centre",
+      "D": "Coaster centre"
+    },
+    "answer": "B",
+    "explanation": "Kano's pre-colonial growth was driven by its position as one of West Africa's greatest commercial centres — a terminus for trans-Saharan trade routes and hub of the Hausa textile industry."
+  },
+  {
+    "id": 198,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "The characteristics of urban culture do NOT include __________",
+    "options": {
+      "A": "Mutual annihilation",
+      "B": "Diversity",
+      "C": "Competitiveness and individuality",
+      "D": "Multiculturalism"
+    },
+    "answer": "A",
+    "explanation": "Urban culture is characterised by diversity, individualism, competitiveness, and multiculturalism. Mutual annihilation (destroying one another) is not a cultural characteristic of cities."
+  },
+  {
+    "id": 199,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "A major aspect of culture is that it __________",
+    "options": {
+      "A": "Static",
+      "B": "Inactive",
+      "C": "Stagnant",
+      "D": "Dynamic"
+    },
+    "answer": "D",
+    "explanation": "Culture is dynamic — it constantly changes, adapts, borrows, and evolves in response to internal creativity and external contact. 'Static' or 'stagnant' culture is a colonial myth."
+  },
+  {
+    "id": 200,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "The way urban dwellers think, live and relate with one another is part of __________",
+    "options": {
+      "A": "Urban development",
+      "B": "Urban decay",
+      "C": "Urban management",
+      "D": "Urban culture"
+    },
+    "answer": "D",
+    "explanation": "Urban culture encompasses the thought patterns, lifestyles, and social interactions of city residents — the distinctive cognitive and behavioural styles shaped by city living."
+  },
+  {
+    "id": 201,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "Urban culture includes the __________",
+    "options": {
+      "A": "Cultural activities of city dwellers",
+      "B": "Various practices, belief systems, social forms, etc. of city dwellers",
+      "C": "Tradition of city people",
+      "D": "Economic activities of city dwellers"
+    },
+    "answer": "B",
+    "explanation": "Urban culture is the comprehensive set of practices, belief systems, social norms, and forms of expression that characterise city life — broader than just activities, traditions, or economics alone."
+  },
+  {
+    "id": 202,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "The study of urban culture involves a/an __________",
+    "options": {
+      "A": "Interdisciplinary approach",
+      "B": "Political approach",
+      "C": "Monocausal approach",
+      "D": "Economic approach"
+    },
+    "answer": "A",
+    "explanation": "Urban culture is studied through an interdisciplinary approach, drawing on sociology, history, anthropology, economics, and geography — no single discipline can capture the full complexity of urban life."
+  },
+  {
+    "id": 203,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "The economic status of a city goes a long way to determine its __________",
+    "options": {
+      "A": "Traditional health",
+      "B": "Geographical health",
+      "C": "Financial health",
+      "D": "Spiritual health"
+    },
+    "answer": "C",
+    "explanation": "A city's economic status determines its financial health — the capacity to fund infrastructure, services, employment, and social amenities that sustain quality urban life."
+  },
+  {
+    "id": 204,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "A historical explanation of a city comprises its __________",
+    "options": {
+      "A": "Origins, growth and the interactions of the various groups in time perspectives",
+      "B": "Geographical make-up",
+      "C": "Sociological compositions",
+      "D": "Economic activities"
+    },
+    "answer": "A",
+    "explanation": "A historical analysis of a city traces its origins (founding), growth (expansion), and the evolving interactions of its social groups over time — providing diachronic understanding."
+  },
+  {
+    "id": 205,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "The sociological analysis of a city comprises its various __________",
+    "options": {
+      "A": "Economic activities",
+      "B": "Social compositions and their interactions with one another",
+      "C": "Geographical configurations",
+      "D": "Political compositions"
+    },
+    "answer": "B",
+    "explanation": "Sociological analysis of a city examines its social structures — class, ethnicity, gender, religion — and how these groups interact, co-operate, and conflict within the urban space."
+  },
+  {
+    "id": 206,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "The cultural examination of a city explains its __________",
+    "options": {
+      "A": "Economic activities",
+      "B": "Spatial make-up",
+      "C": "Various cultural components and their relationship with one another",
+      "D": "Political culture"
+    },
+    "answer": "C",
+    "explanation": "Cultural analysis of a city identifies and explains its cultural elements — arts, religion, values, language, customs — and how these components relate to and influence each other."
+  },
+  {
+    "id": 207,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "Who described the towns and cities of Nigeria as \"crucial nodes or swellings in the spatial economy\"?",
+    "options": {
+      "A": "Jide Osuntokun",
+      "B": "Omon Osiki",
+      "C": "Ayodeji Olukoju",
+      "D": "Akin Mabogunje"
+    },
+    "answer": "D",
+    "explanation": "Professor Akin Mabogunje, Nigeria's foremost urban geographer, described Nigerian cities as 'crucial nodes or swellings in the spatial economy' — central to understanding national economic geography."
+  },
+  {
+    "id": 208,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "Ayodeji Olukoju has observed that one immediate outcome of the rise of cities such as Lagos and others is the steady increase in their __________",
+    "options": {
+      "A": "Population",
+      "B": "Destruction",
+      "C": "Decomposition",
+      "D": "Accommodation"
+    },
+    "answer": "A",
+    "explanation": "Prof. Ayodeji Olukoju notes that the growth of Nigerian cities like Lagos has been accompanied by exponential population increase, driving urbanisation challenges."
+  },
+  {
+    "id": 209,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "Unlike their rural counterparts, Nigerian cities are more prone to __________",
+    "options": {
+      "A": "Urban-rural migrations",
+      "B": "Tranquility",
+      "C": "Crimes and criminality",
+      "D": "Environmental degradation"
+    },
+    "answer": "C",
+    "explanation": "Urban centres, with their anonymity, inequality, unemployment, and dense populations, experience significantly higher rates of crime and criminality than rural areas in Nigeria."
+  },
+  {
+    "id": 210,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "One of the following is NOT a problem associated with big cities in Nigeria __________",
+    "options": {
+      "A": "Traffic congestions",
+      "B": "Serenity",
+      "C": "Housing deficit",
+      "D": "Waste management crisis"
+    },
+    "answer": "B",
+    "explanation": "Serenity (peacefulness and calm) is what Nigerian big cities notably lack. Traffic gridlock, housing shortages, and waste management failures are all documented urban problems in cities like Lagos and Kano."
+  },
+  {
+    "id": 211,
+    "topic": "Urban Culture & Nigerian Cities",
+    "question": "The establishment of Port Harcourt was to facilitate the export of coal",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Partially true",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "Confirmed: Port Harcourt was specifically created in 1912 to serve as the export terminal for coal mined at Enugu — a direct colonial commercial infrastructure project."
+  },
+  {
+    "id": 212,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "In most Nigerian communities, incest was seen as a/an __________",
+    "options": {
+      "A": "Abomination",
+      "B": "Opportunity",
+      "C": "Good activity",
+      "D": "Commitment"
+    },
+    "answer": "A",
+    "explanation": "Across virtually all Nigerian cultures, incest (sexual relations between close relatives) was considered a grave abomination that brought spiritual pollution, divine punishment, and community disaster."
+  },
+  {
+    "id": 213,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "Among some groups in Nigeria, a woman who committed adultery without confessing would not __________?",
+    "options": {
+      "A": "Be seen as a woman",
+      "B": "Be rich",
+      "C": "Be ashamed",
+      "D": "Be able to bear children"
+    },
+    "answer": "D",
+    "explanation": "In several Nigerian communities, an unconfessed adultery was believed to spiritually block a woman's fertility — her confession to the husband was required for safe delivery of subsequent children."
+  },
+  {
+    "id": 214,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "Which of the following were usually buried in the \"evil forest\"?",
+    "options": {
+      "A": "Those with malaria",
+      "B": "Lepers",
+      "C": "Visitors",
+      "D": "Rich"
+    },
+    "answer": "B",
+    "explanation": "In many Igbo and other communities, people who died of certain diseases (like leprosy, smallpox) were buried in the 'evil forest' (ajo ofia) to prevent spiritual contamination of the community."
+  },
+  {
+    "id": 215,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "In some societies, a dead child was mutilated to alter which of these __________?",
+    "options": {
+      "A": "Outbreak of disease in the land",
+      "B": "Re-incarnation",
+      "C": "Childlessness",
+      "D": "Re-adaptation"
+    },
+    "answer": "B",
+    "explanation": "In some communities, a child who died repeatedly (thought to be an abiku/ogbanje — a spirit child) was mutilated after death to prevent its spirit from being reborn into the same family."
+  },
+  {
+    "id": 216,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "Amongst the Ibibio, the death of a child was ascribed to __________ ?",
+    "options": {
+      "A": "Sickness",
+      "B": "Good fortune",
+      "C": "Bad fortune",
+      "D": "Witchcraft"
+    },
+    "answer": "D",
+    "explanation": "The Ibibio typically attributed child deaths to witchcraft — malevolent spiritual forces working through enemies — rather than natural illness, reflecting their worldview of spiritual causation."
+  },
+  {
+    "id": 217,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "The death of a young person is usually __________",
+    "options": {
+      "A": "Mourned",
+      "B": "Celebrated",
+      "C": "Desire",
+      "D": "All of the above"
+    },
+    "answer": "A",
+    "explanation": "In Nigerian cultures, the death of a young person is typically mourned as tragic and untimely — unlike the death of an aged elder, which can be celebrated as a full life well-lived."
+  },
+  {
+    "id": 218,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "In some pre-colonial societies, which of the following had elaborate funerals?",
+    "options": {
+      "A": "Lunatics",
+      "B": "Women who died at childbirth",
+      "C": "Victims of accident",
+      "D": "Royals"
+    },
+    "answer": "D",
+    "explanation": "Royals, chiefs, and distinguished elders received the most elaborate funeral rites in pre-colonial societies — masquerades, lengthy ceremonies, and sacrifices befitting their status."
+  },
+  {
+    "id": 219,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "What type of burial was titled men, war heroes and chiefs given?",
+    "options": {
+      "A": "Regular burial",
+      "B": "Simple burial",
+      "C": "Difficult burial",
+      "D": "Special burial"
+    },
+    "answer": "D",
+    "explanation": "Titled men, war heroes, and chiefs were accorded special/elaborate burials with ceremonial rites, masquerades, title rituals, and community gatherings befitting their elevated social status."
+  },
+  {
+    "id": 220,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "A child could be named after __________",
+    "options": {
+      "A": "Bad ancestors",
+      "B": "The deities",
+      "C": "Bad people",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "Children were commonly named after deities (e.g., 'Ogun' among Yoruba, 'Chukwuemeka' among Igbo), ancestral spirits, circumstances of birth, or market days — but not after bad people or ancestors."
+  },
+  {
+    "id": 221,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "All of these could determine the name of a child except __________",
+    "options": {
+      "A": "Where the child was born",
+      "B": "When the child was born",
+      "C": "Order of birth of a child",
+      "D": "The choice of the child"
+    },
+    "answer": "D",
+    "explanation": "Naming was determined by adults — based on birth circumstances, day, location, ancestral dedications, or birth order. The child's own choice was never a determining factor in traditional naming."
+  },
+  {
+    "id": 222,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "The process by which a child learns things about his/her culture is __________",
+    "options": {
+      "A": "Development",
+      "B": "Maturity",
+      "C": "Socialization",
+      "D": "Acculturation"
+    },
+    "answer": "C",
+    "explanation": "Socialization is the lifelong process through which an individual learns the values, norms, language, and practices of their culture — the primary mechanism of cultural transmission to children."
+  },
+  {
+    "id": 223,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "Marriage rites and processes are __________ from one ethnic group to another",
+    "options": {
+      "A": "Different",
+      "B": "Elaborate",
+      "C": "Similar",
+      "D": "Planned"
+    },
+    "answer": "A",
+    "explanation": "Nigeria's 250+ ethnic groups each have distinct marriage traditions — different bride-price calculations, rituals, foods, and ceremonies — making marriage practices markedly different across groups."
+  },
+  {
+    "id": 224,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "The manhood test for marriage amongst the Hausa is called __________ ?",
+    "options": {
+      "A": "\"Saanu\"",
+      "B": "\"Gobe\"",
+      "C": "\"Sharo\"",
+      "D": "\"Nagode\""
+    },
+    "answer": "C",
+    "explanation": "'Sharo' (also called Shadi or Shadi-Sharo) is the Hausa/Fulani manhood test — a flogging endurance ceremony where a young man proves his courage and readiness for adult responsibilities."
+  },
+  {
+    "id": 225,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "The following are processes involved in marriage ceremony amongst Nigerian communities except __________",
+    "options": {
+      "A": "Traditional marriage",
+      "B": "Search for the bride",
+      "C": "Slavery",
+      "D": "Payment of bride price"
+    },
+    "answer": "C",
+    "explanation": "Nigerian marriage processes include: searching for a suitable bride, traditional marriage ceremonies, and payment of bride price. Slavery is not a recognised component of any legitimate Nigerian marriage process."
+  },
+  {
+    "id": 226,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "__________ exchange was common among the Tiv people",
+    "options": {
+      "A": "Bride",
+      "B": "Parent",
+      "C": "Children",
+      "D": "Spouse"
+    },
+    "answer": "A",
+    "explanation": "The Tiv practice of kem (exchange marriage/kem) involves the exchange of women between families as brides — a practice historically central to Tiv marriage and social alliance systems."
+  },
+  {
+    "id": 227,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "In which culture is the prospective bride given a cup of palm-wine for her groom? The __________",
+    "options": {
+      "A": "Yoruba",
+      "B": "Hausa",
+      "C": "Akoko Edo",
+      "D": "Igbo"
+    },
+    "answer": "D",
+    "explanation": "In the Igbo traditional marriage ceremony, the bride is given a cup of palm-wine and must find and present it to her chosen groom among the gathered guests — a key ceremonial rite of acceptance."
+  },
+  {
+    "id": 228,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "Which of these is contained in the marriage culture of the Yoruba?",
+    "options": {
+      "A": "Rice",
+      "B": "Pepper",
+      "C": "Alligator pepper",
+      "D": "Spaghetti"
+    },
+    "answer": "C",
+    "explanation": "Alligator pepper (atare) is a significant item in Yoruba marriage ceremonies — used in blessings and prayers, symbolising fertility, life, and prosperity for the couple."
+  },
+  {
+    "id": 229,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "In contemporary Nigeria bride price is mostly paid in __________",
+    "options": {
+      "A": "Cash",
+      "B": "None of the above",
+      "C": "All of the above",
+      "D": "Houses"
+    },
+    "answer": "A",
+    "explanation": "Modern Nigerian bride price is predominantly paid in cash, replacing the traditional system of items (livestock, farm produce, cloth, kola nuts) with monetary equivalents."
+  },
+  {
+    "id": 230,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "What was the immediate consequence of adultery amongst the Hausa?",
+    "options": {
+      "A": "Imprisonment",
+      "B": "Celebration",
+      "C": "Divorce",
+      "D": "Marriage"
+    },
+    "answer": "C",
+    "explanation": "Among the Hausa, adultery was grounds for immediate divorce — a serious breach of marital contract with swift social consequences, especially in communities governed by Islamic law."
+  },
+  {
+    "id": 231,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "Committing adultery was seen as __________?",
+    "options": {
+      "A": "Virtuous",
+      "B": "Abomination",
+      "C": "Sad",
+      "D": "Praiseworthy"
+    },
+    "answer": "B",
+    "explanation": "Adultery was considered an abomination in most Nigerian cultures — a moral transgression with serious spiritual, social, and legal consequences for the offending party and their family."
+  },
+  {
+    "id": 232,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "Which of these was/is the significance of a lion roaring at night in the village square amongst the Ngor Okpala people?",
+    "options": {
+      "A": "An abomination had been committed",
+      "B": "A child has been born",
+      "C": "War was going on",
+      "D": "A marriage ceremony was taking place"
+    },
+    "answer": "A",
+    "explanation": "Among the Ngor Okpala (Igbo) people, hearing a lion roar in the village square at night was an omen/signal that an abomination had been committed in the community, requiring ritual cleansing."
+  },
+  {
+    "id": 233,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "In spite of regional differences, traditional education equipped individuals to __________",
+    "options": {
+      "A": "Defeat the Europeans when they came to Nigeria",
+      "B": "Compete with one another",
+      "C": "Argue about their political leaders",
+      "D": "Fit usefully into their society workspace"
+    },
+    "answer": "D",
+    "explanation": "Traditional Nigerian education — through apprenticeships, initiation, age-grades, and oral transmission — was pragmatically designed to equip individuals with the skills to contribute productively to their community."
+  },
+  {
+    "id": 234,
+    "topic": "Traditional Culture, Rites & Social Practices",
+    "question": "The Ibin-Ukpabi oracle belonged to the",
+    "options": {
+      "A": "Edo",
+      "B": "Yoruba",
+      "C": "Aro",
+      "D": "Fulani"
+    },
+    "answer": "C",
+    "explanation": "The Ibin-Ukpabi (Long Juju of Arochukwu) was the supreme oracle of the Aro Igbo, used to adjudicate disputes and dramatically expand Aro commercial and political influence across South-Eastern Nigeria."
+  }
+]

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="welcome-header">
+    <h1>🎓 Welcome to CBT Quiz App</h1>
+    <p>Choose a subject and select your preferred mode to begin!</p>
+    {% if session.get('username') %}
+        <p>Welcome back, <strong>{{ session.get('username') }}</strong>! 
+        {% if expires_display %}Session expires: {{ expires_display }}{% endif %}</p>
+    {% else %}
+        <p><a href="{{ url_for('login') }}" style="color: #fff; text-decoration: underline;">Log in</a> to start a quiz.</p>
+    {% endif %}
+</div>
+
+{% set icons = {'mathematics': '📐', 'physics': '⚡', 'chemistry': '🧪', 'gst': '📖'} %}
+
+<div class="subject-grid">
+    {% for subject in subjects %}
+    <div class="subject-card">
+        <span class="icon">{{ icons.get(subject, '📝') }}</span>
+        <div class="subject-title">{{ subject.title() }}</div>
+        <div class="mode-buttons">
+            <a href="{{ url_for('quiz', subject=subject, mode='quiz') }}" class="mode-btn quiz-btn">Quiz Mode</a>
+            <a href="{{ url_for('quiz', subject=subject, mode='cbt') }}" class="mode-btn cbt-btn">CBT Mode</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% if session.get('username') %}
+<div class="nav-links">
+    <a href="{{ url_for('grades') }}">View Results</a> |
+    <a href="{{ url_for('history') }}">My History</a> |
+    <a href="{{ url_for('logout') }}">Logout</a>
+</div>
+{% endif %}
+{% endblock %}

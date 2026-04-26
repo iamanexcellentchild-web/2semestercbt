@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block content %}
+{% if expires_at %}
+<script>window.EXPIRES_AT = {{ expires_at * 1000 }};</script>
+{% endif %}
+
+<div class="quiz-container">
+    <div class="sidebar">
+        <div id="timer">{% if expires_at %}Time Remaining: --:--{% else %}No time limit{% endif %}</div>
+        {% if mode == 'quiz' %}
+        <button id="showAnswersBtn" class="show-btn">Show Answers</button>
+        {% endif %}
+    </div>
+    <div class="main-content">
+        <div class="cbt-header">
+            <h2>{{ subject.title() }} — {{ mode.upper() }} Mode</h2>
+            <p>Candidate: <strong>{{ session.get('username') }}</strong> | Questions: <strong>{{ questions|length }}</strong></p>
+        </div>
+
+        <form method="post" id="quizForm">
+            <input type="hidden" name="indices" value='{{ indices|tojson }}'>
+
+            {% for q in questions %}
+            {% set qidx = loop.index0 %}
+            <div class="question-block" id="q{{ qidx }}">
+                <p class="question-text">
+                    <span class="qnum">{{ loop.index }}.</span>
+                    {{ (q.get('q') or q.get('question', '')) | safe }}
+                </p>
+                <div class="options">
+                    {# Handle both dict options {"a": "text"} and list options ["a. text"] #}
+                    {% if q.get('options') is mapping %}
+                        {% for key, val in q.options.items() %}
+                        <label class="option-label">
+                            <input type="radio" name="q{{ qidx }}" value="{{ key }}">
+                            <span><strong>{{ key }}.</strong> {{ val | safe }}</span>
+                        </label>
+                        {% endfor %}
+                    {% else %}
+                        {% for opt in q.get('options', []) %}
+                        <label class="option-label">
+                            <input type="radio" name="q{{ qidx }}" value="{{ opt }}">
+                            <span>{{ opt | safe }}</span>
+                        </label>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+                {% if mode == 'quiz' %}
+                <div class="answer-reveal" id="answer{{ qidx }}" style="display:none;">
+                    <p><strong>Correct Answer: {{ q.answer }}</strong></p>
+                    {% if q.get('solution') %}
+                    <div class="solution-box">
+                        <p class="solution-title">📝 Detailed Solution:</p>
+                        {{ q.solution | safe }}
+                    </div>
+                    {% elif q.get('explanation') %}
+                    <p><em>{{ q.explanation }}</em></p>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+
+            {% if mode == 'cbt' %}
+            <div class="submit-section">
+                <button type="submit" class="submit-btn" onclick="return confirmSubmit()">Submit Answers</button>
+            </div>
+            {% endif %}
+        </form>
+    </div>
+</div>
+
+<script>
+function confirmSubmit() {
+    var total = {{ questions|length }};
+    var answered = 0;
+    for (var i = 0; i < total; i++) {
+        if (document.querySelector('input[name="q'+i+'"]:checked')) answered++;
+    }
+    var unanswered = total - answered;
+    if (unanswered > 0) {
+        return confirm('You have ' + unanswered + ' unanswered question(s). Submit anyway?');
+    }
+    return true;
+}
+
+{% if mode == 'quiz' %}
+document.getElementById('showAnswersBtn').addEventListener('click', function() {
+    var answers = document.querySelectorAll('.answer-reveal');
+    answers.forEach(function(ans) {
+        ans.style.display = 'block';
+    });
+});
+{% endif %}
+</script>
+{% endblock %}

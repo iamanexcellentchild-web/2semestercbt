@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CGPA Calculator – Merit CBT</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0d0f14; --surface: #13161e; --card: #191d28; --border: #252a38;
+      --accent: #f5c542; --text: #e8eaf0; --muted: #6b7280;
+      --success: #34d399; --warn: #fbbf24; --danger: #f87171; --info: #60a5fa;
+      --radius: 12px;
+    }
+    body { font-family: 'Syne', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding-bottom: 60px; }
+
+    header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 18px 32px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .logo { font-size: 1.1rem; font-weight: 800; color: var(--accent); }
+    .logo span { color: var(--text); }
+    header a { font-size: .85rem; color: var(--muted); text-decoration: none; font-weight: 600; }
+    header a:hover { color: var(--accent); }
+
+    .page { max-width: 860px; margin: 0 auto; padding: 40px 20px 0; }
+    .page-title { font-size: 2rem; font-weight: 800; letter-spacing: -1px; margin-bottom: 4px; }
+    .page-title span { color: var(--accent); }
+    .page-sub { color: var(--muted); font-size: .9rem; margin-bottom: 28px; }
+
+    .board { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 10px; margin-bottom: 24px; }
+    .metric { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 20px; }
+    .metric-label { font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+    .metric-value { font-family: 'DM Mono', monospace; font-size: 1.3rem; font-weight: 700; }
+    #cgpaVal { font-size: 2.6rem; }
+    .denom { font-size: 1rem; color: var(--muted); font-weight: 400; }
+    .class-badge { display: inline-block; margin-top: 8px; padding: 3px 12px; border-radius: 20px; font-size: .78rem; font-weight: 700; background: rgba(245,197,66,.12); color: var(--accent); border: 1px solid rgba(245,197,66,.3); }
+
+    .scale-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 20px; }
+    .chip { font-size: .75rem; font-family: 'DM Mono', monospace; padding: 5px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--card); color: var(--muted); }
+    .chip b { color: var(--text); }
+
+    .sem-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+    .sem-tab { padding: 7px 16px; border-radius: 8px; border: 1px solid var(--border); background: var(--card); color: var(--muted); font-family: 'Syne', sans-serif; font-size: .82rem; font-weight: 700; cursor: pointer; }
+    .sem-tab:hover { border-color: var(--accent); color: var(--text); }
+    .sem-tab.active { background: var(--accent); color: #0d0f14; border-color: var(--accent); }
+    .sem-tab.add { border-style: dashed; color: var(--accent); }
+
+    .panel { display: none; }
+    .panel.active { display: block; }
+    .sem-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; margin-bottom: 12px; }
+    .sem-head { display: flex; justify-content: space-between; align-items: center; padding: 12px 16px; background: var(--surface); border-bottom: 1px solid var(--border); font-size: .85rem; font-weight: 700; }
+    .sem-gpa { font-family: 'DM Mono', monospace; color: var(--accent); font-size: .85rem; }
+    .progress-bar { height: 3px; background: var(--border); }
+    .progress-fill { height: 3px; background: linear-gradient(90deg, #e07b3f, var(--accent)); transition: width .4s; }
+
+    table { width: 100%; border-collapse: collapse; }
+    thead th { padding: 9px 12px; font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .8px; color: var(--muted); text-align: left; background: var(--surface); border-bottom: 1px solid var(--border); }
+    td { padding: 9px 10px; border-bottom: 1px solid var(--border); }
+    tr:last-child td { border-bottom: none; }
+
+    input[type=text], input[type=number], select {
+      background: var(--bg); border: 1px solid var(--border); color: var(--text);
+      border-radius: 6px; padding: 7px 10px; font-family: 'Syne', sans-serif;
+      font-size: .85rem; width: 100%; outline: none;
+    }
+    input:focus, select:focus { border-color: var(--accent); }
+    select option { background: var(--bg); }
+    .qp { font-family: 'DM Mono', monospace; font-size: .9rem; font-weight: 700; color: var(--success); }
+    .del { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 1rem; padding: 3px 7px; border-radius: 5px; }
+    .del:hover { color: var(--danger); background: rgba(248,113,113,.12); }
+    .add-row { display: flex; align-items: center; gap: 8px; width: calc(100% - 24px); margin: 10px 12px; padding: 8px 14px; border: 1px dashed var(--border); border-radius: 8px; background: none; color: var(--muted); cursor: pointer; font-family: 'Syne', sans-serif; font-size: .82rem; font-weight: 600; }
+    .add-row:hover { border-color: var(--accent); color: var(--accent); }
+
+    .controls { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
+    .btn { padding: 10px 20px; border-radius: 8px; font-family: 'Syne', sans-serif; font-size: .85rem; font-weight: 700; cursor: pointer; border: none; }
+    .btn-primary { background: var(--accent); color: #0d0f14; }
+    .btn-ghost { background: var(--card); color: var(--muted); border: 1px solid var(--border); }
+
+    .class-guide { margin-top: 28px; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+    .class-guide-header { padding: 11px 16px; background: var(--surface); border-bottom: 1px solid var(--border); font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); }
+    .class-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .class-item { padding: 12px 16px; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .class-range { font-family: 'DM Mono', monospace; font-size: .9rem; font-weight: 700; }
+    .class-name { font-size: .72rem; color: var(--muted); margin-top: 2px; }
+
+    @media(max-width:600px){
+      .board { grid-template-columns: 1fr 1fr; }
+      .metric:first-child { grid-column: 1 / -1; }
+      thead { display: none; }
+      td { display: block; padding: 6px 12px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Merit<span>CBT</span></div>
+  <a href="/">&#8592; Back to Home</a>
+</header>
+
+<div class="page">
+  <h1 class="page-title">CGPA <span>Calculator</span></h1>
+  <p class="page-sub">Nigerian university 5-point grading scale &middot; Add semesters and courses to simulate your CGPA</p>
+
+  <div class="board">
+    <div class="metric">
+      <div class="metric-label">Cumulative GPA</div>
+      <div class="metric-value"><span id="cgpaVal">0.00</span><span class="denom"> / 5.0</span></div>
+      <div class="class-badge" id="classBadge">&#8212;</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">Total Units</div>
+      <div class="metric-value" id="statUnits">0</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">Quality Points</div>
+      <div class="metric-value" id="statPts">0</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">Semesters</div>
+      <div class="metric-value" id="statSems">0</div>
+    </div>
+  </div>
+
+  <div class="scale-row">
+    <div class="chip"><b>A</b> 70&#8211;100 &middot; 5pts</div>
+    <div class="chip"><b>B</b> 60&#8211;69 &middot; 4pts</div>
+    <div class="chip"><b>C</b> 50&#8211;59 &middot; 3pts</div>
+    <div class="chip"><b>D</b> 45&#8211;49 &middot; 2pts</div>
+    <div class="chip"><b>E</b> 40&#8211;44 &middot; 1pt</div>
+    <div class="chip"><b>F</b> 0&#8211;39 &middot; 0pts</div>
+  </div>
+
+  <div class="sem-tabs" id="semTabs"></div>
+  <div id="semPanels"></div>
+
+  <div class="controls">
+    <button class="btn btn-primary" onclick="addSemester()">+ Add Semester</button>
+    <button class="btn btn-ghost" onclick="if(confirm('Reset everything?')){semesters=[];activeSem=0;addSemester()}">Reset All</button>
+  </div>
+
+  <div class="class-guide">
+    <div class="class-guide-header">Degree Classification</div>
+    <div class="class-grid">
+      <div class="class-item"><div class="class-range" style="color:var(--success)">4.50 &#8211; 5.00</div><div class="class-name">First Class Honours</div></div>
+      <div class="class-item"><div class="class-range" style="color:var(--info)">3.50 &#8211; 4.49</div><div class="class-name">Second Class Upper</div></div>
+      <div class="class-item"><div class="class-range" style="color:var(--warn)">2.40 &#8211; 3.49</div><div class="class-name">Second Class Lower</div></div>
+      <div class="class-item"><div class="class-range" style="color:var(--danger)">1.50 &#8211; 2.39</div><div class="class-name">Third Class</div></div>
+      <div class="class-item"><div class="class-range" style="color:var(--muted)">1.00 &#8211; 1.49</div><div class="class-name">Pass</div></div>
+      <div class="class-item"><div class="class-range" style="color:var(--muted)">Below 1.00</div><div class="class-name">Fail</div></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var GP = { A: 5, B: 4, C: 3, D: 2, E: 1, F: 0 };
+  var semesters = [], activeSem = 0;
+
+  function addSemester() {
+    var n = semesters.length + 1;
+    var yr = Math.ceil(n / 2), half = n % 2 === 1 ? '1st' : '2nd';
+    semesters.push({ name: 'Year ' + yr + ' \u2013 ' + half + ' Sem', courses: [] });
+    activeSem = semesters.length - 1;
+    addCourse(activeSem, false);
+    render();
+  }
+
+  function addCourse(si, doRender) {
+    semesters[si].courses.push({ code: '', units: 3, grade: 'A' });
+    if (doRender !== false) render();
+  }
+
+  function delCourse(si, ci) { semesters[si].courses.splice(ci, 1); render(); }
+
+  function delSem(si) {
+    if (semesters.length < 2) return;
+    semesters.splice(si, 1);
+    if (activeSem >= semesters.length) activeSem = semesters.length - 1;
+    render();
+  }
+
+  function setCourse(si, ci, field, val) {
+    semesters[si].courses[ci][field] = field === 'units' ? (parseInt(val) || 0) : val;
+    render();
+  }
+
+  function semGPA(sem) {
+    var p = 0, u = 0;
+    for (var i = 0; i < sem.courses.length; i++) {
+      var c = sem.courses[i];
+      if (c.units > 0) { p += (GP[c.grade] || 0) * c.units; u += c.units; }
+    }
+    return u ? p / u : 0;
+  }
+
+  function calcCGPA() {
+    var p = 0, u = 0;
+    for (var s = 0; s < semesters.length; s++) {
+      for (var i = 0; i < semesters[s].courses.length; i++) {
+        var c = semesters[s].courses[i];
+        if (c.units > 0) { p += (GP[c.grade] || 0) * c.units; u += c.units; }
+      }
+    }
+    return { cgpa: u ? p / u : 0, pts: p, units: u };
+  }
+
+  function classify(v) {
+    if (v >= 4.5) return { label: 'First Class',      color: 'var(--success)' };
+    if (v >= 3.5) return { label: '2nd Class Upper',  color: 'var(--info)' };
+    if (v >= 2.4) return { label: '2nd Class Lower',  color: 'var(--warn)' };
+    if (v >= 1.5) return { label: 'Third Class',      color: 'var(--danger)' };
+    if (v >= 1.0) return { label: 'Pass',             color: 'var(--muted)' };
+    return           { label: '\u2014',               color: 'var(--muted)' };
+  }
+
+  function render() {
+    var i, si, ci, sem, gpa, pct, c, qp, opts, g, rows, tabs, panels;
+
+    /* ---- Tabs ---- */
+    tabs = '';
+    for (i = 0; i < semesters.length; i++) {
+      tabs += '<button class="sem-tab' + (i === activeSem ? ' active' : '') +
+        '" onclick="activeSem=' + i + ';render()">' + semesters[i].name + '</button>';
+    }
+    tabs += '<button class="sem-tab add" onclick="addSemester()">+ Semester</button>';
+    document.getElementById('semTabs').innerHTML = tabs;
+
+    /* ---- Panels ---- */
+    panels = '';
+    for (si = 0; si < semesters.length; si++) {
+      sem = semesters[si];
+      gpa = semGPA(sem);
+      pct = (gpa / 5 * 100).toFixed(1);
+      rows = '';
+      for (ci = 0; ci < sem.courses.length; ci++) {
+        c = sem.courses[ci];
+        qp = (GP[c.grade] || 0) * (c.units || 0);
+        opts = '';
+        for (g in GP) {
+          opts += '<option value="' + g + '"' + (c.grade === g ? ' selected' : '') + '>' + g + ' (' + GP[g] + 'pts)</option>';
+        }
+        rows += '<tr>' +
+          '<td><input type="text" value="' + c.code + '" placeholder="e.g. MTH 102" oninput="setCourse(' + si + ',' + ci + ',\'code\',this.value)"></td>' +
+          '<td><input type="number" value="' + c.units + '" min="0" max="6" step="1" style="width:70px" oninput="setCourse(' + si + ',' + ci + ',\'units\',this.value)"></td>' +
+          '<td><select onchange="setCourse(' + si + ',' + ci + ',\'grade\',this.value)">' + opts + '</select></td>' +
+          '<td class="qp">' + qp + '</td>' +
+          '<td><button class="del" onclick="delCourse(' + si + ',' + ci + ')">&#x2715;</button></td>' +
+          '</tr>';
+      }
+      panels += '<div class="panel' + (si === activeSem ? ' active' : '') + '">' +
+        '<div class="sem-card">' +
+        '<div class="sem-head"><span>' + sem.name + ' &nbsp;<span class="sem-gpa">GPA: ' + gpa.toFixed(2) + '</span></span>' +
+        (semesters.length > 1 ? '<button class="del" onclick="delSem(' + si + ')">&#x2715; Remove</button>' : '') +
+        '</div>' +
+        '<div class="progress-bar"><div class="progress-fill" style="width:' + pct + '%"></div></div>' +
+        '<table><thead><tr><th>Course Code</th><th>Credit Units</th><th>Grade</th><th>Quality Pts</th><th></th></tr></thead>' +
+        '<tbody>' + rows + '</tbody></table>' +
+        '<button class="add-row" onclick="addCourse(' + si + ')">+ Add Course</button>' +
+        '</div></div>';
+    }
+    document.getElementById('semPanels').innerHTML = panels;
+
+    /* ---- Board ---- */
+    var r = calcCGPA();
+    var cls = classify(r.cgpa);
+    document.getElementById('cgpaVal').textContent = r.cgpa.toFixed(2);
+    document.getElementById('statUnits').textContent = r.units;
+    document.getElementById('statPts').textContent = r.pts;
+    document.getElementById('statSems').textContent = semesters.length;
+    var badge = document.getElementById('classBadge');
+    badge.textContent = cls.label;
+    badge.style.color = cls.color;
+    badge.style.borderColor = cls.color;
+  }
+
+  addSemester();
+</script>
+</body>
+</html>

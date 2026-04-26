@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>{{ username }}'s Quiz History</h2>
+{% if results %}
+    <table>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Score</th>
+                <th>Total</th>
+                <th>%</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for r in results %}
+            <tr>
+                <td>{{ r.subject }}</td>
+                <td>{{ r.score }}</td>
+                <td>{{ r.total }}</td>
+                <td>{{ r.percentage if r.percentage is defined else '' }}</td>
+                <td>{{ r.timestamp }}</td>
+            </tr>
+            {% if r.details %}
+            <tr class="details">
+                <td colspan="5">
+                    <strong>Corrections:</strong>
+                    <table class="inner">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Question</th>
+                                <th>Your answer</th>
+                                <th>Correct answer</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for item in r.details %}
+                            <tr class="{{ 'correct' if item.correct else 'incorrect' }}">
+                                <td>{{ loop.index }}</td>
+                                <td>{{ item.question }}</td>
+                                <td>{{ item.selected or '(no answer)' }}</td>
+                                <td>{{ item.answer }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <p>No history available.</p>
+{% endif %}
+
+<p><a href="{{ url_for('index') }}">Back to home</a></p>
+{% endblock %}

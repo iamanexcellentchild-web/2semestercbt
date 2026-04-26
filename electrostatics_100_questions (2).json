@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 204,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "The SI unit of electric charge is?",
+    "options": {
+      "A": "Kilowatt hour",
+      "B": "Coulomb",
+      "C": "Volt",
+      "D": "Watt"
+    },
+    "answer": "B",
+    "explanation": "The SI unit of electric charge is the Coulomb (C), named after Charles-Augustin de Coulomb. One coulomb is defined as the charge transported by a current of one ampere in one second (1 C = 1 A\u00b7s)."
+  },
+  {
+    "id": 205,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Which of the following is correct about static electricity?",
+    "options": {
+      "A": "It deals with accelerating charges",
+      "B": "It deals with stationary charges",
+      "C": "It deals with slow-moving charges",
+      "D": "It deals with magnetic fields"
+    },
+    "answer": "B",
+    "explanation": "Static electricity deals specifically with stationary (non-moving) electric charges. The word 'static' means the charges are at rest."
+  },
+  {
+    "id": 206,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "When two similar charges are brought near each other, the force between them is?",
+    "options": {
+      "A": "Zero",
+      "B": "Maximum attraction",
+      "C": "Repulsive",
+      "D": "Attractive"
+    },
+    "answer": "C",
+    "explanation": "Like charges (both positive or both negative) repel each other. This is a fundamental law of electrostatics."
+  },
+  {
+    "id": 207,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Introducing a non-conducting medium between two charges causes the force between them to?",
+    "options": {
+      "A": "Remain same",
+      "B": "Decrease",
+      "C": "Increase",
+      "D": "Become zero"
+    },
+    "answer": "B",
+    "explanation": "When a dielectric medium is placed between two charges, F = kq\u2081q\u2082/(\u03b5\u1d63r\u00b2). Since \u03b5\u1d63 > 1 for all real media, the force is smaller than in vacuum."
+  },
+  {
+    "id": 208,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "The force between two charges in vacuum is 0.24 N. If the medium changes to one with \u03b5\u1d63 = 2, the new force is?",
+    "options": {
+      "A": "0.339 N",
+      "B": "0.18 N",
+      "C": "0.12 N",
+      "D": "0.48 N"
+    },
+    "answer": "C",
+    "explanation": "F_medium = F_vacuum / \u03b5\u1d63 = 0.24 / 2 = 0.12 N. The dielectric constant divides the original force."
+  },
+  {
+    "id": 209,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Two charges of 3.0 \u00b5C each exert an attractive force of 6 \u00d7 10\u207b\u00b3 N. How far apart are they?",
+    "options": {
+      "A": "3.67 m",
+      "B": "9.50 m",
+      "C": "11.50 m",
+      "D": "12.50 m"
+    },
+    "answer": "A",
+    "explanation": "F = kq\u00b2/r\u00b2: r\u00b2 = (9\u00d710\u2079 \u00d7 (3\u00d710\u207b\u2076)\u00b2) / (6\u00d710\u207b\u00b3) = 13.5, so r = \u221a13.5 \u2248 3.67 m."
+  },
+  {
+    "id": 210,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "If the distance between two point charges is doubled, the force between them?",
+    "options": {
+      "A": "Decreases 8 times",
+      "B": "Decreases 4 times",
+      "C": "Decreases 9 times",
+      "D": "Decreases 2 times"
+    },
+    "answer": "B",
+    "explanation": "F \u221d 1/r\u00b2. Doubling r gives F \u2192 F/(2\u00b2) = F/4. The force decreases by a factor of 4."
+  },
+  {
+    "id": 211,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Two charges are moved from 6 cm to 3 cm apart. By what factor does the force change?",
+    "options": {
+      "A": "1/2",
+      "B": "2",
+      "C": "4",
+      "D": "1/4"
+    },
+    "answer": "C",
+    "explanation": "F \u221d 1/r\u00b2. (6/3)\u00b2 = 4. Halving the distance quadruples the force."
+  },
+  {
+    "id": 212,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "What is the slope of a graph of log F vs log r based on Coulomb's law?",
+    "options": {
+      "A": "1/2",
+      "B": "2",
+      "C": "\u2013log 2",
+      "D": "-2"
+    },
+    "answer": "D",
+    "explanation": "log F = log(kq\u2081q\u2082) \u2013 2 log r. The slope of log F vs log r is \u20132."
+  },
+  {
+    "id": 213,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Two charges repel with 96 N. What is the force if separation is quadrupled?",
+    "options": {
+      "A": "6 N",
+      "B": "12 N",
+      "C": "24 N",
+      "D": "3 N"
+    },
+    "answer": "A",
+    "explanation": "F_new = 96/(4\u00b2) = 96/16 = 6 N. Quadrupling the distance reduces the force by 16."
+  },
+  {
+    "id": 214,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "The value of Coulomb's constant k in free space is approximately?",
+    "options": {
+      "A": "6.67 \u00d7 10\u207b\u00b9\u00b9 N\u00b7m\u00b2/C\u00b2",
+      "B": "9 \u00d7 10\u2079 N\u00b7m\u00b2/C\u00b2",
+      "C": "8.85 \u00d7 10\u207b\u00b9\u00b2 N\u00b7m\u00b2/C\u00b2",
+      "D": "1.6 \u00d7 10\u207b\u00b9\u2079 N\u00b7m\u00b2/C\u00b2"
+    },
+    "answer": "B",
+    "explanation": "Coulomb's constant k = 1/(4\u03c0\u03b5\u2080) \u2248 9 \u00d7 10\u2079 N\u00b7m\u00b2/C\u00b2. It should not be confused with G (gravitational constant) or \u03b5\u2080 (permittivity of free space)."
+  },
+  {
+    "id": 215,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "The permittivity of free space \u03b5\u2080 has the value?",
+    "options": {
+      "A": "9 \u00d7 10\u2079 C\u00b2/N\u00b7m\u00b2",
+      "B": "8.85 \u00d7 10\u207b\u00b9\u00b2 C\u00b2/N\u00b7m\u00b2",
+      "C": "1.6 \u00d7 10\u207b\u00b9\u2079 C\u00b2/N\u00b7m\u00b2",
+      "D": "6.67 \u00d7 10\u207b\u00b9\u00b9 C\u00b2/N\u00b7m\u00b2"
+    },
+    "answer": "B",
+    "explanation": "\u03b5\u2080 = 8.85 \u00d7 10\u207b\u00b9\u00b2 C\u00b2/(N\u00b7m\u00b2) or equivalently F/m. It appears in Coulomb's law as F = q\u2081q\u2082/(4\u03c0\u03b5\u2080r\u00b2)."
+  },
+  {
+    "id": 216,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Coulomb's law is mathematically analogous to which other law in physics?",
+    "options": {
+      "A": "Ohm's law",
+      "B": "Newton's law of gravitation",
+      "C": "Faraday's law",
+      "D": "Ampere's law"
+    },
+    "answer": "B",
+    "explanation": "Both Coulomb's law (F = kq\u2081q\u2082/r\u00b2) and Newton's gravitational law (F = Gm\u2081m\u2082/r\u00b2) follow an inverse-square dependence on distance. The key difference is gravity is always attractive, while electric force can be attractive or repulsive."
+  },
+  {
+    "id": 217,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "The charge on one electron is approximately?",
+    "options": {
+      "A": "1.6 \u00d7 10\u207b\u00b9\u2079 C",
+      "B": "9.1 \u00d7 10\u207b\u00b3\u00b9 C",
+      "C": "6.67 \u00d7 10\u207b\u00b9\u00b9 C",
+      "D": "8.85 \u00d7 10\u207b\u00b9\u00b2 C"
+    },
+    "answer": "A",
+    "explanation": "The elementary charge e = 1.6 \u00d7 10\u207b\u00b9\u2079 C. This is the magnitude of charge on one electron (negative) or one proton (positive)."
+  },
+  {
+    "id": 218,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Two charges of +4 \u00b5C and \u20134 \u00b5C are placed 0.2 m apart. The force between them is?",
+    "options": {
+      "A": "3.6 N attractive",
+      "B": "3.6 N repulsive",
+      "C": "7.2 N attractive",
+      "D": "7.2 N repulsive"
+    },
+    "answer": "A",
+    "explanation": "F = kq\u2081q\u2082/r\u00b2 = (9\u00d710\u2079)(4\u00d710\u207b\u2076)(4\u00d710\u207b\u2076)/(0.2)\u00b2 = (9\u00d710\u2079 \u00d7 16\u00d710\u207b\u00b9\u00b2)/0.04 = 144\u00d710\u207b\u00b3/0.04 = 3.6 N. Since charges are opposite, the force is attractive."
+  },
+  {
+    "id": 219,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "If both the charges and distance between them are doubled, the Coulomb force?",
+    "options": {
+      "A": "Doubles",
+      "B": "Remains the same",
+      "C": "Quadruples",
+      "D": "Halves"
+    },
+    "answer": "B",
+    "explanation": "F = k(2q\u2081)(2q\u2082)/(2r)\u00b2 = k\u00b74q\u2081q\u2082/(4r\u00b2) = kq\u2081q\u2082/r\u00b2. The force remains unchanged because doubling charges (\u00d74) is cancelled by doubling distance (\u00f74)."
+  },
+  {
+    "id": 220,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "A charge of 10 \u00b5C is divided into two parts to maximize the repulsive force between them. Each part should be?",
+    "options": {
+      "A": "3 \u00b5C and 7 \u00b5C",
+      "B": "5 \u00b5C and 5 \u00b5C",
+      "C": "2 \u00b5C and 8 \u00b5C",
+      "D": "1 \u00b5C and 9 \u00b5C"
+    },
+    "answer": "B",
+    "explanation": "To maximize F = kq(Q\u2013q)/r\u00b2, differentiate with respect to q and set dF/dq = 0. This gives q = Q/2. So both parts should be equal: 5 \u00b5C each."
+  },
+  {
+    "id": 221,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Coulomb's law holds strictly for?",
+    "options": {
+      "A": "Extended charged bodies",
+      "B": "Point charges at rest",
+      "C": "Moving charges only",
+      "D": "Neutral objects"
+    },
+    "answer": "B",
+    "explanation": "Coulomb's law is strictly valid for point charges at rest in a medium. For extended bodies, integration over the charge distribution is required."
+  },
+  {
+    "id": 222,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "The relative permittivity (dielectric constant) of vacuum is?",
+    "options": {
+      "A": "0",
+      "B": "8.85",
+      "C": "1",
+      "D": "9 \u00d7 10\u2079"
+    },
+    "answer": "C",
+    "explanation": "The relative permittivity \u03b5\u1d63 of vacuum (and approximately air) is exactly 1 by definition. For all other materials, \u03b5\u1d63 > 1."
+  },
+  {
+    "id": 223,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Three charges of +1 \u00b5C are placed at the corners of an equilateral triangle of side 1 m. The net force on any one charge is?",
+    "options": {
+      "A": "9 \u00d7 10\u207b\u00b3 N",
+      "B": "9\u221a3 \u00d7 10\u207b\u00b3 N",
+      "C": "18 \u00d7 10\u207b\u00b3 N",
+      "D": "Zero"
+    },
+    "answer": "B",
+    "explanation": "Each charge feels two equal repulsive forces of F = k(1\u00d710\u207b\u2076)\u00b2/1\u00b2 = 9\u00d710\u207b\u00b3 N at 60\u00b0 to each other. The resultant = 2F\u00b7cos(30\u00b0) = 2 \u00d7 9\u00d710\u207b\u00b3 \u00d7 (\u221a3/2) = 9\u221a3 \u00d7 10\u207b\u00b3 N."
+  },
+  {
+    "id": 224,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "The SI unit of electric field intensity is?",
+    "options": {
+      "A": "N/C\u00b2 ",
+      "B": "N/C",
+      "C": "C/N",
+      "D": "V\u00b7m"
+    },
+    "answer": "B",
+    "explanation": "Electric field E = F/q, so its SI unit is N/C (Newtons per Coulomb). This is equivalently expressed as V/m (Volts per metre)."
+  },
+  {
+    "id": 225,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "The electric field due to a point charge Q at distance r is?",
+    "options": {
+      "A": "E = kQ/r",
+      "B": "E = kQ/r\u00b2",
+      "C": "E = kQ\u00b2/r\u00b2",
+      "D": "E = kQ\u00b7r\u00b2"
+    },
+    "answer": "B",
+    "explanation": "The electric field E = F/q = kQq/r\u00b2 \u00f7 q = kQ/r\u00b2. It depends only on the source charge Q and distance r, not on the test charge."
+  },
+  {
+    "id": 226,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "Electric field lines always begin on ______ charges and end on ______ charges.",
+    "options": {
+      "A": "Negative; positive",
+      "B": "Positive; negative",
+      "C": "Neutral; charged",
+      "D": "Positive; positive"
+    },
+    "answer": "B",
+    "explanation": "By convention, electric field lines originate from positive charges and terminate on negative charges. They represent the direction a positive test charge would move."
+  },
+  {
+    "id": 227,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "Which of the following statements about electric field lines is INCORRECT?",
+    "options": {
+      "A": "They never cross each other",
+      "B": "They are closer where the field is stronger",
+      "C": "They can form closed loops in a static field",
+      "D": "They are perpendicular to equipotential surfaces"
+    },
+    "answer": "C",
+    "explanation": "Electrostatic field lines cannot form closed loops (that would imply a non-conservative field). They must begin and end on charges or extend to infinity. Magnetic field lines can form closed loops, but not electrostatic field lines."
+  },
+  {
+    "id": 228,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "A +2 \u00b5C charge is placed in an electric field of 500 N/C. What force acts on it?",
+    "options": {
+      "A": "0.001 N",
+      "B": "0.01 N",
+      "C": "250 N",
+      "D": "0.25 N"
+    },
+    "answer": "A",
+    "explanation": "F = qE = (2\u00d710\u207b\u2076)(500) = 10\u207b\u00b3 N = 0.001 N. The force on a charge in an electric field is simply the product of charge and field strength."
+  },
+  {
+    "id": 229,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "The electric field inside a uniformly charged hollow spherical shell is?",
+    "options": {
+      "A": "Maximum at centre",
+      "B": "Equal to the field outside",
+      "C": "Zero everywhere inside",
+      "D": "Uniform throughout"
+    },
+    "answer": "C",
+    "explanation": "By Gauss's law, the electric field inside a uniformly charged hollow spherical shell is zero everywhere inside, because no net charge is enclosed within any Gaussian surface drawn inside."
+  },
+  {
+    "id": 230,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "The electric field at a point midway between a +5 \u00b5C charge and a \u20135 \u00b5C charge separated by 2 m is?",
+    "options": {
+      "A": "0 N/C",
+      "B": "9 \u00d7 10\u2074 N/C",
+      "C": "4.5 \u00d7 10\u2074 N/C",
+      "D": "18 \u00d7 10\u2074 N/C"
+    },
+    "answer": "D",
+    "explanation": "At the midpoint (r = 1 m), E due to +5\u00b5C points away and E due to \u20135\u00b5C points toward it \u2014 both in the same direction. E_total = 2 \u00d7 k(5\u00d710\u207b\u2076)/1\u00b2 = 2 \u00d7 9\u00d710\u2079 \u00d7 5\u00d710\u207b\u2076 = 9\u00d710\u2074 \u00d7 2 = 18\u00d710\u2074 N/C."
+  },
+  {
+    "id": 231,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "An electric dipole consists of?",
+    "options": {
+      "A": "Two equal positive charges",
+      "B": "Two equal and opposite charges separated by a distance",
+      "C": "A single charge in a field",
+      "D": "Two unequal charges"
+    },
+    "answer": "B",
+    "explanation": "An electric dipole is defined as two equal and opposite charges (+q and \u2013q) separated by a small distance d. The dipole moment p = qd."
+  },
+  {
+    "id": 232,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "The electric field on the axis of a dipole at distance r (r >> d) varies as?",
+    "options": {
+      "A": "1/r",
+      "B": "1/r\u00b2",
+      "C": "1/r\u00b3",
+      "D": "1/r\u2074"
+    },
+    "answer": "C",
+    "explanation": "On the axial line of a dipole, E \u221d 1/r\u00b3. This is faster decay than a point charge (1/r\u00b2) because the opposite charges partially cancel the field."
+  },
+  {
+    "id": 233,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "The superposition principle in electrostatics states that?",
+    "options": {
+      "A": "The net field is the product of individual fields",
+      "B": "Charges always move to cancel each other",
+      "C": "The net field is the vector sum of individual fields due to each charge",
+      "D": "Equal and opposite fields cancel to give zero always"
+    },
+    "answer": "C",
+    "explanation": "The superposition principle states that the total electric field at a point is the vector sum of individual fields produced by each charge independently. This allows calculation of fields in multi-charge systems."
+  },
+  {
+    "id": 234,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "The SI unit of electric potential is?",
+    "options": {
+      "A": "Coulomb",
+      "B": "Joule",
+      "C": "Volt",
+      "D": "Newton"
+    },
+    "answer": "C",
+    "explanation": "Electric potential V = Work/Charge = J/C. The special name for J/C is the Volt (V), named after Alessandro Volta."
+  },
+  {
+    "id": 235,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "The electric potential due to a point charge Q at distance r is?",
+    "options": {
+      "A": "V = kQ/r\u00b2",
+      "B": "V = kQ/r",
+      "C": "V = kQ\u00b7r",
+      "D": "V = kQ\u00b2/r"
+    },
+    "answer": "B",
+    "explanation": "The potential due to a point charge is V = kQ/r. Unlike the electric field (which falls as 1/r\u00b2), the potential falls as 1/r."
+  },
+  {
+    "id": 236,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "Equipotential surfaces are always ______ to the electric field lines.",
+    "options": {
+      "A": "Parallel",
+      "B": "Perpendicular",
+      "C": "At 45\u00b0",
+      "D": "Antiparallel"
+    },
+    "answer": "B",
+    "explanation": "Equipotential surfaces are always perpendicular to electric field lines. No work is done moving a charge along an equipotential surface because the displacement is always at right angles to the force."
+  },
+  {
+    "id": 237,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "The work done in moving a charge of 2 C through a potential difference of 5 V is?",
+    "options": {
+      "A": "0.4 J",
+      "B": "2.5 J",
+      "C": "10 J",
+      "D": "7 J"
+    },
+    "answer": "C",
+    "explanation": "W = qV = 2 \u00d7 5 = 10 J. Work done equals the product of charge and potential difference traversed."
+  },
+  {
+    "id": 238,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "The potential energy of a system of two charges q\u2081 and q\u2082 separated by r is?",
+    "options": {
+      "A": "U = kq\u2081q\u2082/r\u00b2",
+      "B": "U = kq\u2081q\u2082/r",
+      "C": "U = kq\u2081q\u2082\u00b7r",
+      "D": "U = (q\u2081 + q\u2082)k/r"
+    },
+    "answer": "B",
+    "explanation": "The electrostatic potential energy of two point charges is U = kq\u2081q\u2082/r. It is positive for like charges (repulsive system requires energy to assemble) and negative for unlike charges."
+  },
+  {
+    "id": 239,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "The electric potential inside a charged conducting sphere is?",
+    "options": {
+      "A": "Zero",
+      "B": "Increasing toward centre",
+      "C": "Constant and equal to the potential on the surface",
+      "D": "Decreasing toward centre"
+    },
+    "answer": "C",
+    "explanation": "Inside a conductor, E = 0, which means V = constant. This constant value equals the potential at the surface. No potential difference exists inside an ideal conductor."
+  },
+  {
+    "id": 240,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "If V is the potential at a point, the electric field E is related to V by?",
+    "options": {
+      "A": "E = V/r",
+      "B": "E = \u2013dV/dr",
+      "C": "E = dV/dr",
+      "D": "E = V \u00d7 r"
+    },
+    "answer": "B",
+    "explanation": "The electric field is the negative gradient of potential: E = \u2013dV/dr. The negative sign indicates the field points in the direction of decreasing potential (from high to low potential)."
+  },
+  {
+    "id": 241,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "An electron volt (eV) is a unit of?",
+    "options": {
+      "A": "Charge",
+      "B": "Potential",
+      "C": "Energy",
+      "D": "Power"
+    },
+    "answer": "C",
+    "explanation": "The electron volt (eV) is a unit of energy defined as the work done when an electron moves through a potential difference of 1 volt. 1 eV = 1.6 \u00d7 10\u207b\u00b9\u2079 J."
+  },
+  {
+    "id": 242,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "The potential at a point midway between charges of +8 \u00b5C and \u20138 \u00b5C separated by 2 m is?",
+    "options": {
+      "A": "72000 V",
+      "B": "\u201372000 V",
+      "C": "0 V",
+      "D": "144000 V"
+    },
+    "answer": "C",
+    "explanation": "V = kq/r. V_total = k(+8\u00d710\u207b\u2076)/1 + k(\u20138\u00d710\u207b\u2076)/1 = 0. Potential is a scalar, so opposite contributions cancel completely."
+  },
+  {
+    "id": 243,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "A proton is accelerated from rest through a potential difference of 100 V. Its kinetic energy gained is?",
+    "options": {
+      "A": "1.6 \u00d7 10\u207b\u00b2\u00b9 J",
+      "B": "1.6 \u00d7 10\u207b\u00b9\u2077 J",
+      "C": "100 J",
+      "D": "3.2 \u00d7 10\u207b\u00b9\u2077 J"
+    },
+    "answer": "B",
+    "explanation": "KE = qV = (1.6 \u00d7 10\u207b\u00b9\u2079)(100) = 1.6 \u00d7 10\u207b\u00b9\u2077 J. The charge of a proton equals the elementary charge e = 1.6 \u00d7 10\u207b\u00b9\u2079 C."
+  },
+  {
+    "id": 244,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "The SI unit of capacitance is?",
+    "options": {
+      "A": "Volt",
+      "B": "Ohm",
+      "C": "Farad",
+      "D": "Henry"
+    },
+    "answer": "C",
+    "explanation": "Capacitance C = Q/V, so its unit is C/V, which is given the special name Farad (F), named after Michael Faraday. Practical capacitors are usually in \u00b5F, nF, or pF."
+  },
+  {
+    "id": 245,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "The capacitance of a parallel plate capacitor with plate area A, separation d, and dielectric constant \u03b5\u1d63 is?",
+    "options": {
+      "A": "C = \u03b5\u2080A/d",
+      "B": "C = \u03b5\u1d63\u03b5\u2080A/d",
+      "C": "C = \u03b5\u1d63\u03b5\u2080d/A",
+      "D": "C = \u03b5\u2080d/A"
+    },
+    "answer": "B",
+    "explanation": "C = \u03b5\u1d63\u03b5\u2080A/d. Capacitance increases with larger plate area, higher dielectric constant, and smaller separation. Without a dielectric, \u03b5\u1d63 = 1 and C = \u03b5\u2080A/d."
+  },
+  {
+    "id": 246,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "Three capacitors of 2 \u00b5F, 3 \u00b5F, and 6 \u00b5F are connected in parallel. The total capacitance is?",
+    "options": {
+      "A": "1 \u00b5F",
+      "B": "11 \u00b5F",
+      "C": "6 \u00b5F",
+      "D": "18 \u00b5F"
+    },
+    "answer": "B",
+    "explanation": "For parallel capacitors: C_total = C\u2081 + C\u2082 + C\u2083 = 2 + 3 + 6 = 11 \u00b5F. Capacitances add directly in parallel."
+  },
+  {
+    "id": 247,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "Three capacitors of 2 \u00b5F, 3 \u00b5F, and 6 \u00b5F are connected in series. The total capacitance is?",
+    "options": {
+      "A": "11 \u00b5F",
+      "B": "1 \u00b5F",
+      "C": "6 \u00b5F",
+      "D": "3 \u00b5F"
+    },
+    "answer": "B",
+    "explanation": "1/C = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1. Therefore C = 1 \u00b5F."
+  },
+  {
+    "id": 248,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "The energy stored in a capacitor of capacitance C charged to voltage V is?",
+    "options": {
+      "A": "E = CV",
+      "B": "E = CV\u00b2",
+      "C": "E = \u00bdCV\u00b2",
+      "D": "E = \u00bdQV\u00b2"
+    },
+    "answer": "C",
+    "explanation": "Energy stored = \u00bdCV\u00b2 = \u00bdQV = Q\u00b2/(2C). All three expressions are equivalent; \u00bdCV\u00b2 is the most commonly used form."
+  },
+  {
+    "id": 249,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "A 10 \u00b5F capacitor is charged to 100 V. The energy stored is?",
+    "options": {
+      "A": "0.05 J",
+      "B": "0.5 J",
+      "C": "5 J",
+      "D": "50 J"
+    },
+    "answer": "A",
+    "explanation": "E = \u00bdCV\u00b2 = \u00bd \u00d7 10\u00d710\u207b\u2076 \u00d7 (100)\u00b2 = \u00bd \u00d7 10\u207b\u2075 \u00d7 10\u2074 = \u00bd \u00d7 0.1 = 0.05 J."
+  },
+  {
+    "id": 250,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "When a dielectric is inserted into a charged capacitor (isolated from battery), the voltage?",
+    "options": {
+      "A": "Increases",
+      "B": "Remains the same",
+      "C": "Decreases",
+      "D": "Becomes zero"
+    },
+    "answer": "C",
+    "explanation": "When the capacitor is isolated (Q = constant) and a dielectric is inserted: C increases (C' = \u03b5\u1d63C), so V = Q/C decreases. The dielectric's polarization reduces the effective electric field."
+  },
+  {
+    "id": 251,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "A capacitor stores charge Q when connected to voltage V. If the voltage is doubled, the charge stored becomes?",
+    "options": {
+      "A": "Q/2",
+      "B": "Q",
+      "C": "2Q",
+      "D": "4Q"
+    },
+    "answer": "C",
+    "explanation": "Q = CV. Since C is constant (depends only on geometry and dielectric), doubling V doubles Q. The relationship is linear."
+  },
+  {
+    "id": 252,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "The capacitance of a capacitor depends on which of the following?",
+    "options": {
+      "A": "The charge stored and voltage",
+      "B": "The plate area, separation, and dielectric material",
+      "C": "The current through it",
+      "D": "The electric field only"
+    },
+    "answer": "B",
+    "explanation": "Capacitance is determined by the physical configuration: C = \u03b5\u1d63\u03b5\u2080A/d. It depends on plate area (A), separation (d), and the dielectric constant (\u03b5\u1d63). It does NOT depend on Q or V individually."
+  },
+  {
+    "id": 253,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "Two capacitors, C\u2081 = 4 \u00b5F and C\u2082 = 4 \u00b5F, are connected in series across a 12 V battery. The voltage across each capacitor is?",
+    "options": {
+      "A": "12 V each",
+      "B": "6 V each",
+      "C": "3 V each",
+      "D": "4 V each"
+    },
+    "answer": "B",
+    "explanation": "For equal capacitors in series, voltage divides equally: V\u2081 = V\u2082 = 12/2 = 6 V each. Total series capacitance = 2 \u00b5F, Q = CV = 2\u00d710\u207b\u2076 \u00d7 12 = 24 \u00b5C. V\u2081 = Q/C\u2081 = 24/4 = 6 V. \u2713"
+  },
+  {
+    "id": 254,
+    "source": "Past Questions Compilation",
+    "topic": "GAUSS'S LAW",
+    "question": "Gauss's law states that the total electric flux through a closed surface is proportional to?",
+    "options": {
+      "A": "The total charge outside the surface",
+      "B": "The total charge enclosed by the surface",
+      "C": "The surface area",
+      "D": "The electric potential"
+    },
+    "answer": "B",
+    "explanation": "Gauss's law: \u03a6 = Q_enclosed/\u03b5\u2080. The total electric flux through any closed surface (Gaussian surface) equals the net charge enclosed divided by \u03b5\u2080."
+  },
+  {
+    "id": 255,
+    "source": "Past Questions Compilation",
+    "topic": "GAUSS'S LAW",
+    "question": "The electric flux \u03a6 through a surface is defined as?",
+    "options": {
+      "A": "\u03a6 = E/A",
+      "B": "\u03a6 = E\u00b7A\u00b7cos\u03b8",
+      "C": "\u03a6 = E\u00b7A\u00b7sin\u03b8",
+      "D": "\u03a6 = E\u00b2\u00b7A"
+    },
+    "answer": "B",
+    "explanation": "Electric flux \u03a6 = E\u00b7A\u00b7cos\u03b8, where \u03b8 is the angle between the electric field vector and the normal to the surface. Maximum flux occurs when E is perpendicular to the surface (\u03b8 = 0)."
+  },
+  {
+    "id": 256,
+    "source": "Past Questions Compilation",
+    "topic": "GAUSS'S LAW",
+    "question": "The SI unit of electric flux is?",
+    "options": {
+      "A": "N/C",
+      "B": "V\u00b7m",
+      "C": "N\u00b7m\u00b2/C",
+      "D": "C/m\u00b2"
+    },
+    "answer": "C",
+    "explanation": "\u03a6 = E \u00d7 A, so units = (N/C) \u00d7 m\u00b2 = N\u00b7m\u00b2/C. Equivalently, since V = N\u00b7m/C, this can also be written as V\u00b7m."
+  },
+  {
+    "id": 257,
+    "source": "Past Questions Compilation",
+    "topic": "GAUSS'S LAW",
+    "question": "A charge of 8.85 \u00d7 10\u207b\u00b9\u00b2 C is enclosed in a Gaussian surface. The total flux through the surface is?",
+    "options": {
+      "A": "8.85 \u00d7 10\u207b\u00b9\u00b2 N\u00b7m\u00b2/C",
+      "B": "1 N\u00b7m\u00b2/C",
+      "C": "8.85 N\u00b7m\u00b2/C",
+      "D": "0 N\u00b7m\u00b2/C"
+    },
+    "answer": "B",
+    "explanation": "\u03a6 = Q/\u03b5\u2080 = (8.85\u00d710\u207b\u00b9\u00b2)/(8.85\u00d710\u207b\u00b9\u00b2) = 1 N\u00b7m\u00b2/C. The charge value was chosen to equal \u03b5\u2080, giving a clean answer of 1."
+  },
+  {
+    "id": 258,
+    "source": "Past Questions Compilation",
+    "topic": "GAUSS'S LAW",
+    "question": "The electric flux through a closed surface enclosing no charge is?",
+    "options": {
+      "A": "Infinity",
+      "B": "1",
+      "C": "Maximum",
+      "D": "Zero"
+    },
+    "answer": "D",
+    "explanation": "By Gauss's law, \u03a6 = Q_enclosed/\u03b5\u2080. If Q_enclosed = 0, then \u03a6 = 0. External charges contribute no net flux through the closed surface."
+  },
+  {
+    "id": 259,
+    "source": "Past Questions Compilation",
+    "topic": "GAUSS'S LAW",
+    "question": "For a uniformly charged infinite plane sheet with surface charge density \u03c3, the electric field on either side is?",
+    "options": {
+      "A": "E = \u03c3/\u03b5\u2080",
+      "B": "E = \u03c3/(2\u03b5\u2080)",
+      "C": "E = 2\u03c3/\u03b5\u2080",
+      "D": "E = \u03c3\u03b5\u2080"
+    },
+    "answer": "B",
+    "explanation": "Applying Gauss's law to an infinite plane sheet: E = \u03c3/(2\u03b5\u2080). The factor of 2 arises because the field spreads to both sides of the sheet."
+  },
+  {
+    "id": 260,
+    "source": "Past Questions Compilation",
+    "topic": "GAUSS'S LAW",
+    "question": "For a uniformly charged conducting sphere of radius R, the field outside (r > R) behaves as?",
+    "options": {
+      "A": "E = kQ/r",
+      "B": "E = kQ/r\u00b2",
+      "C": "E = kQ/R\u00b2",
+      "D": "E = 0"
+    },
+    "answer": "B",
+    "explanation": "Outside a uniformly charged sphere, Gauss's law gives E = kQ/r\u00b2, exactly as if all the charge were concentrated at the centre. This is a consequence of the shell theorem."
+  },
+  {
+    "id": 261,
+    "source": "Past Questions Compilation",
+    "topic": "GAUSS'S LAW",
+    "question": "Gauss's law is equivalent to Coulomb's law for?",
+    "options": {
+      "A": "Moving charges only",
+      "B": "Static point charges",
+      "C": "Magnetic fields",
+      "D": "Distributed currents"
+    },
+    "answer": "B",
+    "explanation": "For static point charges, Gauss's law and Coulomb's law give identical results. Gauss's law is more general (it applies to any charge distribution), but both are equivalent for point charges in electrostatics."
+  },
+  {
+    "id": 262,
+    "source": "Past Questions Compilation",
+    "topic": "GAUSS'S LAW",
+    "question": "Which surface is most useful when applying Gauss's law?",
+    "options": {
+      "A": "A surface that is parallel to the field",
+      "B": "A surface that matches the symmetry of the charge distribution",
+      "C": "Any arbitrary surface",
+      "D": "A surface perpendicular to the field everywhere"
+    },
+    "answer": "B",
+    "explanation": "Gauss's law is most easily applied when the Gaussian surface matches the symmetry of the charge distribution (spherical for point charges, cylindrical for line charges, flat for plane charges), making E constant and perpendicular to the surface."
+  },
+  {
+    "id": 263,
+    "source": "Past Questions Compilation",
+    "topic": "GAUSS'S LAW",
+    "question": "A charge of +Q and \u2013Q are placed inside a closed surface. The net flux through the surface is?",
+    "options": {
+      "A": "Q/\u03b5\u2080",
+      "B": "2Q/\u03b5\u2080",
+      "C": "0",
+      "D": "\u2013Q/\u03b5\u2080"
+    },
+    "answer": "C",
+    "explanation": "Net enclosed charge = +Q + (\u2013Q) = 0. Therefore \u03a6 = Q_net/\u03b5\u2080 = 0/\u03b5\u2080 = 0."
+  },
+  {
+    "id": 264,
+    "source": "Past Questions Compilation",
+    "topic": "CONDUCTORS & INSULATORS",
+    "question": "In a conductor, free electrons are?",
+    "options": {
+      "A": "Tightly bound to nuclei",
+      "B": "Free to move through the material",
+      "C": "Absent entirely",
+      "D": "Stationary at all times"
+    },
+    "answer": "B",
+    "explanation": "Conductors (like metals) have free electrons in the conduction band that can move through the material. This is what allows electric current to flow and charges to redistribute on conductors."
+  },
+  {
+    "id": 265,
+    "source": "Past Questions Compilation",
+    "topic": "CONDUCTORS & INSULATORS",
+    "question": "Excess charge on a conductor in electrostatic equilibrium resides?",
+    "options": {
+      "A": "Uniformly inside the volume",
+      "B": "On the outer surface",
+      "C": "At the geometric centre",
+      "D": "At sharp edges only"
+    },
+    "answer": "B",
+    "explanation": "In electrostatic equilibrium, the electric field inside a conductor is zero. By Gauss's law, excess charge must reside on the outer surface. Charge density is higher at sharp points."
+  },
+  {
+    "id": 266,
+    "source": "Past Questions Compilation",
+    "topic": "CONDUCTORS & INSULATORS",
+    "question": "A Faraday cage works by?",
+    "options": {
+      "A": "Amplifying external electric fields",
+      "B": "Grounding external charges",
+      "C": "Shielding the interior from external electric fields using a conducting enclosure",
+      "D": "Reflecting electromagnetic waves back to the source"
+    },
+    "answer": "C",
+    "explanation": "A Faraday cage (conducting enclosure) shields its interior from external static electric fields. Charges redistribute on the outer surface to cancel the external field inside, making E = 0 internally."
+  },
+  {
+    "id": 267,
+    "source": "Past Questions Compilation",
+    "topic": "CONDUCTORS & INSULATORS",
+    "question": "Which of the following is an example of a good insulator?",
+    "options": {
+      "A": "Copper",
+      "B": "Silver",
+      "C": "Rubber",
+      "D": "Graphite"
+    },
+    "answer": "C",
+    "explanation": "Rubber is an excellent insulator; its electrons are tightly bound and cannot move freely. Copper and silver are excellent conductors. Graphite, though a form of carbon, is a conductor due to its delocalized \u03c0 electrons."
+  },
+  {
+    "id": 268,
+    "source": "Past Questions Compilation",
+    "topic": "CONDUCTORS & INSULATORS",
+    "question": "The process of charging a body by bringing a charged object near it (without contact) and then grounding it is called?",
+    "options": {
+      "A": "Conduction",
+      "B": "Friction",
+      "C": "Induction",
+      "D": "Polarisation"
+    },
+    "answer": "C",
+    "explanation": "Charging by induction involves bringing a charged object near a conductor, grounding to remove some charges, then removing the ground and the charged object. The conductor ends up with a charge opposite to the inducing charge."
+  },
+  {
+    "id": 269,
+    "source": "Past Questions Compilation",
+    "topic": "CONDUCTORS & INSULATORS",
+    "question": "The surface charge density on a conductor is highest at?",
+    "options": {
+      "A": "Flat regions",
+      "B": "Concave regions",
+      "C": "Sharp points or regions of high curvature",
+      "D": "The geometric centre"
+    },
+    "answer": "C",
+    "explanation": "Charge density is highest at sharp points (high curvature). This is why lightning rods have pointed tips \u2014 charge concentrates there, enabling discharge to the atmosphere."
+  },
+  {
+    "id": 270,
+    "source": "Past Questions Compilation",
+    "topic": "CONDUCTORS & INSULATORS",
+    "question": "Polarisation of a dielectric material refers to?",
+    "options": {
+      "A": "Free electrons moving through the dielectric",
+      "B": "Alignment of dipoles in the material due to an external electric field",
+      "C": "Charging of the dielectric by contact",
+      "D": "Ionization of atoms in the material"
+    },
+    "answer": "B",
+    "explanation": "When an external electric field is applied to a dielectric, the positive and negative charges in the molecules shift slightly, creating induced dipoles. This alignment is called polarisation and reduces the net electric field inside."
+  },
+  {
+    "id": 271,
+    "source": "Past Questions Compilation",
+    "topic": "CONDUCTORS & INSULATORS",
+    "question": "Which of the following best describes a semiconductor?",
+    "options": {
+      "A": "A material with no free charges",
+      "B": "A material with conductivity between that of a conductor and an insulator",
+      "C": "A perfect conductor at all temperatures",
+      "D": "A material that conducts only AC"
+    },
+    "answer": "B",
+    "explanation": "Semiconductors (e.g., silicon, germanium) have electrical conductivity between conductors and insulators. Their conductivity increases with temperature (unlike metals) and can be modified by doping with impurities."
+  },
+  {
+    "id": 272,
+    "source": "Past Questions Compilation",
+    "topic": "CONDUCTORS & INSULATORS",
+    "question": "The phenomenon where a charged object attracts small neutral objects (like bits of paper) is due to?",
+    "options": {
+      "A": "Gravity only",
+      "B": "Induction of opposite charges on the near side of the neutral object",
+      "C": "The neutral object having hidden charges",
+      "D": "Friction between surfaces"
+    },
+    "answer": "B",
+    "explanation": "When a charged object approaches a neutral object, it induces opposite charges on the nearer side and like charges on the farther side. The attraction from the nearer opposite charges dominates, causing the neutral object to be attracted."
+  },
+  {
+    "id": 273,
+    "source": "Past Questions Compilation",
+    "topic": "CONDUCTORS & INSULATORS",
+    "question": "The electric field just outside the surface of a conductor in equilibrium is?",
+    "options": {
+      "A": "Parallel to the surface",
+      "B": "Zero",
+      "C": "Perpendicular to the surface and equal to \u03c3/\u03b5\u2080",
+      "D": "Equal to \u03c3/(2\u03b5\u2080)"
+    },
+    "answer": "C",
+    "explanation": "At the surface of a conductor, E = \u03c3/\u03b5\u2080 directed perpendicular (normal) to the surface outward. If the field had a tangential component, it would accelerate charges along the surface, contradicting equilibrium."
+  },
+  {
+    "id": 274,
+    "source": "Past Questions Compilation",
+    "topic": "CHARGE DISTRIBUTION",
+    "question": "Linear charge density \u03bb is defined as charge per unit?",
+    "options": {
+      "A": "Area",
+      "B": "Volume",
+      "C": "Length",
+      "D": "Mass"
+    },
+    "answer": "C",
+    "explanation": "Linear charge density \u03bb = Q/L (C/m). Surface charge density \u03c3 = Q/A (C/m\u00b2). Volume charge density \u03c1 = Q/V (C/m\u00b3). Each applies to different charge distributions."
+  },
+  {
+    "id": 275,
+    "source": "Past Questions Compilation",
+    "topic": "CHARGE DISTRIBUTION",
+    "question": "The electric field due to an infinitely long straight wire with linear charge density \u03bb at distance r is?",
+    "options": {
+      "A": "E = \u03bb/(2\u03c0\u03b5\u2080r)",
+      "B": "E = \u03bb/(4\u03c0\u03b5\u2080r)",
+      "C": "E = \u03bb/(2\u03c0\u03b5\u2080r\u00b2)",
+      "D": "E = \u03bbr/(2\u03c0\u03b5\u2080)"
+    },
+    "answer": "A",
+    "explanation": "Using a cylindrical Gaussian surface: E \u00d7 (2\u03c0rL) = \u03bbL/\u03b5\u2080, so E = \u03bb/(2\u03c0\u03b5\u2080r). The field decreases as 1/r (not 1/r\u00b2 as for a point charge)."
+  },
+  {
+    "id": 276,
+    "source": "Past Questions Compilation",
+    "topic": "CHARGE DISTRIBUTION",
+    "question": "A uniformly charged ring of radius R carries charge Q. The electric field at the centre of the ring is?",
+    "options": {
+      "A": "kQ/R\u00b2",
+      "B": "kQ/R",
+      "C": "Zero",
+      "D": "2kQ/R\u00b2"
+    },
+    "answer": "C",
+    "explanation": "By symmetry, every element of the ring has a corresponding diametrically opposite element. Their field contributions are equal and opposite, cancelling to give E = 0 at the centre."
+  },
+  {
+    "id": 277,
+    "source": "Past Questions Compilation",
+    "topic": "CHARGE DISTRIBUTION",
+    "question": "The surface charge density on a sphere of radius R carrying total charge Q is?",
+    "options": {
+      "A": "\u03c3 = Q/R",
+      "B": "\u03c3 = Q/(2R\u00b2)",
+      "C": "\u03c3 = Q/(4\u03c0R\u00b2)",
+      "D": "\u03c3 = Q/(\u03c0R\u00b2)"
+    },
+    "answer": "C",
+    "explanation": "Surface area of a sphere = 4\u03c0R\u00b2. Therefore \u03c3 = Q/(4\u03c0R\u00b2). Substituting this into Gauss's law recovers E = \u03c3/\u03b5\u2080 = Q/(4\u03c0\u03b5\u2080R\u00b2) at the surface."
+  },
+  {
+    "id": 278,
+    "source": "Past Questions Compilation",
+    "topic": "CHARGE DISTRIBUTION",
+    "question": "Inside a uniformly charged solid non-conducting sphere of radius R, the electric field at distance r < R from the centre varies as?",
+    "options": {
+      "A": "E \u221d 1/r\u00b2",
+      "B": "E \u221d r",
+      "C": "E = constant",
+      "D": "E \u221d r\u00b2"
+    },
+    "answer": "B",
+    "explanation": "Inside the sphere, Q_enclosed = \u03c1 \u00d7 (4/3)\u03c0r\u00b3 \u221d r\u00b3. By Gauss's law: E \u00d7 4\u03c0r\u00b2 = Q_enclosed/\u03b5\u2080 \u221d r\u00b3, so E \u221d r. The field increases linearly with distance from the centre."
+  },
+  {
+    "id": 279,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Which law states that the total charge in an isolated system remains constant?",
+    "options": {
+      "A": "Coulomb's law",
+      "B": "Conservation of charge",
+      "C": "Gauss's law",
+      "D": "Ohm's law"
+    },
+    "answer": "B",
+    "explanation": "The law of conservation of charge states that the total electric charge in an isolated system is conserved \u2014 it cannot be created or destroyed, only transferred."
+  },
+  {
+    "id": 280,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "A body that has gained electrons becomes?",
+    "options": {
+      "A": "Positively charged",
+      "B": "Neutral",
+      "C": "Negatively charged",
+      "D": "A magnet"
+    },
+    "answer": "C",
+    "explanation": "Electrons carry negative charge. When a body gains electrons, it has more negative charge than positive charge, making it negatively charged overall."
+  },
+  {
+    "id": 281,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Two identical metallic spheres carry charges of +8 \u00b5C and \u20132 \u00b5C. When they touch and separate, the charge on each is?",
+    "options": {
+      "A": "+3 \u00b5C each",
+      "B": "+6 \u00b5C each",
+      "C": "+8 \u00b5C and \u20132 \u00b5C",
+      "D": "+4 \u00b5C each"
+    },
+    "answer": "A",
+    "explanation": "When identical conductors touch, charge distributes equally. Total charge = +8 + (\u20132) = +6 \u00b5C. Charge on each = 6/2 = +3 \u00b5C."
+  },
+  {
+    "id": 282,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "The quantization of charge means that?",
+    "options": {
+      "A": "Charge can take any continuous value",
+      "B": "Charge exists only in integer multiples of the elementary charge e",
+      "C": "Charge is always positive",
+      "D": "Charge cannot be measured"
+    },
+    "answer": "B",
+    "explanation": "Charge is quantized: q = ne, where n is an integer and e = 1.6 \u00d7 10\u207b\u00b9\u2079 C. You cannot have half an electron's charge. (Note: quarks carry fractional charges but are never found in isolation.)"
+  },
+  {
+    "id": 283,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Coulomb's law is valid for?",
+    "options": {
+      "A": "Charges separated by distances greater than atomic dimensions",
+      "B": "All distances without restriction",
+      "C": "Charges in motion only",
+      "D": "Charges in conducting media only"
+    },
+    "answer": "A",
+    "explanation": "Coulomb's law is verified experimentally down to ~10\u207b\u00b9\u2075 m (nuclear scale) and is valid for macroscopic and atomic distances. At sub-nuclear scales, other forces dominate."
+  },
+  {
+    "id": 284,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "The potential difference between two points is 12 V. The work done in moving a charge of 3 C between these points is?",
+    "options": {
+      "A": "4 J",
+      "B": "15 J",
+      "C": "36 J",
+      "D": "9 J"
+    },
+    "answer": "C",
+    "explanation": "W = qV = 3 \u00d7 12 = 36 J. Work done = charge \u00d7 potential difference."
+  },
+  {
+    "id": 285,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "The potential 0.3 m from a charge of +5 \u00d7 10\u207b\u2078 C is?",
+    "options": {
+      "A": "150 V",
+      "B": "1500 V",
+      "C": "15000 V",
+      "D": "1.5 V"
+    },
+    "answer": "B",
+    "explanation": "V = kQ/r = (9\u00d710\u2079)(5\u00d710\u207b\u2078)/(0.3) = (450)/(0.3) = 1500 V."
+  },
+  {
+    "id": 286,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "The electric field 0.3 m from a charge of +5 \u00d7 10\u207b\u2078 C is?",
+    "options": {
+      "A": "5000 N/C",
+      "B": "500 N/C",
+      "C": "50000 N/C",
+      "D": "50 N/C"
+    },
+    "answer": "A",
+    "explanation": "E = kQ/r\u00b2 = (9\u00d710\u2079)(5\u00d710\u207b\u2078)/(0.3\u00b2) = 450/0.09 = 5000 N/C."
+  },
+  {
+    "id": 287,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "The charge on a 50 \u00b5F capacitor connected to a 200 V supply is?",
+    "options": {
+      "A": "0.25 C",
+      "B": "0.01 C",
+      "C": "0.025 C",
+      "D": "4000 C"
+    },
+    "answer": "B",
+    "explanation": "Q = CV = 50\u00d710\u207b\u2076 \u00d7 200 = 10\u207b\u00b2 C = 0.01 C."
+  },
+  {
+    "id": 288,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "If the plate separation of a parallel plate capacitor is halved (keeping everything else constant), the capacitance?",
+    "options": {
+      "A": "Halves",
+      "B": "Stays the same",
+      "C": "Doubles",
+      "D": "Quadruples"
+    },
+    "answer": "C",
+    "explanation": "C = \u03b5\u2080A/d. If d \u2192 d/2, then C \u2192 \u03b5\u2080A/(d/2) = 2\u03b5\u2080A/d = 2C. Halving the gap doubles the capacitance."
+  },
+  {
+    "id": 289,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Two charges of +3 C and +3 C are separated by 1 m. Where on the line joining them is the electric field zero?",
+    "options": {
+      "A": "At 0.25 m from either charge",
+      "B": "At the midpoint",
+      "C": "At 0.33 m from the smaller charge",
+      "D": "The field is never zero between them"
+    },
+    "answer": "B",
+    "explanation": "For two equal positive charges, the electric fields from each charge are equal and opposite at the midpoint, giving E = 0 there. By symmetry, the midpoint (0.5 m from each) is the null point."
+  },
+  {
+    "id": 290,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "The electric field between two infinite parallel conducting plates carrying equal and opposite charges is?",
+    "options": {
+      "A": "E = \u03c3/(2\u03b5\u2080)",
+      "B": "E = \u03c3/\u03b5\u2080",
+      "C": "E = 2\u03c3/\u03b5\u2080",
+      "D": "E = 0"
+    },
+    "answer": "B",
+    "explanation": "Each plate contributes \u03c3/(2\u03b5\u2080) in the same direction between the plates. Total E = \u03c3/(2\u03b5\u2080) + \u03c3/(2\u03b5\u2080) = \u03c3/\u03b5\u2080. This is the basis of the uniform field in a capacitor."
+  },
+  {
+    "id": 291,
+    "source": "Past Questions Compilation",
+    "topic": "GAUSS'S LAW",
+    "question": "A point charge of +Q is placed at the centre of a cube. The flux through one face of the cube is?",
+    "options": {
+      "A": "Q/\u03b5\u2080",
+      "B": "Q/(4\u03b5\u2080)",
+      "C": "Q/(6\u03b5\u2080)",
+      "D": "6Q/\u03b5\u2080"
+    },
+    "answer": "C",
+    "explanation": "Total flux through the cube = Q/\u03b5\u2080. By symmetry, the cube has 6 equal faces, each receiving 1/6 of the total flux: \u03a6_face = Q/(6\u03b5\u2080)."
+  },
+  {
+    "id": 292,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Which of the following is a vector quantity?",
+    "options": {
+      "A": "Electric potential",
+      "B": "Electric charge",
+      "C": "Electric field intensity",
+      "D": "Electric flux"
+    },
+    "answer": "C",
+    "explanation": "Electric field intensity E is a vector quantity \u2014 it has both magnitude and direction. Electric potential V and charge Q are scalar quantities."
+  },
+  {
+    "id": 293,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "The force between two charges is F. If each charge is doubled and the distance is also doubled, the new force is?",
+    "options": {
+      "A": "F",
+      "B": "2F",
+      "C": "4F",
+      "D": "F/4"
+    },
+    "answer": "A",
+    "explanation": "F_new = k(2q\u2081)(2q\u2082)/(2r)\u00b2 = 4kq\u2081q\u2082/(4r\u00b2) = kq\u2081q\u2082/r\u00b2 = F. Doubling both charges and distance leaves the force unchanged."
+  },
+  {
+    "id": 294,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "Moving a positive charge from low potential to high potential requires?",
+    "options": {
+      "A": "No work",
+      "B": "Work done by the electric field",
+      "C": "External work done against the electric force",
+      "D": "Release of heat only"
+    },
+    "answer": "C",
+    "explanation": "The electric force on a positive charge points from high to low potential. Moving it from low to high potential is against this force, requiring external work input. W = q(V_high \u2013 V_low) > 0."
+  },
+  {
+    "id": 295,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Two point charges exert a force of 20 N on each other at separation r. At what separation will the force be 5 N?",
+    "options": {
+      "A": "2r",
+      "B": "r/2",
+      "C": "4r",
+      "D": "r/4"
+    },
+    "answer": "A",
+    "explanation": "F \u221d 1/r\u00b2. For F to reduce from 20 N to 5 N (factor of 4 decrease), r\u00b2 must increase by 4, so r must increase by 2. New separation = 2r."
+  },
+  {
+    "id": 296,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "A test charge of +1 \u00b5C experiences a force of 0.5 N at a point. The electric field at that point is?",
+    "options": {
+      "A": "0.5 \u00d7 10\u207b\u2076 N/C",
+      "B": "5 \u00d7 10\u2075 N/C",
+      "C": "0.5 N/C",
+      "D": "1 N/C"
+    },
+    "answer": "B",
+    "explanation": "E = F/q = 0.5 / (1\u00d710\u207b\u2076) = 5 \u00d7 10\u2075 N/C."
+  },
+  {
+    "id": 297,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "Energy stored in a 100 \u00b5F capacitor charged to 50 V is?",
+    "options": {
+      "A": "0.125 J",
+      "B": "1.25 J",
+      "C": "0.25 J",
+      "D": "5000 J"
+    },
+    "answer": "A",
+    "explanation": "E = \u00bdCV\u00b2 = \u00bd \u00d7 100\u00d710\u207b\u2076 \u00d7 (50)\u00b2 = \u00bd \u00d7 10\u207b\u2074 \u00d7 2500 = 0.125 J."
+  },
+  {
+    "id": 298,
+    "source": "Past Questions Compilation",
+    "topic": "GAUSS'S LAW",
+    "question": "Which of the following statements about Gauss's law is TRUE?",
+    "options": {
+      "A": "It applies only to symmetrical charge distributions",
+      "B": "It is always true but most useful for symmetric distributions",
+      "C": "It applies only to point charges",
+      "D": "It replaces Coulomb's law entirely"
+    },
+    "answer": "B",
+    "explanation": "Gauss's law (\u222eE\u00b7dA = Q_enc/\u03b5\u2080) is universally true for all charge distributions. However, it is practically useful for calculating E only when the charge distribution has sufficient symmetry (spherical, cylindrical, or planar)."
+  },
+  {
+    "id": 299,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC POTENTIAL",
+    "question": "The potential energy of a +2 \u00b5C charge at a point where the potential is 100 V is?",
+    "options": {
+      "A": "50 \u00d7 10\u207b\u2076 J",
+      "B": "200 \u00d7 10\u207b\u2076 J",
+      "C": "100 \u00d7 10\u207b\u2076 J",
+      "D": "2 \u00d7 10\u207b\u2074 J"
+    },
+    "answer": "B",
+    "explanation": "U = qV = (2\u00d710\u207b\u2076)(100) = 200\u00d710\u207b\u2076 J = 2\u00d710\u207b\u2074 J."
+  },
+  {
+    "id": 300,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "An object becomes positively charged when it?",
+    "options": {
+      "A": "Gains protons from outside",
+      "B": "Loses electrons",
+      "C": "Gains neutrons",
+      "D": "Loses protons"
+    },
+    "answer": "B",
+    "explanation": "Protons are tightly bound in the nucleus and cannot normally be removed. Objects become positively charged by losing electrons, leaving a deficit of negative charge."
+  },
+  {
+    "id": 301,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTRIC FIELD",
+    "question": "The electric field at the surface of a sphere of radius R with total charge Q (using Gauss's law) is?",
+    "options": {
+      "A": "E = kQ/R",
+      "B": "E = kQ/R\u00b3",
+      "C": "E = kQ/R\u00b2",
+      "D": "E = Q/(4\u03c0R)"
+    },
+    "answer": "C",
+    "explanation": "Apply Gauss's law at r = R: E \u00d7 4\u03c0R\u00b2 = Q/\u03b5\u2080. Solving: E = Q/(4\u03c0\u03b5\u2080R\u00b2) = kQ/R\u00b2. Same as the Coulomb field of a point charge at that distance."
+  },
+  {
+    "id": 302,
+    "source": "Past Questions Compilation",
+    "topic": "CAPACITANCE & CAPACITORS",
+    "question": "When a dielectric is inserted into a capacitor connected to a battery (constant voltage), the charge stored?",
+    "options": {
+      "A": "Decreases",
+      "B": "Stays the same",
+      "C": "Increases",
+      "D": "Drops to zero"
+    },
+    "answer": "C",
+    "explanation": "With constant V (battery connected): Q = CV. Inserting a dielectric increases C (C' = \u03b5\u1d63C), so Q increases (Q' = \u03b5\u1d63Q). More charge flows from the battery to maintain constant voltage."
+  },
+  {
+    "id": 303,
+    "source": "Past Questions Compilation",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Coulomb's law states that the force between two point charges is proportional to the product of their charges and ______ to the square of the distance between them.",
+    "options": {
+      "A": "Directly proportional",
+      "B": "Inversely proportional",
+      "C": "Independent",
+      "D": "Exponentially related"
+    },
+    "answer": "B",
+    "explanation": "Coulomb's law: F = kq\u2081q\u2082/r\u00b2. The force is directly proportional to q\u2081q\u2082 and inversely proportional to r\u00b2. This is the inverse-square law of electrostatics."
+  }
+]

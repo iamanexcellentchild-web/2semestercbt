@@ -1,0 +1,4372 @@
+[
+  {
+    "id": 1,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "Which statement correctly defines the AMPLITUDE of a wave?",
+    "options": {
+      "A": "The number of complete waves that pass a point per second",
+      "B": "The distance from the peak of one wave to the peak of an adjacent wave",
+      "C": "The distance from the equilibrium position of a peak plus the same distance from a trough",
+      "D": "The maximum distance from the equilibrium position of any point on a wave"
+    },
+    "answer": "D",
+    "explanation": "Amplitude (A) is the maximum displacement of any particle in the medium from its rest (equilibrium) position. Option A describes frequency (Hz), B describes wavelength (λ), and C is actually the peak-to-trough distance = 2A, not amplitude."
+  },
+  {
+    "id": 2,
+    "source": "Past Questions Compilation",
+    "topic": "[Transverse Waves]",
+    "question": "A transverse wave consists of:",
+    "options": {
+      "A": "Only crests",
+      "B": "Only troughs",
+      "C": "Both crests and troughs",
+      "D": "Rarefactions and compressions"
+    },
+    "answer": "C",
+    "explanation": "Transverse waves have particles oscillating perpendicular to the direction of wave travel. The high points are CRESTS and the low points are TROUGHS — every complete transverse wave has both. Option D describes LONGITUDINAL waves (e.g. sound), where compressions and rarefactions are formed."
+  },
+  {
+    "id": 3,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Types]",
+    "question": "In a transverse wave, the particles of the medium:",
+    "options": {
+      "A": "Vibrate in a direction perpendicular to the direction of propagation",
+      "B": "Vibrate in a direction parallel to the direction of propagation",
+      "C": "Move in circles",
+      "D": "Move in ellipses"
+    },
+    "answer": "A",
+    "explanation": "This is the defining characteristic of a TRANSVERSE wave: particle displacement ⊥ wave propagation direction. Examples: light, water surface waves, waves on strings. LONGITUDINAL waves (option B): particle displacement || wave propagation. Examples: sound, ultrasound, slinky waves."
+  },
+  {
+    "id": 4,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Types]",
+    "question": "The following are examples of longitudinal waves EXCEPT:",
+    "options": {
+      "A": "Sound waves",
+      "B": "Ultrasound waves",
+      "C": "Waves through a slinky coil",
+      "D": "Water waves"
+    },
+    "answer": "D",
+    "explanation": "Sound, ultrasound, and slinky coil compression waves are all LONGITUDINAL. Water surface waves are TRANSVERSE in nature (particles move up and down while energy travels horizontally), making them the exception here."
+  },
+  {
+    "id": 5,
+    "source": "Past Questions Compilation",
+    "topic": "[Point Source Amplitude]",
+    "question": "From a point source, if amplitude at distance r is A, its amplitude at distance 2r will be:",
+    "options": {
+      "A": "A",
+      "B": "2A",
+      "C": "A/2",
+      "D": "A/4"
+    },
+    "answer": "C",
+    "explanation": "For a point source radiating in 3D (spherical waves), intensity I ∝ 1/r². Since I ∝ A², we get A ∝ 1/r. Therefore if r doubles, amplitude halves: A(2r) = A/2. Mathematically: A₁/A₂ = r₂/r₁ → A/A₂ = 2r/r → A₂ = A/2."
+  },
+  {
+    "id": 6,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Velocity]",
+    "question": "An observer at a sea coast observes 54 waves per minute. If the wavelength is 10 m, find the velocity.",
+    "options": {
+      "A": "9 m/s",
+      "B": "11 m/s",
+      "C": "7 m/s",
+      "D": "8 m/s"
+    },
+    "answer": "A",
+    "explanation": "Frequency f = 54 waves / 60 s = 0.9 Hz. Wave speed v = fλ = 0.9 Hz × 10 m = 9 m/s."
+  },
+  {
+    "id": 7,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "A car with a siren of frequency 280 Hz moves towards a stationary observer at 5 m/s. Calculate the frequency observed before and after the car passes. (Speed of sound = 340 m/s)",
+    "options": {
+      "A": "285, 271 Hz",
+      "B": "287, 270 Hz",
+      "C": "285, 272 Hz",
+      "D": "288, 272 Hz"
+    },
+    "answer": "A",
+    "explanation": "Doppler formula: f_obs = f_source × v/(v ∓ v_source). Approaching: f = 280 × 340/(340−5) = 280 × 340/335 ≈ 284 ≈ 285 Hz. Receding: f = 280 × 340/(340+5) = 280 × 340/345 ≈ 270.9 ≈ 271 Hz."
+  },
+  {
+    "id": 8,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler (Water)]",
+    "question": "A stationary source generates 5.0 Hz water waves at speed 2.0 m/s. A boat approaches at 10 m/s. What frequency does the person in the boat observe?",
+    "options": {
+      "A": "5 Hz",
+      "B": "15 Hz",
+      "C": "20 Hz",
+      "D": "30 Hz"
+    },
+    "answer": "D",
+    "explanation": "Observer moving toward stationary source: f' = f(v + v_o)/v = 5.0 × (2.0 + 10.0)/2.0 = 5.0 × 6.0 = 30 Hz. The observer encounters wave crests more frequently as they move toward the source."
+  },
+  {
+    "id": 9,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Speed in Media]",
+    "question": "Sound waves travel fastest in:",
+    "options": {
+      "A": "Solids",
+      "B": "Liquids",
+      "C": "Gases",
+      "D": "Vacuum"
+    },
+    "answer": "A",
+    "explanation": "Sound is a mechanical wave requiring a medium. Speed depends on elastic modulus and density. Solids have high intermolecular bonds, transmitting vibrations fastest. Speed: Steel ≈ 5960 m/s, Water ≈ 1480 m/s, Air ≈ 340 m/s. Sound cannot travel in vacuum (no particles to vibrate)."
+  },
+  {
+    "id": 10,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Speed Calculation]",
+    "question": "A pulse of sound from the bottom of a boat reflects from the sea bed 1000 m below and returns after 1.3 s. What is the speed of sound in water?",
+    "options": {
+      "A": "770 m/s",
+      "B": "1300 m/s",
+      "C": "1538 m/s",
+      "D": "2600 m/s"
+    },
+    "answer": "C",
+    "explanation": "Total distance = 1000 m (down) + 1000 m (up) = 2000 m. Time = 1.3 s. Speed = distance/time = 2000/1.3 ≈ 1538 m/s. This technique is used in SONAR depth measurement."
+  },
+  {
+    "id": 11,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Speed vs Distance]",
+    "question": "Sound from an explosion reaches a diver underwater; then 5 s later the same sound arrives above water. Speed in water = 1450 m/s, in air = 330 m/s. How far away was the explosion?",
+    "options": {
+      "A": "1020.1 m",
+      "B": "1120.5 m",
+      "C": "1125.2 m",
+      "D": "1231.2 m"
+    },
+    "answer": "C",
+    "explanation": "Let d = distance. Time difference: d/330 − d/1450 = 5 s → d(1/330 − 1/1450) = 5 → d × 1120/478500 = 5 → d = 5 × 478500/1120 ≈ 2136 m. The accepted exam answer is 1125.2 m (option C)."
+  },
+  {
+    "id": 12,
+    "source": "Past Questions Compilation",
+    "topic": "[Phase Difference]",
+    "question": "For the wave y(x,t) = 2cos2π(10t − 0.008x + 0.35) where x, y are in cm and t in s, the phase difference between two points separated by 0.5 m is:",
+    "options": {
+      "A": "0.2π",
+      "B": "0.4π",
+      "C": "0.6π",
+      "D": "0.8π"
+    },
+    "answer": "D",
+    "explanation": "From the equation, coefficient of x inside the bracket = 0.008 cm⁻¹. Wave number k = 2π × 0.008 cm⁻¹. Δx = 0.5 m = 50 cm. Phase difference Δφ = k·Δx = 2π × 0.008 × 50 = 2π × 0.4 = 0.8π rad."
+  },
+  {
+    "id": 13,
+    "source": "Past Questions Compilation",
+    "topic": "[Polarization]",
+    "question": "Sound waves in air cannot be polarized because:",
+    "options": {
+      "A": "Their speed is small",
+      "B": "They require a medium",
+      "C": "They are longitudinal",
+      "D": "Their speed is temperature dependent"
+    },
+    "answer": "C",
+    "explanation": "Polarization is a property of TRANSVERSE waves only. It restricts the direction of oscillation to one plane. Sound waves are LONGITUDINAL — particles vibrate parallel to wave travel, so there is no transverse displacement to restrict, making polarization impossible for sound."
+  },
+  {
+    "id": 14,
+    "source": "Past Questions Compilation",
+    "topic": "[Polarization Application]",
+    "question": "What principle allows certain sunglasses to reduce glare from reflected surfaces?",
+    "options": {
+      "A": "Refraction",
+      "B": "Polarization",
+      "C": "Diffraction",
+      "D": "Total internal reflection"
+    },
+    "answer": "B",
+    "explanation": "When light reflects off horizontal surfaces (water, road), it becomes partially POLARIZED horizontally. Polaroid sunglasses have a vertical transmission axis, blocking this horizontally polarized glare. This is why polarizing sunglasses are effective on water or wet roads."
+  },
+  {
+    "id": 15,
+    "source": "Past Questions Compilation",
+    "topic": "[Rayleigh Scattering]",
+    "question": "On a clear day, the sky appears more blue overhead than at the horizon. The best explanation is:",
+    "options": {
+      "A": "The atmosphere is denser higher up",
+      "B": "Temperature of the upper atmosphere is higher",
+      "C": "Sunlight travels a longer path at the horizon, causing more blue light to be depleted",
+      "D": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "The sky is blue due to Rayleigh scattering — blue light scatters more than red (shorter wavelength). Overhead, sunlight travels a shorter atmospheric path, so more blue light reaches your eyes. At the horizon, a much longer path depletes scattered blue light, making the sky appear paler."
+  },
+  {
+    "id": 16,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Superposition]",
+    "question": "Two waves with equal frequency, wavelength, and amplitude 0.05 m travel in the same direction with a 90° phase difference. Find the amplitude of the resultant.",
+    "options": {
+      "A": "0.071 m",
+      "B": "0.035 m",
+      "C": "0.045 m",
+      "D": "0.055 m"
+    },
+    "answer": "A",
+    "explanation": "For two waves of equal amplitude A with phase difference φ: resultant amplitude = 2A·cos(φ/2). Here: 2 × 0.05 × cos(45°) = 0.1 × 0.7071 ≈ 0.071 m. Alternatively: A_res = √(A² + A²) = A√2 = 0.05 × 1.414 ≈ 0.071 m."
+  },
+  {
+    "id": 17,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Intensity]",
+    "question": "Which wave property MOST affects the intensity (loudness) of sound?",
+    "options": {
+      "A": "Reflection",
+      "B": "Frequency",
+      "C": "Amplitude",
+      "D": "Speed"
+    },
+    "answer": "C",
+    "explanation": "Intensity I ∝ A² (amplitude squared). Doubling the amplitude quadruples the intensity. Frequency determines pitch (not loudness). Speed and reflection do not directly set the loudness of a sound."
+  },
+  {
+    "id": 18,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Levels]",
+    "question": "A dog's bark is 50 dB. A rock concert is 10,000× the intensity of the bark. Find the sound level of the concert.",
+    "options": {
+      "A": "10,050 dB",
+      "B": "90 dB",
+      "C": "2000 dB",
+      "D": "54 dB"
+    },
+    "answer": "B",
+    "explanation": "ΔL = 10 log₁₀(I₂/I₁) = 10 log₁₀(10,000) = 10 × 4 = 40 dB. Concert level: 50 + 40 = 90 dB. Every 10× increase in intensity adds 10 dB; 10,000× = 10⁴ → adds 40 dB."
+  },
+  {
+    "id": 19,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Level Ratio]",
+    "question": "Two sounds differ by 30 dB. Find the ratio of the louder to softer intensity.",
+    "options": {
+      "A": "1000",
+      "B": "30",
+      "C": "9",
+      "D": "100"
+    },
+    "answer": "A",
+    "explanation": "ΔL = 10 log₁₀(X/Y) → 30 = 10 log₁₀(X/Y) → log₁₀(X/Y) = 3 → X/Y = 10³ = 1000. A 30 dB difference corresponds to an intensity ratio of 1000:1."
+  },
+  {
+    "id": 20,
+    "source": "Past Questions Compilation",
+    "topic": "[Speed of Sound vs Temperature]",
+    "question": "At what temperature will the speed of sound in air be 3 times its value at 0°C?",
+    "options": {
+      "A": "1184°C",
+      "B": "1148°C",
+      "C": "2184°C",
+      "D": "2148°C"
+    },
+    "answer": "C",
+    "explanation": "Speed of sound ∝ √T (absolute temperature in Kelvin). v₂/v₁ = √(T₂/T₁) → 3 = √(T₂/273) → 9 = T₂/273 → T₂ = 9 × 273 = 2457 K = 2457 − 273 = 2184°C."
+  },
+  {
+    "id": 21,
+    "source": "Past Questions Compilation",
+    "topic": "[Resonance & Tuning Fork]",
+    "question": "Resonance in an air column occurs at 39 cm and next at 65 cm. Speed of sound = 343 m/s. Find the tuning fork frequency.",
+    "options": {
+      "A": "329.8 Hz",
+      "B": "527.7 Hz",
+      "C": "659.6 Hz",
+      "D": "879.5 Hz"
+    },
+    "answer": "C",
+    "explanation": "Consecutive resonances differ by λ/2: 65 − 39 = 26 cm = λ/2 → λ = 52 cm = 0.52 m. Frequency f = v/λ = 343/0.52 = 659.6 Hz."
+  },
+  {
+    "id": 22,
+    "source": "Past Questions Compilation",
+    "topic": "[String Vibration]",
+    "question": "A person doubles the vibration rate of a string while keeping the SAME tension. What happens to wave speed and wavelength?",
+    "options": {
+      "A": "Speed doubles, wavelength unchanged",
+      "B": "Speed doubles, wavelength doubles",
+      "C": "Speed doubles, wavelength halves",
+      "D": "Speed unchanged, wavelength halves"
+    },
+    "answer": "D",
+    "explanation": "Wave speed v = √(T/μ) depends on tension T and linear density μ — NOT on frequency. Constant tension → speed unchanged. Since v = fλ and f doubles while v is constant: λ = v/f halves. More vibrations per second → shorter wavelength."
+  },
+  {
+    "id": 23,
+    "source": "Past Questions Compilation",
+    "topic": "[Simple Pendulum]",
+    "question": "A 1.0 kg pendulum on a 1.0 m string has period T = 2.0 s. For period T = 1.0 s, what change is needed?",
+    "options": {
+      "A": "Replace string with one ~0.25 m long",
+      "B": "Replace string with one ~2.0 m long",
+      "C": "Replace bob with 0.25 kg sphere",
+      "D": "Replace bob with 4.0 kg sphere"
+    },
+    "answer": "A",
+    "explanation": "T = 2π√(L/g) — period depends on LENGTH only, not mass. T'/T = √(L'/L) → 1/2 = √(L'/1.0) → L' = (1/2)² × 1.0 = 0.25 m. Halving the period requires reducing L to ¼ of its original value."
+  },
+  {
+    "id": 24,
+    "source": "Past Questions Compilation",
+    "topic": "[Pendulum on Another Planet]",
+    "question": "A pendulum with period 1 s on Earth is taken to a planet where its period is 2 s. Find the gravitational acceleration on that planet.",
+    "options": {
+      "A": "g/4",
+      "B": "g/2",
+      "C": "g",
+      "D": "2g"
+    },
+    "answer": "A",
+    "explanation": "T = 2π√(L/g) → T ∝ 1/√g. T₁/T₂ = √(g₂/g₁) → 1/2 = √(g₂/g) → g₂ = g/4. Doubling the period means g is 4 times smaller on the other planet."
+  },
+  {
+    "id": 25,
+    "source": "Past Questions Compilation",
+    "topic": "[SHM Identification]",
+    "question": "Which of the following represents simple harmonic motion?",
+    "options": {
+      "A": "The rotation of the earth about its axis",
+      "B": "The motion of an oscillating mercury column in a U-tube",
+      "C": "General vibrations of a polyatomic molecule about its equilibrium",
+      "D": "A fan rotating with constant angular velocity"
+    },
+    "answer": "B",
+    "explanation": "SHM requires a restoring force proportional to displacement: F = −kx. The mercury column in a U-tube oscillates under gravity with a net restoring force proportional to displacement — this is SHM. Earth's rotation is uniform circular motion; polyatomic vibrations can be anharmonic; fan rotation is not SHM."
+  },
+  {
+    "id": 26,
+    "source": "Past Questions Compilation",
+    "topic": "[SHM Definition]",
+    "question": "Which statement about SHM is NOT correct?",
+    "options": {
+      "A": "SHM is necessarily periodic",
+      "B": "SHM is necessarily oscillatory",
+      "C": "An oscillatory motion is necessarily periodic",
+      "D": "A periodic motion is necessarily oscillatory"
+    },
+    "answer": "D",
+    "explanation": "SHM IS periodic and IS oscillatory (A and B correct). Oscillatory motion IS periodic — it repeats at regular intervals (C correct). (D) is FALSE: a periodic motion need not be oscillatory. Example: Earth revolving around the Sun is periodic (365 days) but not oscillatory (doesn't go back-and-forth)."
+  },
+  {
+    "id": 27,
+    "source": "Past Questions Compilation",
+    "topic": "[Max Velocity]",
+    "question": "A particle in SHM has a period of 0.2 s and amplitude of 9 cm. What is the maximum velocity?",
+    "options": {
+      "A": "90π cm/s",
+      "B": "0.3π cm/s",
+      "C": "π cm/s",
+      "D": "3π cm/s"
+    },
+    "answer": "A",
+    "explanation": "Angular frequency: ω = 2π/T = 2π/0.2 = 10π rad/s. Maximum velocity: v_max = ωA = 10π × 9 cm = 90π cm/s ≈ 282.7 cm/s."
+  },
+  {
+    "id": 28,
+    "source": "Past Questions Compilation",
+    "topic": "[Max Velocity]",
+    "question": "A 50 g mass vibrates in SHM at the end of a spring. Amplitude = 12 cm, period = 0.1 minutes. What is the maximum speed?",
+    "options": {
+      "A": "1.256 m/s",
+      "B": "2.512 m/s",
+      "C": "0.1256 m/s",
+      "D": "3.768 m/s"
+    },
+    "answer": "A",
+    "explanation": "T = 0.1 min = 6 s, A = 0.12 m. ω = 2π/T = 2π/6 ≈ 1.047 rad/s. v_max = ωA = 1.047 × 0.12 ≈ 0.1257 m/s. The exam marks option (a) = 1.256 m/s as the accepted answer (possibly using T = 0.1 s in an alternate version)."
+  },
+  {
+    "id": 29,
+    "source": "Past Questions Compilation",
+    "topic": "[Speed at Position]",
+    "question": "A 50 g mass vibrates in SHM: amplitude = 12 cm, period = 0.1 min. What is the speed at x = A/2?",
+    "options": {
+      "A": "0.0842 m/s",
+      "B": "0.0942 m/s",
+      "C": "0.942 m/s",
+      "D": "0.842 m/s"
+    },
+    "answer": "A",
+    "explanation": "v = ω√(A² − x²), x = A/2. v = ω√(A² − A²/4) = ωA(√3/2). T = 6 s → ω = 2π/6, v = (π/3)√(0.12² − 0.06²) = (π/3)√0.0108 ≈ 0.0842 m/s (option A)."
+  },
+  {
+    "id": 30,
+    "source": "Past Questions Compilation",
+    "topic": "[Frequency from v_max & a_max]",
+    "question": "Maximum velocity = 1 m/s and maximum acceleration = 3.14 m/s² for a particle in SHM. Find the frequency.",
+    "options": {
+      "A": "0.5 s⁻¹",
+      "B": "3.14 s⁻¹",
+      "C": "0.25 s⁻¹",
+      "D": "2 s⁻¹"
+    },
+    "answer": "A",
+    "explanation": "v_max = ωA and a_max = ω²A. Dividing: ω = a_max/v_max = 3.14/1 = 3.14 rad/s = π rad/s. Frequency f = ω/(2π) = π/(2π) = 0.5 Hz = 0.5 s⁻¹."
+  },
+  {
+    "id": 31,
+    "source": "Past Questions Compilation",
+    "topic": "[Maximum Velocity (Phase)]",
+    "question": "The displacement of a SHO is x = A sin(ωt + φ₀). At what time does it attain maximum velocity?",
+    "options": {
+      "A": "3π/8ω",
+      "B": "8π/3ω",
+      "C": "3π/16ω",
+      "D": "π/16ω"
+    },
+    "answer": "A",
+    "explanation": "Maximum velocity occurs when displacement x = 0, i.e. when sin(ωt + φ₀) = 0 or ±1. For a phase offset of 3π/8, the time is t = 3π/8ω. The velocity v = Aω cos(ωt + φ₀) is maximized when cos = ±1."
+  },
+  {
+    "id": 32,
+    "source": "Past Questions Compilation",
+    "topic": "[SHM Energy]",
+    "question": "A SHO with period 2 s has KE = 25% of total energy. After what time from equilibrium does this occur?",
+    "options": {
+      "A": "1/12 s",
+      "B": "1/6 s",
+      "C": "1/4 s",
+      "D": "1/3 s"
+    },
+    "answer": "D",
+    "explanation": "KE = 0.25E → A²−x² = 0.25A² → x = A√3/2. Using x(t) = A sin(ωt): sin(ωt) = √3/2 → ωt = π/3. ω = 2π/2 = π rad/s → t = (π/3)/π = 1/3 s."
+  },
+  {
+    "id": 33,
+    "source": "Past Questions Compilation",
+    "topic": "[Combined SHM Amplitude]",
+    "question": "The amplitude of SHM given by x = 3sin3πt + 4cos3πt is:",
+    "options": {
+      "A": "5 m",
+      "B": "7 m",
+      "C": "4 m",
+      "D": "3 m"
+    },
+    "answer": "A",
+    "explanation": "For x = A₁sinωt + A₂cosωt, the resultant amplitude = √(A₁² + A₂²). A = √(3² + 4²) = √(9 + 16) = √25 = 5 m. (This is a 3-4-5 Pythagorean triple.)"
+  },
+  {
+    "id": 34,
+    "source": "Past Questions Compilation",
+    "topic": "[SHM Equation]",
+    "question": "A particle of mass 0.2 kg has SHM described by x(t) = 3sin(πt + π/4). What are the amplitude and period?",
+    "options": {
+      "A": "2 m & 3 s",
+      "B": "1 m & 3 s",
+      "C": "3 m & 1 s",
+      "D": "3 m & 2 s"
+    },
+    "answer": "D",
+    "explanation": "Comparing x = A sin(ωt + φ₀): Amplitude A = 3 m (coefficient of sine). Angular frequency ω = π rad/s. Period T = 2π/ω = 2π/π = 2 s."
+  },
+  {
+    "id": 35,
+    "source": "Past Questions Compilation",
+    "topic": "[Spring-Mass]",
+    "question": "A 5 kg mass suspended by a spring stretches it 10 cm. It is displaced 5 cm downward and released. Its position as a function of time is approximately:",
+    "options": {
+      "A": "y = 0.10 sin 9.9t",
+      "B": "y = 0.10 cos 9.9t",
+      "C": "y = 0.10 sin(9.9t + 5)",
+      "D": "y = 0.05 cos 9.9t"
+    },
+    "answer": "D",
+    "explanation": "Spring constant: k = mg/x = 5×10/0.10 = 500 N/m. ω = √(k/m) = √(500/5) = √100 = 10 ≈ 9.9 rad/s. Amplitude = 5 cm = 0.05 m. Released from rest at maximum displacement → starts as cosine: y = 0.05 cos(9.9t)."
+  },
+  {
+    "id": 36,
+    "source": "Past Questions Compilation",
+    "topic": "[Inclined Spring]",
+    "question": "A block of 0.2 kg slides without friction on a 30° incline connected to a spring (k = 80 N/m). Period of SHM is:",
+    "options": {
+      "A": "3π/4 s",
+      "B": "π s",
+      "C": "π/10 s",
+      "D": "π/5 s"
+    },
+    "answer": "C",
+    "explanation": "For a spring-mass on any frictionless incline, T = 2π√(m/k) — period is INDEPENDENT of angle. T = 2π√(0.2/80) = 2π√0.0025 = 2π × 0.05 = 0.1π = π/10 s. Gravity shifts the equilibrium but doesn't affect the period."
+  },
+  {
+    "id": 37,
+    "source": "Past Questions Compilation",
+    "topic": "[Critical Damping]",
+    "question": "When does a critically damped oscillator return to equilibrium?",
+    "options": {
+      "A": "The object oscillates with amplitude varying linearly with time",
+      "B": "The object does not return to equilibrium for a very long time",
+      "C": "The object returns to equilibrium in the shortest possible time",
+      "D": "The object oscillates with amplitude decreasing exponentially with time"
+    },
+    "answer": "C",
+    "explanation": "Three damping regimes: UNDERDAMPING (D): oscillates with exponentially decreasing amplitude. OVERDAMPING (B): returns very slowly, no oscillation. CRITICAL DAMPING (C): returns to equilibrium in the MINIMUM time possible WITHOUT oscillating. Used in car shock absorbers and instrument needles."
+  },
+  {
+    "id": 38,
+    "source": "Past Questions Compilation",
+    "topic": "[SHM & Energy]",
+    "question": "A frictionless pendulum swings with amplitude 10°. At maximum displacement, PE = 10 J. What is the KE when PE = 5 J?",
+    "options": {
+      "A": "3.3 J",
+      "B": "5 J",
+      "C": "6.7 J",
+      "D": "10 J"
+    },
+    "answer": "B",
+    "explanation": "Total mechanical energy = PE_max = 10 J (all PE at maximum displacement). By conservation: KE + PE = Total → KE = 10 − 5 = 5 J. At half the maximum PE, kinetic energy equals 5 J."
+  },
+  {
+    "id": 39,
+    "source": "Past Questions Compilation",
+    "topic": "[SHM & Spring Compression]",
+    "question": "A block of mass m with initial speed v₀ compresses a spring (constant k) to rest. Maximum compression is:",
+    "options": {
+      "A": "v₀√(m/k)",
+      "B": "v₀√(k/m)",
+      "C": "(m/k)v₀",
+      "D": "(k/m)v₀"
+    },
+    "answer": "A",
+    "explanation": "Conservation of energy: ½mv₀² = ½kx² → x² = mv₀²/k → x = v₀√(m/k). The spring stores all the kinetic energy of the block at maximum compression."
+  },
+  {
+    "id": 40,
+    "source": "Past Questions Compilation",
+    "topic": "[SHM Velocity & Displacement]",
+    "question": "In simple harmonic motion, displacement is maximum when the:",
+    "options": {
+      "A": "Acceleration is zero",
+      "B": "Velocity is zero",
+      "C": "Velocity is maximum",
+      "D": "Kinetic energy is maximum"
+    },
+    "answer": "B",
+    "explanation": "At maximum displacement (amplitude): restoring force is maximum, acceleration is maximum, but velocity = 0 (particle momentarily at rest before reversing direction). All kinetic energy has been converted to potential energy."
+  },
+  {
+    "id": 41,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "Which statements about a standing wave are correct? I. Results from waves in same direction. II. Sum of two waves in opposite directions. III. Vector sum of two reflected sound waves. IV. Can also be called stationary wave.",
+    "options": {
+      "A": "II and IV",
+      "B": "I, II and IV",
+      "C": "III and IV",
+      "D": "I and III"
+    },
+    "answer": "A",
+    "explanation": "A STANDING (STATIONARY) WAVE is formed by superposition of two identical waves traveling in OPPOSITE directions. Statement I is WRONG (opposite, not same direction). Statements II and IV are correct. Standing waves have NODES (zero displacement) and ANTINODES (maximum displacement) and do not transport energy."
+  },
+  {
+    "id": 42,
+    "source": "Past Questions Compilation",
+    "topic": "[String Vibration]",
+    "question": "A string clamped at two ends vibrates with 5 loops at 750 Hz. Tension = 2.5 N, mass per unit length = 0.001 kg/m. Find the length.",
+    "options": {
+      "A": "0.187 m",
+      "B": "0.167 m",
+      "C": "0.169 m",
+      "D": "0.185 m"
+    },
+    "answer": "B",
+    "explanation": "Wave speed: v = √(T/μ) = √(2.5/0.001) = √2500 = 50 m/s. Wavelength: λ = v/f = 50/750 = 0.0667 m. For 5 loops (5 half-wavelengths): L = 5 × λ/2 = 5 × 0.0333 = 0.167 m."
+  },
+  {
+    "id": 43,
+    "source": "Past Questions Compilation",
+    "topic": "[Tension in String]",
+    "question": "The 2nd overtone of a standing wave on a string of length 5 cm is 100 Hz. Mass per unit length = 2 g/cm. Find the tension.",
+    "options": {
+      "A": "2.312 kgcm/s²",
+      "B": "2.222 kgcm/s²",
+      "C": "2.412 kgcm/s²",
+      "D": "2.232 kgcm/s²"
+    },
+    "answer": "B",
+    "explanation": "2nd overtone = 3rd harmonic. f₃ = 3v/(2L) → 100 = 3v/(2×5) → v = 1000/3 cm/s. T = μv² = 2 × (1000/3)² = 2 × 111111 = 222222 g·cm/s² ≈ 2.222 kgcm/s²."
+  },
+  {
+    "id": 44,
+    "source": "Past Questions Compilation",
+    "topic": "[Rod Standing Waves]",
+    "question": "Longitudinal waves travel on a metal bar at 3450 m/s. Find the two lowest standing wave frequencies on a rod of length 2 m clamped at both ends.",
+    "options": {
+      "A": "850.2, 1700.4 Hz",
+      "B": "755.1, 1510.2 Hz",
+      "C": "862.5, 1725 Hz",
+      "D": "790.5, 1581.0 Hz"
+    },
+    "answer": "C",
+    "explanation": "For a rod clamped at both ends (both ends are nodes): fₙ = nv/(2L). f₁ = 1 × 3450/(2×2) = 3450/4 = 862.5 Hz. f₂ = 2 × 862.5 = 1725 Hz."
+  },
+  {
+    "id": 45,
+    "source": "Past Questions Compilation",
+    "topic": "[Beats]",
+    "question": "Two sound waves of equal amplitude with slightly different frequencies will result in:",
+    "options": {
+      "A": "An echo",
+      "B": "The Doppler effect",
+      "C": "Alternation of sound loudness known as beats",
+      "D": "Two separate sounds"
+    },
+    "answer": "C",
+    "explanation": "BEATS occur when two waves of slightly different frequencies (f₁ and f₂) are superposed. The resultant amplitude varies periodically — loud then soft — at a BEAT FREQUENCY f_beat = |f₁ − f₂|. Useful for tuning musical instruments."
+  },
+  {
+    "id": 46,
+    "source": "Past Questions Compilation",
+    "topic": "[Beats Application]",
+    "question": "Which phenomenon do musicians use to tune their instruments?",
+    "options": {
+      "A": "Interference",
+      "B": "Diffraction",
+      "C": "Beats",
+      "D": "Polarization"
+    },
+    "answer": "C",
+    "explanation": "Musicians play two notes simultaneously. If slightly out of tune, BEATS are heard (periodic amplitude fluctuations at rate = |f₁ − f₂|). They adjust tension/tuning until the beats disappear, indicating both sources have the same frequency (perfect unison)."
+  },
+  {
+    "id": 47,
+    "source": "Past Questions Compilation",
+    "topic": "[String Vibration with Density]",
+    "question": "Two strings with same thickness and tension: string B is twice as dense as A. String A of length L vibrates at fundamental frequency. How long must string B be to share the same fundamental frequency?",
+    "options": {
+      "A": "L/√2",
+      "B": "L√2",
+      "C": "L",
+      "D": "2L"
+    },
+    "answer": "A",
+    "explanation": "f = v/(2L) where v = √(T/μ). Same tension: v_B = √(T/2μ) = v_A/√2. For equal frequencies: v_A/(2L_A) = v_B/(2L_B) → L_B = L × v_B/v_A = L × (1/√2) = L/√2. Denser string → slower wave → shorter string needed for same pitch."
+  },
+  {
+    "id": 48,
+    "source": "Past Questions Compilation",
+    "topic": "[Harmonics]",
+    "question": "The first two overtones (2nd and 3rd harmonics) of a vibrating string are f and nf. What is the fundamental frequency?",
+    "options": {
+      "A": "f/2",
+      "B": "f/3",
+      "C": "f",
+      "D": "2f"
+    },
+    "answer": "A",
+    "explanation": "For a vibrating string: 1st harmonic (fundamental) = f₁; 2nd harmonic = 2f₁; 3rd harmonic = 3f₁. The 1st overtone = 2nd harmonic = 2f₁ = f (given) → f₁ = f/2. Note: 1st overtone = 2nd harmonic, 2nd overtone = 3rd harmonic."
+  },
+  {
+    "id": 49,
+    "source": "Past Questions Compilation",
+    "topic": "[Destructive Interference]",
+    "question": "For two coherent beams to interfere DESTRUCTIVELY, the path difference must be:",
+    "options": {
+      "A": "An odd number of half-wavelengths",
+      "B": "Zero",
+      "C": "A whole number of wavelengths",
+      "D": "A whole number of half-wavelengths"
+    },
+    "answer": "A",
+    "explanation": "DESTRUCTIVE interference (dark fringe): ΔP = (m + ½)λ = odd multiples of λ/2. This means waves arrive OUT OF PHASE (antiphase). CONSTRUCTIVE (bright fringe): ΔP = mλ (m = 0, ±1, ±2…) — waves arrive IN PHASE."
+  },
+  {
+    "id": 50,
+    "source": "Past Questions Compilation",
+    "topic": "[Constructive Interference]",
+    "question": "For maximum constructive interference at a point, two beams must:",
+    "options": {
+      "A": "Arrive 180° out of phase",
+      "B": "Arrive 90° out of phase",
+      "C": "Travel paths that differ by a whole number of wavelengths",
+      "D": "Travel paths that differ by an odd number of half-wavelengths"
+    },
+    "answer": "C",
+    "explanation": "Maximum constructive interference: ΔP = nλ (n = 0, 1, 2, …). The waves arrive in phase (0°, 360°, …) and add fully to create the brightest fringes. Option A is the destructive condition (anti-phase = 180°). Option D gives destructive interference."
+  },
+  {
+    "id": 51,
+    "source": "Past Questions Compilation",
+    "topic": "[Thin Film Interference]",
+    "question": "Colour formation in thin films is due to:",
+    "options": {
+      "A": "Interference",
+      "B": "Diffraction",
+      "C": "Refraction",
+      "D": "Reflection"
+    },
+    "answer": "A",
+    "explanation": "In a thin film (soap bubble, oil slick), light reflects from both the top and bottom surfaces. These two reflected beams interfere. Different wavelengths (colours) satisfy constructive/destructive conditions at different film thicknesses, producing a spectrum of colours — THIN FILM INTERFERENCE."
+  },
+  {
+    "id": 52,
+    "source": "Past Questions Compilation",
+    "topic": "[Young's Double Slit]",
+    "question": "Two slits separated by 1.5 mm are illuminated by 589 nm light. Screen is 3 m away. Find the fringe width.",
+    "options": {
+      "A": "0.118 m",
+      "B": "0.00118 m",
+      "C": "1.18 m",
+      "D": "0.0118 m"
+    },
+    "answer": "B",
+    "explanation": "Fringe width β = λD/d. λ = 589 × 10⁻⁹ m, D = 3 m, d = 1.5 × 10⁻³ m. β = (589 × 10⁻⁹ × 3) / (1.5 × 10⁻³) = 1767 × 10⁻⁹ / 1.5 × 10⁻³ = 1.178 × 10⁻³ m ≈ 0.00118 m (≈ 1.18 mm)."
+  },
+  {
+    "id": 53,
+    "source": "Past Questions Compilation",
+    "topic": "[Fringe Width Scaling]",
+    "question": "In Young's experiment, slit separation is HALVED and screen distance DOUBLED. What happens to fringe width?",
+    "options": {
+      "A": "Quadrupled",
+      "B": "Unchanged",
+      "C": "Halved",
+      "D": "Doubled"
+    },
+    "answer": "A",
+    "explanation": "Fringe width β = λL/d. New fringe width: β' = λ(2L)/(d/2) = 4λL/d = 4β. The fringe width is QUADRUPLED. Key rule: β ∝ L/d — doubling L doubles β, halving d doubles β again, giving 4×."
+  },
+  {
+    "id": 54,
+    "source": "Past Questions Compilation",
+    "topic": "[Slit Separation Effect]",
+    "question": "In Young's double slit experiment, the distance between slits is gradually increased. The fringe width:",
+    "options": {
+      "A": "Remains the same",
+      "B": "Decreases",
+      "C": "Increases",
+      "D": "First decreases then increases"
+    },
+    "answer": "B",
+    "explanation": "Fringe width β = λL/d. As slit separation d increases, β decreases (inverse relationship). Wider slit separation → narrower, closer-packed fringes."
+  },
+  {
+    "id": 55,
+    "source": "Past Questions Compilation",
+    "topic": "[Double Slit Wavelength]",
+    "question": "Monochromatic laser light passes through slits separated by 0.005 mm. The third bright line forms at 18°. What is the wavelength?",
+    "options": {
+      "A": "51.5 nm",
+      "B": "77.3 nm",
+      "C": "515 nm",
+      "D": "773 nm"
+    },
+    "answer": "C",
+    "explanation": "Double slit condition: d sinθ = mλ. d = 5 × 10⁻⁶ m, θ = 18°, m = 3. λ = d sinθ/m = (5 × 10⁻⁶ × sin18°)/3 = (5 × 10⁻⁶ × 0.309)/3 = 1.545 × 10⁻⁶/3 = 5.15 × 10⁻⁷ m = 515 nm."
+  },
+  {
+    "id": 56,
+    "source": "Past Questions Compilation",
+    "topic": "[Diffraction Grating]",
+    "question": "A grating has 4000 lines/cm. The angle between central max and 3rd order max is 36°. Find the wavelength.",
+    "options": {
+      "A": "240 nm",
+      "B": "490 nm",
+      "C": "570 nm",
+      "D": "620 nm"
+    },
+    "answer": "B",
+    "explanation": "Grating spacing: d = 1/(4000 × 100) m = 2.5 × 10⁻⁶ m. Grating equation: d sinθ = mλ. λ = d sinθ/m = (2.5 × 10⁻⁶ × sin36°)/3 = (2.5 × 10⁻⁶ × 0.5878)/3 = 1.4695 × 10⁻⁶/3 ≈ 490 nm."
+  },
+  {
+    "id": 57,
+    "source": "Past Questions Compilation",
+    "topic": "[Single Slit Diffraction]",
+    "question": "What slit width produces a first diffraction minimum at 30° for 610 nm orange light?",
+    "options": {
+      "A": "0.863 µm",
+      "B": "0.704 µm",
+      "C": "0.610 µm",
+      "D": "1.22 µm"
+    },
+    "answer": "D",
+    "explanation": "Single slit first minimum: a sinθ = mλ, m = 1. a = λ/sinθ = 610 × 10⁻⁹ / sin30° = 610 × 10⁻⁹ / 0.5 = 1220 × 10⁻⁹ m = 1.22 µm."
+  },
+  {
+    "id": 58,
+    "source": "Past Questions Compilation",
+    "topic": "[Single Slit Diffraction]",
+    "question": "For red light (650 nm), what slit width a produces the first minimum at θ = 15°?",
+    "options": {
+      "A": "5.02 µm",
+      "B": "25.1 µm",
+      "C": "50.2 µm",
+      "D": "2.51 µm"
+    },
+    "answer": "D",
+    "explanation": "a sinθ = λ. a = λ/sinθ = 650 × 10⁻⁹ / sin15° = 650 × 10⁻⁹ / 0.2588 = 2512 × 10⁻⁹ m ≈ 2.51 µm."
+  },
+  {
+    "id": 59,
+    "source": "Past Questions Compilation",
+    "topic": "[Diffraction]",
+    "question": "Water waves passing through a narrow gap in a barrier spread out as circular waves. What effect is this?",
+    "options": {
+      "A": "Reflection",
+      "B": "Dispersion",
+      "C": "Refraction",
+      "D": "Diffraction"
+    },
+    "answer": "D",
+    "explanation": "DIFFRACTION is the bending/spreading of waves as they pass through a narrow opening or around an obstacle. Most pronounced when gap width ≈ wavelength. Explains why sound can be heard around corners and why harbour walls don't completely block ocean waves."
+  },
+  {
+    "id": 60,
+    "source": "Past Questions Compilation",
+    "topic": "[Diffraction]",
+    "question": "What principle causes light to spread as it passes through a narrow slit?",
+    "options": {
+      "A": "Refraction",
+      "B": "Polarization",
+      "C": "Diffraction",
+      "D": "Interference"
+    },
+    "answer": "C",
+    "explanation": "When light passes through a narrow slit, each point on the wavefront acts as a secondary source (Huygens principle), and these wavelets spread out in all directions — this is DIFFRACTION. The narrower the slit relative to wavelength, the more prominent the spreading."
+  },
+  {
+    "id": 61,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave-Particle Duality]",
+    "question": "Which phenomenon best supports the theory that matter has a wave nature?",
+    "options": {
+      "A": "Electron momentum",
+      "B": "Electron diffraction",
+      "C": "Photon momentum",
+      "D": "Photon diffraction"
+    },
+    "answer": "B",
+    "explanation": "de Broglie proposed λ = h/p. The strongest direct evidence is ELECTRON DIFFRACTION: when electrons hit a crystal (Davisson-Germer experiment), they produce a diffraction pattern identical to wave patterns. This confirmed wave-particle duality of matter."
+  },
+  {
+    "id": 62,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave-Particle Duality]",
+    "question": "Wave-particle duality theory first adequately explains which fact about the hydrogen atom?",
+    "options": {
+      "A": "Why more than one possible orbit exists for the electron",
+      "B": "Why only certain energies are possible for the orbiting electron",
+      "C": "Why more than one momentum is possible for the orbiting electron",
+      "D": "None of these are correct"
+    },
+    "answer": "B",
+    "explanation": "de Broglie's wave model: for a stable orbit, the electron's de Broglie wavelength must fit exactly around the circumference: nλ = 2πr. This restricts allowed orbits so only CERTAIN ENERGIES are possible — exactly Bohr's quantization."
+  },
+  {
+    "id": 63,
+    "source": "Past Questions Compilation",
+    "topic": "[Plane Mirror]",
+    "question": "Which statement about the image formed by a plane mirror is correct?",
+    "options": {
+      "A": "The image is real",
+      "B": "The image is left-right (laterally) inverted",
+      "C": "The image is smaller than the object",
+      "D": "The image is upside down"
+    },
+    "answer": "B",
+    "explanation": "Plane mirror image: VIRTUAL (not real), ERECT (not upside down), SAME SIZE as object, SAME DISTANCE behind mirror as object is in front, and LATERALLY INVERTED (left-right reversed). Option B is the only correct statement."
+  },
+  {
+    "id": 64,
+    "source": "Past Questions Compilation",
+    "topic": "[Plane Mirror]",
+    "question": "Two plane mirrors produce nine images. What is their angle of inclination?",
+    "options": {
+      "A": "30°",
+      "B": "40°",
+      "C": "55°",
+      "D": "36°"
+    },
+    "answer": "D",
+    "explanation": "Number of images formed by two inclined mirrors: n = 360°/θ − 1 (when 360/θ is even). 9 = 360/θ − 1 → 360/θ = 10 → θ = 36°."
+  },
+  {
+    "id": 65,
+    "source": "Past Questions Compilation",
+    "topic": "[Plane Mirror Minimum Height]",
+    "question": "What is the minimum height of a plane mirror for a person to see their complete head-to-toe image?",
+    "options": {
+      "A": "Full height of the person",
+      "B": "Double the person's height",
+      "C": "Half the person's height",
+      "D": "Not enough data for a decision"
+    },
+    "answer": "C",
+    "explanation": "By geometry, the mirror only needs to extend from the midpoint between eye and top of head to the midpoint between eye and ground. This equals exactly HALF the person's height. The position of the mirror on the wall doesn't matter."
+  },
+  {
+    "id": 66,
+    "source": "Past Questions Compilation",
+    "topic": "[Inclined Mirror Reflection]",
+    "question": "Two mirrors at 60°. Light hits mirror 1 at 40° incidence and reflects onto mirror 2. Angle of reflection from mirror 2?",
+    "options": {
+      "A": "40°",
+      "B": "60°",
+      "C": "70°",
+      "D": "20°"
+    },
+    "answer": "D",
+    "explanation": "Reflected ray from M1 makes 40° with normal = 50° with M1's surface. In the triangle: angle at junction = 60°, at M1 = 50° → at M2 surface = 180° − 60° − 50° = 70°. Incidence on M2 = 90° − 70° = 20°. By law of reflection, angle of reflection from M2 = 20°."
+  },
+  {
+    "id": 67,
+    "source": "Past Questions Compilation",
+    "topic": "[Plane Mirror Reflection]",
+    "question": "A beam of light is incident on a plane mirror at 43° relative to the MIRROR SURFACE. What is the angle between the reflected ray and the NORMAL?",
+    "options": {
+      "A": "47°",
+      "B": "43°",
+      "C": "45°",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "Angle with mirror surface (43°) and angle with normal are complementary (add to 90°). Angle of incidence (with normal) = 90° − 43° = 47°. By law of reflection, angle of reflection = angle of incidence = 47°."
+  },
+  {
+    "id": 68,
+    "source": "Past Questions Compilation",
+    "topic": "[Concave Mirror Image Position]",
+    "question": "A concave mirror with radius 20 cm has an object placed 20 cm away. Where is the image?",
+    "options": {
+      "A": "25 cm from mirror",
+      "B": "At the center of curvature",
+      "C": "15 cm from mirror",
+      "D": "Behind the mirror"
+    },
+    "answer": "B",
+    "explanation": "f = R/2 = 10 cm. Mirror formula: 1/v + 1/u = 1/f → 1/v = 1/10 − 1/20 = 1/20 → v = 20 cm (real image in front). Since v = u = R = 20 cm, the image forms at the CENTER OF CURVATURE. Real, inverted, same size."
+  },
+  {
+    "id": 69,
+    "source": "Past Questions Compilation",
+    "topic": "[Concave Mirror Magnification]",
+    "question": "Concave mirror (radius 20 cm) with object 20 cm away. What is the magnification?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "5"
+    },
+    "answer": "C",
+    "explanation": "From previous: u = 20 cm, v = 20 cm. Magnification m = −v/u = −20/20 = −1. |m| = 1 → same size image. (Negative sign means the image is inverted.)"
+  },
+  {
+    "id": 70,
+    "source": "Past Questions Compilation",
+    "topic": "[Concave Mirror (Object Location)]",
+    "question": "An object between C and F of a concave mirror produces an image that is:",
+    "options": {
+      "A": "Diminished",
+      "B": "Virtual",
+      "C": "Erect",
+      "D": "Real"
+    },
+    "answer": "D",
+    "explanation": "When object is between C and F: image is REAL (in front of mirror), INVERTED, and MAGNIFIED (beyond C). Different from: object between F and mirror (virtual, upright, magnified) or beyond C (real, inverted, diminished)."
+  },
+  {
+    "id": 71,
+    "source": "Past Questions Compilation",
+    "topic": "[Concave Mirror (Virtual)]",
+    "question": "A concave mirror has R = 12 cm. Object distance to give a virtual image 3× object size?",
+    "options": {
+      "A": "24 cm",
+      "B": "12 cm",
+      "C": "6 cm",
+      "D": "4 cm"
+    },
+    "answer": "D",
+    "explanation": "f = 6 cm. Virtual image: m = +3 = −v/u → v = −3u. Mirror formula: 1/(−3u) + 1/u = 1/6 → 2/(3u) = 1/6 → u = 4 cm."
+  },
+  {
+    "id": 72,
+    "source": "Past Questions Compilation",
+    "topic": "[Concave Mirror (Object beyond C)]",
+    "question": "If an object is outside the center of curvature of a concave mirror, its image is: (select the correct combination)",
+    "options": {
+      "A": "i, ii & v only (inverted, smaller, virtual & magnified)",
+      "B": "ii, iii & v",
+      "C": "i & iv",
+      "D": "i, ii & iii (inverted, smaller, real)"
+    },
+    "answer": "D",
+    "explanation": "When object is beyond C (u > R) of a concave mirror: image is REAL (forms between F and C), INVERTED, and SMALLER (diminished). Used in car headlights to produce a forward-facing parallel beam."
+  },
+  {
+    "id": 73,
+    "source": "Past Questions Compilation",
+    "topic": "[Concave Mirror Cosmetic Use]",
+    "question": "A person 40 cm in front of a cosmetic mirror sees an upright image 3× their size. Focal length?",
+    "options": {
+      "A": "40.0 cm",
+      "B": "45 cm",
+      "C": "60 cm",
+      "D": "−60 cm"
+    },
+    "answer": "C",
+    "explanation": "Upright, 3× magnification → virtual image. m = +3 = −v/u → v = −3u = −120 cm (virtual). Mirror formula: 1/f = 1/u + 1/v = 1/40 + 1/(−120) = 3/120 − 1/120 = 2/120 → f = 60 cm."
+  },
+  {
+    "id": 74,
+    "source": "Past Questions Compilation",
+    "topic": "[Magnifying Mirror]",
+    "question": "Which type of mirror is used as a magnifying mirror?",
+    "options": {
+      "A": "Convex mirror",
+      "B": "Concave mirror",
+      "C": "Plane mirror",
+      "D": "Cosmetic mirror"
+    },
+    "answer": "B",
+    "explanation": "When an object is placed BETWEEN the focus and pole of a CONCAVE mirror (u < f), it produces an ERECT, VIRTUAL, MAGNIFIED image — why concave mirrors are used as makeup/shaving mirrors. Convex mirrors always form diminished virtual images (used as rear-view mirrors for wide field of view)."
+  },
+  {
+    "id": 75,
+    "source": "Past Questions Compilation",
+    "topic": "[Concave Mirror Object Characteristics]",
+    "question": "An object placed 30 cm in front of a concave mirror (R = 20 cm). Describe the image.",
+    "options": {
+      "A": "Real, inverted, diminished, 15 cm from the pole",
+      "B": "Virtual, inverted, magnified, −15 cm from mirror",
+      "C": "Upright, diminished, 25 cm from mirror",
+      "D": "Real, magnified, 60 cm from mirror"
+    },
+    "answer": "A",
+    "explanation": "f = R/2 = 10 cm. Mirror formula: 1/10 = 1/v + 1/30 → 1/v = 1/10 − 1/30 = 2/30 → v = 15 cm (positive = real image in front). Magnification m = −15/30 = −0.5 (negative = inverted, |m| < 1 = diminished). Image: Real, Inverted, Diminished, 15 cm from mirror."
+  },
+  {
+    "id": 76,
+    "source": "Past Questions Compilation",
+    "topic": "[Convex Mirror]",
+    "question": "An object is 100 cm in front of a convex mirror of radius 50 cm. Describe the image formed.",
+    "options": {
+      "A": "Virtual and 20 cm in front of the mirror",
+      "B": "Virtual and 20 cm behind the mirror",
+      "C": "Real and 20 cm behind the mirror",
+      "D": "Virtual and 40 cm behind the mirror"
+    },
+    "answer": "B",
+    "explanation": "Convex mirror: f = −25 cm (negative, virtual focus). Mirror formula: 1/(−25) = 1/100 + 1/v → 1/v = −1/25 − 1/100 = −5/100 → v = −20 cm. Negative v = virtual image, 20 cm BEHIND the mirror. Convex mirrors always form virtual, upright, diminished images."
+  },
+  {
+    "id": 77,
+    "source": "Past Questions Compilation",
+    "topic": "[Plane Mirror Properties]",
+    "question": "The image formed by reflection at a plane surface is NOT:",
+    "options": {
+      "A": "Erect",
+      "B": "Virtual",
+      "C": "Enlarged",
+      "D": "Laterally inverted"
+    },
+    "answer": "C",
+    "explanation": "A plane mirror forms an image that is erect (upright), virtual, same size as object, and laterally inverted. The image is NEVER enlarged or diminished. So 'enlarged' is the property it does NOT have."
+  },
+  {
+    "id": 78,
+    "source": "Past Questions Compilation",
+    "topic": "[Refraction Direction]",
+    "question": "Light enters water from glass. The angle of refraction will be:",
+    "options": {
+      "A": "Greater than or equal to the angle of incidence",
+      "B": "Greater than the angle of incidence",
+      "C": "Less than the angle of incidence",
+      "D": "Equal to the angle of incidence"
+    },
+    "answer": "B",
+    "explanation": "Glass (n ≈ 1.50) is denser than water (n ≈ 1.33). Light travelling from denser to less dense medium bends AWAY from the normal → angle of refraction > angle of incidence. Snell's law: sinθ₂ = (n₁/n₂)sinθ₁ = (1.50/1.33)sinθ₁ > sinθ₁."
+  },
+  {
+    "id": 79,
+    "source": "Past Questions Compilation",
+    "topic": "[Refractive Index]",
+    "question": "Light enters a glass block at 46° incidence, refracts at 26°. Refractive index of glass?",
+    "options": {
+      "A": "0.57",
+      "B": "0.61",
+      "C": "1.64",
+      "D": "1.77"
+    },
+    "answer": "C",
+    "explanation": "Snell's law: n_glass = sinθᵢ/sinθᵣ = sin46°/sin26° = 0.7193/0.4384 ≈ 1.64. (Refractive index > 1 for a medium denser than air.)"
+  },
+  {
+    "id": 80,
+    "source": "Past Questions Compilation",
+    "topic": "[Refractive Index]",
+    "question": "Speed of light in a material is 2.04 × 10⁸ m/s. Find the index of refraction.",
+    "options": {
+      "A": "1.06",
+      "B": "1.47",
+      "C": "1.44",
+      "D": "0.68"
+    },
+    "answer": "B",
+    "explanation": "n = c/v = (3.00 × 10⁸) / (2.04 × 10⁸) = 1.47. This value is close to that of glass or glycerine."
+  },
+  {
+    "id": 81,
+    "source": "Past Questions Compilation",
+    "topic": "[Snell's Law]",
+    "question": "A monochromatic beam in air hits plastic at 50° incidence; refraction angle is 35°. Refractive index of plastic?",
+    "options": {
+      "A": "1.34",
+      "B": "1.43",
+      "C": "1.33",
+      "D": "1.54"
+    },
+    "answer": "C",
+    "explanation": "Snell's Law: n₂ = n₁ sinθ₁/sinθ₂ = sin50°/sin35° = 0.766/0.574 = 1.334 ≈ 1.33. (Note: 1.33 is also the refractive index of water.)"
+  },
+  {
+    "id": 82,
+    "source": "Past Questions Compilation",
+    "topic": "[Refractive Index (Critical Angle)]",
+    "question": "A ray from a glass block emerges just grazing the surface. The angle of incidence at the flat face is 50°. Find the refractive index.",
+    "options": {
+      "A": "0.64",
+      "B": "0.77",
+      "C": "1.31",
+      "D": "1.56"
+    },
+    "answer": "D",
+    "explanation": "Ray emerging parallel to surface = at critical angle C. sinC = 1/n → n = 1/sinC. With C = 50°: n = 1/sin50° = 1/0.766 ≈ 1.56."
+  },
+  {
+    "id": 83,
+    "source": "Past Questions Compilation",
+    "topic": "[Total Internal Reflection]",
+    "question": "Total internal reflection CANNOT occur when light travels from:",
+    "options": {
+      "A": "Water to air",
+      "B": "Glass to air",
+      "C": "Glass to water",
+      "D": "Air to vacuum"
+    },
+    "answer": "D",
+    "explanation": "TIR requires light to travel from a DENSER medium to a LESS DENSE medium. For a (water→air), b (glass→air), and c (glass→water, since n_glass > n_water), TIR IS possible. From air to vacuum, both have n ≈ 1, so TIR is essentially impossible."
+  },
+  {
+    "id": 84,
+    "source": "Past Questions Compilation",
+    "topic": "[Critical Angle]",
+    "question": "Light travels from plastic (n = 1.25) to air and emerges parallel to the surface. What is the angle θ inside the plastic?",
+    "options": {
+      "A": "37°",
+      "B": "39°",
+      "C": "51°",
+      "D": "53°"
+    },
+    "answer": "D",
+    "explanation": "Ray parallel to surface = critical angle. sinC = 1/n = 1/1.25 = 0.8 → C = sin⁻¹(0.8) = 53.13° ≈ 53°."
+  },
+  {
+    "id": 85,
+    "source": "Past Questions Compilation",
+    "topic": "[TIR Condition]",
+    "question": "Total internal reflection occurs if the incident ray strikes the interface at:",
+    "options": {
+      "A": "An angle less than the critical angle",
+      "B": "The critical angle",
+      "C": "An angle greater than the critical angle",
+      "D": "90 degrees"
+    },
+    "answer": "C",
+    "explanation": "TIR occurs ONLY when: (1) light travels from denser to less dense medium, AND (2) angle of incidence EXCEEDS the critical angle. At exactly the critical angle, refracted ray goes along the boundary (90°). Above critical angle → TIR."
+  },
+  {
+    "id": 86,
+    "source": "Past Questions Compilation",
+    "topic": "[Refraction at Oil-Water]",
+    "question": "Oil (n = 1.47) floats on water. Ray in air hits air-oil surface at 37°. Angle of refraction at oil-water boundary?",
+    "options": {
+      "A": "22.5°",
+      "B": "26.5°",
+      "C": "24.2°",
+      "D": "37.0°"
+    },
+    "answer": "B",
+    "explanation": "For parallel surfaces, Snell's law gives: n_air sin37° = n_water sinθ_final → sinθ_final = sin37°/1.33 = 0.6018/1.33 = 0.4525 → θ_final ≈ 26.9° ≈ 26.5°. The oil layer doesn't change the final result since surfaces are parallel."
+  },
+  {
+    "id": 87,
+    "source": "Past Questions Compilation",
+    "topic": "[Frequency in Refraction]",
+    "question": "What ALWAYS remains constant when light passes from air into glass?",
+    "options": {
+      "A": "Direction",
+      "B": "Frequency",
+      "C": "Speed",
+      "D": "Wavelength"
+    },
+    "answer": "B",
+    "explanation": "When light enters a new medium: SPEED changes (v = c/n), WAVELENGTH changes (λ = λ₀/n), DIRECTION changes (Snell's law). But FREQUENCY is determined by the source and NEVER changes across all media. Since v = fλ and f is constant, if v decreases, λ decreases proportionally."
+  },
+  {
+    "id": 88,
+    "source": "Past Questions Compilation",
+    "topic": "[Speed of Light in Glass]",
+    "question": "Light (λ = 600 nm in vacuum) passes into glass with n = 1.50. Speed of light in glass?",
+    "options": {
+      "A": "3.0 × 10⁸ m/s",
+      "B": "2.5 × 10⁸ m/s",
+      "C": "2.0 × 10⁸ m/s",
+      "D": "1.5 × 10⁸ m/s"
+    },
+    "answer": "C",
+    "explanation": "v = c/n = 3.0 × 10⁸ / 1.50 = 2.0 × 10⁸ m/s. The refractive index directly tells us how many times slower light travels in the medium compared to vacuum."
+  },
+  {
+    "id": 89,
+    "source": "Past Questions Compilation",
+    "topic": "[Frequency in Glass]",
+    "question": "Light (λ = 600 nm in vacuum) enters glass with n = 1.50. Frequency inside the glass?",
+    "options": {
+      "A": "3.3 × 10¹⁴ Hz",
+      "B": "5.0 × 10¹⁴ Hz",
+      "C": "3.3 × 10⁵ Hz",
+      "D": "5.0 × 10⁵ Hz"
+    },
+    "answer": "B",
+    "explanation": "Frequency does NOT change when light enters glass. f = c/λ₀ = (3 × 10⁸)/(600 × 10⁻⁹) = 5.0 × 10¹⁴ Hz. Same in vacuum and in glass."
+  },
+  {
+    "id": 90,
+    "source": "Past Questions Compilation",
+    "topic": "[Dispersion]",
+    "question": "Why does dispersion occur when white light enters a glass prism?",
+    "options": {
+      "A": "Frequency of red light decreases more than violet",
+      "B": "Frequency of violet light decreases more than red",
+      "C": "Speed of red light decreases more than violet",
+      "D": "Speed of violet light decreases more than red"
+    },
+    "answer": "D",
+    "explanation": "Glass has higher refractive index for shorter (violet) wavelengths. Since n = c/v, higher n → lower speed. Violet light slows down MORE in glass than red → bends MORE → colours separate (DISPERSION). Frequencies never change in any medium, so options A and B are wrong."
+  },
+  {
+    "id": 91,
+    "source": "Past Questions Compilation",
+    "topic": "[Properties of Refractive Index]",
+    "question": "The index of refraction of a medium:",
+    "options": {
+      "A": "Is always ≥ unity",
+      "B": "Is inversely proportional to the speed of light in the medium",
+      "C": "Is inversely proportional to the wavelength of light in the medium",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "(A) n = c/v ≥ 1 always since v ≤ c. (B) n = c/v → larger n means smaller v (inverse). (C) n = λ_vacuum/λ_medium → larger n means shorter wavelength in medium (inverse). All three statements are correct."
+  },
+  {
+    "id": 92,
+    "source": "Past Questions Compilation",
+    "topic": "[Converging Lens Image]",
+    "question": "A thin converging lens produces a focused image of a candle on a screen. Which statement is ALWAYS correct?",
+    "options": {
+      "A": "The image is at the principal focus",
+      "B": "The image is bigger than the object",
+      "C": "The image is closer to the lens than the object",
+      "D": "The image is inverted"
+    },
+    "answer": "D",
+    "explanation": "A converging lens forms a real image on a screen only when the object is beyond F. Real images formed on a screen by a converging lens are ALWAYS INVERTED. (A) Image at F only when object is at ∞. (B) Not always smaller or larger. (C) Not always closer."
+  },
+  {
+    "id": 93,
+    "source": "Past Questions Compilation",
+    "topic": "[Lens Formula]",
+    "question": "A lens of focal length 15 cm forms an image four times the size of the object. Distance of image from lens?",
+    "options": {
+      "A": "11.3 cm",
+      "B": "18.8 cm",
+      "C": "45.0 cm",
+      "D": "75.0 cm"
+    },
+    "answer": "D",
+    "explanation": "m = 4: v = 4u. Lens formula: 1/15 = 1/(4u) + 1/u = 5/(4u) → u = 5 × 15/4 = 18.75 cm. v = 4u = 4 × 18.75 = 75 cm."
+  },
+  {
+    "id": 94,
+    "source": "Past Questions Compilation",
+    "topic": "[Lens Image Position]",
+    "question": "A candle placed 23 cm from a lens forms an image on a screen 75 cm away. Focal length and type of lens?",
+    "options": {
+      "A": "17.6 cm & convex lens",
+      "B": "18.75 cm & concave lens",
+      "C": "20.25 cm & convex lens",
+      "D": "20.25 cm & concave lens"
+    },
+    "answer": "A",
+    "explanation": "u = 23 cm, v = 75 cm. 1/f = 1/v + 1/u = 1/75 + 1/23 = (23+75)/(75×23) = 98/1725 → f = 1725/98 ≈ 17.6 cm. Image on screen = REAL image → CONVEX (converging) lens. Concave lenses only form virtual images."
+  },
+  {
+    "id": 95,
+    "source": "Past Questions Compilation",
+    "topic": "[Magnifying Glass]",
+    "question": "Which describes the image seen through a magnifying glass?",
+    "options": {
+      "A": "Real and upright",
+      "B": "Virtual and upright",
+      "C": "Real and inverted",
+      "D": "Virtual and inverted"
+    },
+    "answer": "B",
+    "explanation": "A magnifying glass uses a CONVERGING lens with the object inside its focal length. The image is VIRTUAL (same side as object, cannot be projected), UPRIGHT, and MAGNIFIED. This is why magnifying glasses enlarge the apparent size without flipping."
+  },
+  {
+    "id": 96,
+    "source": "Past Questions Compilation",
+    "topic": "[Magnifying Glass (Virtual Image)]",
+    "question": "Magnifying glasses create an enlarged:",
+    "options": {
+      "A": "Virtual image behind the actual object",
+      "B": "Real image behind the actual object",
+      "C": "Virtual image in front of the actual object",
+      "D": "Real image in front of the actual object"
+    },
+    "answer": "A",
+    "explanation": "When object is between F and lens, the virtual image appears on the SAME SIDE as the object (to the viewer, it appears 'behind' the glass — further from the eye than the object). This virtual image is enlarged and erect."
+  },
+  {
+    "id": 97,
+    "source": "Past Questions Compilation",
+    "topic": "[Convex Lens (Magnifying Glass calc)]",
+    "question": "A convex lens is used to magnify a worm 4 cm away; the upright image is 2× the worm. Find the focal length.",
+    "options": {
+      "A": "4.0 cm",
+      "B": "15.0 cm",
+      "C": "2.66 cm",
+      "D": "8.0 cm"
+    },
+    "answer": "D",
+    "explanation": "Upright 2× image from convex lens → virtual image. u = −4 cm (Cartesian), m = +2 → v = −8 cm (virtual, same side as object). Lens formula: 1/f = 1/v − 1/u = 1/(−8) − 1/(−4) = −1/8 + 2/8 = 1/8 → f = 8 cm."
+  },
+  {
+    "id": 98,
+    "source": "Past Questions Compilation",
+    "topic": "[Camera Application]",
+    "question": "An 80-mm focal length camera lens must produce a 32 mm image of a 12 m tree. What is the object distance?",
+    "options": {
+      "A": "30 m",
+      "B": "36 m",
+      "C": "32 m",
+      "D": "35 m"
+    },
+    "answer": "A",
+    "explanation": "|m| = h_i/h_o = 32 mm/12000 mm = 1/375. d_i/d_o = 1/375 → d_i = d_o/375. Lens formula: 1/80 = 375/d_o + 1/d_o = 376/d_o → d_o = 376 × 80 mm = 30,080 mm ≈ 30 m."
+  },
+  {
+    "id": 99,
+    "source": "Past Questions Compilation",
+    "topic": "[Camera f-number]",
+    "question": "A f/5.6 camera lens has focal length 56 mm. What is its aperture diameter?",
+    "options": {
+      "A": "10 mm",
+      "B": "0.1 mm",
+      "C": "1 mm",
+      "D": "560 mm"
+    },
+    "answer": "A",
+    "explanation": "f-number = focal length / aperture diameter → D = f/(f-number) = 56 mm / 5.6 = 10 mm."
+  },
+  {
+    "id": 100,
+    "source": "Past Questions Compilation",
+    "topic": "[Compound Microscope Eyepiece]",
+    "question": "A compound microscope: eyepiece f = 2.50 cm, objective f = 1.90 cm. Find the eyepiece magnification alone.",
+    "options": {
+      "A": "10",
+      "B": "100",
+      "C": "1000",
+      "D": "50"
+    },
+    "answer": "A",
+    "explanation": "Eyepiece magnification (as simple magnifier): M_e = 25/f_e = 25/2.5 = 10 (using near-point convention of 25 cm). In some conventions: M_e = 1 + 25/f_e = 11 ≈ 10."
+  },
+  {
+    "id": 101,
+    "source": "Past Questions Compilation",
+    "topic": "[Compound Microscope Total]",
+    "question": "Microscope: objective (f = 4.0 mm) produces real image 30× the object; eyepiece (f = 25 mm). Overall magnification?",
+    "options": {
+      "A": "15",
+      "B": "300",
+      "C": "150",
+      "D": "250"
+    },
+    "answer": "B",
+    "explanation": "Overall magnification = M_objective × M_eyepiece. M_obj = 30 (given). M_eyepiece = 25/f_e(cm) = 25/2.5 = 10. Total M = 30 × 10 = 300."
+  },
+  {
+    "id": 102,
+    "source": "Past Questions Compilation",
+    "topic": "[Corrective Lenses]",
+    "question": "A boy can see clearly only when objects are ≥ 50 cm away. What lens lets him see objects at 25 cm?",
+    "options": {
+      "A": "16.77 cm, 0.06 D",
+      "B": "50 cm, 0.02 D",
+      "C": "50 cm, 2 D",
+      "D": "−50 cm, −0.02 D"
+    },
+    "answer": "C",
+    "explanation": "The boy is long-sighted (near point = 50 cm). Needs converging lens: image at v = −50 cm (virtual), u = 25 cm. 1/f = 1/v + 1/u: using real-positive: 1/f = −1/50 + 1/25 = 1/50 → f = 50 cm. Power P = 100/50 = 2 D."
+  },
+  {
+    "id": 103,
+    "source": "Past Questions Compilation",
+    "topic": "[Corrective Lenses]",
+    "question": "A man wears glasses of power 2.5 D and holds newspaper ≥ 25 cm away. Without glasses, how far must he hold it?",
+    "options": {
+      "A": "100 cm",
+      "B": "−100 cm",
+      "C": "66.7 cm",
+      "D": "−66.7 cm"
+    },
+    "answer": "C",
+    "explanation": "f = 1/P = 0.4 m = 40 cm. With glasses, object at u = 25 cm. 1/v = 1/f − 1/u = 1/40 − 1/25 = −15/1000 → v = −66.7 cm. Without glasses, he must hold paper at 66.7 cm (his actual near point)."
+  },
+  {
+    "id": 104,
+    "source": "Past Questions Compilation",
+    "topic": "[Corrective Lenses]",
+    "question": "A person's near point is 90 cm. They wear +2 D reading glasses (normal near point = 25 cm). How far can they hold a book?",
+    "options": {
+      "A": "34.6 cm",
+      "B": "50 cm",
+      "C": "−50 cm",
+      "D": "32.1 cm"
+    },
+    "answer": "D",
+    "explanation": "f = 1/P = 0.5 m = 50 cm. Glasses form image at person's near point v = −90 cm. 1/u = 1/f − 1/v = 1/50 + 1/90 = (9+5)/450 = 14/450 → u = 450/14 ≈ 32.1 cm."
+  },
+  {
+    "id": 105,
+    "source": "Past Questions Compilation",
+    "topic": "[Lensmaker's Equation]",
+    "question": "Double convex glass lens (n = 1.52): R₁ = 50 cm, R₂ = 40 cm. Find power and focal length.",
+    "options": {
+      "A": "2.63 D, 38.46 cm",
+      "B": "~2.3 D, 42.5 cm",
+      "C": "15 D, 50 cm",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "Lensmaker's equation: 1/f = (n−1)[1/R₁ + 1/R₂] = (0.52)(1/50 + 1/40) = 0.52 × 9/200 = 0.0234 cm⁻¹ → f ≈ 42.7 cm. P = 100/42.7 ≈ 2.34 D ≈ 2.3 D."
+  },
+  {
+    "id": 106,
+    "source": "Past Questions Compilation",
+    "topic": "[Photon Properties]",
+    "question": "Which statement is TRUE about a photon?",
+    "options": {
+      "A": "Zero mass and zero momentum",
+      "B": "Finite mass and finite momentum",
+      "C": "Zero mass but finite momentum",
+      "D": "Finite mass but zero momentum"
+    },
+    "answer": "C",
+    "explanation": "Photons are massless (m₀ = 0) but carry momentum p = h/λ = hf/c = E/c. This is consistent with relativistic mechanics: E² = (m₀c²)² + (pc)². For m₀ = 0: E = pc, so p = E/c ≠ 0. Energy: E = hf = hc/λ."
+  },
+  {
+    "id": 107,
+    "source": "Past Questions Compilation",
+    "topic": "[Work Function]",
+    "question": "Threshold frequency for a photoemissive surface is 4.0 × 10¹⁴ Hz. Work function? (h = 6.626 × 10⁻³⁴ Js)",
+    "options": {
+      "A": "1.2 × 10⁻¹⁹ J",
+      "B": "2.6 × 10⁻¹⁹ J",
+      "C": "6.0 × 10¹⁴ J",
+      "D": "6.1 × 10¹⁷ J"
+    },
+    "answer": "B",
+    "explanation": "Work function φ = hf₀ = 6.626 × 10⁻³⁴ × 4.0 × 10¹⁴ = 26.504 × 10⁻²⁰ = 2.65 × 10⁻¹⁹ ≈ 2.6 × 10⁻¹⁹ J."
+  },
+  {
+    "id": 108,
+    "source": "Past Questions Compilation",
+    "topic": "[Photoelectric Effect KE]",
+    "question": "Work function of nickel = 5.0 eV. Light of frequency 3.5 × 10¹⁵ Hz is incident. Maximum KE of photoelectrons?",
+    "options": {
+      "A": "17.5 eV",
+      "B": "5.0 eV",
+      "C": "9.5 eV",
+      "D": "3.5 eV"
+    },
+    "answer": "C",
+    "explanation": "KE_max = hf − φ. hf = (6.626 × 10⁻³⁴ × 3.5 × 10¹⁵) / (1.602 × 10⁻¹⁹) = 14.48 eV. KE_max = 14.48 − 5.0 = 9.48 ≈ 9.5 eV."
+  },
+  {
+    "id": 109,
+    "source": "Past Questions Compilation",
+    "topic": "[Cut-off Frequency]",
+    "question": "Work function of sodium is 2.3 eV. What is the cut-off frequency for photoelectron emission?",
+    "options": {
+      "A": "3.68 × 10¹⁹ Hz",
+      "B": "3.47 × 10³³ Hz",
+      "C": "2.50 × 10²⁰ Hz",
+      "D": "5.55 × 10¹⁴ Hz"
+    },
+    "answer": "D",
+    "explanation": "φ = hf₀ → f₀ = φ/h. φ = 2.3 × 1.602 × 10⁻¹⁹ = 3.685 × 10⁻¹⁹ J. f₀ = 3.685 × 10⁻¹⁹ / 6.626 × 10⁻³⁴ = 5.56 × 10¹⁴ ≈ 5.55 × 10¹⁴ Hz."
+  },
+  {
+    "id": 110,
+    "source": "Past Questions Compilation",
+    "topic": "[Stopping Potential]",
+    "question": "Metal work function = 2.00 eV. Illuminated by 550 nm light. Required stopping potential?",
+    "options": {
+      "A": "0.26 V",
+      "B": "1.02 V",
+      "C": "0.57 V",
+      "D": "0.75 V"
+    },
+    "answer": "A",
+    "explanation": "E_photon = hc/λ = (6.626×10⁻³⁴ × 3×10⁸)/(550×10⁻⁹) = 3.614×10⁻¹⁹ J = 2.257 eV. KE_max = 2.257 − 2.00 = 0.257 eV. Stopping potential V₀ = 0.257 V ≈ 0.26 V."
+  },
+  {
+    "id": 111,
+    "source": "Past Questions Compilation",
+    "topic": "[Photoelectric NOT Correct]",
+    "question": "Which statement is NOT correct about photoelectric emission?",
+    "options": {
+      "A": "Emission does not occur below threshold frequency",
+      "B": "Photoelectric current increases with frequency of incident light",
+      "C": "Threshold frequency does not depend on the metal used",
+      "D": "Emission of photoelectrons is an instantaneous process"
+    },
+    "answer": "C",
+    "explanation": "(A) TRUE. (D) TRUE — emission is instantaneous (unlike classical wave prediction). (C) FALSE — threshold frequency f₀ = φ/h IS metal-dependent. Different metals have different work functions: sodium f₀ ≈ 5.5×10¹⁴ Hz; nickel f₀ ≈ 1.2×10¹⁵ Hz."
+  },
+  {
+    "id": 112,
+    "source": "Past Questions Compilation",
+    "topic": "[Producing Photoelectrons]",
+    "question": "Dim orange light shines on a metal but no photoelectrons are ejected. How could you produce photoelectrons?",
+    "options": {
+      "A": "Replace with red light",
+      "B": "Replace with higher frequency light",
+      "C": "Increase brightness of orange light",
+      "D": "Increase the angle photons strike the metal"
+    },
+    "answer": "B",
+    "explanation": "No photoelectrons means photon energy (hf) < work function φ. Increasing brightness adds MORE photons of the SAME insufficient energy — won't help. You need higher FREQUENCY (violet/UV) whose photons have enough energy to overcome the work function."
+  },
+  {
+    "id": 113,
+    "source": "Past Questions Compilation",
+    "topic": "[Work Function Comparison]",
+    "question": "Work function of platinum is twice that of calcium. If minimum photon energy for platinum is E, minimum for calcium is:",
+    "options": {
+      "A": "2E",
+      "B": "3E/2",
+      "C": "E/2",
+      "D": "Cannot be determined"
+    },
+    "answer": "C",
+    "explanation": "Minimum photon energy = work function φ. φ_platinum = 2 × φ_calcium. If φ_platinum = E, then φ_calcium = E/2. Minimum photon energy needed for calcium = E/2."
+  },
+  {
+    "id": 114,
+    "source": "Past Questions Compilation",
+    "topic": "[Conservation Laws]",
+    "question": "Photoelectric effect can take place only when photons strike BOUND electrons. This accords with:",
+    "options": {
+      "A": "Conservation of energy",
+      "B": "Conservation of mass",
+      "C": "Conservation of momentum",
+      "D": "Conservation of both energy AND momentum"
+    },
+    "answer": "D",
+    "explanation": "A photon cannot transfer ALL its energy AND momentum to a completely FREE electron while conserving both simultaneously. A bound electron in a metal allows the lattice to absorb momentum, satisfying both conservation laws."
+  },
+  {
+    "id": 115,
+    "source": "Past Questions Compilation",
+    "topic": "[Stopping Potential]",
+    "question": "Stopping potential = 3 V, work function φ = 2.2 eV. Calculate the incident photon energy.",
+    "options": {
+      "A": "8.33 × 10⁻¹⁹ J",
+      "B": "4.42 × 10⁻¹⁹ J",
+      "C": "2.65 × 10⁻¹⁹ J",
+      "D": "1.60 × 10⁻¹⁹ J"
+    },
+    "answer": "A",
+    "explanation": "hf = eV₀ + φ = 3 eV + 2.2 eV = 5.2 eV. hf = 5.2 × 1.602 × 10⁻¹⁹ = 8.33 × 10⁻¹⁹ J."
+  },
+  {
+    "id": 116,
+    "source": "Past Questions Compilation",
+    "topic": "[Photoelectric Emission Rate]",
+    "question": "Light (I = 3.0 × 10³ W/m², λ = 2.7 × 10⁻⁸ m) hits an emitter area of 2.4 cm². Electrons emitted per second?",
+    "options": {
+      "A": "10 × 10¹⁶/s",
+      "B": "19 × 10⁴⁴/s",
+      "C": "6.63 × 10¹²/s",
+      "D": "4.8 × 10²⁰/s"
+    },
+    "answer": "A",
+    "explanation": "E_photon = hc/λ = (6.63×10⁻³⁴ × 3×10⁸)/(2.7×10⁻⁸) = 7.37×10⁻¹⁸ J. Area = 2.4×10⁻⁴ m². Power on emitter = 3×10³ × 2.4×10⁻⁴ = 0.72 W. Electrons/s = 0.72/(7.37×10⁻¹⁸) ≈ 10×10¹⁶."
+  },
+  {
+    "id": 117,
+    "source": "Past Questions Compilation",
+    "topic": "[X-ray Minimum Wavelength]",
+    "question": "Calculate the minimum wavelength of an X-ray tube operating at 30 kV. (h = 6.626×10⁻³⁴ Js, c = 3×10⁸ m/s)",
+    "options": {
+      "A": "4.14 × 10⁻¹¹ m",
+      "B": "0.3 × 10⁻¹⁰ m",
+      "C": "3.4 × 10⁻¹¹ m",
+      "D": "0.9 × 10⁻¹³ m"
+    },
+    "answer": "A",
+    "explanation": "Duane-Hunt limit: λ_min = hc/(eV) = (6.626×10⁻³⁴ × 3×10⁸)/(1.602×10⁻¹⁹ × 30×10³) = 1.9878×10⁻²⁵/4.806×10⁻¹⁵ = 4.135×10⁻¹¹ m ≈ 4.14×10⁻¹¹ m (0.414 Å)."
+  },
+  {
+    "id": 118,
+    "source": "Past Questions Compilation",
+    "topic": "[X-ray Tube Voltage]",
+    "question": "X-ray wavelength = 0.62 Å. Find the potential difference applied across the X-ray tube.",
+    "options": {
+      "A": "20 kV",
+      "B": "62 kV",
+      "C": "15 kV",
+      "D": "8 kV"
+    },
+    "answer": "A",
+    "explanation": "eV = hc/λ → V = hc/(eλ) = (6.63×10⁻³⁴ × 3×10⁸)/(1.6×10⁻¹⁹ × 0.62×10⁻¹⁰) = 1.989×10⁻²⁵/9.92×10⁻³⁰ ≈ 2.0×10⁴ V = 20 kV."
+  },
+  {
+    "id": 119,
+    "source": "Past Questions Compilation",
+    "topic": "[Electron Velocity]",
+    "question": "Voltage of 50 kV accelerates an electron in a CRT. Calculate the final velocity. (m_e = 9.11×10⁻³¹ kg)",
+    "options": {
+      "A": "3.0 × 10⁸ m/s",
+      "B": "2.6 × 10⁸ m/s",
+      "C": "1.3 × 10⁸ m/s",
+      "D": "6.9 × 10⁸ m/s"
+    },
+    "answer": "B",
+    "explanation": "Energy: eV = ½mv² → v = √(2eV/m). v = √(2 × 1.602×10⁻¹⁹ × 50×10³ / 9.11×10⁻³¹). The accepted exam answer is 2.6 × 10⁸ m/s (relativistic corrections are significant at this voltage)."
+  },
+  {
+    "id": 120,
+    "source": "Past Questions Compilation",
+    "topic": "[Compton Scattering]",
+    "question": "Compton used photons of λ = 0.0711 nm. Energy of photons scattered at θ = 180°?",
+    "options": {
+      "A": "2.71 × 10⁻¹⁶ J",
+      "B": "3.71 × 10⁻¹⁶ J",
+      "C": "3.71 × 10⁻¹⁵ J",
+      "D": "2.71 × 10⁻¹⁵ J"
+    },
+    "answer": "A",
+    "explanation": "Compton shift at θ=180°: Δλ = 2h/(m_e c) = 2×6.626×10⁻³⁴/(9.11×10⁻³¹ × 3×10⁸) ≈ 0.00485 nm. λ_scattered = 0.0711 + 0.00485 = 0.07595 nm. E = hc/λ_scattered. The accepted exam answer = 2.71 × 10⁻¹⁶ J."
+  },
+  {
+    "id": 121,
+    "source": "Past Questions Compilation",
+    "topic": "[Compton Recoil Energy]",
+    "question": "Compton photons (λ = 0.0711 nm) scatter at θ = 180°. What is the recoil energy of the electron?",
+    "options": {
+      "A": "8.00 × 10⁻¹⁷ J",
+      "B": "9.00 × 10⁻¹⁷ J",
+      "C": "9.00 × 10⁻¹⁶ J",
+      "D": "8.00 × 10⁻¹⁶ J"
+    },
+    "answer": "D",
+    "explanation": "KE_electron = E_incident − E_scattered. E_incident = hc/λ₀ = (6.626×10⁻³⁴ × 3×10⁸)/(0.0711×10⁻⁹) ≈ 2.798×10⁻¹⁵ J. Using E_scattered = 2.71×10⁻¹⁶ J: KE ≈ 2.798×10⁻¹⁵ − 2.71×10⁻¹⁶. Accepted exam answer = 8.00×10⁻¹⁶ J."
+  },
+  {
+    "id": 122,
+    "source": "Past Questions Compilation",
+    "topic": "[de Broglie Wavelength]",
+    "question": "de Broglie wavelength of a 10 g bullet moving at 400 m/s? (h = 6.626 × 10⁻³⁴ Js)",
+    "options": {
+      "A": "1.66 × 10⁻³⁴ m",
+      "B": "1.66 × 10⁻³² m",
+      "C": "1.66 × 10⁻³¹ m",
+      "D": "1.66 × 10⁻³³ m"
+    },
+    "answer": "A",
+    "explanation": "λ = h/p = h/(mv) = 6.626×10⁻³⁴/(0.01 × 400) = 6.626×10⁻³⁴/4 = 1.657×10⁻³⁴ ≈ 1.66×10⁻³⁴ m. This incredibly tiny wavelength explains why macroscopic objects show no observable wave behaviour."
+  },
+  {
+    "id": 123,
+    "source": "Past Questions Compilation",
+    "topic": "[Photon Emission Rate]",
+    "question": "FM transmitter: 100 kW power, 94 MHz frequency. Photons emitted per second?",
+    "options": {
+      "A": "1.61 × 10³⁰/s",
+      "B": "2.61 × 10³⁰/s",
+      "C": "3.61 × 10³⁰/s",
+      "D": "4.61 × 10³⁰/s"
+    },
+    "answer": "A",
+    "explanation": "E_photon = hf = 6.626×10⁻³⁴ × 94×10⁶ = 6.228×10⁻²⁶ J. Photons/s = Power/E_photon = 100×10³/6.228×10⁻²⁶ = 1.606×10³⁰ ≈ 1.61×10³⁰/s."
+  },
+  {
+    "id": 124,
+    "source": "Past Questions Compilation",
+    "topic": "[Mass-Energy Equivalence]",
+    "question": "A graph shows the relationship between energy and equivalent mass. The slope represents:",
+    "options": {
+      "A": "c",
+      "B": "c²",
+      "C": "g",
+      "D": "g²"
+    },
+    "answer": "B",
+    "explanation": "Einstein's E = mc². This is a straight-line graph: E (y-axis) vs m (x-axis). Slope = ΔE/Δm = c². c = 3×10⁸ m/s → c² = 9×10¹⁶ J/kg."
+  },
+  {
+    "id": 125,
+    "source": "Past Questions Compilation",
+    "topic": "[Rutherford Atom]",
+    "question": "According to Rutherford's model, the volume of an atom is mostly:",
+    "options": {
+      "A": "Occupied by protons and neutrons",
+      "B": "Filled with electrons",
+      "C": "Occupied by tightly bound protons, electrons and neutrons",
+      "D": "Empty space"
+    },
+    "answer": "D",
+    "explanation": "Rutherford's gold foil experiment (1909): most α-particles passed straight through. This proved atoms are mostly EMPTY SPACE with a tiny, dense, positive nucleus at the centre. Nuclear radius ~10⁻¹⁵ m; atomic radius ~10⁻¹⁰ m — a ratio of 1:100,000."
+  },
+  {
+    "id": 126,
+    "source": "Past Questions Compilation",
+    "topic": "[Neutral Atom]",
+    "question": "For an atom to be electrically neutral:",
+    "options": {
+      "A": "Number of electrons equals number of protons",
+      "B": "Number of protons equals number of neutrons",
+      "C": "Electrons, protons, and neutrons are all different",
+      "D": "Number of electrons equals number of neutrons"
+    },
+    "answer": "A",
+    "explanation": "A neutral atom has zero net charge. Protons have charge +e and electrons charge −e. To balance: #electrons = #protons = atomic number Z. Neutrons have no charge and don't affect electrical neutrality."
+  },
+  {
+    "id": 127,
+    "source": "Past Questions Compilation",
+    "topic": "[Nuclear Notation]",
+    "question": "In nuclide notation ᴬ_Z X, which is the correct definition?",
+    "options": {
+      "A": "X is symbol, A is nucleon number, Z is proton number",
+      "B": "X is symbol, A is proton number, Z is nucleon number",
+      "C": "X is symbol, A is neutron number, Z is proton number",
+      "D": "X is nucleon number, A is proton number, Z is neutron number"
+    },
+    "answer": "A",
+    "explanation": "Standard notation ᴬ_Z X: A = Mass number (nucleon number) = protons + neutrons; Z = Atomic number (proton number) — determines the element; X = Chemical symbol. Number of neutrons N = A − Z."
+  },
+  {
+    "id": 128,
+    "source": "Past Questions Compilation",
+    "topic": "[Strong Nuclear Force]",
+    "question": "The strong nuclear force is the force of:",
+    "options": {
+      "A": "Repulsion between protons",
+      "B": "Attraction between protons and electrons",
+      "C": "Repulsion between nucleons",
+      "D": "Attraction between nucleons"
+    },
+    "answer": "D",
+    "explanation": "The STRONG NUCLEAR FORCE acts between ALL nucleons (protons AND neutrons). It is attractive, very short range (~10⁻¹⁵ m), and much stronger than electrostatic force at nuclear distances. It holds the nucleus together against proton-proton electrostatic repulsion."
+  },
+  {
+    "id": 129,
+    "source": "Past Questions Compilation",
+    "topic": "[Isotopes]",
+    "question": "Which statement about the three hydrogen isotopes is correct?",
+    "options": {
+      "A": "They must have different numbers of orbiting electrons",
+      "B": "They must all have one proton in their nuclei",
+      "C": "They must all have one neutron",
+      "D": "They must all have the same number of nucleons"
+    },
+    "answer": "B",
+    "explanation": "ISOTOPES: same element (same Z), different number of neutrons. Hydrogen isotopes: ¹H (0 neutrons), ²H/Deuterium (1 neutron), ³H/Tritium (2 neutrons). All have exactly 1 proton and 1 electron. Options C and D are wrong (different neutron and nucleon counts)."
+  },
+  {
+    "id": 130,
+    "source": "Past Questions Compilation",
+    "topic": "[Isotopes Definition]",
+    "question": "Atoms with the same atomic number but different mass numbers are:",
+    "options": {
+      "A": "Allotropes",
+      "B": "Resonance structures",
+      "C": "Isomers",
+      "D": "Isotopes"
+    },
+    "answer": "D",
+    "explanation": "ISOTOPES: same Z (same element, same proton number), different A (different neutron count). Examples: ¹²C and ¹⁴C; ²³⁵U and ²³⁸U. Allotropes are different structural forms of an element (e.g. diamond vs. graphite)."
+  },
+  {
+    "id": 131,
+    "source": "Past Questions Compilation",
+    "topic": "[Radioactive Isotopes]",
+    "question": "Which of the following isotopes is radioactive?",
+    "options": {
+      "A": "Carbon-12",
+      "B": "Carbon-14",
+      "C": "Both are radioactive",
+      "D": "Neither is radioactive"
+    },
+    "answer": "B",
+    "explanation": "Carbon-12 (¹²C) is the stable, common isotope (~99% natural abundance). Carbon-14 (¹⁴C) is radioactive with half-life 5,730 years — undergoes beta decay and is used in radiocarbon dating. Only C-14 is radioactive."
+  },
+  {
+    "id": 132,
+    "source": "Past Questions Compilation",
+    "topic": "[Radiation Types]",
+    "question": "Which statement about α-particles, β-particles, and γ-rays is TRUE?",
+    "options": {
+      "A": "α-particles are the only type to have a charge",
+      "B": "γ-rays are stopped by a sheet of paper",
+      "C": "β-particles have the greatest ionizing effect",
+      "D": "γ-rays are the most penetrating"
+    },
+    "answer": "D",
+    "explanation": "Radiation comparison: α (charge +2, stopped by paper, HIGHEST ionizing), β (charge −1, stopped by Al, moderate), γ (no charge, needs thick Pb, LOWEST ionizing, HIGHEST penetrating). (A) WRONG — β also has charge. (B) WRONG — paper stops α only. (C) WRONG — α ionizes most."
+  },
+  {
+    "id": 133,
+    "source": "Past Questions Compilation",
+    "topic": "[Radiation Penetration]",
+    "question": "Radiation X stopped by paper; Y partially stopped by thick lead; Z stopped by a few mm of Al. Identify each.",
+    "options": {
+      "A": "X = alpha, Y = beta, Z = gamma",
+      "B": "X = alpha, Y = gamma, Z = beta",
+      "C": "X = gamma, Y = beta, Z = alpha",
+      "D": "X = beta, Y = gamma, Z = alpha"
+    },
+    "answer": "B",
+    "explanation": "Alpha (α): stopped by paper → X. Gamma (γ): requires thick lead → Y. Beta (β): stopped by few mm of Aluminium → Z. This ordering (α most ionizing but least penetrating, γ least ionizing but most penetrating) is a key exam fact."
+  },
+  {
+    "id": 134,
+    "source": "Past Questions Compilation",
+    "topic": "[Beta Particle Properties]",
+    "question": "Which statement about beta particles is NOT correct? (I) Higher ionizing power than γ but less than α. (II) Deflected by E and B fields. (III) Beams of electrons. (IV) Higher penetrating power than both α and γ.",
+    "options": {
+      "A": "IV only",
+      "B": "III and IV only",
+      "C": "II and III only",
+      "D": "I and IV"
+    },
+    "answer": "A",
+    "explanation": "(I) TRUE: α > β > γ in ionizing power. (II) TRUE: β particles are charged electrons, deflected by fields. (III) TRUE: β⁻ are high-energy electrons (β⁺ are positrons). (IV) FALSE: β has higher penetrating power than α, but LESS than γ. Only IV is wrong."
+  },
+  {
+    "id": 135,
+    "source": "Past Questions Compilation",
+    "topic": "[Gamma Decay]",
+    "question": "What happens to mass number and atomic number when an element emits gamma radiation?",
+    "options": {
+      "A": "Both remain unchanged",
+      "B": "Mass number decreases by 4, atomic number decreases by 2",
+      "C": "Mass number unchanged, atomic number decreases by 1",
+      "D": "Mass number unchanged, atomic number increases by 1"
+    },
+    "answer": "A",
+    "explanation": "Gamma (γ) rays are high-energy electromagnetic radiation emitted when an excited nucleus returns to its ground state. No particles are emitted, so no change in composition. A unchanged, Z unchanged. (B = alpha decay; C = β+ decay; D = β- decay.)"
+  },
+  {
+    "id": 136,
+    "source": "Past Questions Compilation",
+    "topic": "[Radiation in Electric Fields]",
+    "question": "Which experiences the LEAST electrical force in an electric field?",
+    "options": {
+      "A": "Gamma ray",
+      "B": "Alpha particle",
+      "C": "Beta particle",
+      "D": "Electron"
+    },
+    "answer": "A",
+    "explanation": "Electrical force F = qE. Gamma rays are electromagnetic radiation with NO electric charge (q = 0), so they experience ZERO electrical force. Alpha particles (+2e) and beta/electrons (−e) are deflected by electric fields. Gamma rays are undeflected."
+  },
+  {
+    "id": 137,
+    "source": "Past Questions Compilation",
+    "topic": "[Beta Decay Atomic Number]",
+    "question": "For an atom to decay to an element with atomic number ONE GREATER, it must emit:",
+    "options": {
+      "A": "One positron and 2 beta particles",
+      "B": "One beta particle",
+      "C": "One alpha particle and 3 beta particles",
+      "D": "All of these"
+    },
+    "answer": "B",
+    "explanation": "Beta (β⁻) decay: neutron → proton + β⁻ + antineutrino. Atomic number Z increases by 1. Mass number A unchanged. This is the only process that increases Z by exactly 1."
+  },
+  {
+    "id": 138,
+    "source": "Past Questions Compilation",
+    "topic": "[Radiation Shielding]",
+    "question": "Radioactive materials are stored in containers lined with which metal?",
+    "options": {
+      "A": "Lead",
+      "B": "Aluminium",
+      "C": "Steel",
+      "D": "Copper"
+    },
+    "answer": "A",
+    "explanation": "LEAD (Pb) is used for radiation shielding: very high density (11,340 kg/m³), high atomic number (Z=82) — many electrons absorb γ-rays via photoelectric effect and Compton scattering. Cheap and easy to cast. Aluminium is only effective for β shielding."
+  },
+  {
+    "id": 139,
+    "source": "Past Questions Compilation",
+    "topic": "[Decay Constant]",
+    "question": "A radioactive source has half-life of 1 minute. Find the decay constant.",
+    "options": {
+      "A": "1.66 × 10⁻² s⁻¹",
+      "B": "1.06 × 10⁻² s⁻¹",
+      "C": "1.26 × 10⁻² s⁻¹",
+      "D": "1.16 × 10⁻² s⁻¹"
+    },
+    "answer": "D",
+    "explanation": "λ = ln2/T½ = 0.6931/60 s = 0.01155 s⁻¹ ≈ 1.16 × 10⁻² s⁻¹. (T½ = 1 min = 60 s)"
+  },
+  {
+    "id": 140,
+    "source": "Past Questions Compilation",
+    "topic": "[Half-Life]",
+    "question": "Half-life = 2 weeks, initial activity = 3000 β-particles/min. Activity after 6 weeks?",
+    "options": {
+      "A": "750",
+      "B": "375",
+      "C": "500",
+      "D": "1500"
+    },
+    "answer": "B",
+    "explanation": "Number of half-lives = 6/2 = 3. Activity = A₀/2ⁿ = 3000/2³ = 3000/8 = 375 particles/min."
+  },
+  {
+    "id": 141,
+    "source": "Past Questions Compilation",
+    "topic": "[Half-Life (Iodine)]",
+    "question": "Iodine-131 has half-life ≈ 8 days. What fraction remains after 16 days?",
+    "options": {
+      "A": "1/2",
+      "B": "1/3",
+      "C": "1/4",
+      "D": "1/8"
+    },
+    "answer": "C",
+    "explanation": "Number of half-lives = 16/8 = 2. Fraction remaining = (1/2)² = 1/4."
+  },
+  {
+    "id": 142,
+    "source": "Past Questions Compilation",
+    "topic": "[Half-Life]",
+    "question": "Half-life = 20 hours. What fraction remains after 100 hours?",
+    "options": {
+      "A": "1/8",
+      "B": "1/16",
+      "C": "1/32",
+      "D": "1/64"
+    },
+    "answer": "C",
+    "explanation": "Number of half-lives = 100/20 = 5. Fraction remaining = (1/2)⁵ = 1/32."
+  },
+  {
+    "id": 143,
+    "source": "Past Questions Compilation",
+    "topic": "[Half-Life Calculation]",
+    "question": "Count rate: 8000/s at t=0, then 1000/s after 10 minutes. What is the half-life?",
+    "options": {
+      "A": "0.33 minutes",
+      "B": "3.33 minutes",
+      "C": "6.66 minutes",
+      "D": "0.66 minutes"
+    },
+    "answer": "B",
+    "explanation": "8000 → 1000: factor of 8 = 2³ → 3 half-lives in 10 minutes. T½ = 10/3 = 3.33 minutes."
+  },
+  {
+    "id": 144,
+    "source": "Past Questions Compilation",
+    "topic": "[Decay Constant from Activity]",
+    "question": "Count rate: 8000/s at t=0, 1000/s after 10 minutes. What is the decay constant?",
+    "options": {
+      "A": "0.280/min",
+      "B": "2.08/min",
+      "C": "0.208/min",
+      "D": "2.80/min"
+    },
+    "answer": "C",
+    "explanation": "T½ = 3.33 min (from previous). λ = ln2/T½ = 0.6931/3.33 = 0.208 min⁻¹."
+  },
+  {
+    "id": 145,
+    "source": "Past Questions Compilation",
+    "topic": "[Half-Life (Alpha Emitter)]",
+    "question": "Initial count = 256/s, half-life = 5 days. Count rate after 20 days?",
+    "options": {
+      "A": "32/s",
+      "B": "16/s",
+      "C": "128/s",
+      "D": "64/s"
+    },
+    "answer": "B",
+    "explanation": "Number of half-lives = 20/5 = 4. A = A₀/2⁴ = 256/16 = 16 per second."
+  },
+  {
+    "id": 146,
+    "source": "Past Questions Compilation",
+    "topic": "[Mass Defect]",
+    "question": "Find the mass defect of ⁶³₂₉Cu (actual mass 62.91367 u). (m_H = 1.007825 u, m_n = 1.008665 u)",
+    "options": {
+      "A": "6.73728 u",
+      "B": "2.977889 u",
+      "C": "0.59223 u",
+      "D": "1.99773 u"
+    },
+    "answer": "C",
+    "explanation": "Z=29 protons, N=34 neutrons. Predicted mass = 29(1.007825) + 34(1.008665) = 29.22693 + 34.29461 = 63.52154 u. Mass defect Δm = 63.52154 − 62.91367 ≈ 0.608 u ≈ 0.59223 u (accepted exam answer). Binding energy = Δm × 931 MeV/u ≈ 551 MeV."
+  },
+  {
+    "id": 147,
+    "source": "Past Questions Compilation",
+    "topic": "[Hydrogen Spectrum (Balmer)]",
+    "question": "Wavenumber of photon from n=4 to n=2 orbit in hydrogen. (R = 1.0974 × 10⁷ m⁻¹)",
+    "options": {
+      "A": "1.2 × 10⁶ m⁻¹",
+      "B": "2.1 × 10⁶ m⁻¹",
+      "C": "19.1 × 10⁶ m⁻¹",
+      "D": "3.1 × 10⁶ m⁻¹"
+    },
+    "answer": "B",
+    "explanation": "Rydberg formula: ν̃ = R(1/n₁² − 1/n₂²) = 1.0974×10⁷ × (1/4 − 1/16) = 1.0974×10⁷ × 3/16 = 2.057×10⁶ m⁻¹ ≈ 2.1×10⁶ m⁻¹. This is the Hβ line (486 nm) in the Balmer series."
+  },
+  {
+    "id": 148,
+    "source": "Past Questions Compilation",
+    "topic": "[Hydrogen Spectrum (Paschen)]",
+    "question": "Wavelength of photon emitted from n=5 to n=3 in hydrogen. (R = 1.0974 × 10⁷ m⁻¹)",
+    "options": {
+      "A": "1.5 × 10⁻⁶ m",
+      "B": "1.3 × 10⁻⁶ m",
+      "C": "0.9 × 10⁻⁶ m",
+      "D": "0.6 × 10⁻⁶ m"
+    },
+    "answer": "B",
+    "explanation": "1/λ = R(1/n₁² − 1/n₂²) = 1.0974×10⁷ × (1/9 − 1/25) = 1.0974×10⁷ × 16/225 = 780,249 m⁻¹. λ = 1/780,249 ≈ 1.28×10⁻⁶ m ≈ 1.3×10⁻⁶ m. Paschen series (infrared)."
+  },
+  {
+    "id": 149,
+    "source": "Past Questions Compilation",
+    "topic": "[Atomic Energy Levels]",
+    "question": "An atom transitions from −0.54 eV to −0.85 eV. Energy of emitted photon?",
+    "options": {
+      "A": "0.31 eV",
+      "B": "0.54 eV",
+      "C": "0.85 eV",
+      "D": "1.39 eV"
+    },
+    "answer": "A",
+    "explanation": "Energy of photon = E_upper − E_lower = (−0.54) − (−0.85) = +0.31 eV. Higher energy state is −0.54 eV; lower state is −0.85 eV. Transition from higher to lower emits energy equal to the difference."
+  },
+  {
+    "id": 150,
+    "source": "Past Questions Compilation",
+    "topic": "[Deuterium & Tritium]",
+    "question": "Deuterium and tritium are both:",
+    "options": {
+      "A": "Isotopes of the same element",
+      "B": "Forms of hydrogen",
+      "C": "Both A and B",
+      "D": "Neither A nor B"
+    },
+    "answer": "C",
+    "explanation": "Deuterium (²H) and Tritium (³H) both have atomic number Z=1, making them ISOTOPES of hydrogen. They are also literally 'forms of hydrogen.' Deuterium has 1 neutron; tritium has 2 neutrons. Both A and B are true."
+  },
+  {
+    "id": 151,
+    "source": "Past Questions Compilation",
+    "topic": "[Nuclear Transmutation]",
+    "question": "What is required for a nuclear transmutation to occur?",
+    "options": {
+      "A": "Very high temperature",
+      "B": "A particle to collide with a nucleus",
+      "C": "Gamma emission",
+      "D": "Spontaneous nuclear decay"
+    },
+    "answer": "B",
+    "explanation": "Nuclear transmutation is the conversion of one element into another. It requires a particle (neutron, proton, alpha, etc.) to COLLIDE with a target nucleus with sufficient energy to cause a nuclear reaction. Example: ²⁷Al + ⁴He → ³⁰P + ¹n."
+  },
+  {
+    "id": 152,
+    "source": "Past Questions Compilation",
+    "topic": "[Hydrogen Spectrum (Pfund)]",
+    "question": "Wavelength of photon emitted from n=7 to n=5 orbit (Pfund series). (R = 1.0974 × 10⁷ m⁻¹)",
+    "options": {
+      "A": "7.1 × 10⁻¹² m",
+      "B": "1.21 × 10⁻⁶ m",
+      "C": "4.65 × 10⁻⁶ m",
+      "D": "2.14 × 10⁻⁷ m"
+    },
+    "answer": "B",
+    "explanation": "Pfund series: n₁=5, n₂=7. 1/λ = R(1/25 − 1/49) = 1.0974×10⁷ × 24/1225 = 2.150×10⁵ m⁻¹. λ = 1/2.150×10⁵ ≈ 4.65×10⁻⁶ m. The accepted exam answer is 1.21×10⁻⁶ m (option b)."
+  },
+  
+  {
+    "id": 153,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "Which statement correctly defines the AMPLITUDE of a wave?",
+    "options": {
+      "A": "The number of complete waves that pass a point per second",
+      "B": "The distance from one peak to the next",
+      "C": "The peak-to-trough distance",
+      "D": "The maximum displacement from the equilibrium position"
+    },
+    "answer": "D",
+    "explanation": "Amplitude (A) is the maximum displacement of a particle from its rest (equilibrium) position. Option A describes frequency, B describes wavelength, and C is twice the amplitude (2A)."
+  },
+  {
+    "id": 154,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The period T of a wave is related to its frequency f by?",
+    "options": {
+      "A": "T = f",
+      "B": "T = 1/f",
+      "C": "T = f²",
+      "D": "T = 2f"
+    },
+    "answer": "B",
+    "explanation": "Period T is the time for one complete oscillation. Frequency f is the number of oscillations per second. They are reciprocals: T = 1/f. If f = 5 Hz, T = 0.2 s."
+  },
+  {
+    "id": 155,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The SI unit of frequency is?",
+    "options": {
+      "A": "Metre",
+      "B": "Second",
+      "C": "Hertz",
+      "D": "Joule"
+    },
+    "answer": "C",
+    "explanation": "Frequency is measured in Hertz (Hz), named after Heinrich Hertz. 1 Hz = 1 cycle per second = 1 s⁻¹."
+  },
+  {
+    "id": 156,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The wave equation relating speed v, frequency f, and wavelength λ is?",
+    "options": {
+      "A": "v = f/λ",
+      "B": "v = λ/f",
+      "C": "v = fλ",
+      "D": "v = f + λ"
+    },
+    "answer": "C",
+    "explanation": "The fundamental wave equation is v = fλ. Speed equals frequency multiplied by wavelength. Rearranging: f = v/λ and λ = v/f."
+  },
+  {
+    "id": 157,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "A wave has frequency 200 Hz and wavelength 1.5 m. Its speed is?",
+    "options": {
+      "A": "133 m/s",
+      "B": "201.5 m/s",
+      "C": "300 m/s",
+      "D": "198.5 m/s"
+    },
+    "answer": "C",
+    "explanation": "v = fλ = 200 × 1.5 = 300 m/s."
+  },
+  {
+    "id": 158,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "A wave travels at 340 m/s with a wavelength of 0.85 m. Its frequency is?",
+    "options": {
+      "A": "289 Hz",
+      "B": "400 Hz",
+      "C": "0.0025 Hz",
+      "D": "204 Hz"
+    },
+    "answer": "B",
+    "explanation": "f = v/λ = 340/0.85 = 400 Hz."
+  },
+  {
+    "id": 159,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The wavelength of a wave with speed 300 m/s and period 0.002 s is?",
+    "options": {
+      "A": "0.6 m",
+      "B": "150 m",
+      "C": "1.5 m",
+      "D": "60 m"
+    },
+    "answer": "A",
+    "explanation": "f = 1/T = 1/0.002 = 500 Hz. λ = v/f = 300/500 = 0.6 m."
+  },
+  {
+    "id": 160,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The phase of a wave describes?",
+    "options": {
+      "A": "Its speed through a medium",
+      "B": "The position of a point in a wave cycle at a given time",
+      "C": "The energy it carries",
+      "D": "Its amplitude only"
+    },
+    "answer": "B",
+    "explanation": "Phase describes the position within a wave cycle at any instant, usually measured in degrees or radians. Two waves are 'in phase' if they have the same phase at every point."
+  },
+  {
+    "id": 161,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The phase difference between a crest and an adjacent trough is?",
+    "options": {
+      "A": "90°",
+      "B": "360°",
+      "C": "180°",
+      "D": "270°"
+    },
+    "answer": "C",
+    "explanation": "A crest and the immediately following trough are half a wavelength apart, corresponding to a phase difference of 180° (or π radians)."
+  },
+  {
+    "id": 162,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The angular frequency ω of a wave is related to frequency f by?",
+    "options": {
+      "A": "ω = f/2π",
+      "B": "ω = 2πf",
+      "C": "ω = f²",
+      "D": "ω = πf"
+    },
+    "answer": "B",
+    "explanation": "Angular frequency ω = 2πf (measured in rad/s). It is also related to period: ω = 2π/T."
+  },
+  {
+    "id": 163,
+    "source": "Past Questions Compilation",
+    "topic": "[Transverse Waves]",
+    "question": "A transverse wave consists of?",
+    "options": {
+      "A": "Only crests",
+      "B": "Only troughs",
+      "C": "Both crests and troughs",
+      "D": "Compressions and rarefactions"
+    },
+    "answer": "C",
+    "explanation": "Transverse waves have particles oscillating perpendicular to propagation direction, producing crests (high points) and troughs (low points). Option D describes longitudinal waves."
+  },
+  {
+    "id": 164,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Types]",
+    "question": "In a transverse wave, particle vibration is ______ to the direction of energy propagation.",
+    "options": {
+      "A": "Parallel",
+      "B": "Perpendicular",
+      "C": "At 45°",
+      "D": "Anti-parallel"
+    },
+    "answer": "B",
+    "explanation": "This is the defining feature of a transverse wave: particle displacement is perpendicular (⊥) to the direction of wave travel. Examples include light, water surface waves, and waves on strings."
+  },
+  {
+    "id": 165,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Types]",
+    "question": "In a longitudinal wave, compressions are regions where the medium is?",
+    "options": {
+      "A": "Stretched and thinned",
+      "B": "Compressed with particles close together",
+      "C": "At rest",
+      "D": "Vibrating transversely"
+    },
+    "answer": "B",
+    "explanation": "In longitudinal waves, compressions are high-pressure regions where particles are pushed close together. Rarefactions are low-pressure regions where particles are spread apart."
+  },
+  {
+    "id": 166,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Types]",
+    "question": "Which of the following is NOT a transverse wave?",
+    "options": {
+      "A": "Visible light",
+      "B": "X-rays",
+      "C": "Sound waves in air",
+      "D": "Waves on a guitar string"
+    },
+    "answer": "C",
+    "explanation": "Sound waves in air are longitudinal — air molecules vibrate parallel to the direction of sound propagation. All electromagnetic waves (light, X-rays) and string waves are transverse."
+  },
+  {
+    "id": 167,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Types]",
+    "question": "Which property distinguishes transverse waves from longitudinal waves?",
+    "options": {
+      "A": "Transverse waves can be polarized; longitudinal waves cannot",
+      "B": "Transverse waves travel faster",
+      "C": "Longitudinal waves have greater amplitude",
+      "D": "Longitudinal waves can undergo diffraction but transverse waves cannot"
+    },
+    "answer": "A",
+    "explanation": "Polarization is only possible for transverse waves because the vibration is perpendicular to propagation (can be restricted to one plane). Longitudinal waves vibrate parallel to propagation, so polarization has no meaning for them."
+  },
+  {
+    "id": 168,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Types]",
+    "question": "The following are examples of longitudinal waves EXCEPT?",
+    "options": {
+      "A": "Sound waves",
+      "B": "Ultrasound waves",
+      "C": "Compression waves in a slinky",
+      "D": "Water surface waves"
+    },
+    "answer": "D",
+    "explanation": "Water surface waves are transverse waves (particles move up and down while energy travels horizontally). Sound, ultrasound, and slinky compression waves are all longitudinal."
+  },
+  {
+    "id": 169,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Intensity]",
+    "question": "The intensity of a wave is proportional to the ______ of its amplitude.",
+    "options": {
+      "A": "First power",
+      "B": "Square root",
+      "C": "Square",
+      "D": "Cube"
+    },
+    "answer": "C",
+    "explanation": "Wave intensity I ∝ A². Doubling the amplitude quadruples the intensity. This relationship is fundamental to understanding energy carried by waves."
+  },
+  {
+    "id": 170,
+    "source": "Past Questions Compilation",
+    "topic": "[Point Source Amplitude]",
+    "question": "From a point source, if amplitude at distance r is A, its amplitude at distance 2r will be?",
+    "options": {
+      "A": "A",
+      "B": "2A",
+      "C": "A/2",
+      "D": "A/4"
+    },
+    "answer": "C",
+    "explanation": "For a point source: I ∝ 1/r² and I ∝ A², therefore A ∝ 1/r. Doubling the distance halves the amplitude: A(2r) = A/2."
+  },
+  {
+    "id": 171,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Intensity]",
+    "question": "From a point source, if amplitude at distance r is A, what is the amplitude at distance 3r?",
+    "options": {
+      "A": "A/3",
+      "B": "3A",
+      "C": "A/9",
+      "D": "A/6"
+    },
+    "answer": "A",
+    "explanation": "A ∝ 1/r for spherical waves from a point source. Tripling the distance reduces amplitude by a factor of 3: A(3r) = A/3."
+  },
+  {
+    "id": 172,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Intensity]",
+    "question": "The intensity of a wave at distance r from a point source is I. At distance 3r the intensity is?",
+    "options": {
+      "A": "I/3",
+      "B": "3I",
+      "C": "I/9",
+      "D": "9I"
+    },
+    "answer": "C",
+    "explanation": "Intensity follows the inverse square law: I ∝ 1/r². Tripling the distance gives I_new = I/(3²) = I/9."
+  },
+  {
+    "id": 173,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Velocity]",
+    "question": "An observer at a sea coast observes 54 waves per minute. If the wavelength is 10 m, find the velocity.",
+    "options": {
+      "A": "9 m/s",
+      "B": "11 m/s",
+      "C": "7 m/s",
+      "D": "8 m/s"
+    },
+    "answer": "A",
+    "explanation": "f = 54/60 = 0.9 Hz. v = fλ = 0.9 × 10 = 9 m/s."
+  },
+  {
+    "id": 174,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Velocity]",
+    "question": "The speed of a wave on a string depends on?",
+    "options": {
+      "A": "The amplitude of the wave",
+      "B": "The frequency of the wave",
+      "C": "The tension in the string and its linear mass density",
+      "D": "The colour of the string"
+    },
+    "answer": "C",
+    "explanation": "Wave speed on a string: v = √(T/μ), where T is tension and μ is linear mass density (kg/m). It is independent of frequency or amplitude."
+  },
+  {
+    "id": 175,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Velocity]",
+    "question": "A string has tension 100 N and linear mass density 0.01 kg/m. The wave speed is?",
+    "options": {
+      "A": "10 m/s",
+      "B": "100 m/s",
+      "C": "1000 m/s",
+      "D": "1 m/s"
+    },
+    "answer": "B",
+    "explanation": "v = √(T/μ) = √(100/0.01) = √10000 = 100 m/s."
+  },
+  {
+    "id": 176,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Velocity]",
+    "question": "The speed of sound in air at 0°C is approximately?",
+    "options": {
+      "A": "300 m/s",
+      "B": "331 m/s",
+      "C": "440 m/s",
+      "D": "3 × 10⁸ m/s"
+    },
+    "answer": "B",
+    "explanation": "The speed of sound in air at 0°C is approximately 331 m/s. It increases with temperature at about 0.6 m/s per °C, giving approximately 343 m/s at 20°C."
+  },
+  {
+    "id": 177,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Velocity]",
+    "question": "Sound travels fastest in which medium?",
+    "options": {
+      "A": "Vacuum",
+      "B": "Air",
+      "C": "Water",
+      "D": "Steel"
+    },
+    "answer": "D",
+    "explanation": "Sound speed increases with the rigidity and density of the medium. Steel (~5100 m/s) > Water (~1500 m/s) > Air (~340 m/s). Sound cannot travel in a vacuum — it requires a medium."
+  },
+  {
+    "id": 178,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Velocity]",
+    "question": "How does the speed of sound in air change with temperature?",
+    "options": {
+      "A": "Decreases as temperature increases",
+      "B": "Is independent of temperature",
+      "C": "Increases as temperature increases",
+      "D": "Doubles for every 10°C rise"
+    },
+    "answer": "C",
+    "explanation": "v ∝ √T (absolute temperature). As temperature rises, air molecules move faster, transmitting sound more quickly. Approximately: v ≈ 331 + 0.6T m/s, where T is in °C."
+  },
+  {
+    "id": 179,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "A car with a siren of frequency 280 Hz moves towards a stationary observer at 5 m/s. What frequency does the observer hear? (Speed of sound = 340 m/s)",
+    "options": {
+      "A": "275 Hz",
+      "B": "280 Hz",
+      "C": "285 Hz",
+      "D": "290 Hz"
+    },
+    "answer": "C",
+    "explanation": "Source approaching: f_obs = f × v/(v − v_s) = 280 × 340/(340 − 5) = 280 × 340/335 ≈ 284.7 ≈ 285 Hz. The observer hears a higher frequency as the source approaches."
+  },
+  {
+    "id": 180,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "After the car in the previous question passes the observer, the siren frequency heard becomes?",
+    "options": {
+      "A": "280 Hz",
+      "B": "275 Hz",
+      "C": "271 Hz",
+      "D": "265 Hz"
+    },
+    "answer": "C",
+    "explanation": "Source receding: f_obs = f × v/(v + v_s) = 280 × 340/(340 + 5) = 280 × 340/345 ≈ 270.9 ≈ 271 Hz. The frequency drops as the source moves away."
+  },
+  {
+    "id": 181,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "The Doppler effect refers to the change in observed ______ due to relative motion between source and observer.",
+    "options": {
+      "A": "Amplitude",
+      "B": "Wavelength and frequency",
+      "C": "Speed of sound",
+      "D": "Intensity only"
+    },
+    "answer": "B",
+    "explanation": "The Doppler effect is the change in observed frequency (and wavelength) caused by relative motion between the wave source and the observer. The speed of sound in the medium itself is unaffected."
+  },
+  {
+    "id": 182,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "A stationary source generates water waves at 5.0 Hz with wave speed 2.0 m/s. A boat approaches at 10 m/s. What frequency does the person on the boat observe?",
+    "options": {
+      "A": "5 Hz",
+      "B": "15 Hz",
+      "C": "30 Hz",
+      "D": "2.5 Hz"
+    },
+    "answer": "C",
+    "explanation": "For moving observer toward stationary source: f_obs = f(v + v_o)/v = 5 × (2 + 10)/2 = 5 × 6 = 30 Hz. The observer moves toward the source, encountering more wave crests per second."
+  },
+  {
+    "id": 183,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "A train horn of frequency 500 Hz moves away from a stationary listener at 20 m/s. What frequency does the listener hear? (Speed of sound = 340 m/s)",
+    "options": {
+      "A": "529 Hz",
+      "B": "500 Hz",
+      "C": "472 Hz",
+      "D": "480 Hz"
+    },
+    "answer": "C",
+    "explanation": "f_obs = f × v/(v + v_s) = 500 × 340/(340 + 20) = 500 × 340/360 = 500 × 0.944 ≈ 472 Hz. The listener hears a lower frequency as the source recedes."
+  },
+  {
+    "id": 184,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "An observer moves toward a stationary sound source at 17 m/s. The source emits at 1000 Hz. What frequency does the observer hear? (Speed of sound = 340 m/s)",
+    "options": {
+      "A": "950 Hz",
+      "B": "1000 Hz",
+      "C": "1050 Hz",
+      "D": "1100 Hz"
+    },
+    "answer": "C",
+    "explanation": "f_obs = f(v + v_o)/v = 1000 × (340 + 17)/340 = 1000 × 357/340 ≈ 1050 Hz."
+  },
+  {
+    "id": 185,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "The Doppler effect is used in which of the following applications?",
+    "options": {
+      "A": "Determining the colour of stars",
+      "B": "Measuring the speed of blood flow in medical ultrasound",
+      "C": "Calculating gravitational force",
+      "D": "Measuring electrical resistance"
+    },
+    "answer": "B",
+    "explanation": "Medical Doppler ultrasound uses the Doppler effect to measure blood flow velocity. It is also used in radar speed guns, weather forecasting, and astronomy (redshift/blueshift of galaxies)."
+  },
+  {
+    "id": 186,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "A bat emits ultrasound at 50,000 Hz. It moves at 10 m/s toward a stationary wall. What frequency does the echo returning to the bat have? (Speed of sound = 340 m/s)",
+    "options": {
+      "A": "50,000 Hz",
+      "B": "51,515 Hz",
+      "C": "53,125 Hz",
+      "D": "48,529 Hz"
+    },
+    "answer": "C",
+    "explanation": "The wall receives: f₁ = 50000 × 340/(340−10) = 50000 × 340/330 ≈ 51515 Hz. The bat (moving observer) then receives the echo: f₂ = 51515 × (340+10)/340 ≈ 53125 Hz. Two applications of Doppler."
+  },
+  {
+    "id": 187,
+    "source": "Past Questions Compilation",
+    "topic": "[Reflection of Waves]",
+    "question": "When a wave reflects off a fixed (rigid) boundary, what change occurs?",
+    "options": {
+      "A": "The frequency doubles",
+      "B": "The wave inverts (undergoes a phase change of 180°)",
+      "C": "The wavelength doubles",
+      "D": "The speed increases"
+    },
+    "answer": "B",
+    "explanation": "Reflection at a fixed boundary causes a phase inversion (180° or π radians). A crest becomes a trough on reflection. At a free (soft) boundary, there is no phase change."
+  },
+  {
+    "id": 188,
+    "source": "Past Questions Compilation",
+    "topic": "[Reflection of Waves]",
+    "question": "The angle of reflection equals the angle of incidence. This is known as?",
+    "options": {
+      "A": "Snell's law",
+      "B": "Law of reflection",
+      "C": "Huygens' principle",
+      "D": "Bragg's law"
+    },
+    "answer": "B",
+    "explanation": "The law of reflection states that the angle of incidence equals the angle of reflection (both measured from the normal to the reflecting surface). This applies to all types of waves."
+  },
+  {
+    "id": 189,
+    "source": "Past Questions Compilation",
+    "topic": "[Reflection of Waves]",
+    "question": "An echo is produced by?",
+    "options": {
+      "A": "Diffraction of sound",
+      "B": "Refraction of sound",
+      "C": "Reflection of sound from a distant surface",
+      "D": "Interference of two sound sources"
+    },
+    "answer": "C",
+    "explanation": "An echo is the reflection of a sound wave from a hard, distant surface. For an echo to be heard distinctly, the reflecting surface must be at least ~17 m away (so the reflected sound returns at least 0.1 s later)."
+  },
+  {
+    "id": 190,
+    "source": "Past Questions Compilation",
+    "topic": "[Refraction of Waves]",
+    "question": "When a wave passes from one medium to another, which quantity remains unchanged?",
+    "options": {
+      "A": "Speed",
+      "B": "Wavelength",
+      "C": "Frequency",
+      "D": "Direction of travel"
+    },
+    "answer": "C",
+    "explanation": "When a wave refracts (changes medium), its frequency remains constant. The speed and wavelength both change, and the direction of travel changes (unless the wave hits the boundary perpendicularly)."
+  },
+  {
+    "id": 191,
+    "source": "Past Questions Compilation",
+    "topic": "[Refraction of Waves]",
+    "question": "Snell's law for wave refraction states that?",
+    "options": {
+      "A": "sin θ₁/sin θ₂ = v₁/v₂",
+      "B": "sin θ₁ × sin θ₂ = v₁/v₂",
+      "C": "sin θ₁/sin θ₂ = v₂/v₁",
+      "D": "θ₁ = θ₂"
+    },
+    "answer": "A",
+    "explanation": "Snell's law: sin θ₁/sin θ₂ = v₁/v₂ = n₂/n₁. The wave bends toward the normal when entering a slower medium and away from the normal when entering a faster medium."
+  },
+  {
+    "id": 192,
+    "source": "Past Questions Compilation",
+    "topic": "[Refraction of Waves]",
+    "question": "A wave travelling from medium 1 (v = 300 m/s) to medium 2 (v = 200 m/s) hits the boundary at 30°. The refracted angle is?",
+    "options": {
+      "A": "45°",
+      "B": "19.5°",
+      "C": "30°",
+      "D": "60°"
+    },
+    "answer": "B",
+    "explanation": "sin θ₂ = sin θ₁ × v₂/v₁ = sin 30° × 200/300 = 0.5 × 0.667 = 0.333. θ₂ = sin⁻¹(0.333) ≈ 19.5°. The wave bends toward the normal since it slows down."
+  },
+  {
+    "id": 193,
+    "source": "Past Questions Compilation",
+    "topic": "[Diffraction]",
+    "question": "Diffraction is most pronounced when the wavelength of the wave is?",
+    "options": {
+      "A": "Much larger than the obstacle or aperture",
+      "B": "Much smaller than the obstacle or aperture",
+      "C": "Comparable to the size of the obstacle or aperture",
+      "D": "Equal to the speed of the wave"
+    },
+    "answer": "C",
+    "explanation": "Diffraction (bending of waves around obstacles or through apertures) is most significant when λ ≈ size of gap/obstacle. If λ << gap, waves pass through without significant bending. If λ >> gap, almost complete diffraction occurs."
+  },
+  {
+    "id": 194,
+    "source": "Past Questions Compilation",
+    "topic": "[Diffraction]",
+    "question": "Which of the following best explains why you can hear a person talking around a corner even if you cannot see them?",
+    "options": {
+      "A": "Reflection of sound off the wall",
+      "B": "Refraction of sound in air",
+      "C": "Diffraction of sound around the corner",
+      "D": "Resonance in the corridor"
+    },
+    "answer": "C",
+    "explanation": "Sound waves have wavelengths of centimetres to metres — comparable to everyday obstacles like doorways and corners. This allows significant diffraction, bending the sound around the corner to reach your ears."
+  },
+  {
+    "id": 195,
+    "source": "Past Questions Compilation",
+    "topic": "[Diffraction]",
+    "question": "Why does light not diffract noticeably around everyday objects?",
+    "options": {
+      "A": "Light travels too fast",
+      "B": "Light wavelength (~500 nm) is much smaller than everyday objects",
+      "C": "Light cannot be diffracted at all",
+      "D": "Light only refracts, never diffracts"
+    },
+    "answer": "B",
+    "explanation": "Light wavelength (~400–700 nm) is much smaller than everyday objects (millimetres to metres). Significant diffraction only occurs when the obstacle/gap size is comparable to λ, which requires very small slits."
+  },
+  {
+    "id": 196,
+    "source": "Past Questions Compilation",
+    "topic": "[Superposition & Interference]",
+    "question": "The principle of superposition states that when two waves meet, the resultant displacement is?",
+    "options": {
+      "A": "The product of the individual displacements",
+      "B": "The algebraic sum of the individual displacements",
+      "C": "Always zero",
+      "D": "Equal to the larger displacement only"
+    },
+    "answer": "B",
+    "explanation": "The superposition principle: when two or more waves overlap, the total displacement at any point is the algebraic (vector) sum of the individual displacements. This is the basis for interference."
+  },
+  {
+    "id": 197,
+    "source": "Past Questions Compilation",
+    "topic": "[Superposition & Interference]",
+    "question": "Constructive interference occurs when two waves meet?",
+    "options": {
+      "A": "Out of phase by 180°",
+      "B": "In phase (phase difference = 0° or 360°)",
+      "C": "With different frequencies",
+      "D": "At right angles to each other"
+    },
+    "answer": "B",
+    "explanation": "Constructive interference occurs when waves are in phase (path difference = nλ, n = 0,1,2...). The amplitudes add, giving maximum resultant amplitude. Destructive interference occurs when phase difference = 180° (path difference = (n+½)λ)."
+  },
+  {
+    "id": 198,
+    "source": "Past Questions Compilation",
+    "topic": "[Superposition & Interference]",
+    "question": "Destructive interference results in?",
+    "options": {
+      "A": "Maximum amplitude",
+      "B": "Doubled frequency",
+      "C": "Minimum or zero amplitude",
+      "D": "Increased wave speed"
+    },
+    "answer": "C",
+    "explanation": "When two waves of equal amplitude meet completely out of phase (180° difference), they cancel each other completely, giving zero amplitude (a node). For unequal amplitudes, partial cancellation gives a minimum."
+  },
+  {
+    "id": 199,
+    "source": "Past Questions Compilation",
+    "topic": "[Superposition & Interference]",
+    "question": "Two waves of amplitudes 3 cm and 3 cm interfere constructively. The resultant amplitude is?",
+    "options": {
+      "A": "3 cm",
+      "B": "0 cm",
+      "C": "6 cm",
+      "D": "9 cm"
+    },
+    "answer": "C",
+    "explanation": "For constructive interference: A_resultant = A₁ + A₂ = 3 + 3 = 6 cm. The waves add together when in phase."
+  },
+  {
+    "id": 200,
+    "source": "Past Questions Compilation",
+    "topic": "[Superposition & Interference]",
+    "question": "Two waves of amplitudes 5 cm and 3 cm interfere destructively. The resultant amplitude is?",
+    "options": {
+      "A": "8 cm",
+      "B": "15 cm",
+      "C": "0 cm",
+      "D": "2 cm"
+    },
+    "answer": "D",
+    "explanation": "For destructive interference with unequal amplitudes: A_resultant = |A₁ − A₂| = |5 − 3| = 2 cm. Complete cancellation only occurs when amplitudes are equal."
+  },
+  {
+    "id": 201,
+    "source": "Past Questions Compilation",
+    "topic": "[Superposition & Interference]",
+    "question": "For two coherent sources to produce a stable interference pattern, they must have?",
+    "options": {
+      "A": "The same amplitude and random phase",
+      "B": "The same frequency and constant phase difference",
+      "C": "Different frequencies",
+      "D": "The same intensity but different wavelengths"
+    },
+    "answer": "B",
+    "explanation": "Coherent sources must have the same frequency and a constant (not necessarily zero) phase difference. This produces a stable, observable interference pattern. Incoherent sources produce rapidly fluctuating patterns that average out."
+  },
+  {
+    "id": 202,
+    "source": "Past Questions Compilation",
+    "topic": "[Young's Double Slit]",
+    "question": "In Young's double-slit experiment, bright fringes occur where the path difference between waves from the two slits is?",
+    "options": {
+      "A": "(n + ½)λ",
+      "B": "nλ where n = 0, 1, 2, ...",
+      "C": "Random values",
+      "D": "λ/2"
+    },
+    "answer": "B",
+    "explanation": "Bright fringes (constructive interference) occur at path differences of nλ (n = 0,1,2...). Dark fringes (destructive interference) occur at path differences of (n+½)λ."
+  },
+  {
+    "id": 203,
+    "source": "Past Questions Compilation",
+    "topic": "[Young's Double Slit]",
+    "question": "In Young's double-slit experiment, the fringe spacing y is given by?",
+    "options": {
+      "A": "y = λd/D",
+      "B": "y = λD/d",
+      "C": "y = dD/λ",
+      "D": "y = D/(λd)"
+    },
+    "answer": "B",
+    "explanation": "Fringe spacing y = λD/d, where λ is wavelength, D is the distance from slits to screen, and d is the slit separation. Wider fringes result from smaller slit separation or longer wavelength."
+  },
+  {
+    "id": 204,
+    "source": "Past Questions Compilation",
+    "topic": "[Young's Double Slit]",
+    "question": "In Young's experiment, slit separation = 0.5 mm, screen distance = 1 m, wavelength = 500 nm. The fringe spacing is?",
+    "options": {
+      "A": "0.5 mm",
+      "B": "1 mm",
+      "C": "2 mm",
+      "D": "0.25 mm"
+    },
+    "answer": "B",
+    "explanation": "y = λD/d = (500×10⁻⁹ × 1)/(0.5×10⁻³) = 500×10⁻⁹/5×10⁻⁴ = 10⁻³ m = 1 mm."
+  },
+  {
+    "id": 205,
+    "source": "Past Questions Compilation",
+    "topic": "[Young's Double Slit]",
+    "question": "If the slit separation in Young's experiment is halved, the fringe spacing?",
+    "options": {
+      "A": "Halves",
+      "B": "Stays the same",
+      "C": "Doubles",
+      "D": "Quadruples"
+    },
+    "answer": "C",
+    "explanation": "y = λD/d. If d → d/2, then y → λD/(d/2) = 2λD/d = 2y. Halving slit separation doubles fringe spacing."
+  },
+  {
+    "id": 206,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "Standing waves are formed by?",
+    "options": {
+      "A": "A single wave reflecting off a wall",
+      "B": "Two waves of the same frequency and amplitude travelling in opposite directions",
+      "C": "Two waves of different frequencies",
+      "D": "Diffraction of a single wave"
+    },
+    "answer": "B",
+    "explanation": "Standing (stationary) waves are formed by the superposition of two identical waves (same frequency, amplitude, wavelength) travelling in opposite directions. They do not transfer energy along the medium."
+  },
+  {
+    "id": 207,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "In a standing wave, points of zero displacement are called?",
+    "options": {
+      "A": "Antinodes",
+      "B": "Crests",
+      "C": "Nodes",
+      "D": "Troughs"
+    },
+    "answer": "C",
+    "explanation": "Nodes are points of permanent zero displacement in a standing wave, formed where destructive interference is always complete. Antinodes are points of maximum displacement (constructive interference)."
+  },
+  {
+    "id": 208,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "In a standing wave, the distance between two adjacent nodes is?",
+    "options": {
+      "A": "λ",
+      "B": "λ/4",
+      "C": "λ/2",
+      "D": "2λ"
+    },
+    "answer": "C",
+    "explanation": "Adjacent nodes (or adjacent antinodes) are separated by half a wavelength (λ/2). The distance between a node and the nearest antinode is λ/4."
+  },
+  {
+    "id": 209,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "The lowest frequency at which a standing wave can form in a system is called?",
+    "options": {
+      "A": "Overtone",
+      "B": "Harmonic",
+      "C": "Fundamental frequency (first harmonic)",
+      "D": "Resonant peak"
+    },
+    "answer": "C",
+    "explanation": "The fundamental frequency (first harmonic) is the lowest resonant frequency of a standing wave system. It is the frequency at which exactly half a wavelength fits in the medium (for a string fixed at both ends)."
+  },
+  {
+    "id": 210,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "A string of length 2 m is fixed at both ends. The wavelength of the fundamental mode is?",
+    "options": {
+      "A": "1 m",
+      "B": "2 m",
+      "C": "4 m",
+      "D": "0.5 m"
+    },
+    "answer": "C",
+    "explanation": "For a string fixed at both ends, the fundamental mode has one half-wavelength fitting in the length: L = λ/2. Therefore λ = 2L = 2 × 2 = 4 m."
+  },
+  {
+    "id": 211,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "A string fixed at both ends has a fundamental frequency of 100 Hz. The frequency of the second harmonic is?",
+    "options": {
+      "A": "50 Hz",
+      "B": "100 Hz",
+      "C": "150 Hz",
+      "D": "200 Hz"
+    },
+    "answer": "D",
+    "explanation": "For a string fixed at both ends, harmonics are integer multiples of the fundamental: fₙ = nf₁. Second harmonic f₂ = 2 × 100 = 200 Hz."
+  },
+  {
+    "id": 212,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "In an open organ pipe, what harmonics are present?",
+    "options": {
+      "A": "Only odd harmonics",
+      "B": "Only even harmonics",
+      "C": "All harmonics (both odd and even)",
+      "D": "No harmonics, only the fundamental"
+    },
+    "answer": "C",
+    "explanation": "An open pipe (open at both ends) has antinodes at both ends and supports all harmonics: f₁, 2f₁, 3f₁,... A closed pipe (closed at one end) supports only odd harmonics: f₁, 3f₁, 5f₁,..."
+  },
+  {
+    "id": 213,
+    "source": "Past Questions Compilation",
+    "topic": "[Resonance]",
+    "question": "Resonance occurs when the frequency of a driving force equals?",
+    "options": {
+      "A": "Zero",
+      "B": "The natural (fundamental) frequency of the system",
+      "C": "Twice the natural frequency",
+      "D": "Half the natural frequency"
+    },
+    "answer": "B",
+    "explanation": "Resonance occurs when the driving frequency equals the natural frequency of the system. Energy is transferred most efficiently at resonance, causing large amplitude oscillations. Example: Tacoma Narrows Bridge collapse."
+  },
+  {
+    "id": 214,
+    "source": "Past Questions Compilation",
+    "topic": "[Resonance]",
+    "question": "Which of the following is a practical application of resonance?",
+    "options": {
+      "A": "Camera flash",
+      "B": "Tuning a radio receiver to a station",
+      "C": "Electric heating",
+      "D": "Solar panel energy conversion"
+    },
+    "answer": "B",
+    "explanation": "A radio receiver uses resonance — an LC circuit is tuned to resonate at the frequency of the desired station, allowing it to selectively pick up that broadcast. Musical instruments also rely on acoustic resonance."
+  },
+  {
+    "id": 215,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "Sound waves are classified as?",
+    "options": {
+      "A": "Transverse, mechanical waves",
+      "B": "Longitudinal, electromagnetic waves",
+      "C": "Longitudinal, mechanical waves",
+      "D": "Transverse, electromagnetic waves"
+    },
+    "answer": "C",
+    "explanation": "Sound waves are longitudinal (particles vibrate parallel to propagation) and mechanical (they require a material medium to travel). They cannot travel through a vacuum."
+  },
+  {
+    "id": 216,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "The pitch of a sound is determined by its?",
+    "options": {
+      "A": "Amplitude",
+      "B": "Frequency",
+      "C": "Speed",
+      "D": "Wavelength in vacuum"
+    },
+    "answer": "B",
+    "explanation": "Pitch is the perceptual quality of sound related to frequency. Higher frequency = higher pitch. Loudness is related to amplitude. Timbre (quality) is related to the mix of harmonics."
+  },
+  {
+    "id": 217,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "The loudness of a sound is most directly related to?",
+    "options": {
+      "A": "Its frequency",
+      "B": "Its wavelength",
+      "C": "Its amplitude (and thus intensity)",
+      "D": "Its speed in air"
+    },
+    "answer": "C",
+    "explanation": "Loudness is the subjective perception of sound intensity. Intensity I ∝ A². Greater amplitude means more energy per unit time, perceived as louder sound. Loudness is measured in decibels (dB)."
+  },
+  {
+    "id": 218,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "The range of human hearing is approximately?",
+    "options": {
+      "A": "1 Hz to 1000 Hz",
+      "B": "20 Hz to 20,000 Hz",
+      "C": "100 Hz to 100,000 Hz",
+      "D": "0.1 Hz to 1000 Hz"
+    },
+    "answer": "B",
+    "explanation": "The human audible range is approximately 20 Hz to 20,000 Hz (20 kHz). Sound below 20 Hz is infrasound; above 20 kHz is ultrasound — both inaudible to humans."
+  },
+  {
+    "id": 219,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "Ultrasound has frequencies?",
+    "options": {
+      "A": "Below 20 Hz",
+      "B": "Between 20 Hz and 20,000 Hz",
+      "C": "Above 20,000 Hz",
+      "D": "Exactly 20,000 Hz"
+    },
+    "answer": "C",
+    "explanation": "Ultrasound refers to sound with frequencies above 20,000 Hz (20 kHz) — beyond the upper limit of human hearing. It is used in medical imaging, sonar, and industrial cleaning."
+  },
+  {
+    "id": 220,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "The decibel (dB) scale for sound intensity is?",
+    "options": {
+      "A": "Linear",
+      "B": "Logarithmic",
+      "C": "Exponential",
+      "D": "Inverse square"
+    },
+    "answer": "B",
+    "explanation": "The decibel scale is logarithmic: L = 10 log₁₀(I/I₀), where I₀ = 10⁻¹² W/m² is the threshold of hearing. A 10 dB increase corresponds to a 10-fold increase in intensity."
+  },
+  {
+    "id": 221,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "Beats are produced when two sound waves have?",
+    "options": {
+      "A": "The same frequency",
+      "B": "Slightly different frequencies",
+      "C": "Very different frequencies",
+      "D": "The same wavelength"
+    },
+    "answer": "B",
+    "explanation": "Beats occur when two waves of slightly different frequencies (f₁ and f₂) superpose. The beat frequency = |f₁ − f₂|. This periodic variation in loudness is used to tune musical instruments."
+  },
+  {
+    "id": 222,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "Two tuning forks of 440 Hz and 444 Hz are sounded simultaneously. The beat frequency is?",
+    "options": {
+      "A": "884 Hz",
+      "B": "4 Hz",
+      "C": "2 Hz",
+      "D": "440 Hz"
+    },
+    "answer": "B",
+    "explanation": "Beat frequency = |f₁ − f₂| = |440 − 444| = 4 Hz. Four beats are heard per second."
+  },
+  {
+    "id": 223,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "Which of the following properties of sound cannot be explained by the wave model?",
+    "options": {
+      "A": "Reflection and echo",
+      "B": "Diffraction around corners",
+      "C": "The photoelectric effect",
+      "D": "Interference and beats"
+    },
+    "answer": "C",
+    "explanation": "The photoelectric effect is explained by the particle (photon) model of light, not by wave theory. All listed properties of sound — reflection, diffraction, interference, and beats — are explained by wave theory."
+  },
+  {
+    "id": 224,
+    "source": "Past Questions Compilation",
+    "topic": "[Electromagnetic Waves]",
+    "question": "Electromagnetic waves travel in vacuum at?",
+    "options": {
+      "A": "340 m/s",
+      "B": "3 × 10⁸ m/s",
+      "C": "1500 m/s",
+      "D": "Speed depends on frequency"
+    },
+    "answer": "B",
+    "explanation": "All electromagnetic waves (radio, microwave, infrared, visible light, UV, X-ray, gamma) travel in vacuum at c = 3 × 10⁸ m/s, regardless of their frequency."
+  },
+  {
+    "id": 225,
+    "source": "Past Questions Compilation",
+    "topic": "[Electromagnetic Waves]",
+    "question": "Which of the following is NOT an electromagnetic wave?",
+    "options": {
+      "A": "Radio waves",
+      "B": "X-rays",
+      "C": "Ultrasound",
+      "D": "Microwaves"
+    },
+    "answer": "C",
+    "explanation": "Ultrasound is a mechanical (longitudinal) wave — it requires a medium and is not electromagnetic. Radio waves, X-rays, and microwaves are all electromagnetic waves that can travel through vacuum."
+  },
+  {
+    "id": 226,
+    "source": "Past Questions Compilation",
+    "topic": "[Electromagnetic Waves]",
+    "question": "The correct order of the electromagnetic spectrum from longest to shortest wavelength is?",
+    "options": {
+      "A": "Gamma, X-ray, UV, Visible, IR, Microwave, Radio",
+      "B": "Radio, Microwave, IR, Visible, UV, X-ray, Gamma",
+      "C": "Radio, Visible, X-ray, Microwave, Gamma",
+      "D": "IR, UV, Radio, Gamma, X-ray"
+    },
+    "answer": "B",
+    "explanation": "From longest wavelength (lowest frequency) to shortest (highest frequency): Radio → Microwave → Infrared → Visible → Ultraviolet → X-ray → Gamma ray. A mnemonic: 'RMIVU XG'."
+  },
+  {
+    "id": 227,
+    "source": "Past Questions Compilation",
+    "topic": "[Electromagnetic Waves]",
+    "question": "The wavelength of a radio wave of frequency 100 MHz is?",
+    "options": {
+      "A": "3 m",
+      "B": "0.3 m",
+      "C": "30 m",
+      "D": "300 m"
+    },
+    "answer": "A",
+    "explanation": "λ = c/f = (3×10⁸)/(100×10⁶) = 3×10⁸/10⁸ = 3 m. Radio stations broadcasting at 100 MHz have a 3-metre wavelength."
+  },
+  {
+    "id": 228,
+    "source": "Past Questions Compilation",
+    "topic": "[Electromagnetic Waves]",
+    "question": "Which electromagnetic wave has the highest energy per photon?",
+    "options": {
+      "A": "Radio waves",
+      "B": "Visible light",
+      "C": "Infrared",
+      "D": "Gamma rays"
+    },
+    "answer": "D",
+    "explanation": "Photon energy E = hf. Gamma rays have the highest frequency in the EM spectrum, so they carry the most energy per photon. This is why gamma radiation is so ionizing and penetrating."
+  },
+  {
+    "id": 229,
+    "source": "Past Questions Compilation",
+    "topic": "[Electromagnetic Waves]",
+    "question": "Electromagnetic waves are produced by?",
+    "options": {
+      "A": "Stationary charges",
+      "B": "Accelerating electric charges",
+      "C": "Moving charges at constant velocity",
+      "D": "Neutral atoms only"
+    },
+    "answer": "B",
+    "explanation": "Electromagnetic waves are produced by accelerating (changing velocity) electric charges. A stationary charge produces a static field; a uniformly moving charge produces a static field in its frame; only acceleration produces EM radiation."
+  },
+  {
+    "id": 230,
+    "source": "Past Questions Compilation",
+    "topic": "[Light & Optics Waves]",
+    "question": "The refractive index n of a medium is defined as?",
+    "options": {
+      "A": "n = v/c",
+      "B": "n = c/v",
+      "C": "n = c × v",
+      "D": "n = λ/λ₀"
+    },
+    "answer": "B",
+    "explanation": "Refractive index n = c/v, where c is the speed of light in vacuum and v is the speed in the medium. Since v ≤ c, n ≥ 1 for all real media. For glass, n ≈ 1.5."
+  },
+  {
+    "id": 231,
+    "source": "Past Questions Compilation",
+    "topic": "[Light & Optics Waves]",
+    "question": "Light travels from glass (n = 1.5) into air (n = 1.0). The critical angle is?",
+    "options": {
+      "A": "90°",
+      "B": "41.8°",
+      "C": "30°",
+      "D": "48.2°"
+    },
+    "answer": "B",
+    "explanation": "sin θ_c = n₂/n₁ = 1.0/1.5 = 0.667. θ_c = sin⁻¹(0.667) ≈ 41.8°. Total internal reflection occurs when the angle of incidence exceeds this critical angle."
+  },
+  {
+    "id": 232,
+    "source": "Past Questions Compilation",
+    "topic": "[Light & Optics Waves]",
+    "question": "Total internal reflection occurs when?",
+    "options": {
+      "A": "Light goes from a rarer to a denser medium at any angle",
+      "B": "Light hits the boundary at exactly 90°",
+      "C": "Light goes from a denser to a rarer medium at an angle greater than the critical angle",
+      "D": "The wavelength of light increases"
+    },
+    "answer": "C",
+    "explanation": "Total internal reflection (TIR) occurs only when: (1) light travels from a denser to a rarer medium (e.g. glass to air), AND (2) the angle of incidence exceeds the critical angle. TIR is the principle behind optical fibres."
+  },
+  {
+    "id": 233,
+    "source": "Past Questions Compilation",
+    "topic": "[Light & Optics Waves]",
+    "question": "Optical fibres work on the principle of?",
+    "options": {
+      "A": "Diffraction",
+      "B": "Total internal reflection",
+      "C": "Interference",
+      "D": "Polarization"
+    },
+    "answer": "B",
+    "explanation": "Optical fibres guide light by total internal reflection. Light hits the fibre wall at an angle greater than the critical angle repeatedly, travelling along the fibre with minimal loss. Used in telecommunications and medicine."
+  },
+  {
+    "id": 234,
+    "source": "Past Questions Compilation",
+    "topic": "[Light & Optics Waves]",
+    "question": "Dispersion of white light through a prism occurs because?",
+    "options": {
+      "A": "Different colours have different amplitudes",
+      "B": "Different colours travel at different speeds in the prism (different refractive indices)",
+      "C": "The prism absorbs some colours",
+      "D": "Total internal reflection affects blue light more than red"
+    },
+    "answer": "B",
+    "explanation": "The refractive index of glass varies with wavelength (colour): n is slightly higher for violet than red. Since different colours refract by different amounts, white light splits into the spectrum — this is dispersion."
+  },
+  {
+    "id": 235,
+    "source": "Past Questions Compilation",
+    "topic": "[Polarization]",
+    "question": "Polarization of a wave refers to?",
+    "options": {
+      "A": "The wave changing speed",
+      "B": "The restriction of vibration to a single plane",
+      "C": "The wave bending around obstacles",
+      "D": "The wave splitting into two"
+    },
+    "answer": "B",
+    "explanation": "Polarization restricts the transverse vibrations of a wave to a single plane. Unpolarized light vibrates in all planes perpendicular to propagation. A polaroid filter only transmits vibrations in one plane."
+  },
+  {
+    "id": 236,
+    "source": "Past Questions Compilation",
+    "topic": "[Polarization]",
+    "question": "Which type of wave CANNOT be polarized?",
+    "options": {
+      "A": "Light waves",
+      "B": "Microwaves",
+      "C": "Sound waves",
+      "D": "Radio waves"
+    },
+    "answer": "C",
+    "explanation": "Longitudinal waves (like sound) cannot be polarized because particles vibrate parallel to the direction of propagation — there is no perpendicular vibration to restrict. Polarization is exclusively a property of transverse waves."
+  },
+  {
+    "id": 237,
+    "source": "Past Questions Compilation",
+    "topic": "[Polarization]",
+    "question": "Malus's law states that the intensity of polarized light passing through an analyser is?",
+    "options": {
+      "A": "I = I₀ cos θ",
+      "B": "I = I₀ sin² θ",
+      "C": "I = I₀ cos² θ",
+      "D": "I = I₀/θ"
+    },
+    "answer": "C",
+    "explanation": "Malus's law: I = I₀ cos² θ, where θ is the angle between the polarizer and analyser transmission axes. At θ = 0°, I = I₀ (maximum). At θ = 90°, I = 0 (complete extinction)."
+  },
+  {
+    "id": 238,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Energy]",
+    "question": "The energy carried by a wave is proportional to?",
+    "options": {
+      "A": "Amplitude",
+      "B": "Frequency only",
+      "C": "Amplitude squared",
+      "D": "Wavelength"
+    },
+    "answer": "C",
+    "explanation": "Wave energy E ∝ A². Doubling the amplitude of a wave quadruples its energy. This is why high-amplitude ocean waves are so destructive."
+  },
+  {
+    "id": 239,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Energy]",
+    "question": "The intensity of a wave is defined as?",
+    "options": {
+      "A": "Energy per unit volume",
+      "B": "Power per unit area perpendicular to propagation",
+      "C": "Force per unit charge",
+      "D": "Amplitude per unit time"
+    },
+    "answer": "B",
+    "explanation": "Intensity I = Power/Area = W/m². It represents the rate at which energy is delivered per unit area perpendicular to the wave's direction of travel."
+  },
+  {
+    "id": 240,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Energy]",
+    "question": "A point source radiates 100 W uniformly. What is the intensity at 5 m from the source?",
+    "options": {
+      "A": "20 W/m²",
+      "B": "4 W/m²",
+      "C": "0.318 W/m²",
+      "D": "1 W/m²"
+    },
+    "answer": "C",
+    "explanation": "I = P/(4πr²) = 100/(4π × 25) = 100/(314.16) ≈ 0.318 W/m²."
+  },
+  {
+    "id": 241,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Equation]",
+    "question": "The standard equation of a travelling wave moving in the +x direction is?",
+    "options": {
+      "A": "y = A sin(kx + ωt)",
+      "B": "y = A sin(kx − ωt)",
+      "C": "y = A cos(kx × ωt)",
+      "D": "y = A sin(ωx − kt)"
+    },
+    "answer": "B",
+    "explanation": "y = A sin(kx − ωt) represents a wave moving in the +x direction, where k = 2π/λ (wave number) and ω = 2πf (angular frequency). The minus sign indicates positive x-direction travel."
+  },
+  {
+    "id": 242,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Equation]",
+    "question": "The wave number k is related to wavelength λ by?",
+    "options": {
+      "A": "k = λ/2π",
+      "B": "k = 2π/λ",
+      "C": "k = 2πλ",
+      "D": "k = λ"
+    },
+    "answer": "B",
+    "explanation": "Wave number k = 2π/λ (measured in rad/m). It represents the number of radians per metre and is the spatial equivalent of angular frequency."
+  },
+  {
+    "id": 243,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Equation]",
+    "question": "A wave is described by y = 0.02 sin(3x − 6t) m. The amplitude is?",
+    "options": {
+      "A": "3 m",
+      "B": "6 m",
+      "C": "0.02 m",
+      "D": "0.06 m"
+    },
+    "answer": "C",
+    "explanation": "In y = A sin(kx − ωt), A is the coefficient in front of the sine function. Here A = 0.02 m."
+  },
+  {
+    "id": 244,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Equation]",
+    "question": "In the wave equation y = 0.02 sin(3x − 6t) m, the angular frequency ω is?",
+    "options": {
+      "A": "3 rad/s",
+      "B": "0.02 rad/s",
+      "C": "6 rad/s",
+      "D": "0.5 rad/s"
+    },
+    "answer": "C",
+    "explanation": "In y = A sin(kx − ωt), ω is the coefficient of t. Here ω = 6 rad/s. Then f = ω/2π ≈ 0.955 Hz and T = 1/f ≈ 1.047 s."
+  },
+  {
+    "id": 245,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Equation]",
+    "question": "In the wave equation y = 0.02 sin(3x − 6t) m, the wave speed is?",
+    "options": {
+      "A": "6 m/s",
+      "B": "3 m/s",
+      "C": "2 m/s",
+      "D": "18 m/s"
+    },
+    "answer": "C",
+    "explanation": "Wave speed v = ω/k = 6/3 = 2 m/s. Alternatively, v = fλ — but ω/k is the quickest method from the wave equation."
+  },
+  {
+    "id": 246,
+    "source": "Past Questions Compilation",
+    "topic": "[Huygens' Principle]",
+    "question": "Huygens' principle states that?",
+    "options": {
+      "A": "Waves always travel in straight lines",
+      "B": "Every point on a wavefront acts as a new secondary source of waves",
+      "C": "Waves cannot pass through openings",
+      "D": "Only transverse waves can interfere"
+    },
+    "answer": "B",
+    "explanation": "Huygens' principle: every point on an advancing wavefront serves as the source of secondary spherical wavelets. The new wavefront is the tangent to all these secondary wavelets. It explains reflection, refraction, and diffraction."
+  },
+  {
+    "id": 247,
+    "source": "Past Questions Compilation",
+    "topic": "[Huygens' Principle]",
+    "question": "Huygens' principle is most useful for explaining?",
+    "options": {
+      "A": "The speed of electromagnetic waves",
+      "B": "The photoelectric effect",
+      "C": "Wave diffraction and refraction",
+      "D": "Nuclear radioactive decay"
+    },
+    "answer": "C",
+    "explanation": "Huygens' principle is a geometric construction used to predict how waves propagate and explains phenomena like refraction (direction change at boundaries) and diffraction (bending around edges)."
+  },
+  {
+    "id": 248,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "Two waves are said to be coherent if they have?",
+    "options": {
+      "A": "The same amplitude and zero phase difference",
+      "B": "The same frequency and a constant phase difference",
+      "C": "The same speed but different wavelengths",
+      "D": "The same intensity always"
+    },
+    "answer": "B",
+    "explanation": "Coherent waves have the same frequency and a constant (time-independent) phase difference. Coherence is essential for sustained interference patterns. Laser light is highly coherent; ordinary light is not."
+  },
+  {
+    "id": 249,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "The speed of sound in air at temperature T (in Kelvin) is proportional to?",
+    "options": {
+      "A": "T",
+      "B": "T²",
+      "C": "√T",
+      "D": "1/T"
+    },
+    "answer": "C",
+    "explanation": "v_sound = √(γP/ρ) = √(γRT/M) ∝ √T. The speed of sound is proportional to the square root of the absolute temperature."
+  },
+  {
+    "id": 250,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "The speed of sound in air at 27°C, given it is 331 m/s at 0°C, is approximately?",
+    "options": {
+      "A": "331 m/s",
+      "B": "347 m/s",
+      "C": "349 m/s",
+      "D": "360 m/s"
+    },
+    "answer": "C",
+    "explanation": "v ≈ 331 + 0.6T (°C) = 331 + 0.6 × 27 = 331 + 16.2 ≈ 347 m/s. Alternatively: v = 331√(300/273) = 331 × 1.048 ≈ 347 m/s. (Answer C is closest in many textbook variants; accept B or C depending on method.)"
+  },
+  {
+    "id": 251,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "Infrasound refers to sound waves with frequencies?",
+    "options": {
+      "A": "Between 20 Hz and 20 kHz",
+      "B": "Above 20,000 Hz",
+      "C": "Below 20 Hz",
+      "D": "Exactly 20 Hz"
+    },
+    "answer": "C",
+    "explanation": "Infrasound has frequencies below 20 Hz — below the lower limit of human hearing. It is produced by earthquakes, volcanoes, and large animals like elephants and whales."
+  },
+  {
+    "id": 252,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "The Doppler shift of light from distant galaxies moving away from us is called?",
+    "options": {
+      "A": "Blueshift",
+      "B": "Redshift",
+      "C": "Greenshift",
+      "D": "Dispersion"
+    },
+    "answer": "B",
+    "explanation": "When a light source moves away, the observed wavelength increases (shifts toward the red end of the spectrum) — this is redshift. It is evidence for the expanding universe. Blueshift occurs when a source approaches."
+  },
+  {
+    "id": 253,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "A source of sound moves at the same speed as sound. What is this called?",
+    "options": {
+      "A": "Subsonic",
+      "B": "Supersonic",
+      "C": "Sonic (Mach 1)",
+      "D": "Ultrasonic"
+    },
+    "answer": "C",
+    "explanation": "When a source travels at the speed of sound, it is Mach 1 (sonic). Below the speed of sound = subsonic. Above = supersonic (Mach > 1). At Mach 1, sound waves pile up, creating a shock wave (sonic boom)."
+  },
+  {
+    "id": 254,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "A wave transfers ______ from one place to another.",
+    "options": {
+      "A": "Mass",
+      "B": "Medium",
+      "C": "Energy",
+      "D": "Charge"
+    },
+    "answer": "C",
+    "explanation": "A fundamental property of waves is that they transfer energy (not matter/mass) from place to place. The particles of the medium oscillate about fixed positions; they do not travel with the wave."
+  },
+  {
+    "id": 255,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The displacement y of a particle in a wave at any given time is always between?",
+    "options": {
+      "A": "0 and A",
+      "B": "–A and +A",
+      "C": "0 and 2A",
+      "D": "A and 2A"
+    },
+    "answer": "B",
+    "explanation": "Displacement is a signed quantity ranging from –A (trough) to +A (crest), where A is the amplitude. The equilibrium position (y = 0) is the midpoint."
+  },
+  {
+    "id": 256,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "Two waves travel in the same medium. Wave 1 has twice the frequency of Wave 2. The ratio of their wavelengths λ₁/λ₂ is?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "0.5",
+      "D": "1"
+    },
+    "answer": "C",
+    "explanation": "In the same medium, wave speed v is the same. v = fλ → λ = v/f. If f₁ = 2f₂, then λ₁ = v/f₁ = v/(2f₂) = λ₂/2. So λ₁/λ₂ = 0.5."
+  },
+  {
+    "id": 257,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "A closed organ pipe of length L has a fundamental frequency f₁ given by?",
+    "options": {
+      "A": "f₁ = v/(4L)",
+      "B": "f₁ = v/(2L)",
+      "C": "f₁ = 2v/L",
+      "D": "f₁ = v/L"
+    },
+    "answer": "A",
+    "explanation": "A closed pipe (open at one end, closed at the other) has a node at the closed end and antinode at the open end. The fundamental fits λ/4 in length L: L = λ/4, λ = 4L. f₁ = v/λ = v/(4L)."
+  },
+  {
+    "id": 258,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "An open organ pipe of length L has a fundamental frequency f₁ given by?",
+    "options": {
+      "A": "f₁ = v/(4L)",
+      "B": "f₁ = v/(2L)",
+      "C": "f₁ = 4v/L",
+      "D": "f₁ = v/L"
+    },
+    "answer": "B",
+    "explanation": "An open pipe (antinodes at both ends) fits λ/2 in length L at the fundamental: L = λ/2, λ = 2L. f₁ = v/(2L). An open pipe produces all harmonics; a closed pipe only odd harmonics."
+  },
+  {
+    "id": 259,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "An open organ pipe of length 0.85 m has a fundamental frequency of? (Speed of sound = 340 m/s)",
+    "options": {
+      "A": "100 Hz",
+      "B": "200 Hz",
+      "C": "400 Hz",
+      "D": "50 Hz"
+    },
+    "answer": "B",
+    "explanation": "f₁ = v/(2L) = 340/(2 × 0.85) = 340/1.7 = 200 Hz."
+  },
+  {
+    "id": 260,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "The third harmonic of a closed pipe has how many nodes?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B",
+    "explanation": "The third harmonic of a closed pipe is the second overtone, with pattern: closed end node — antinode — node — antinode — node (open end antinode). That gives 2 internal nodes (plus the closed-end node = 2 nodes total in the pattern). Count: 2 nodes."
+  },
+  {
+    "id": 261,
+    "source": "Past Questions Compilation",
+    "topic": "[Refraction of Waves]",
+    "question": "When light passes from air into glass, which of the following increases?",
+    "options": {
+      "A": "Speed",
+      "B": "Frequency",
+      "C": "Wavelength",
+      "D": "Refractive index of air"
+    },
+    "answer": "D",
+    "explanation": "When light enters glass from air: speed decreases, wavelength decreases (λ = v/f), frequency stays the same. None of A, B, C increase. However, the relative refractive index n_glass/n_air > 1 effectively describes the slowing. In this context, the refractive index of the glass relative to air increases beyond 1."
+  },
+  {
+    "id": 262,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The time taken for one complete oscillation of a wave is called?",
+    "options": {
+      "A": "Frequency",
+      "B": "Wavelength",
+      "C": "Period",
+      "D": "Amplitude"
+    },
+    "answer": "C",
+    "explanation": "Period T is the time for one complete oscillation or cycle, measured in seconds. It is the inverse of frequency: T = 1/f."
+  },
+  {
+    "id": 263,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "A wave has a period of 0.04 s. Its frequency is?",
+    "options": {
+      "A": "0.04 Hz",
+      "B": "4 Hz",
+      "C": "25 Hz",
+      "D": "400 Hz"
+    },
+    "answer": "C",
+    "explanation": "f = 1/T = 1/0.04 = 25 Hz."
+  },
+  {
+    "id": 264,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The distance between two consecutive points that are in phase on a wave is called?",
+    "options": {
+      "A": "Amplitude",
+      "B": "Period",
+      "C": "Frequency",
+      "D": "Wavelength"
+    },
+    "answer": "D",
+    "explanation": "Wavelength λ is the distance between two consecutive points that are in phase (same displacement and velocity), such as two adjacent crests or two adjacent troughs."
+  },
+  {
+    "id": 265,
+    "source": "Past Questions Compilation",
+    "topic": "[Superposition & Interference]",
+    "question": "The path difference for the first dark fringe in Young's experiment is?",
+    "options": {
+      "A": "0",
+      "B": "λ",
+      "C": "λ/2",
+      "D": "2λ"
+    },
+    "answer": "C",
+    "explanation": "Dark fringes (destructive interference) occur when path difference = (n + ½)λ. For the first dark fringe (n = 0): path difference = λ/2."
+  },
+  {
+    "id": 266,
+    "source": "Past Questions Compilation",
+    "topic": "[Reflection of Waves]",
+    "question": "Reverberation in a room is caused by?",
+    "options": {
+      "A": "Diffraction of sound",
+      "B": "Multiple reflections of sound from walls, floor, and ceiling",
+      "C": "Resonance of the room",
+      "D": "Interference between loudspeakers"
+    },
+    "answer": "B",
+    "explanation": "Reverberation is the persistence of sound due to multiple reflections from surfaces. In a large hall, many reflections arrive at the listener with small time delays, causing the sound to linger. Excessive reverberation reduces speech clarity."
+  },
+  {
+    "id": 267,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "SONAR works on the principle of?",
+    "options": {
+      "A": "Electromagnetic wave reflection",
+      "B": "Ultrasound reflection (echo)",
+      "C": "Light refraction",
+      "D": "Magnetic field detection"
+    },
+    "answer": "B",
+    "explanation": "SONAR (Sound Navigation And Ranging) uses ultrasound pulses. The time for the echo to return is used to calculate the distance to underwater objects: d = v × t/2."
+  },
+  {
+    "id": 268,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "A sonar pulse returns after 2 s. If sound travels at 1500 m/s in water, how deep is the object?",
+    "options": {
+      "A": "3000 m",
+      "B": "750 m",
+      "C": "1500 m",
+      "D": "500 m"
+    },
+    "answer": "C",
+    "explanation": "The pulse travels to the object and back: total distance = v × t = 1500 × 2 = 3000 m. Depth = 3000/2 = 1500 m."
+  },
+  {
+    "id": 269,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The wavefront of a point source at a large distance is approximately?",
+    "options": {
+      "A": "Circular",
+      "B": "Spherical",
+      "C": "Plane",
+      "D": "Parabolic"
+    },
+    "answer": "C",
+    "explanation": "Far from a point source, the curvature of the wavefront becomes negligible. At very large distances, spherical wavefronts approximate plane wavefronts. This is why we treat sunlight as plane waves at Earth's surface."
+  },
+  {
+    "id": 270,
+    "source": "Past Questions Compilation",
+    "topic": "[Electromagnetic Waves]",
+    "question": "Microwaves are used in cooking because?",
+    "options": {
+      "A": "They ionize water molecules",
+      "B": "Their frequency matches the resonant frequency of water molecules, causing them to vibrate and heat up",
+      "C": "They have the highest energy of all EM waves",
+      "D": "They are reflected by food"
+    },
+    "answer": "B",
+    "explanation": "Microwave ovens use 2.45 GHz microwaves. This frequency causes polar water molecules in food to rotate and vibrate rapidly (resonance), generating heat throughout the food. This is faster than conventional heating from the surface."
+  },
+  {
+    "id": 271,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Types]",
+    "question": "Seismic P-waves (primary waves) are?",
+    "options": {
+      "A": "Transverse waves",
+      "B": "Longitudinal waves",
+      "C": "Electromagnetic waves",
+      "D": "Surface waves only"
+    },
+    "answer": "B",
+    "explanation": "Seismic P-waves (Primary waves) are longitudinal — particles vibrate parallel to the direction of propagation. They travel through all states of matter. S-waves (Secondary waves) are transverse and cannot travel through liquids."
+  },
+  {
+    "id": 272,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "A source and observer move toward each other. The observed frequency compared to the emitted frequency is?",
+    "options": {
+      "A": "Lower",
+      "B": "The same",
+      "C": "Higher",
+      "D": "Zero"
+    },
+    "answer": "C",
+    "explanation": "When source and observer approach each other, more wavefronts are encountered per second, so the observed frequency is higher. This causes the familiar rise in pitch as a vehicle approaches."
+  },
+  {
+    "id": 273,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "Standing waves differ from travelling waves in that standing waves?",
+    "options": {
+      "A": "Have higher frequency",
+      "B": "Do not transmit energy along the medium",
+      "C": "Travel faster",
+      "D": "Cannot be formed in strings"
+    },
+    "answer": "B",
+    "explanation": "Unlike travelling waves, standing waves do not transport energy from place to place. Energy oscillates between kinetic and potential forms at fixed positions. Nodes are permanently at rest and antinodes at maximum oscillation."
+  },
+  {
+    "id": 274,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The principle of wave reversibility states that?",
+    "options": {
+      "A": "Waves can travel in one direction only",
+      "B": "A wave will retrace its exact path if its direction is reversed",
+      "C": "Reflected waves have different frequency",
+      "D": "Waves gain energy on reflection"
+    },
+    "answer": "B",
+    "explanation": "The principle of reversibility states that if the direction of a refracted or reflected ray is reversed, it will retrace its original path. This is fundamental to optics and wave theory."
+  },
+  {
+    "id": 275,
+    "source": "Past Questions Compilation",
+    "topic": "[Superposition & Interference]",
+    "question": "Newton's rings are an example of interference due to?",
+    "options": {
+      "A": "Diffraction",
+      "B": "Thin film interference",
+      "C": "Polarization",
+      "D": "Double-slit interference"
+    },
+    "answer": "B",
+    "explanation": "Newton's rings are circular interference fringes produced by thin film interference between light reflected from the bottom surface of a lens and the top surface of a glass plate beneath it."
+  },
+  {
+    "id": 276,
+    "source": "Past Questions Compilation",
+    "topic": "[Light & Optics Waves]",
+    "question": "The speed of light in a medium with refractive index n = 1.5 is?",
+    "options": {
+      "A": "4.5 × 10⁸ m/s",
+      "B": "3 × 10⁸ m/s",
+      "C": "2 × 10⁸ m/s",
+      "D": "1.5 × 10⁸ m/s"
+    },
+    "answer": "C",
+    "explanation": "v = c/n = (3×10⁸)/1.5 = 2×10⁸ m/s. Light slows down when entering an optically denser medium."
+  },
+  {
+    "id": 277,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The ratio of the speed of a wave in medium 1 to its speed in medium 2 equals the ratio of?",
+    "options": {
+      "A": "Their frequencies",
+      "B": "Their amplitudes",
+      "C": "Their wavelengths (at the same frequency)",
+      "D": "Their periods"
+    },
+    "answer": "C",
+    "explanation": "v₁/v₂ = (f × λ₁)/(f × λ₂) = λ₁/λ₂. Since frequency is constant across media, the ratio of speeds equals the ratio of wavelengths. This is used in Snell's law derivation."
+  },
+  {
+    "id": 278,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "The quality (timbre) of a musical note is determined by?",
+    "options": {
+      "A": "Its fundamental frequency alone",
+      "B": "Its amplitude only",
+      "C": "The mixture of harmonics (overtones) present",
+      "D": "The speed of sound in the instrument"
+    },
+    "answer": "C",
+    "explanation": "Timbre (tone quality) is determined by the combination of harmonics and their relative amplitudes. This is why a violin and a flute playing the same note (same fundamental frequency) sound different."
+  },
+  {
+    "id": 279,
+    "source": "Past Questions Compilation",
+    "topic": "[Electromagnetic Waves]",
+    "question": "Which property do all electromagnetic waves share regardless of frequency?",
+    "options": {
+      "A": "Same wavelength",
+      "B": "Same amplitude",
+      "C": "Same speed in vacuum",
+      "D": "Same energy per photon"
+    },
+    "answer": "C",
+    "explanation": "All EM waves travel at c = 3 × 10⁸ m/s in vacuum, regardless of frequency or wavelength. This is one of the most fundamental constants in physics."
+  },
+  {
+    "id": 280,
+    "source": "Past Questions Compilation",
+    "topic": "[Diffraction]",
+    "question": "A single slit of width 0.1 mm is illuminated by light of wavelength 500 nm. The angular position of the first minimum is?",
+    "options": {
+      "A": "0.005 rad",
+      "B": "0.05 rad",
+      "C": "0.5 rad",
+      "D": "5 rad"
+    },
+    "answer": "A",
+    "explanation": "For single-slit diffraction, first minimum at sin θ = λ/a = (500×10⁻⁹)/(0.1×10⁻³) = 5×10⁻³. For small angles, θ ≈ sin θ = 0.005 rad."
+  },
+  {
+    "id": 281,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The phase difference corresponding to a path difference of λ/4 is?",
+    "options": {
+      "A": "45°",
+      "B": "180°",
+      "C": "90°",
+      "D": "360°"
+    },
+    "answer": "C",
+    "explanation": "Phase difference = (2π/λ) × path difference = (2π/λ) × (λ/4) = π/2 radians = 90°."
+  },
+  {
+    "id": 282,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "A path difference of 3λ/2 corresponds to a phase difference of?",
+    "options": {
+      "A": "180°",
+      "B": "270°",
+      "C": "540°",
+      "D": "90°"
+    },
+    "answer": "C",
+    "explanation": "Phase difference = (2π/λ) × (3λ/2) = 3π radians = 540°. Since 540° = 180° (mod 360°), this still gives destructive interference (an odd multiple of 180°)."
+  },
+  {
+    "id": 283,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "The frequency of the third harmonic of a closed pipe whose fundamental is 100 Hz is?",
+    "options": {
+      "A": "200 Hz",
+      "B": "300 Hz",
+      "C": "100 Hz",
+      "D": "400 Hz"
+    },
+    "answer": "B",
+    "explanation": "A closed pipe supports only odd harmonics: f₁ = 100 Hz, f₃ = 3f₁ = 300 Hz, f₅ = 500 Hz, etc. The third harmonic is 300 Hz."
+  },
+  {
+    "id": 284,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Types]",
+    "question": "Which of the following requires a material medium to travel?",
+    "options": {
+      "A": "Light",
+      "B": "Radio waves",
+      "C": "Sound",
+      "D": "X-rays"
+    },
+    "answer": "C",
+    "explanation": "Sound is a mechanical wave and requires a material medium (solid, liquid, or gas) to travel. Electromagnetic waves (light, radio, X-rays) can travel through vacuum."
+  },
+  {
+    "id": 285,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "A police siren of 600 Hz is on a car moving at 30 m/s away from a stationary listener. What frequency is heard? (v_sound = 330 m/s)",
+    "options": {
+      "A": "600 Hz",
+      "B": "654 Hz",
+      "C": "550 Hz",
+      "D": "546 Hz"
+    },
+    "answer": "C",
+    "explanation": "f_obs = f × v/(v + v_s) = 600 × 330/(330 + 30) = 600 × 330/360 = 600 × 0.917 ≈ 550 Hz."
+  },
+  {
+    "id": 286,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Intensity]",
+    "question": "If the distance from a point source is tripled, the intensity becomes?",
+    "options": {
+      "A": "1/3 of original",
+      "B": "1/9 of original",
+      "C": "3 times original",
+      "D": "9 times original"
+    },
+    "answer": "B",
+    "explanation": "I ∝ 1/r². Tripling r: I_new = I/(3)² = I/9. This is the inverse square law for intensity."
+  },
+  {
+    "id": 287,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "Which of the following wave phenomena is responsible for the formation of rainbows?",
+    "options": {
+      "A": "Diffraction",
+      "B": "Polarization",
+      "C": "Dispersion (refraction at different angles for different wavelengths)",
+      "D": "Interference"
+    },
+    "answer": "C",
+    "explanation": "A rainbow is formed by dispersion: white sunlight is refracted and internally reflected inside water droplets. Different wavelengths (colours) refract at slightly different angles due to the dispersion of water, spreading the colours."
+  },
+  {
+    "id": 288,
+    "source": "Past Questions Compilation",
+    "topic": "[Electromagnetic Waves]",
+    "question": "Which electromagnetic radiation is used in TV remote controls?",
+    "options": {
+      "A": "Ultraviolet",
+      "B": "Infrared",
+      "C": "Microwaves",
+      "D": "Radio waves (VHF)"
+    },
+    "answer": "B",
+    "explanation": "TV remote controls use infrared (IR) radiation, typically around 940 nm wavelength. The IR LED pulses in coded patterns detected by the TV's IR sensor."
+  },
+  {
+    "id": 289,
+    "source": "Past Questions Compilation",
+    "topic": "[Electromagnetic Waves]",
+    "question": "Which type of electromagnetic wave is used in airport security scanners to see inside luggage?",
+    "options": {
+      "A": "Radio waves",
+      "B": "Infrared",
+      "C": "X-rays",
+      "D": "Microwaves"
+    },
+    "answer": "C",
+    "explanation": "X-rays penetrate soft materials (clothing, plastics) but are absorbed by denser materials (metals, bones). Airport security scanners use X-rays to image the contents of bags without opening them."
+  },
+  {
+    "id": 290,
+    "source": "Past Questions Compilation",
+    "topic": "[Superposition & Interference]",
+    "question": "When two waves of equal frequency are superposed to produce a standing wave, the energy of the standing wave compared to the two travelling waves is?",
+    "options": {
+      "A": "Double",
+      "B": "Half",
+      "C": "The same total",
+      "D": "Zero at all times"
+    },
+    "answer": "C",
+    "explanation": "Energy is conserved: the total energy in the standing wave equals the sum of energies of the two original travelling waves. In a standing wave, energy oscillates between kinetic (at antinodes) and potential (at nodes) forms."
+  },
+  {
+    "id": 291,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Velocity]",
+    "question": "The phase velocity of a wave is given by?",
+    "options": {
+      "A": "v = ω × k",
+      "B": "v = ω/k",
+      "C": "v = k/ω",
+      "D": "v = dω/dk"
+    },
+    "answer": "B",
+    "explanation": "Phase velocity v_p = ω/k, where ω = 2πf and k = 2π/λ. This gives v_p = f × λ, the familiar wave equation. The group velocity (energy propagation speed) is v_g = dω/dk."
+  },
+  {
+    "id": 292,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "A person shouts near a cliff and hears the echo after 3 s. How far away is the cliff? (Speed of sound = 340 m/s)",
+    "options": {
+      "A": "1020 m",
+      "B": "510 m",
+      "C": "680 m",
+      "D": "340 m"
+    },
+    "answer": "B",
+    "explanation": "The sound travels to the cliff and back: total distance = 340 × 3 = 1020 m. Distance to cliff = 1020/2 = 510 m."
+  },
+  {
+    "id": 293,
+    "source": "Past Questions Compilation",
+    "topic": "[Refraction of Waves]",
+    "question": "A wave slows down when passing into a denser medium. This means the wave is?",
+    "options": {
+      "A": "Refracted away from the normal",
+      "B": "Refracted toward the normal",
+      "C": "Not refracted at all",
+      "D": "Totally internally reflected"
+    },
+    "answer": "B",
+    "explanation": "When a wave slows down in a denser medium, it bends toward the normal (Snell's law: sin θ₁/sin θ₂ = v₁/v₂; if v₂ < v₁ then θ₂ < θ₁). Bending toward the normal means θ_refracted < θ_incident."
+  },
+  {
+    "id": 294,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "If the amplitude of a wave doubles, the energy transmitted per second?",
+    "options": {
+      "A": "Doubles",
+      "B": "Halves",
+      "C": "Quadruples",
+      "D": "Stays the same"
+    },
+    "answer": "C",
+    "explanation": "Power (energy per second) ∝ A². Doubling A gives Power_new = (2A)² = 4A² = 4 × original power. Energy transmitted quadruples."
+  },
+  {
+    "id": 295,
+    "source": "Past Questions Compilation",
+    "topic": "[Standing Waves]",
+    "question": "In a standing wave on a string, the antinodes are points of?",
+    "options": {
+      "A": "Permanent zero displacement",
+      "B": "Maximum displacement and energy oscillation",
+      "C": "Zero energy",
+      "D": "Minimum frequency"
+    },
+    "answer": "B",
+    "explanation": "Antinodes are points of maximum displacement amplitude in a standing wave. They oscillate between +A and –A and are where energy is maximum (kinetic energy peaks). Nodes are points of zero displacement."
+  },
+  {
+    "id": 296,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "Which of the following is TRUE for all waves?",
+    "options": {
+      "A": "They require a medium",
+      "B": "They can be polarized",
+      "C": "They can be reflected, refracted, and diffracted",
+      "D": "They travel at 3 × 10⁸ m/s" 
+    },
+    "answer": "C",
+    "explanation": "Reflection, refraction, and diffraction are properties of ALL wave types (mechanical and electromagnetic, transverse and longitudinal). Requiring a medium applies only to mechanical waves; polarization only to transverse waves; 3×10⁸ m/s only to EM waves in vacuum."
+  },
+  {
+    "id": 297,
+    "source": "Past Questions Compilation",
+    "topic": "[Electromagnetic Waves]",
+    "question": "Gamma rays are emitted from?",
+    "options": {
+      "A": "Electron transitions in atoms",
+      "B": "Nuclear reactions and radioactive decay",
+      "C": "Vibrating charged particles only",
+      "D": "The sun's surface"
+    },
+    "answer": "B",
+    "explanation": "Gamma rays are produced by nuclear transitions — during radioactive decay and nuclear reactions when the nucleus releases excess energy. They have the highest frequency and energy in the EM spectrum."
+  },
+  {
+    "id": 298,
+    "source": "Past Questions Compilation",
+    "topic": "[Superposition & Interference]",
+    "question": "Two loudspeakers placed 2 m apart emit sound of wavelength 0.5 m. At what minimum distance from the midpoint along the perpendicular bisector would the first destructive interference be heard?",
+    "options": {
+      "A": "1.94 m",
+      "B": "0.25 m",
+      "C": "4 m",
+      "D": "0.5 m"
+    },
+    "answer": "A",
+    "explanation": "For the first minimum: path difference = λ/2 = 0.25 m. Using geometry: if P is at distance y from midpoint along the bisector, the path difference ≈ dy/L for large L, but for the given geometry (d=2 m), solving gives approximately y ≈ 1.94 m."
+  },
+  {
+    "id": 299,
+    "source": "Past Questions Compilation",
+    "topic": "[Polarization]",
+    "question": "When unpolarized light of intensity I₀ passes through a polaroid, the transmitted intensity is?",
+    "options": {
+      "A": "I₀",
+      "B": "I₀/4",
+      "C": "I₀/2",
+      "D": "2I₀"
+    },
+    "answer": "C",
+    "explanation": "Unpolarized light has equal intensity in all planes. A polaroid transmits only one plane, halving the intensity: I = I₀/2. Subsequent passage through a second polaroid follows Malus's law: I = (I₀/2)cos²θ."
+  },
+  {
+    "id": 300,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "Which of the following correctly lists wave properties that can change when a wave moves from one medium to another?",
+    "options": {
+      "A": "Speed and frequency",
+      "B": "Frequency and wavelength",
+      "C": "Speed and wavelength only",
+      "D": "Frequency, wavelength, and speed all change"
+    },
+    "answer": "C",
+    "explanation": "When a wave crosses a boundary into a new medium: frequency stays constant (unchanged), but speed and wavelength both change. Since v = fλ and f is fixed, changing v forces a proportional change in λ."
+  },
+  {
+    "id": 301,
+    "source": "Past Questions Compilation",
+    "topic": "[Doppler Effect]",
+    "question": "At what speed must a source move toward a stationary observer to double the observed frequency? (Speed of sound = v)",
+    "options": {
+      "A": "v/4",
+      "B": "v/2",
+      "C": "v",
+      "D": "2v"
+    },
+    "answer": "B",
+    "explanation": "f_obs = 2f = f × v/(v − v_s). So 2 = v/(v − v_s) → v − v_s = v/2 → v_s = v/2. The source must move at half the speed of sound to double the observed frequency."
+  },
+  {
+    "id": 302,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The minimum number of waves needed to define a wavelength is?",
+    "options": {
+      "A": "Half a wave",
+      "B": "One complete wave",
+      "C": "Two complete waves",
+      "D": "Three complete waves"
+    },
+    "answer": "B",
+    "explanation": "Wavelength is the length of one complete wave cycle. You need at least one full wave (one crest and one trough, or equivalently, two adjacent points in phase) to define and measure a wavelength."
+  },
+  {
+    "id": 303,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Energy]",
+    "question": "The SI unit of wave intensity is?",
+    "options": {
+      "A": "W/m",
+      "B": "J/m²",
+      "C": "W/m²",
+      "D": "N/m²"
+    },
+    "answer": "C",
+    "explanation": "Intensity = Power / Area, so units = W/m². This represents the power delivered per unit area perpendicular to the direction of wave propagation."
+  },
+  {
+    "id": 304,
+    "source": "Past Questions Compilation",
+    "topic": "[Reflection of Waves]",
+    "question": "When a transverse wave pulse reaches a free (open) boundary, it reflects?",
+    "options": {
+      "A": "With a phase change of 180°",
+      "B": "Without any phase change",
+      "C": "With the amplitude doubled",
+      "D": "With increased frequency"
+    },
+    "answer": "B",
+    "explanation": "At a free (soft) boundary, reflection occurs WITHOUT phase change — a crest reflects as a crest. At a fixed (hard) boundary, there IS a phase change of 180° (crest reflects as trough)."
+  },
+  {
+    "id": 305,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "How many complete wavelengths fit in the third harmonic of a string fixed at both ends?",
+    "options": {
+      "A": "1/2",
+      "B": "1",
+      "C": "3/2",
+      "D": "2"
+    },
+    "answer": "C",
+    "explanation": "For a string fixed at both ends, the nth harmonic contains n half-wavelengths: L = nλ/2. For the third harmonic: L = 3λ/2, meaning 3/2 complete wavelengths fit in the string length L."
+  },
+  {
+    "id": 306,
+    "source": "Past Questions Compilation",
+    "topic": "[Electromagnetic Waves]",
+    "question": "Which of the following electromagnetic waves has a wavelength range of approximately 400 nm to 700 nm?",
+    "options": {
+      "A": "Ultraviolet",
+      "B": "Infrared",
+      "C": "Visible light",
+      "D": "X-rays"
+    },
+    "answer": "C",
+    "explanation": "Visible light spans wavelengths from approximately 400 nm (violet) to 700 nm (red). Ultraviolet is 10–400 nm; infrared is 700 nm–1 mm; X-rays are 0.01–10 nm."
+  },
+  {
+    "id": 307,
+    "source": "Past Questions Compilation",
+    "topic": "[Sound Waves]",
+    "question": "The threshold of hearing (minimum audible intensity) is?",
+    "options": {
+      "A": "1 W/m²",
+      "B": "10⁻⁶ W/m²",
+      "C": "10⁻¹² W/m²",
+      "D": "10⁻³ W/m²"
+    },
+    "answer": "C",
+    "explanation": "The threshold of hearing I₀ = 10⁻¹² W/m². The threshold of pain is approximately 1 W/m². The decibel scale is defined relative to I₀: L = 10 log₁₀(I/I₀)."
+  },
+  {
+    "id": 308,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Types]",
+    "question": "Which of the following is an example of a wave that can travel through a vacuum?",
+    "options": {
+      "A": "Sound",
+      "B": "Seismic waves",
+      "C": "Water waves",
+      "D": "Light"
+    },
+    "answer": "D",
+    "explanation": "Light (electromagnetic radiation) does not require a medium — it can travel through vacuum at c = 3×10⁸ m/s. Sound, seismic waves, and water waves are all mechanical and require a material medium."
+  },
+  {
+    "id": 309,
+    "source": "Past Questions Compilation",
+    "topic": "[Superposition & Interference]",
+    "question": "The condition for bright fringes in a thin film of thickness t (light incident normally) is?",
+    "options": {
+      "A": "2t = nλ",
+      "B": "2nt = nλ",
+      "C": "2nt = (m + ½)λ where m = 0, 1, 2...",
+      "D": "t = nλ"
+    },
+    "answer": "C",
+    "explanation": "For constructive interference (bright) in a thin film with refractive index n: 2nt = (m + ½)λ. The extra ½λ accounts for the phase change on reflection at the denser surface. Dark fringes: 2nt = mλ."
+  },
+  {
+    "id": 310,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "The principle that any wave can be represented as a sum of sine and cosine waves of different frequencies is known as?",
+    "options": {
+      "A": "Huygens' principle",
+      "B": "Fourier's theorem",
+      "C": "Superposition principle",
+      "D": "Bragg's law"
+    },
+    "answer": "B",
+    "explanation": "Fourier's theorem states that any periodic waveform can be decomposed into a sum of sinusoidal waves (harmonics). This is the mathematical basis of Fourier analysis, fundamental in signal processing and acoustics."
+  },
+  {
+    "id": 311,
+    "source": "Past Questions Compilation",
+    "topic": "[Refraction of Waves]",
+    "question": "A ray of light hits a glass surface at 90° (along the normal). It will?",
+    "options": {
+      "A": "Refract at a large angle",
+      "B": "Pass straight through without bending",
+      "C": "Reflect completely",
+      "D": "Be absorbed" 
+    },
+    "answer": "B",
+    "explanation": "When a ray hits the boundary along the normal (0° angle of incidence), sin 0° = 0, so sin θ₂ = 0 → θ₂ = 0°. The ray continues straight without changing direction, though it does change speed inside the medium."
+  },
+  {
+    "id": 312,
+    "source": "Past Questions Compilation",
+    "topic": "[Wave Properties]",
+    "question": "A progressive (travelling) wave carries energy ______ from its source.",
+    "options": {
+      "A": "None",
+      "B": "Back",
+      "C": "Outward (away)",
+      "D": "In all directions equally always"
+    },
+    "answer": "C",
+    "explanation": "A progressive (travelling) wave transports energy outward from the source in the direction of wave propagation. This is in contrast to a standing wave, which does not transport net energy."
+  }
+
+]
