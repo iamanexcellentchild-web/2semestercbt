@@ -38,7 +38,13 @@
             flex-wrap: wrap;
             gap: 0.5rem;
         }
-        header h1 { font-size: 1.2rem; letter-spacing: 0.5px; }
+        header h1 { 
+            font-size: 1.2rem; 
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
         header nav { display: flex; align-items: center; gap: 1rem; font-size: 0.9rem; }
         header nav a { color: #90caf9; text-decoration: none; }
         header nav a:hover { color: #fff; }
@@ -239,6 +245,31 @@
         .data-table th { background: #1a237e; color: #fff; padding: 0.7rem 0.9rem; text-align: left; }
         .data-table td { padding: 0.6rem 0.9rem; border-bottom: 1px solid #eee; font-size: 0.9rem; }
         .data-table tr:last-child td { border-bottom: none; }
+        
+        /* Delete button styling */
+        .delete-btn {
+            background: #f44336;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .delete-btn:hover {
+            background: #da190b;
+            box-shadow: 0 2px 6px rgba(244, 67, 54, 0.3);
+        }
+        .delete-btn:active {
+            transform: scale(0.98);
+        }
+        
+        table .delete-btn {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.8rem;
+        }
 
         /* ── Detail cards (result review) ── */
         .detail-card, .detail-item {
@@ -392,10 +423,11 @@
 </head>
 <body>
     <header>
-        <h1>🎓 CBT Quiz App</h1>
+        <h1><strong>Merit Tutorials 👨‍🎓 👓 📚</strong></h1>
         <nav>
             {% if session.get('username') %}
                 <span>{{ session.get('username') }}</span>
+                <a href="{{ url_for('flashcards') }}">📚 Study Flashcards</a>
                 <a href="{{ url_for('history') }}">My History</a>
                 <a href="{{ url_for('logout') }}">Logout</a>
             {% else %}

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flashcards | Merit CBT</title>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --primary-light: #e0e7ff;
+      --primary-dark: #3730a3;
+      --surface: #ffffff;
+      --bg: #f5f5f5;
+      --text: #1e1b4b;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --success: #16a34a;
+      --success-bg: #dcfce7;
+      --danger: #dc2626;
+      --danger-bg: #fee2e2;
+      --radius: 14px;
+      --card-h: 340px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+    /* ── NAV ── */
+    nav { background: var(--primary); color: #fff; padding: 0 1.5rem; height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    nav a { color: #fff; text-decoration: none; font-weight: 600; font-size: 1.1rem; letter-spacing: .3px; }
+    nav .nav-links { display: flex; gap: 1.25rem; }
+    nav .nav-links a { font-size: .875rem; font-weight: 400; opacity: .9; }
+    nav .nav-links a:hover { opacity: 1; }
+
+    /* ── LAYOUT ── */
+    .page { max-width: 860px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+    .page-header { margin-bottom: 1.5rem; }
+    .page-header h1 { font-size: 1.6rem; font-weight: 700; color: var(--primary-dark); }
+    .page-header p { font-size: .9rem; color: var(--muted); margin-top: 4px; }
+
+    /* ── COURSE TABS ── */
+    .course-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1.25rem; }
+    .course-tab { padding: 7px 16px; border-radius: 999px; border: 1.5px solid var(--border); font-size: .82rem; font-weight: 500; cursor: pointer; background: var(--surface); color: var(--muted); transition: all .18s; }
+    .course-tab:hover { border-color: var(--primary); color: var(--primary); }
+    .course-tab.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+    /* ── TOPIC FILTER ── */
+    .section-label { font-size: .78rem; font-weight: 600; text-transform: uppercase; letter-spacing: .6px; color: var(--muted); margin-bottom: 8px; }
+    .topic-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 1.5rem; }
+    .chip { padding: 5px 13px; border-radius: 999px; border: 1px solid var(--border); font-size: .8rem; cursor: pointer; background: var(--surface); color: var(--muted); transition: all .15s; }
+    .chip:hover { border-color: var(--primary); color: var(--primary); }
+    .chip.active { background: var(--primary-light); color: var(--primary-dark); border-color: #a5b4fc; font-weight: 500; }
+
+    /* ── PROGRESS BAR ── */
+    .progress-row { display: flex; align-items: center; gap: 12px; margin-bottom: 1.25rem; }
+    .progress-bar-wrap { flex: 1; background: var(--border); border-radius: 6px; height: 6px; overflow: hidden; }
+    .progress-bar-fill { height: 100%; background: var(--primary); border-radius: 6px; transition: width .3s; }
+    .progress-text { font-size: .85rem; color: var(--muted); white-space: nowrap; min-width: 70px; text-align: right; }
+    .btn-shuffle { padding: 6px 14px; border-radius: 8px; border: 1.5px solid var(--border); background: var(--surface); color: var(--muted); font-size: .8rem; cursor: pointer; transition: all .15s; }
+    .btn-shuffle:hover { border-color: var(--primary); color: var(--primary); }
+
+    /* ── FLIP CARD ── */
+    .card-scene { width: 100%; height: var(--card-h); perspective: 1200px; cursor: pointer; margin-bottom: 1.25rem; }
+    .card-flipper { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; transition: transform .55s cubic-bezier(.4,0,.2,1); }
+    .card-scene.flipped .card-flipper { transform: rotateY(180deg); }
+    .card-face { position: absolute; inset: 0; backface-visibility: hidden; border-radius: var(--radius); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 2rem; text-align: center; box-shadow: 0 4px 24px rgba(79,70,229,.10); }
+    .card-front { background: var(--surface); border: 2px solid var(--primary-light); }
+    .card-back { background: var(--primary); color: #fff; transform: rotateY(180deg); }
+
+    .card-badge { font-size: .72rem; text-transform: uppercase; letter-spacing: .7px; font-weight: 600; padding: 4px 10px; border-radius: 999px; margin-bottom: 1rem; }
+    .card-front .card-badge { background: var(--primary-light); color: var(--primary-dark); }
+    .card-back .card-badge { background: rgba(255,255,255,.18); color: #e0e7ff; }
+
+    .card-front-title { font-size: 1.3rem; font-weight: 700; color: var(--primary-dark); margin-bottom: .75rem; line-height: 1.3; }
+    .card-formula { font-size: 1.05rem; color: var(--text); margin: .5rem 0 1rem; line-height: 1.6; min-height: 2rem; }
+    .card-hint { font-size: .78rem; color: var(--muted); margin-top: auto; }
+
+    .card-back-title { font-size: .85rem; font-weight: 600; opacity: .75; margin-bottom: .75rem; }
+    .card-back-body { font-size: .97rem; line-height: 1.75; opacity: .95; max-width: 580px; }
+
+    /* ── NAV BUTTONS ── */
+    .nav-btns { display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1.25rem; }
+    .nav-btn { width: 48px; height: 48px; border-radius: 50%; border: 2px solid var(--border); background: var(--surface); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all .15s; color: var(--text); }
+    .nav-btn:hover:not(:disabled) { border-color: var(--primary); color: var(--primary); }
+    .nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+    .btn-flip { padding: 10px 28px; border-radius: 10px; border: 2px solid var(--primary); background: var(--primary-light); color: var(--primary-dark); font-size: .9rem; font-weight: 600; cursor: pointer; transition: all .15s; }
+    .btn-flip:hover { background: var(--primary); color: #fff; }
+
+    /* ── SELF MARK ── */
+    .mark-row { display: flex; justify-content: center; gap: 12px; margin-bottom: 1.5rem; }
+    .btn-mark { padding: 8px 22px; border-radius: 10px; border: none; font-size: .87rem; font-weight: 600; cursor: pointer; transition: all .15s; }
+    .btn-know { background: var(--success-bg); color: var(--success); }
+    .btn-know:hover { background: var(--success); color: #fff; }
+    .btn-again { background: var(--danger-bg); color: var(--danger); }
+    .btn-again:hover { background: var(--danger); color: #fff; }
+    .mark-hint { text-align: center; font-size: .78rem; color: var(--muted); margin-bottom: 1.25rem; }
+    .mark-row { display: none; }
+    .mark-row.visible, .mark-hint.visible { display: flex; }
+    .mark-hint.visible { display: block; }
+
+    /* ── SCORE SUMMARY ── */
+    .score-bar { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1.5rem; }
+    .score-chip { display: flex; align-items: center; gap: 6px; font-size: .85rem; }
+    .score-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+    /* ── KEYBOARD HINT ── */
+    .kb-hint { text-align: center; font-size: .75rem; color: var(--muted); margin-top: .75rem; }
+    kbd { background: var(--border); border-radius: 4px; padding: 1px 6px; font-family: monospace; font-size: .75rem; }
+
+    /* ── EMPTY STATE ── */
+    .empty { text-align: center; padding: 3rem 1rem; color: var(--muted); }
+    .empty-icon { font-size: 2.5rem; margin-bottom: .75rem; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/">Merit CBT</a>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/flashcards">Flashcards</a>
+    <a href="/cgpa">CGPA</a>
+    <a href="/history">History</a>
+    {% if session.get('username') %}
+      <a href="/logout">Logout ({{ session.username }})</a>
+    {% else %}
+      <a href="/login">Login</a>
+    {% endif %}
+  </div>
+</nav>
+
+<div class="page">
+  <div class="page-header">
+    <h1>Flashcards</h1>
+    <p>Formulas and key notes for every topic. Flip the card to reveal the explanation.</p>
+  </div>
+
+  <!-- Course tabs -->
+  <div class="section-label">Course</div>
+  <div class="course-tabs" id="courseTabs"></div>
+
+  <!-- Topic chips -->
+  <div class="section-label" id="topicLabel" style="display:none">Topic</div>
+  <div class="topic-chips" id="topicChips"></div>
+
+  <!-- Progress -->
+  <div class="progress-row" id="progressRow" style="display:none">
+    <div class="progress-bar-wrap">
+      <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+    </div>
+    <div class="progress-text" id="progressText">0 / 0</div>
+    <button class="btn-shuffle" id="btnShuffle">⇌ Shuffle</button>
+  </div>
+
+  <!-- Score summary -->
+  <div class="score-bar" id="scoreBar" style="display:none">
+    <div class="score-chip"><div class="score-dot" style="background:var(--success)"></div><span id="knewCount">0 knew it</span></div>
+    <div class="score-chip"><div class="score-dot" style="background:var(--danger)"></div><span id="againCount">0 study again</span></div>
+  </div>
+
+  <!-- Card -->
+  <div id="cardArea">
+    <div class="empty" id="emptyState">
+      <div class="empty-icon">📚</div>
+      <p>Select a course above to start studying.</p>
+    </div>
+
+    <div id="flashcard" style="display:none">
+      <div class="card-scene" id="cardScene" onclick="flipCard()">
+        <div class="card-flipper" id="cardFlipper">
+          <div class="card-face card-front">
+            <div class="card-badge" id="frontBadge">Topic</div>
+            <div class="card-front-title" id="frontTitle">Card title</div>
+            <div class="card-formula" id="frontFormula"></div>
+            <div class="card-hint">Click to flip →</div>
+          </div>
+          <div class="card-face card-back">
+            <div class="card-badge" id="backBadge">Notes</div>
+            <div class="card-back-title">Explanation</div>
+            <div class="card-back-body" id="backBody"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nav -->
+      <div class="nav-btns">
+        <button class="nav-btn" id="btnPrev" onclick="navigate(-1)" title="Previous (←)">←</button>
+        <button class="btn-flip" onclick="flipCard()">Flip card</button>
+        <button class="nav-btn" id="btnNext" onclick="navigate(1)" title="Next (→)">→</button>
+      </div>
+
+      <!-- Self-mark (shown after flip) -->
+      <div class="mark-row" id="markRow">
+        <button class="btn-mark btn-again" onclick="markCard('again')">🔁 Study again</button>
+        <button class="btn-mark btn-know" onclick="markCard('knew')">✓ Knew it</button>
+      </div>
+      <div class="mark-hint" id="markHint">Mark how well you knew this card.</div>
+    </div>
+  </div>
+
+  <div class="kb-hint">Keyboard: <kbd>←</kbd> prev &nbsp; <kbd>→</kbd> next &nbsp; <kbd>Space</kbd> flip</div>
+</div>
+
+<script>
+const FLASHCARDS = {{ flashcards | tojson }};
+
+let allCards = [];      // current filtered deck
+let deck = [];          // indices into allCards (shuffled or sequential)
+let deckPos = 0;        // current position in deck
+let isFlipped = false;
+let scores = { knew: 0, again: 0 };
+let marked = {};        // card index → 'knew'|'again'
+
+// ─── INIT ──────────────────────────────────────────────────────────
+function buildCourseTabs() {
+  const container = document.getElementById('courseTabs');
+  container.innerHTML = '';
+  Object.keys(FLASHCARDS).forEach(course => {
+    const btn = document.createElement('button');
+    btn.className = 'course-tab';
+    btn.textContent = course;
+    btn.onclick = () => selectCourse(course);
+    container.appendChild(btn);
+  });
+}
+
+function selectCourse(course) {
+  document.querySelectorAll('.course-tab').forEach(b => b.classList.toggle('active', b.textContent === course));
+  const cards = FLASHCARDS[course] || [];
+  const topics = ['All', ...new Set(cards.map(c => c.topic))];
+  buildTopicChips(topics, course);
+  loadDeck(cards);
+  scores = { knew: 0, again: 0 };
+  marked = {};
+  updateScoreBar();
+}
+
+function buildTopicChips(topics, course) {
+  const label = document.getElementById('topicLabel');
+  const container = document.getElementById('topicChips');
+  label.style.display = '';
+  container.innerHTML = '';
+  topics.forEach(t => {
+    const btn = document.createElement('button');
+    btn.className = 'chip' + (t === 'All' ? ' active' : '');
+    btn.textContent = t;
+    btn.onclick = () => {
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      const cards = FLASHCARDS[course] || [];
+      const filtered = t === 'All' ? cards : cards.filter(c => c.topic === t);
+      loadDeck(filtered);
+      marked = {};
+      scores = { knew: 0, again: 0 };
+      updateScoreBar();
+    };
+    container.appendChild(btn);
+  });
+}
+
+function loadDeck(cards) {
+  allCards = cards;
+  deck = allCards.map((_, i) => i);
+  deckPos = 0;
+  showCard();
+}
+
+// ─── CARD DISPLAY ──────────────────────────────────────────────────
+function showCard() {
+  const empty = document.getElementById('emptyState');
+  const fc = document.getElementById('flashcard');
+  const progressRow = document.getElementById('progressRow');
+  const scoreBar = document.getElementById('scoreBar');
+
+  if (!allCards.length) {
+    empty.style.display = '';
+    fc.style.display = 'none';
+    progressRow.style.display = 'none';
+    return;
+  }
+
+  empty.style.display = 'none';
+  fc.style.display = '';
+  progressRow.style.display = '';
+  scoreBar.style.display = '';
+
+  const idx = deck[deckPos];
+  const card = allCards[idx];
+  isFlipped = false;
+  const scene = document.getElementById('cardScene');
+  scene.classList.remove('flipped');
+
+  document.getElementById('frontBadge').textContent = card.topic;
+  document.getElementById('backBadge').textContent = card.topic;
+  document.getElementById('frontTitle').textContent = card.front;
+  document.getElementById('backBody').textContent = card.back;
+
+  // Formula
+  const formulaEl = document.getElementById('frontFormula');
+  if (card.formula) {
+    formulaEl.innerHTML = '\\(' + card.formula + '\\)';
+    formulaEl.style.display = '';
+    if (window.MathJax) MathJax.typesetPromise([formulaEl]).catch(()=>{});
+  } else {
+    formulaEl.innerHTML = '';
+    formulaEl.style.display = 'none';
+  }
+
+  // Hide mark row until flipped
+  document.getElementById('markRow').classList.remove('visible');
+  document.getElementById('markHint').classList.remove('visible');
+
+  // Progress
+  const total = deck.length;
+  const pos = deckPos + 1;
+  document.getElementById('progressFill').style.width = ((pos / total) * 100) + '%';
+  document.getElementById('progressText').textContent = pos + ' / ' + total;
+
+  // Nav buttons
+  document.getElementById('btnPrev').disabled = deckPos === 0;
+  document.getElementById('btnNext').disabled = deckPos === deck.length - 1;
+}
+
+function flipCard() {
+  isFlipped = !isFlipped;
+  document.getElementById('cardScene').classList.toggle('flipped', isFlipped);
+  if (isFlipped) {
+    document.getElementById('markRow').classList.add('visible');
+    document.getElementById('markHint').classList.add('visible');
+    // Typeset back panel
+    const back = document.querySelector('.card-back');
+    if (window.MathJax) MathJax.typesetPromise([back]).catch(()=>{});
+  } else {
+    document.getElementById('markRow').classList.remove('visible');
+    document.getElementById('markHint').classList.remove('visible');
+  }
+}
+
+function navigate(dir) {
+  const next = deckPos + dir;
+  if (next < 0 || next >= deck.length) return;
+  deckPos = next;
+  showCard();
+}
+
+function markCard(result) {
+  const idx = deck[deckPos];
+  const prev = marked[idx];
+  if (prev) scores[prev]--;
+  marked[idx] = result;
+  scores[result]++;
+  updateScoreBar();
+  // Auto-advance after marking
+  if (deckPos < deck.length - 1) {
+    setTimeout(() => { deckPos++; showCard(); }, 320);
+  }
+}
+
+function updateScoreBar() {
+  document.getElementById('knewCount').textContent = scores.knew + ' knew it';
+  document.getElementById('againCount').textContent = scores.again + ' study again';
+}
+
+// ─── SHUFFLE ──────────────────────────────────────────────────────
+document.getElementById('btnShuffle').onclick = () => {
+  for (let i = deck.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [deck[i], deck[j]] = [deck[j], deck[i]];
+  }
+  deckPos = 0;
+  scores = { knew: 0, again: 0 };
+  marked = {};
+  updateScoreBar();
+  showCard();
+};
+
+// ─── KEYBOARD ─────────────────────────────────────────────────────
+document.addEventListener('keydown', e => {
+  if (['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)) return;
+  if (e.key === 'ArrowLeft')  navigate(-1);
+  if (e.key === 'ArrowRight') navigate(1);
+  if (e.key === ' ') { e.preventDefault(); flipCard(); }
+});
+
+// ─── BOOT ─────────────────────────────────────────────────────────
+buildCourseTabs();
+</script>
+</body>
+</html>

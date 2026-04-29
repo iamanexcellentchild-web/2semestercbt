@@ -5257,6 +5257,24 @@ def load_additional_questions():
 load_additional_questions()
 
 
+# ── FLASHCARDS ────────────────────────────────────────────────────────────────
+def load_flashcards():
+    """Load flashcard data from flashcards.json at startup (read-only, safe on Vercel)."""
+    path = os.path.join(os.path.dirname(__file__), 'flashcards.json')
+    if not os.path.isfile(path):
+        app.logger.warning('load_flashcards: flashcards.json not found at %s', path)
+        return {}
+    try:
+        with open(path, encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        app.logger.warning('load_flashcards failed: %s', e)
+        return {}
+
+FLASHCARDS = load_flashcards()
+# ─────────────────────────────────────────────────────────────────────────────
+
+
 def load_math_solutions():
     """Load detailed solutions for math questions from external JSON file."""
     solutions_map = {}
@@ -5555,6 +5573,10 @@ def history():
 @app.route('/cgpa')
 def cgpa():
     return render_template('cgpa.html')
+
+@app.route('/flashcards')
+def flashcards():
+    return render_template('flashcards.html', flashcards=FLASHCARDS)
 
 
 if __name__ == '__main__':

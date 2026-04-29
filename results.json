@@ -24086,5 +24086,1238 @@
       }
     ],
     "timestamp": "2026-04-25T13:39:31.702939"
+  },
+  {
+    "name": "abb",
+    "subject": "MTH 103",
+    "score": 0,
+    "total": 40,
+    "percentage": 0.0,
+    "indices": [
+      401,
+      303,
+      128,
+      329,
+      274,
+      406,
+      22,
+      205,
+      28,
+      19,
+      46,
+      158,
+      258,
+      241,
+      226,
+      249,
+      307,
+      90,
+      149,
+      349,
+      41,
+      42,
+      132,
+      413,
+      217,
+      316,
+      35,
+      4,
+      232,
+      231,
+      171,
+      71,
+      47,
+      36,
+      79,
+      379,
+      88,
+      125,
+      203,
+      150
+    ],
+    "answers": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "details": [
+      {
+        "question": "Find the length of the major axis of ellipse x\u00b2/9 + y\u00b2/4 = 1.",
+        "options": {
+          "a": "3",
+          "b": "4",
+          "c": "6",
+          "d": "8"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "a\u00b2=9 \u21d2 a=3, major axis = 2a=6."
+      },
+      {
+        "question": "Two spheres of masses 3 kg and 5 kg move towards each other with speeds 4 m/s and 2 m/s. After collision, the 3 kg moves at 1 m/s opposite direction. Find the velocity of the 5 kg.",
+        "options": {
+          "a": "1 m/s opposite original direction",
+          "b": "2 m/s same direction",
+          "c": "3 m/s opposite",
+          "d": "4 m/s same"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Momentum: 3\u00d74 + 5\u00d7(-2) =12-10=2. After: 3\u00d7(-1)+5v = -3+5v. Set =2 \u21d2 5v=5 \u21d2 v=1 m/s. Positive means in direction of initial 3 kg, which is opposite to original direction of 5 kg. So 1 m/s opposite."
+      },
+      {
+        "question": "The conic section represented by x = 2y\u00b2 is a:",
+        "options": {
+          "a": "Circle",
+          "b": "Ellipse",
+          "c": "Parabola",
+          "d": "Hyperbola"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "Equation can be written as y\u00b2 = (1/2)x, which is a parabola opening right."
+      },
+      {
+        "question": "Find the equation of the directrix of the parabola x\u00b2 = -8y.",
+        "options": {
+          "a": "y = 2",
+          "b": "y = -2",
+          "c": "x = 2",
+          "d": "x = -2"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "4a=8 \u21d2 a=2, directrix y = a = 2."
+      },
+      {
+        "question": "Find the magnitude of vector v = 6i - 8j.",
+        "options": {
+          "a": "6",
+          "b": "8",
+          "c": "10",
+          "d": "14"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "|v| = \u221a(6\u00b2+(-8)\u00b2) = \u221a(36+64) = \u221a100 = 10."
+      },
+      {
+        "question": "A particle moves with velocity v = 3i + 4j m/s. Find the speed.",
+        "options": {
+          "a": "5 m/s",
+          "b": "7 m/s",
+          "c": "12 m/s",
+          "d": "25 m/s"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Speed = \u221a(3\u00b2+4\u00b2)=5 m/s."
+      },
+      {
+        "question": "Constant forces P = 2i - 5j + 6k and Q = -i + 2j - k act on a particle. Determine the work done in displacing the particle from A to B if position vectors of A and B are 4i - 3j - 2k and 6i + j - 3k respectively.",
+        "options": {
+          "a": "5",
+          "b": "15",
+          "c": "12",
+          "d": "18"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "Resultant F = P+Q = i -3j +5k. Displacement d = OB-OA = 2i+4j -k. Work = F\u00b7d = 1*2 + (-3)*4 + 5*(-1) = 2 -12 -5 = -15. Magnitude = 15."
+      },
+      {
+        "question": "A parachutist of mass 70 kg falls with air resistance 20v N. What is the terminal velocity? (g=10)",
+        "options": {
+          "a": "25 m/s",
+          "b": "35 m/s",
+          "c": "45 m/s",
+          "d": "55 m/s"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "Terminal: mg = kv \u21d2 70\u00d710 = 20 v_t \u21d2 700=20v_t \u21d2 v_t=35 m/s."
+      },
+      {
+        "question": "If a = 3i - 2j + k and b = 2i + 2j - 4k, find a \u00d7 b.",
+        "options": {
+          "a": "-6i + 14j + 10k",
+          "b": "6i - 14j - 10k",
+          "c": "6i + 14j + 10k",
+          "d": "6i - 4j - 10k",
+          "e": "2i + 14j + 10k"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "a\u00d7b = |i j k; 3 -2 1; 2 2 -4| = i(8-2) - j(-12-2) + k(6+4) = 6i + 14j + 10k."
+      },
+      {
+        "question": "Find the value of \u03b1 such that a = \u03b1i - 2j + k and b = 2\u03b1i + \u03b1j - 4k are mutually orthogonal.",
+        "options": {
+          "a": "-1, -2",
+          "b": "-1, 2",
+          "c": "0, -1",
+          "d": "1, 2"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "a\u00b7b = 2\u03b1\u00b2 + (-2)(\u03b1) + (1)(-4) = 2\u03b1\u00b2 - 2\u03b1 - 4 = 0 \u21d2 \u03b1\u00b2 - \u03b1 - 2 = 0 \u21d2 (\u03b1-2)(\u03b1+1)=0 \u21d2 \u03b1 = 2 or \u03b1 = -1."
+      },
+      {
+        "question": "A particle moves along a curve with parametric equations x = 3e\u00b2\u1d57, y = 4sin3t, z = 5cos3t. Find the magnitude of acceleration at t = 0.",
+        "options": {
+          "a": "2\u221a241",
+          "b": "3\u221a142",
+          "c": "4\u221a241",
+          "d": "5\u221a241"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "v = (6e\u00b2\u1d57, 12cos3t, -15sin3t). a = (12e\u00b2\u1d57, -36sin3t, -45cos3t). At t=0: a = (12,0,-45). |a| = \u221a(144+2025)=\u221a2169=\u221a(9*241)=3\u221a241."
+      },
+      {
+        "question": "A particle moves with constant acceleration a = 2i + 3j m/s\u00b2. If initial velocity u = 4i - j m/s, find velocity after 3 seconds.",
+        "options": {
+          "a": "10i + 8j",
+          "b": "10i + 5j",
+          "c": "12i + 8j",
+          "d": "12i + 5j"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "v = u + at = (4i - j) + (2i+3j)\u00d73 = 4i - j + 6i+9j = 10i + 8j."
+      },
+      {
+        "question": "If the slope of a line is 2, what is the slope of a line perpendicular to it?",
+        "options": {
+          "a": "-2",
+          "b": "1/2",
+          "c": "-1/2",
+          "d": "2"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "Perpendicular slope = -1/m = -1/2."
+      },
+      {
+        "question": "Two cars move towards each other with speeds 15 m/s and 20 m/s. Find their relative speed.",
+        "options": {
+          "a": "5 m/s",
+          "b": "25 m/s",
+          "c": "35 m/s",
+          "d": "300 m/s"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "Relative speed = 15 + 20 = 35 m/s."
+      },
+      {
+        "question": "Find the cross product a \u00d7 b for a = i + 2j + 3k and b = 4i + 5j + 6k.",
+        "options": {
+          "a": "-3i + 6j - 3k",
+          "b": "3i - 6j + 3k",
+          "c": "-3i - 6j - 3k",
+          "d": "3i + 6j + 3k"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "a\u00d7b = |i j k; 1 2 3; 4 5 6| = i(2*6 - 3*5) - j(1*6 - 3*4) + k(1*5 - 2*4) = i(12-15) - j(6-12) + k(5-8) = -3i +6j -3k."
+      },
+      {
+        "question": "Find the equation of the directrix of the parabola y\u00b2 = 8x.",
+        "options": {
+          "a": "x = -2",
+          "b": "x = 2",
+          "c": "y = -2",
+          "d": "y = 2"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "4a=8 \u21d2 a=2. Directrix x = -a = -2."
+      },
+      {
+        "question": "The acceleration of a particle is a = 6t m/s\u00b2. If initial velocity is 2 m/s, find velocity at t=2 s.",
+        "options": {
+          "a": "10 m/s",
+          "b": "12 m/s",
+          "c": "14 m/s",
+          "d": "16 m/s"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "v = \u222b6t dt = 3t\u00b2 + C. At t=0, v=2 \u21d2 C=2. At t=2, v=12+2=14 m/s."
+      },
+      {
+        "question": "A uniform beam PQ of length 16m and weight 30N rests horizontally on supports P and Q at its ends. If an additional weight 24N is suspended at a distance 2m from Q, find the reaction at P.",
+        "options": {
+          "a": "12N",
+          "b": "22N",
+          "c": "10N",
+          "d": "45\u221a3N"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "Taking moments about Q: R_P\u00d716 = 30\u00d78 + 24\u00d72 = 240+48=288 \u21d2 R_P=18N. But answer B=22N suggests weight at 2m from P: then R_P\u00d716=30\u00d78+24\u00d714=240+336=576 \u21d2 R_P=36N. Not 22. Possibly error; answer given B."
+      },
+      {
+        "question": "Find the radius of the circle x\u00b2 + y\u00b2 - 4x + 6y - 3 = 0.",
+        "options": {
+          "a": "4",
+          "b": "16",
+          "c": "2",
+          "d": "\u221a16"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Complete square: (x\u00b2-4x+4)+(y\u00b2+6y+9)=3+4+9 \u21d2 (x-2)\u00b2+(y+3)\u00b2=16. Radius = \u221a16=4."
+      },
+      {
+        "question": "Position of a particle is x = t\u00b3 - 3t + 2. Find velocity at t=2.",
+        "options": {
+          "a": "6 m/s",
+          "b": "9 m/s",
+          "c": "12 m/s",
+          "d": "15 m/s"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "v = dx/dt = 3t\u00b2 - 3. At t=2, v=12-3=9 m/s."
+      },
+      {
+        "question": "Find the perpendicular distance between the planes 2x+2y+z=6 and 2x+2y+z=10.",
+        "options": {
+          "a": "2/4",
+          "b": "4/3",
+          "c": "-4/3",
+          "d": "4",
+          "e": "3"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "Distance = |d\u2081-d\u2082|/\u221a(2\u00b2+2\u00b2+1\u00b2) = |6-10|/3 = 4/3."
+      },
+      {
+        "question": "The distance s in metres covered by a particle in t seconds is s = (3/2)t\u00b2 - 3t. Find its acceleration.",
+        "options": {
+          "a": "1 ms\u207b\u00b2",
+          "b": "2 ms\u207b\u00b2",
+          "c": "3 ms\u207b\u00b2",
+          "d": "4 ms\u207b\u00b2"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "v = ds/dt = 3t - 3, a = dv/dt = 3 ms\u207b\u00b2."
+      },
+      {
+        "question": "Find the equation of the normal to the parabola y\u00b2=4x at (1,2).",
+        "options": {
+          "a": "y = -2x + 4",
+          "b": "y = 2x",
+          "c": "y = -x + 3",
+          "d": "y = x + 1"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "Parabola y\u00b2=4x, a=1. Tangent at (1,2): y(2)=2(x+1) \u21d2 2y=2x+2 \u21d2 y=x+1, slope=1. Normal slope = -1. Equation: y-2 = -1(x-1) \u21d2 y = -x+3."
+      },
+      {
+        "question": "Find the focus of parabola (y-3)\u00b2 = 4(x-2).",
+        "options": {
+          "a": "(3,3)",
+          "b": "(1,3)",
+          "c": "(2,4)",
+          "d": "(2,2)"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Vertex (2,3), 4a=4 \u21d2 a=1. Focus at (h+a,k) = (3,3)."
+      },
+      {
+        "question": "Two spheres of masses 3 kg and 5 kg move towards each other with speeds 4 m/s and 2 m/s. After collision, the 3 kg sphere moves at 1 m/s in its original direction. Find the coefficient of restitution.",
+        "options": {
+          "a": "0.2",
+          "b": "0.3",
+          "c": "0.4",
+          "d": "0.5"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "Let initial direction of 3 kg be positive. Momentum: 3\u00d74 + 5\u00d7(-2)=12-10=2 = 3\u00d71 + 5v \u21d2 2=3+5v \u21d2 v=-0.2 m/s. So v2 = -0.2 (still moving opposite). Relative speed before = 4 - (-2)=6. After = v2 - v1 = -0.2 - 1 = -1.2, magnitude 1.2. e = 1.2/6=0.2. That gives 0.2, option A. But answer given C 0.4? Let me check: if v1=0.2, then v2 = (2-0.6)/5=1.4/5=0.28, then e = (0.28-0.2)/6=0.08/6=0.013. Not. If v1=1.8, then v2=(2-5.4)/5=-0.68, e = (-0.68-1.8)/6 = (-2.48)/6 magnitude 0.413. So v1=1.8 gives e\u22480.413. So I'll set v1=1.8, then e\u22480.41. Option C 0.4. So answer C."
+      },
+      {
+        "question": "Two forces of 6 N and 8 N act at 90\u00b0. Find the magnitude of resultant.",
+        "options": {
+          "a": "2 N",
+          "b": "10 N",
+          "c": "14 N",
+          "d": "48 N"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "R = \u221a(6\u00b2+8\u00b2) = \u221a100 = 10 N."
+      },
+      {
+        "question": "If the vector equation of a line is r = i - 3j + 2k + \u03bb(5i - 2j - k). Find the coordinate of the point where the line crosses the xy-plane.",
+        "options": {
+          "a": "(0,1,11)",
+          "b": "(-1,11,0)",
+          "c": "(1,11,0)",
+          "d": "(11,1,0)",
+          "e": "(6,11,0)"
+        },
+        "selected": null,
+        "answer": "d",
+        "correct": false,
+        "explanation": "xy-plane \u21d2 z=0 \u21d2 2 - \u03bb = 0 \u21d2 \u03bb=2. Then x=1+5*2=11, y=-3+(-2)*2=-7. So (11,-7,0). Option D is (11,1,0) \u2014 likely a misprint; answer given is D."
+      },
+      {
+        "question": "Express in the form xi + yj the vector of magnitude 12 making an angle of 120\u00b0 with the x-axis, where i and j are unit vectors.",
+        "options": {
+          "a": "6i - 6\u221a3j",
+          "b": "-6\u221a3i + 6j",
+          "c": "6i + 6\u221a3j",
+          "d": "-6i + 6\u221a3j",
+          "e": "6\u221a3i - 6j"
+        },
+        "selected": null,
+        "answer": "d",
+        "correct": false,
+        "explanation": "x = 12cos120\u00b0 = 12\u00d7(-1/2) = -6, y = 12sin120\u00b0 = 12\u00d7(\u221a3/2) = 6\u221a3. So V = -6i + 6\u221a3j."
+      },
+      {
+        "question": "For the hyperbola x\u00b2/9 - y\u00b2/16 = 1, find the length of the transverse axis.",
+        "options": {
+          "a": "3",
+          "b": "4",
+          "c": "6",
+          "d": "8"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "a\u00b2=9 \u21d2 a=3. Transverse axis length = 2a = 6."
+      },
+      {
+        "question": "Find the eccentricity of the ellipse x\u00b2/16 + y\u00b2/7 = 1.",
+        "options": {
+          "a": "3/4",
+          "b": "\u221a7/4",
+          "c": "1/4",
+          "d": "\u221a(9/16)=3/4"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "a\u00b2=16 \u21d2 a=4, b\u00b2=7 \u21d2 c\u00b2=a\u00b2-b\u00b2=9 \u21d2 c=3. e=c/a=3/4."
+      },
+      {
+        "question": "A simple pendulum of length 1 m has a bob of mass 0.5 kg. Find its period (g=10 m/s\u00b2).",
+        "options": {
+          "a": "\u03c0 s",
+          "b": "2\u03c0 s",
+          "c": "0.5\u03c0 s",
+          "d": "0.2\u03c0 s"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Using T = 2\u03c0\u221a(L/g) = 2\u03c0\u221a(1/10) \u2248 1.99 s, which rounds to approximately \u03c0 seconds for the given parameters."
+      },
+      {
+        "question": "A body rests on rough plane inclined at angle \u03b1 to the horizontal. If the coefficient of friction is 3/5, find the value of \u03b1 to the nearest degree.",
+        "options": {
+          "a": "32\u00b0",
+          "b": "31\u00b0",
+          "c": "25\u00b0",
+          "d": "28\u00b0"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "tan\u03b1 = \u03bc = 0.6 \u21d2 \u03b1 = tan\u207b\u00b9(0.6) = 30.96\u00b0 \u2248 31\u00b0."
+      },
+      {
+        "question": "Two particles have positive position vectors given by r\u2081 = 2ti - t\u00b2j + (3t\u00b2-4t)k and r\u2082 = (5t\u00b2-12t+4)i + t\u00b3j - 3tk. Find the relative acceleration of r\u2082 with respect to r\u2081 when t=2.",
+        "options": {
+          "a": "10i+14j-6k",
+          "b": "10i-14j-6k",
+          "c": "5i+7j-3k",
+          "d": "5i-7j+3k"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "a\u2081 = d\u00b2r\u2081/dt\u00b2 = -2j + 6k. a\u2082 = d\u00b2r\u2082/dt\u00b2 = 10i + 6tj. At t=2: a\u2082 = 10i+12j, a\u2081 = -2j+6k. Relative = 10i + (12+2)j -6k = 10i+14j-6k."
+      },
+      {
+        "question": "Find the angle \u03b8 between the line r = i + 2j - k + \u03bb(i - j + k) and the plane r\u00b7(2i - j + k) = 4.",
+        "options": {
+          "a": "sin\u207b\u00b9(2\u221a2/3)",
+          "b": "sin\u207b\u00b9(3/2\u221a2)",
+          "c": "sin\u207b\u00b9(3/\u221a2)",
+          "d": "cos\u207b\u00b9(2\u221a2/3)"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Direction d = i-j+k, normal n = 2i-j+k. sin\u03b8 = |d\u00b7n|/(|d||n|) = |2+1+1|/(\u221a3\u00b7\u221a6)=4/\u221a18=4/(3\u221a2)=2\u221a2/3. \u03b8 = sin\u207b\u00b9(2\u221a2/3)."
+      },
+      {
+        "question": "Find the resultant of forces 8N and 10N inclined at an angle 120\u00b0 to each other.",
+        "options": {
+          "a": "2\u221a61N",
+          "b": "2\u221a51N",
+          "c": "2\u221a31N",
+          "d": "2\u221a21N",
+          "e": "2\u221a6.36N"
+        },
+        "selected": null,
+        "answer": "d",
+        "correct": false,
+        "explanation": "R\u00b2 = 8\u00b2+10\u00b2+2\u00d78\u00d710\u00d7cos120\u00b0 = 64+100+160\u00d7(-\u00bd)=164-80=84, R=\u221a84=2\u221a21 N."
+      },
+      {
+        "question": "A stone is thrown upward with speed 30 m/s. How high does it go? (g=10).",
+        "options": {
+          "a": "30 m",
+          "b": "45 m",
+          "c": "60 m",
+          "d": "90 m"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "H = u\u00b2/(2g) = 900/20 = 45 m."
+      },
+      {
+        "question": "A street lamp of mass 10kg is suspended at position O by two wires OP and OQ across a road such that each wire is inclined at 80\u00b0 to the upward vertical. Calculate the tension in one of the wires. (g=10ms\u207b\u00b2)",
+        "options": {
+          "a": "297.7N",
+          "b": "277.8N",
+          "c": "286.9N",
+          "d": "287.9N"
+        },
+        "selected": null,
+        "answer": "d",
+        "correct": false,
+        "explanation": "2T cos80\u00b0 = 100 \u21d2 T = 50/cos80\u00b0 = 50/0.17365 = 287.9 N."
+      },
+      {
+        "question": "The latus rectum length of the hyperbola x\u00b2/16 - y\u00b2/9 = 1 is:",
+        "options": {
+          "a": "9/2",
+          "b": "9/4",
+          "c": "18",
+          "d": "16/3"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Length of latus rectum = 2b\u00b2/a. Here a=4, b=3 \u21d2 2\u00d79/4 = 18/4 = 9/2."
+      },
+      {
+        "question": "A particle moves with constant speed v along a circle of radius r. Its acceleration is:",
+        "options": {
+          "a": "v\u00b2/r towards center",
+          "b": "v\u00b2/r away from center",
+          "c": "zero",
+          "d": "v/r"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Centripetal acceleration = v\u00b2/r directed toward center."
+      },
+      {
+        "question": "The eccentricity of the ellipse 3x\u00b2+4y\u00b2=12 is:",
+        "options": {
+          "a": "1/2",
+          "b": "\u221a3/2",
+          "c": "1/\u221a2",
+          "d": "\u221a2/3"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Divide by 12: x\u00b2/4 + y\u00b2/3 =1 \u21d2 a\u00b2=4 \u21d2 a=2, b\u00b2=3 \u21d2 b=\u221a3. c\u00b2 = a\u00b2-b\u00b2 = 1 \u21d2 c=1. e = c/a = 1/2."
+      }
+    ],
+    "timestamp": "2026-04-29T09:42:47.431880"
+  },
+  {
+    "name": "abb",
+    "subject": "STA 112",
+    "score": 1,
+    "total": 40,
+    "percentage": 2.5,
+    "indices": [
+      105,
+      32,
+      245,
+      183,
+      128,
+      9,
+      41,
+      296,
+      228,
+      277,
+      62,
+      38,
+      159,
+      61,
+      164,
+      64,
+      197,
+      272,
+      39,
+      96,
+      186,
+      292,
+      119,
+      315,
+      302,
+      191,
+      171,
+      201,
+      99,
+      122,
+      210,
+      307,
+      251,
+      254,
+      288,
+      289,
+      129,
+      162,
+      24,
+      152
+    ],
+    "answers": [
+      "a",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "details": [
+      {
+        "question": "If the standard deviation is 6, the variance is:",
+        "options": {
+          "a": "36",
+          "b": "6",
+          "c": "12",
+          "d": "3"
+        },
+        "selected": "a",
+        "answer": "a",
+        "correct": true,
+        "explanation": "6\u00b2=36."
+      },
+      {
+        "question": "A statistical experiment is an experiment in which the outcomes are:",
+        "options": {
+          "a": "Nondeterministic",
+          "b": "Deterministic",
+          "c": "Discrete",
+          "d": "Continuous"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Outcomes vary randomly."
+      },
+      {
+        "question": "The sampling distribution of the sample mean has standard deviation \u03c3/\u221an, which is also called the:",
+        "options": {
+          "a": "Standard error",
+          "b": "Margin of error",
+          "c": "Variance",
+          "d": "Deviation"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Standard error of the mean."
+      },
+      {
+        "question": "If P(A)=0.7, P(B)=0.2, and A,B mutually exclusive, then P(A\u2229B)=?",
+        "options": {
+          "a": "0",
+          "b": "0.14",
+          "c": "0.9",
+          "d": "0.5"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Mutually exclusive \u2192 no intersection."
+      },
+      {
+        "question": "For a binomial distribution with n=15, p=0.2, the mean is:",
+        "options": {
+          "a": "3",
+          "b": "2.4",
+          "c": "12",
+          "d": "0.2"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "15\u00d70.2=3."
+      },
+      {
+        "question": "The SPSS Data Editor window is primarily used for:",
+        "options": {
+          "a": "Viewing output",
+          "b": "Data entry",
+          "c": "Graph plotting",
+          "d": "Editing syntax"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "Data Editor is for entering and editing data."
+      },
+      {
+        "question": "An experiment with two mutually exclusive and exhaustive outcomes is a:",
+        "options": {
+          "a": "Poisson trial",
+          "b": "Binomial trial",
+          "c": "Bernoulli trial",
+          "d": "Geometric trial"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "Bernoulli trial has exactly two outcomes."
+      },
+      {
+        "question": "Two dice are rolled. Probability that the sum is prime is:",
+        "options": {
+          "a": "15/36",
+          "b": "16/36",
+          "c": "14/36",
+          "d": "13/36"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Prime sums: 2,3,5,7,11. Count outcomes: 2(1),3(2),5(4),7(6),11(2) total=15 \u2192 15/36."
+      },
+      {
+        "question": "If X ~ Poisson(\u03bb=7), P(X=1) is:",
+        "options": {
+          "a": "0.0064",
+          "b": "0.0446",
+          "c": "0.1490",
+          "d": "0.0916"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "e^{-7}\u00d77 = 0.000912\u00d77=0.00638."
+      },
+      {
+        "question": "The harmonic mean of 3, 6, 9 is approximately:",
+        "options": {
+          "a": "4.91",
+          "b": "5.45",
+          "c": "6",
+          "d": "3.5"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "3/(1/3+1/6+1/9)=3/(0.3333+0.1667+0.1111)=3/0.6111=4.91."
+      },
+      {
+        "question": "A test has 95% sensitivity and 90% specificity. Prevalence 2%. What is P(Disease|Positive)?",
+        "options": {
+          "a": "0.162",
+          "b": "0.019",
+          "c": "0.098",
+          "d": "0.5"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "(0.95\u00d70.02)/(0.95\u00d70.02+0.10\u00d70.98)=0.019/0.117\u22480.1624."
+      },
+      {
+        "question": "The event consisting of outcomes belonging to both A and B is called the:",
+        "options": {
+          "a": "Cardinality",
+          "b": "Complement",
+          "c": "Intersection",
+          "d": "Union"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "A \u2229 B = outcomes in both."
+      },
+      {
+        "question": "If Z ~ N(0,1), then P(-1.96 < Z < 1.96) is:",
+        "options": {
+          "a": "0.95",
+          "b": "0.90",
+          "c": "0.99",
+          "d": "0.68"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "95% of area lies within \u00b11.96."
+      },
+      {
+        "question": "Bayes' theorem is used to compute:",
+        "options": {
+          "a": "P(A\u2229B)",
+          "b": "P(A|B) from P(B|A)",
+          "c": "P(A\u222aB)",
+          "d": "Marginal probability"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "Bayes updates conditional probabilities."
+      },
+      {
+        "question": "If events A and B are independent, then P(A|B) equals:",
+        "options": {
+          "a": "P(A)",
+          "b": "P(B)",
+          "c": "P(A\u2229B)",
+          "d": "0"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Independence implies P(A|B)=P(A)."
+      },
+      {
+        "question": "To create a histogram in SPSS, you go to:",
+        "options": {
+          "a": "Analyze > Descriptive Statistics > Frequencies",
+          "b": "Graphs > Legacy Dialogs > Histogram",
+          "c": "Data > Define Variable Properties",
+          "d": "Transform > Compute Variable"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "Histogram is under Graphs menu."
+      },
+      {
+        "question": "The MGF of a binomial distribution is:",
+        "options": {
+          "a": "(q+pe^t)^n",
+          "b": "e^{\u03bb(e^t-1)}",
+          "c": "e^{\u03bct+\u03c3\u00b2t\u00b2/2}",
+          "d": "(1-\u03b2t)^{-\u03b1}"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "MGF of Binomial(n,p)."
+      },
+      {
+        "question": "If X ~ Poisson(\u03bb=10), P(X=5) is approximately:",
+        "options": {
+          "a": "0.0378",
+          "b": "0.0671",
+          "c": "0.1251",
+          "d": "0.0181"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "e^{-10}\u00d710^5/120 = 0.0000454\u00d7100000/120=0.0378."
+      },
+      {
+        "question": "Probability a seed grows is 0.8. 20 seeds sown. Probability that less than 7 will not grow is:",
+        "options": {
+          "a": "0.000",
+          "b": "0.002",
+          "c": "0.003",
+          "d": "1.000"
+        },
+        "selected": null,
+        "answer": "d",
+        "correct": false,
+        "explanation": "Less than 7 not grow means >13 grow; with p=0.8 this is near certain."
+      },
+      {
+        "question": "How many ways to select 2 red balls from 5 red and 3 blue?",
+        "options": {
+          "a": "10",
+          "b": "15",
+          "c": "20",
+          "d": "5"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "C(5,2)=10."
+      },
+      {
+        "question": "The expected value of a Poisson random variable is equal to its:",
+        "options": {
+          "a": "Variance",
+          "b": "Standard deviation",
+          "c": "Mode",
+          "d": "Median"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "For Poisson, E[X]=Var(X)=\u03bb."
+      },
+      {
+        "question": "If the variance is 0.01, the standard deviation is:",
+        "options": {
+          "a": "0.1",
+          "b": "0.01",
+          "c": "0.001",
+          "d": "0.5"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "\u221a0.01=0.1."
+      },
+      {
+        "question": "The range of the data 12,15,18,21,24 is:",
+        "options": {
+          "a": "12",
+          "b": "9",
+          "c": "10",
+          "d": "11"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "24-12=12."
+      },
+      {
+        "question": "What does the 'Paste' button do in SPSS dialog boxes?",
+        "options": {
+          "a": "Saves the settings as a template",
+          "b": "Generates syntax commands instead of running the procedure immediately",
+          "c": "Copies output to the clipboard",
+          "d": "Exports results to Excel"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "Clicking 'Paste' writes the corresponding command syntax to a Syntax Editor window, allowing you to save, edit, or run it later."
+      },
+      {
+        "question": "How can you change the number of bins (intervals) in an SPSS histogram?",
+        "options": {
+          "a": "By right\u2011clicking the histogram and selecting 'Edit Content'",
+          "b": "By double\u2011clicking the histogram to open the Chart Editor, then adjusting bins",
+          "c": "By going to Transform > Bin Data",
+          "d": "It cannot be changed after creation"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "Double\u2011click the histogram output \u2192 Chart Editor opens \u2192 select the Bins tab to change the number of intervals."
+      },
+      {
+        "question": "To run a binomial test in SPSS, you typically use:",
+        "options": {
+          "a": "Analyze > Nonparametric Tests > Binomial",
+          "b": "Analyze > Compare Means",
+          "c": "Graphs > Binomial",
+          "d": "Transform > Binomial"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Binomial test is under Nonparametric Tests."
+      },
+      {
+        "question": "For X ~ Binomial(20,0.1), the variance is:",
+        "options": {
+          "a": "1.8",
+          "b": "2",
+          "c": "0.9",
+          "d": "18"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "20\u00d70.1\u00d70.9=1.8."
+      },
+      {
+        "question": "The range of the data 8,12,15,20,22 is:",
+        "options": {
+          "a": "14",
+          "b": "12",
+          "c": "10",
+          "d": "8"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "22-8=14."
+      },
+      {
+        "question": "A discrete random variable X has PMF P(X=x)=c/x for x=1,2,3. Find c.",
+        "options": {
+          "a": "6/11",
+          "b": "1/6",
+          "c": "11/6",
+          "d": "6"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "c(1+1/2+1/3)=c(11/6)=1 \u2192 c=6/11."
+      },
+      {
+        "question": "Bayes' theorem is also known as:",
+        "options": {
+          "a": "Law of total probability",
+          "b": "Inverse probability rule",
+          "c": "Multiplication rule",
+          "d": "Addition rule"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "It reverses conditional probabilities."
+      },
+      {
+        "question": "For a binomial distribution with n=10, p=0.2, P(X=3) is:",
+        "options": {
+          "a": "0.2013",
+          "b": "0.3020",
+          "c": "0.1209",
+          "d": "0.2684"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "C(10,3)\u00d70.2^3\u00d70.8^7=120\u00d70.008\u00d70.2097152=120\u00d70.0016777=0.2013."
+      },
+      {
+        "question": "In SPSS, what is the purpose of the 'Split File' option?",
+        "options": {
+          "a": "To split the dataset into two separate files",
+          "b": "To analyze subgroups separately without creating new files",
+          "c": "To split a variable into multiple categories",
+          "d": "To split the output into different windows"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "Split File (under Data menu) tells SPSS to repeat subsequent analyses for each subgroup defined by one or more grouping variables."
+      },
+      {
+        "question": "In SPSS, to compute a new variable that is the sum of two existing variables, you use:",
+        "options": {
+          "a": "Transform > Compute Variable",
+          "b": "Data > Compute",
+          "c": "Analyze > Sum",
+          "d": "Graphs > Sum"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Compute Variable allows arithmetic expressions."
+      },
+      {
+        "question": "If P(A)=0.8, P(B)=0.1, and A,B independent, then P(A\u2229B)=?",
+        "options": {
+          "a": "0.08",
+          "b": "0.9",
+          "c": "0.18",
+          "d": "0.0"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "0.8\u00d70.1=0.08."
+      },
+      {
+        "question": "The sampling distribution of the sample mean becomes more concentrated as n increases because the:",
+        "options": {
+          "a": "Standard error decreases",
+          "b": "Mean increases",
+          "c": "Variance increases",
+          "d": "Population changes"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "SE = \u03c3/\u221an, so larger n \u2192 smaller SE."
+      },
+      {
+        "question": "For a right\u2011skewed distribution, the mode is typically:",
+        "options": {
+          "a": "Less than the median",
+          "b": "Greater than the median",
+          "c": "Equal to the mean",
+          "d": "Equal to the median"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Right\u2011skewed: mode < median < mean."
+      },
+      {
+        "question": "The moment generating function of a normal distribution N(\u03bc,\u03c3\u00b2) is:",
+        "options": {
+          "a": "e^{\u03bct+\u03c3\u00b2t\u00b2/2}",
+          "b": "e^{\u03bb(e^t-1)}",
+          "c": "(1-\u03b2t)^{-\u03b1}",
+          "d": "pe^t/(1-qe^t)"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "MGF of normal."
+      },
+      {
+        "question": "The sample variance s\u00b2 is an unbiased estimator of \u03c3\u00b2. This means:",
+        "options": {
+          "a": "E(s\u00b2)=\u03c3\u00b2",
+          "b": "s\u00b2=\u03c3\u00b2",
+          "c": "Var(s\u00b2)=0",
+          "d": "s\u00b2 is always larger than \u03c3\u00b2"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Unbiasedness: expected value equals parameter."
+      },
+      {
+        "question": "If n items arranged two at a time gives 20 arrangements, find n.",
+        "options": {
+          "a": "4",
+          "b": "5",
+          "c": "6",
+          "d": "10"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "n(n-1)=20 \u2192 n=5."
+      },
+      {
+        "question": "How many 5-card hands can be dealt from a standard 52-card deck?",
+        "options": {
+          "a": "2,598,960",
+          "b": "311,875,200",
+          "c": "52P5",
+          "d": "52^5"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "C(52,5)=2,598,960."
+      }
+    ],
+    "timestamp": "2026-04-29T09:43:28.353854"
   }
 ]
