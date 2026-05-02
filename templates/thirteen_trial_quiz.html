@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+
+{% block title %}13-Trial Learning Mode - Trial {{ trial_number }} of {{ total_trials }}{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <h2>{{ subject }} - 13-Trial Learning Mode</h2>
+            <p class="text-muted">Trial {{ trial_number }} of {{ total_trials }}</p>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h5 class="card-title">Progress</h5>
+                    <p class="mb-0"><strong>Questions Seen:</strong> {{ progress.questions_seen }} / {{ progress.total_questions }}</p>
+                    <p><strong>Repetition Intensity:</strong> {{ repetition_intensity }}x</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trial Info Card -->
+    <div class="alert alert-info" role="alert">
+        <h5 class="alert-heading">Trial {{ trial_number }} Purpose</h5>
+        <p>{{ trial_purpose }}</p>
+        <hr>
+        <p class="mb-0"><strong>This trial focuses on:</strong> Ensuring complete mastery through structured repetition.</p>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="mb-4">
+        <div class="progress" style="height: 25px;">
+            <div class="progress-bar bg-success" role="progressbar" 
+                 style="width: {{ (progress.questions_seen / progress.total_questions * 100) }}%;" 
+                 aria-valuenow="{{ progress.questions_seen }}" 
+                 aria-valuemin="0" 
+                 aria-valuemax="{{ progress.total_questions }}">
+                {{ (progress.questions_seen / progress.total_questions * 100)|round(0)|int }}% Loaded
+            </div>
+        </div>
+        <small class="text-muted">{{ progress.questions_seen }} of {{ progress.total_questions }} questions fully loaded</small>
+    </div>
+
+    <!-- Quiz Form -->
+    <form method="POST" action="{{ url_for('thirteen_trial_submit', subject=subject|urlencode, trial_num=trial_number) }}" id="quizForm">
+        <input type="hidden" name="indices" id="indices" value="{{ indices }}">
+        
+        {% for question in questions %}
+        <div class="card mb-3">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Question {{ loop.index }} of {{ questions|length }}</h6>
+                <p class="card-text">{{ question.question|safe }}</p>
+                
+                <div class="options mt-3">
+                    {% for option_key, option_value in question.options.items() %}
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" 
+                               name="q{{ loop.index0 }}" 
+                               id="q{{ loop.index0 }}_{{ option_key }}" 
+                               value="{{ option_key }}" required>
+                        <label class="form-check-label" for="q{{ loop.index0 }}_{{ option_key }}">
+                            <strong>{{ option_key }}:</strong> {{ option_value|safe }}
+                        </label>
+                    </div>
+                    {% endfor %}
+                </div>
+                
+                {% if question.source %}
+                <small class="text-muted d-block mt-2">Source: {{ question.source }} | Topic: {{ question.topic }}</small>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+
+        <!-- Submit Button -->
+        <div class="mb-4">
+            <button type="submit" class="btn btn-primary btn-lg w-100">
+                Complete Trial {{ trial_number }} and Submit
+            </button>
+        </div>
+    </form>
+
+    <!-- Instructions -->
+    <div class="alert alert-secondary" role="alert">
+        <h6 class="alert-heading">Instructions for 13-Trial Mode</h6>
+        <ul class="mb-0">
+            <li>You are in Trial {{ trial_number }} of 13 trials</li>
+            <li>This trial contains {{ questions|length }} questions</li>
+            <li>Answer all questions before submitting</li>
+            <li>The system ensures ALL {{ progress.total_questions }} questions will be fully loaded across all 13 trials</li>
+            <li>Your progress is saved automatically</li>
+            <li>Repetition intensity: {{ repetition_intensity }}x (questions are strategically repeated)</li>
+        </ul>
+    </div>
+</div>
+
+<style>
+    .options {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .form-check {
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        transition: background-color 0.2s;
+    }
+    
+    .form-check:hover {
+        background-color: #e9ecef;
+    }
+    
+    .form-check-input:checked ~ .form-check-label {
+        font-weight: bold;
+        color: #0d6efd;
+    }
+</style>
+
+<script>
+// Store indices in hidden field
+document.getElementById('indices').value = {{ indices }};
+</script>
+{% endblock %}

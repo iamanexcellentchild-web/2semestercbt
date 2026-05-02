@@ -4,11 +4,103 @@
 <script>window.EXPIRES_AT = {{ expires_at * 1000 }};</script>
 {% endif %}
 
+<style>
+/* ── Per-question Reveal button ─────────────────────────────── */
+.reveal-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    padding: 6px 16px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #1565c0;
+    background: #e3f2fd;
+    border: 1.5px solid #90caf9;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.18s, color 0.18s, border-color 0.18s;
+}
+.reveal-btn:hover {
+    background: #bbdefb;
+    border-color: #42a5f5;
+}
+.reveal-btn--active {
+    color: #1b5e20;
+    background: #e8f5e9;
+    border-color: #a5d6a7;
+}
+.reveal-btn--active:hover {
+    background: #c8e6c9;
+}
+
+/* ── Answer reveal panel ────────────────────────────────────── */
+.answer-reveal {
+    margin-top: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    animation: slideDown 0.2s ease;
+}
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-6px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.reveal-inner {
+    padding: 12px 16px;
+    background: #f0f7ff;
+    border-left: 4px solid #1565c0;
+}
+.correct-label {
+    margin: 0 0 8px;
+    font-size: 0.95rem;
+}
+.correct-letter {
+    color: #1565c0;
+    font-size: 1.05rem;
+}
+.solution-box {
+    margin-top: 8px;
+    padding: 10px 14px;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #dce8ff;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+.solution-title {
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: #444;
+}
+
+/* ── Sidebar legend dots ────────────────────────────────────── */
+.quiz-legend {
+    margin-top: 12px;
+    font-size: 0.8rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.legend-dot {
+    display: inline-block;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+}
+.legend-dot.revealed  { background: #1b5e20; }
+.legend-dot.hidden-dot { background: #90caf9; border: 1px solid #1565c0; }
+</style>
+
 <div class="quiz-container">
     <div class="sidebar">
         <div id="timer">{% if expires_at %}Time Remaining: --:--{% else %}No time limit{% endif %}</div>
         {% if mode == 'quiz' %}
-        <button id="showAnswersBtn" class="show-btn">Show Answers</button>
+        <div class="quiz-legend">
+            <span class="legend-dot revealed"></span> Revealed
+            <span class="legend-dot hidden-dot"></span> Hidden
+        </div>
         {% endif %}
     </div>
     <div class="main-content">
@@ -47,16 +139,34 @@
                 </div>
                 {% if mode == 'quiz' %}
                 <div class="answer-reveal" id="answer{{ qidx }}" style="display:none;">
-                    <p><strong>Correct Answer: {{ q.answer }}</strong></p>
-                    {% if q.get('solution') %}
-                    <div class="solution-box">
-                        <p class="solution-title">📝 Detailed Solution:</p>
-                        {{ q.solution | safe }}
+                    <div class="reveal-inner">
+                        <p class="correct-label">
+                            ✅ Correct Answer:
+                            <strong class="correct-letter">{{ q.answer | upper }}</strong>
+                            {% if q.get('options') is mapping %}
+                                — {{ q.options.get(q.answer, q.options.get(q.answer|upper, '')) | safe }}
+                            {% endif %}
+                        </p>
+                        {% if q.get('solution') %}
+                        <div class="solution-box">
+                            <p class="solution-title">📝 Detailed Solution:</p>
+                            {{ q.solution | safe }}
+                        </div>
+                        {% elif q.get('explanation') %}
+                        <div class="solution-box">
+                            <p class="solution-title">💡 Explanation:</p>
+                            <p>{{ q.explanation }}</p>
+                        </div>
+                        {% endif %}
                     </div>
-                    {% elif q.get('explanation') %}
-                    <p><em>{{ q.explanation }}</em></p>
-                    {% endif %}
                 </div>
+                <button
+                    type="button"
+                    class="reveal-btn"
+                    data-target="answer{{ qidx }}"
+                    onclick="toggleReveal(this)">
+                    👁 Reveal Answer
+                </button>
                 {% endif %}
             </div>
             {% endfor %}
@@ -85,12 +195,27 @@ function confirmSubmit() {
 }
 
 {% if mode == 'quiz' %}
-document.getElementById('showAnswersBtn').addEventListener('click', function() {
-    var answers = document.querySelectorAll('.answer-reveal');
-    answers.forEach(function(ans) {
-        ans.style.display = 'block';
-    });
-});
+/**
+ * Per-question reveal/hide toggle.
+ * First click  → shows the answer panel, button changes to "Hide Answer".
+ * Second click → hides it again so students can re-test themselves.
+ */
+function toggleReveal(btn) {
+    var targetId = btn.getAttribute('data-target');
+    var panel    = document.getElementById(targetId);
+    if (!panel) return;
+
+    var hidden = (panel.style.display === 'none' || panel.style.display === '');
+    if (hidden) {
+        panel.style.display  = 'block';
+        btn.textContent      = '🙈 Hide Answer';
+        btn.classList.add('reveal-btn--active');
+    } else {
+        panel.style.display  = 'none';
+        btn.textContent      = '👁 Reveal Answer';
+        btn.classList.remove('reveal-btn--active');
+    }
+}
 {% endif %}
 </script>
 {% endblock %}

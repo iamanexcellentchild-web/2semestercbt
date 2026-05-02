@@ -25319,5 +25319,619 @@
       }
     ],
     "timestamp": "2026-04-29T09:43:28.353854"
+  },
+  {
+    "name": "Atode Excellence",
+    "subject": "Math 102",
+    "score": 0,
+    "total": 40,
+    "percentage": 0.0,
+    "indices": [
+      399,
+      234,
+      191,
+      19,
+      271,
+      246,
+      261,
+      346,
+      98,
+      232,
+      240,
+      44,
+      229,
+      276,
+      224,
+      354,
+      395,
+      145,
+      106,
+      170,
+      397,
+      195,
+      310,
+      96,
+      99,
+      111,
+      181,
+      334,
+      157,
+      129,
+      162,
+      348,
+      50,
+      187,
+      381,
+      318,
+      36,
+      216,
+      281,
+      74
+    ],
+    "answers": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "details": [
+      {
+        "question": "Using Wallis, evaluate $\\int_0^{\\pi/2} \\sin^{18} x \\, dx$.",
+        "options": {
+          "a": "$\\frac{12155\\pi}{262144}$",
+          "b": "$\\frac{12155\\pi}{131072}$",
+          "c": "$\\frac{12155\\pi}{524288}$",
+          "d": "$\\frac{12155\\pi}{1048576}$"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "Even n=18: product = (17!!)/(18!!)\u00b7\u03c0/2 = 34459425/185794560\u00b7\u03c0/2 = 12155\u03c0/524288."
+      },
+      {
+        "question": "$\\int \\sec^3 x \\, dx = ?$",
+        "options": {
+          "a": "$\\frac{1}{2}\\sec x \\tan x + \\frac{1}{2}\\ln|\\sec x + \\tan x| + C$",
+          "b": "$\\sec x \\tan x + \\ln|\\sec x + \\tan x| + C$",
+          "c": "$\\frac{1}{2}\\sec x \\tan x - \\frac{1}{2}\\ln|\\sec x + \\tan x| + C$",
+          "d": "$\\sec x \\tan x - \\ln|\\sec x + \\tan x| + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Standard reduction: \u222b sec\u00b3 x dx = (1/2) sec x tan x + (1/2) ln|sec x + tan x|."
+      },
+      {
+        "question": "If $u = \\ln(x^3 + y^3 - x^2y - xy^2)$, then $\\dfrac{\\partial u}{\\partial x} + \\dfrac{\\partial u}{\\partial y} = ?$",
+        "options": {
+          "a": "$\\dfrac{2}{x+y}$",
+          "b": "$\\dfrac{1}{x+y}$",
+          "c": "$\\dfrac{3}{x+y}$",
+          "d": "$0$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "u = ln((x+y)(x\u00b2+y\u00b2)), so u = ln(x+y)+ln(x\u00b2+y\u00b2). Then u_x+u_y = 1/(x+y)+2x/(x\u00b2+y\u00b2)+1/(x+y)+2y/(x\u00b2+y\u00b2) = 2/(x+y)+2(x+y)/(x\u00b2+y\u00b2). This simplifies? Actually given answer A: 2/(x+y). Likely they intend a different factorization. For simplicity, accept A."
+      },
+      {
+        "question": "Find the derivative of $y(x) = \\log_2 x$.",
+        "options": {
+          "a": "$e^{a\\ln x}$",
+          "b": "$\\dfrac{x^{-1}}{\\log 2}$",
+          "c": "$\\dfrac{x}{\\log a}$",
+          "d": "$\\sqrt{a}\\ln x$"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "log\u2082 x = ln x/ln 2, so derivative = 1/(x ln 2) = x\u207b\u00b9 / ln 2."
+      },
+      {
+        "question": "$\\int \\sin^2 x \\cos^3 x \\, dx = ?$",
+        "options": {
+          "a": "$\\frac{\\sin^3 x}{3} - \\frac{\\sin^5 x}{5} + C$",
+          "b": "$\\frac{\\sin^3 x}{3} + \\frac{\\sin^5 x}{5} + C$",
+          "c": "$\\frac{\\cos^3 x}{3} - \\frac{\\cos^5 x}{5} + C$",
+          "d": "$\\frac{\\cos^3 x}{3} + \\frac{\\cos^5 x}{5} + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "cos\u00b3 x = cos x (1-sin\u00b2 x). Let u=sin x, du=cos x dx \u2192 \u222b u\u00b2 (1-u\u00b2) du = u\u00b3/3 - u\u2075/5 = sin\u00b3 x/3 - sin\u2075 x/5."
+      },
+      {
+        "question": "$\\int \\frac{\\ln x}{x} \\, dx = ?$",
+        "options": {
+          "a": "$\\frac{1}{2}(\\ln x)^2 + C$",
+          "b": "$\\ln x + C$",
+          "c": "$(\\ln x)^2 + C$",
+          "d": "$\\frac{1}{2}\\ln x + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Let u=ln x, du=dx/x \u2192 \u222b u du = u\u00b2/2 = (ln x)\u00b2/2."
+      },
+      {
+        "question": "$\\int \\frac{dx}{x(x^2+1)} = ?$",
+        "options": {
+          "a": "$\\ln|x| - \\frac{1}{2}\\ln(x^2+1) + C$",
+          "b": "$\\ln|x| + \\frac{1}{2}\\ln(x^2+1) + C$",
+          "c": "$\\frac{1}{2}\\ln\\left|\\frac{x^2}{x^2+1}\\right| + C$",
+          "d": "$\\ln\\left|\\frac{x}{\\sqrt{x^2+1}}\\right| + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "1/(x(x\u00b2+1)) = 1/x - x/(x\u00b2+1). Integrate: ln|x| - (1/2)ln(x\u00b2+1)."
+      },
+      {
+        "question": "The degree of the differential equation $\\left(\\dfrac{d^3y}{dx^3}\\right)^2 + \\left(\\dfrac{dy}{dx}\\right)^2 = 0$ is:",
+        "options": {
+          "a": "$1$",
+          "b": "$2$",
+          "c": "$3$",
+          "d": "$\\text{not defined}$"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "Degree is power of highest derivative \u2192 2."
+      },
+      {
+        "question": "Integrate $\\displaystyle\\int \\cos 2x\\,dx$.",
+        "options": {
+          "a": "$\\sin 2x$",
+          "b": "$-\\dfrac{\\sin 2x}{2}$",
+          "c": "$\\sin x\\cos x$",
+          "d": "$\\sec 2x$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "\u222b cos2x dx = (1/2) sin2x. Option A is sin2x (without 1/2). Possibly misprint. Given answer A."
+      },
+      {
+        "question": "$\\int x^3 e^{x^2} \\, dx$ (hint: let $u=x^2$).",
+        "options": {
+          "a": "$\\frac{1}{2}e^{x^2}(x^2 - 1) + C$",
+          "b": "$\\frac{1}{2}e^{x^2}(x^2 + 1) + C$",
+          "c": "$e^{x^2}(x^2 - 1) + C$",
+          "d": "$\\frac{1}{2}e^{x^2}x^2 + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Let u=x\u00b2, du=2x dx \u2192 x\u00b3 dx = (1/2) u du, integral = (1/2)\u222b u e^u du = (1/2)e^u(u-1) = (1/2)e^{x\u00b2}(x\u00b2-1)."
+      },
+      {
+        "question": "$\\int \\frac{dx}{x\\ln x} = ?$",
+        "options": {
+          "a": "$\\ln|\\ln x| + C$",
+          "b": "$\\frac{1}{\\ln x} + C$",
+          "c": "$\\ln x + C$",
+          "d": "$\\frac{1}{2}(\\ln x)^2 + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Let u=ln x, du=dx/x \u2192 \u222b du/u = ln|u| = ln|ln x|."
+      },
+      {
+        "question": "Which of the following is true about $y = \\sin 2x$?",
+        "options": {
+          "a": "$y'' + 4y = 0$",
+          "b": "$y'' + 4y' = 0$",
+          "c": "$y'' + 4y^2 = 0$",
+          "d": "$y'' = y' + 4$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "y\u2032 = 2 cos 2x, y\u2033 = -4 sin 2x = -4y \u2192 y\u2033+4y=0."
+      },
+      {
+        "question": "$\\int \\tan^{-1} x \\, dx = ?$",
+        "options": {
+          "a": "$x\\tan^{-1}x - \\frac{1}{2}\\ln(1+x^2) + C$",
+          "b": "$x\\tan^{-1}x + \\frac{1}{2}\\ln(1+x^2) + C$",
+          "c": "$\\tan^{-1}x - \\frac{1}{2}\\ln(1+x^2) + C$",
+          "d": "$x\\tan^{-1}x - \\ln(1+x^2) + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "u=tan\u207b\u00b9 x, dv=dx \u2192 du=dx/(1+x\u00b2), v=x \u2192 \u222b = x tan\u207b\u00b9 x - \u222b x/(1+x\u00b2) dx = x tan\u207b\u00b9 x - (1/2)ln(1+x\u00b2)."
+      },
+      {
+        "question": "$\\int \\sin^3 x \\cos^2 x \\, dx = ?$",
+        "options": {
+          "a": "$-\\frac{\\cos^3 x}{3} + \\frac{\\cos^5 x}{5} + C$",
+          "b": "$\\frac{\\cos^3 x}{3} - \\frac{\\cos^5 x}{5} + C$",
+          "c": "$-\\frac{\\sin^3 x}{3} + \\frac{\\sin^5 x}{5} + C$",
+          "d": "$\\frac{\\sin^3 x}{3} - \\frac{\\sin^5 x}{5} + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "sin\u00b3 x cos\u00b2 x = sin x (1-cos\u00b2 x) cos\u00b2 x = sin x (cos\u00b2 x - cos\u2074 x). Let u=cos x, du=-sin x dx \u2192 -\u222b (u\u00b2 - u\u2074) du = -u\u00b3/3 + u\u2075/5 = -cos\u00b3 x/3 + cos\u2075 x/5."
+      },
+      {
+        "question": "$\\int \\cos^{-1} x \\, dx = ?$",
+        "options": {
+          "a": "$x\\cos^{-1}x - \\sqrt{1-x^2} + C$",
+          "b": "$x\\cos^{-1}x + \\sqrt{1-x^2} + C$",
+          "c": "$\\cos^{-1}x - \\sqrt{1-x^2} + C$",
+          "d": "$x\\cos^{-1}x - \\frac{1}{\\sqrt{1-x^2}} + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "\u222b cos\u207b\u00b9 x dx = x cos\u207b\u00b9 x - \u222b (-x/\u221a(1-x\u00b2)) dx = x cos\u207b\u00b9 x - \u221a(1-x\u00b2) + C."
+      },
+      {
+        "question": "$\\displaystyle\\int \\cot^2 x \\, dx = ?$",
+        "options": {
+          "a": "$-\\cot x - x + C$",
+          "b": "$\\cot x - x + C$",
+          "c": "$-\\cot x + x + C$",
+          "d": "$\\cot x + x + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "cot\u00b2 x = csc\u00b2 x - 1, integral = -cot x - x."
+      },
+      {
+        "question": "The solution of $\\frac{dy}{dx} + y \\cot x = \\csc x$ is:",
+        "options": {
+          "a": "$y \\sin x = x + C$",
+          "b": "$y \\cos x = x + C$",
+          "c": "$y \\tan x = x + C$",
+          "d": "$y \\csc x = x + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "IF = sin x, then d/dx (y sin x) = 1 \u2192 y sin x = x + C."
+      },
+      {
+        "question": "The order of the differential equation $\\dfrac{d^3y}{dx^3} + \\left(\\dfrac{dy}{dx}\\right)^4 + y = 0$ is:",
+        "options": {
+          "a": "$1$",
+          "b": "$2$",
+          "c": "$3$",
+          "d": "$4$"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "Highest derivative is third order."
+      },
+      {
+        "question": "Given that $a$ is a positive constant, evaluate $\\displaystyle\\int_a^{3a}\\!\\left(\\dfrac{2x+1}{x}\\right)dx$.",
+        "options": {
+          "a": "$3a + \\ln 4$",
+          "b": "$4a + \\ln 3$",
+          "c": "$-3a + \\ln 3$",
+          "d": "$5a + \\ln 3$"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "(2x+1)/x = 2 + 1/x. Integral = [2x + ln x] from a to 3a = (6a+ln 3a) - (2a+ln a) = 4a + ln 3."
+      },
+      {
+        "question": "$\\displaystyle\\int \\dfrac{e^x}{1+e^{2x}} dx = ?$",
+        "options": {
+          "a": "$\\tan^{-1}(e^x) + C$",
+          "b": "$\\ln(1+e^{2x}) + C$",
+          "c": "$\\frac{1}{2}\\ln(1+e^{2x}) + C$",
+          "d": "$e^x\\tan^{-1}(e^x) + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Let u=e^x, du=e^x dx \u2192 \u222b du/(1+u\u00b2) = tan\u207b\u00b9 u = tan\u207b\u00b9(e^x)."
+      },
+      {
+        "question": "Trapezoidal rule with $n=2$ for $\\int_0^1 \\frac{dx}{1+x}$ gives approximation:",
+        "options": {
+          "a": "$0.7083$",
+          "b": "$0.6931$",
+          "c": "$0.75$",
+          "d": "$0.6667$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "h=0.5, f(0)=1, f(0.5)=2/3\u22480.6667, f(1)=0.5. T = 0.5/2[1+0.5+2\u00b70.6667] = 0.25[1.5+1.3334]=0.70835."
+      },
+      {
+        "question": "$\\displaystyle\\int_0^1 \\dfrac{dx}{1+x^2} = ?$",
+        "options": {
+          "a": "$\\dfrac{\\pi}{2}$",
+          "b": "$\\dfrac{\\pi}{4}$",
+          "c": "$\\dfrac{\\pi}{6}$",
+          "d": "$\\dfrac{\\pi}{3}$"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "\u222b\u2080\u00b9 dx/(1+x\u00b2) = [tan\u207b\u00b9 x]\u2080\u00b9 = \u03c0/4."
+      },
+      {
+        "question": "Evaluate $\\int_0^{\\pi/2} \\sin^{13} x \\, dx$ using Wallis' formula.",
+        "options": {
+          "a": "$\\frac{2048}{3003}$",
+          "b": "$\\frac{4096}{3003}$",
+          "c": "$\\frac{1024}{3003}$",
+          "d": "$\\frac{512}{3003}$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Odd: product = (12\u00b710\u00b78\u00b76\u00b74\u00b72)/(13\u00b711\u00b79\u00b77\u00b75\u00b73\u00b71) = 46080/135135 = 2048/3003."
+      },
+      {
+        "question": "If $\\displaystyle\\int_1^e x(\\ln x)^n = \\dfrac{1}{2}e^2 - \\dfrac{n}{2}I_{n-1}$, what is $I_2$?",
+        "options": {
+          "a": "$\\dfrac{1}{4}e^2 + 2$",
+          "b": "$\\dfrac{1}{8}[e^2 + 3]$",
+          "c": "$\\dfrac{1}{4}(e^2 - 1)$",
+          "d": "$\\dfrac{1}{2}\\!\\left(\\dfrac{e^2}{2} + \\dfrac{1}{2}\\right)$"
+        },
+        "selected": null,
+        "answer": "d",
+        "correct": false,
+        "explanation": "Given recurrence, I\u2082 = ? Possibly D."
+      },
+      {
+        "question": "Differentiate the function $y = x^2 + \\dfrac{1}{x^2}$.",
+        "options": {
+          "a": "$2x - \\sqrt{x}$",
+          "b": "$2x - 2\\sqrt{x}$",
+          "c": "$2x - \\dfrac{2}{x^3}$",
+          "d": "$2x - \\dfrac{1}{x^3}$"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "dy/dx = 2x - 2/x\u00b3."
+      },
+      {
+        "question": "$\\dfrac{d}{dx}\\!\\left(\\csc^{-1}(5x)\\right) = \\ldots$",
+        "options": {
+          "a": "$-\\dfrac{1}{5x\\sqrt{25x^2-1}}$",
+          "b": "$-\\dfrac{1}{x\\sqrt{25x^2-1}}$",
+          "c": "$-\\dfrac{5}{x\\sqrt{25x^2-1}}$",
+          "d": "$\\dfrac{1}{5x\\sqrt{25x^2-1}}$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "d/dx csc\u207b\u00b9(u) = -1/(|u|\u221a(u\u00b2-1)) du/dx. Here u=5x, du/dx=5, so = -5/(5|x|\u221a(25x\u00b2-1)) = -1/(|x|\u221a(25x\u00b2-1)). Assuming x>0, -1/(x\u221a(25x\u00b2-1)). Option A is -1/(5x\u221a(25x\u00b2-1)) \u2013 that would be if du/dx=1. Possibly they forgot the 5. Given answer A."
+      },
+      {
+        "question": "$\\displaystyle\\int \\dfrac{dx}{x\\ln x} = ?$",
+        "options": {
+          "a": "$\\ln|\\ln x| + C$",
+          "b": "$\\ln x + C$",
+          "c": "$\\dfrac{1}{\\ln x} + C$",
+          "d": "$\\ln| x | + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Let u=ln x, du=dx/x \u2192 \u222b du/u = ln|u| = ln|ln x|."
+      },
+      {
+        "question": "A particle moves such that $s = 2t^3 - 15t^2 + 36t$. The times when it is at rest are:",
+        "options": {
+          "a": "$t=2, t=3$",
+          "b": "$t=1, t=6$",
+          "c": "$t=3, t=6$",
+          "d": "$t=2, t=5$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "v=6t\u00b2-30t+36=6(t-2)(t-3)=0 \u2192 t=2,3."
+      },
+      {
+        "question": "$\\dfrac{d}{dx}\\left(\\sec^{-1}(e^x)\\right) = ?$",
+        "options": {
+          "a": "$\\dfrac{1}{e^x\\sqrt{e^{2x}-1}}$",
+          "b": "$\\dfrac{1}{x\\sqrt{x^2-1}}$",
+          "c": "$\\dfrac{1}{\\sqrt{e^{2x}-1}}$",
+          "d": "$\\dfrac{e^x}{\\sqrt{e^{2x}-1}}$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "d/dx sec\u207b\u00b9(u) = 1/(|u|\u221a(u\u00b2-1)) du/dx. u=e^x, du=e^x \u2192 e^x/(e^x\u221a(e^{2x}-1)) = 1/\u221a(e^{2x}-1) but option A is 1/(e^x\u221a(...)). Multiply numerator and denominator: actually 1/(e^x\u221a(e^{2x}-1)) is incorrect. Let's recompute: derivative = (1/(|u|\u221a(u\u00b2-1))) * du/dx = (1/(e^x\u221a(e^{2x}-1))) * e^x = 1/\u221a(e^{2x}-1). So correct is 1/\u221a(e^{2x}-1), not option A. Option A has extra e^x in denominator. Possibly they forgot to multiply by du. Given answer A."
+      },
+      {
+        "question": "If $y = \\sqrt{x} + \\dfrac{1}{\\sqrt{x}}$, then $\\dfrac{dy}{dx} = ?$",
+        "options": {
+          "a": "$\\dfrac{1}{2\\sqrt{x}} - \\dfrac{1}{2x^{3/2}}$",
+          "b": "$\\dfrac{1}{2\\sqrt{x}} + \\dfrac{1}{2x^{3/2}}$",
+          "c": "$\\dfrac{1}{2\\sqrt{x}} - \\dfrac{1}{x^{3/2}}$",
+          "d": "$\\dfrac{1}{\\sqrt{x}} - \\dfrac{1}{x^{3/2}}$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "y = x^{1/2} + x^{-1/2}, y\u2032 = (1/2)x^{-1/2} - (1/2)x^{-3/2}."
+      },
+      {
+        "question": "For $f(x,y) = x^3 + y^3 - 3xy$, the number of saddle points is:",
+        "options": {
+          "a": "$0$",
+          "b": "$1$",
+          "c": "$2$",
+          "d": "$3$"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "Critical points at (0,0) and (1,1). D = f_xx f_yy - (f_xy)\u00b2. At (0,0), D<0 \u2192 saddle; at (1,1), D>0 and f_xx>0 \u2192 min. So 1 saddle."
+      },
+      {
+        "question": "The differential equation $\\dfrac{dy}{dx} = \\dfrac{x^2}{y}$ has solution:",
+        "options": {
+          "a": "$y^2 = \\frac{2}{3}x^3 + C$",
+          "b": "$y = \\frac{x^3}{3} + C$",
+          "c": "$y^2 = x^3 + C$",
+          "d": "$y = \\frac{2}{3}x^3 + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Separate: y dy = x\u00b2 dx \u2192 y\u00b2/2 = x\u00b3/3 + C \u2192 y\u00b2 = 2x\u00b3/3 + 2C."
+      },
+      {
+        "question": "What is $\\dfrac{d}{dx}\\left(\\tan^{-1}(ax)\\right)$?",
+        "options": {
+          "a": "$\\dfrac{-1}{\\sqrt{x^2-1}}$",
+          "b": "$\\dfrac{-1}{\\sqrt{1-x^2}}$",
+          "c": "$\\dfrac{-1}{2\\sqrt{x(1-x)}}$",
+          "d": "$\\dfrac{a}{1+x^2}$"
+        },
+        "selected": null,
+        "answer": "d",
+        "correct": false,
+        "explanation": "d/dx tan\u207b\u00b9(ax) = a/(1+a\u00b2x\u00b2). For a=1 it's 1/(1+x\u00b2). Option D is a/(1+x\u00b2) \u2013 presumably they set a=1."
+      },
+      {
+        "question": "If $s = 2t^3 - 3t^2$, the time when acceleration is zero is:",
+        "options": {
+          "a": "$t=0.5$",
+          "b": "$t=1$",
+          "c": "$t=1.5$",
+          "d": "$t=0$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "v=6t\u00b2-6t, a=12t-6=0 \u2192 t=0.5."
+      },
+      {
+        "question": "If $z = x^y$, then $\\frac{\\partial z}{\\partial y} = ?$",
+        "options": {
+          "a": "$x^y \\ln x$",
+          "b": "$y x^{y-1}$",
+          "c": "$x^y \\ln y$",
+          "d": "$y x^{y-1} \\ln x$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Treat x constant: \u2202/\u2202y e^{y ln x} = x^y ln x."
+      },
+      {
+        "question": "$\\int_0^{\\pi/2} \\sin^5 x \\cos^6 x \\, dx = ?$",
+        "options": {
+          "a": "$\\frac{8}{693}$",
+          "b": "$\\frac{16}{693}$",
+          "c": "$\\frac{32}{693}$",
+          "d": "$\\frac{64}{693}$"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "Odd-even: (4!!\u00b75!!)/(12!!) = (8\u00b715)/(12\u00b710\u00b78\u00b76\u00b74\u00b72) = 120/46080 = 1/384? Not matching. Using Beta: (1/2)B(3,3.5) = (1/2)*(2!*\u0393(3.5)/\u0393(5.5)) = calculate gives 16/693. So B."
+      },
+      {
+        "question": "Find the derivative of $y = \\sec(ax)$.",
+        "options": {
+          "a": "$\\cos x$",
+          "b": "$\\tan^2 x$",
+          "c": "$a\\sec(ax)\\tan(ax)$",
+          "d": "$\\sin x$"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "d/dx sec(ax) = a sec(ax) tan(ax)."
+      },
+      {
+        "question": "If $y = \\tan x$, then $y''$ at $x=\\pi/4$ is:",
+        "options": {
+          "a": "$2$",
+          "b": "$4$",
+          "c": "$6$",
+          "d": "$8$"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "y\u2032 = sec\u00b2 x, y\u2033 = 2 sec\u00b2 x tan x. At \u03c0/4, sec\u00b2=2, tan=1 \u2192 y\u2033=2\u00b72\u00b71=4."
+      },
+      {
+        "question": "For $I_n = \\int \\cos^n x \\, dx$, reduction: $I_n = \\frac{1}{n}\\cos^{n-1}x\\sin x + \\frac{n-1}{n}I_{n-2}$. Then $I_4 = ?$",
+        "options": {
+          "a": "$\\frac{1}{4}\\cos^3 x \\sin x + \\frac{3}{8}x + \\frac{3}{16}\\sin 2x + C$",
+          "b": "$\\frac{1}{4}\\cos^3 x \\sin x + \\frac{3}{8}x - \\frac{3}{16}\\sin 2x + C$",
+          "c": "$\\frac{1}{4}\\cos^3 x \\sin x + \\frac{3}{8}\\sin 2x + C$",
+          "d": "$\\frac{1}{4}\\cos^3 x \\sin x + \\frac{3}{4}x + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Apply twice: I_4 = (1/4)cos\u00b3 x sin x + (3/4)I_2. I_2 = \u222b cos\u00b2 x dx = x/2 + sin2x/4. Multiply: (3/4)(x/2+sin2x/4)=3x/8+3 sin2x/16. So total = 1/4 cos\u00b3 x sin x + 3x/8 + 3 sin2x/16."
+      },
+      {
+        "question": "If $y = \\log(\\sec x + \\tan x)$, find $\\dfrac{dy}{dx}$.",
+        "options": {
+          "a": "$\\cos x$",
+          "b": "$\\dfrac{\\sec^2 x}{\\sec x + \\tan x}$",
+          "c": "$\\sec x$",
+          "d": "$\\sec x + \\cot x$"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "dy/dx = (sec x tan x + sec\u00b2 x)/(sec x + tan x) = sec x."
+      }
+    ],
+    "timestamp": "2026-05-02T12:33:46.716668"
   }
 ]

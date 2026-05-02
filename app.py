@@ -5,9 +5,147 @@ import json
 import logging
 import random
 from datetime import datetime, timedelta
+from thirteen_trial_system import (
+    ThirteenTrialLearningSystem, 
+    TrialProgressTracker,
+    generate_13_trial_mode_quiz,
+    calculate_trial_statistics
+)
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'dev-secret-key')
+
+# ============================================================================
+# ADAPTIVE 15-SESSION CBT SYSTEM
+# ============================================================================
+
+class AdaptiveCBTSystem:
+    """
+    Guarantees every available question is seen across exactly 15 CBT sessions.
+
+    Distribution strategy
+    ---------------------
+    Sessions  1-5  : introduce only NEW questions (equal-sized chunks of the full bank)
+    Sessions  6-10 : new questions  +  25 % of previously-wrong answers re-inserted
+    Sessions 11-15 : remaining new questions  +  50 % weak-question repetition
+
+    State is a plain dict stored in the Flask session so no database is needed.
+    """
+
+    TARGET = 15  # total sessions in one learning cycle
+
+    def __init__(self, subject: str, total: int):
+        self.subject = subject
+        self.total   = total
+        # questions per session — ceiling division, clamped 10–40
+        self.per_session = max(10, min(40, -(-total // self.TARGET)))
+
+    # ── fresh state ────────────────────────────────────────────────────────────
+    def initial_state(self) -> dict:
+        ids = list(range(self.total))
+        random.shuffle(ids)
+        chunks = self._chunks(ids, self.TARGET)   # 15 equal-ish slices
+        return {
+            "subject":           self.subject,
+            "total":             self.total,
+            "plan":              chunks,            # list[15] of index lists
+            "done":              0,                 # sessions completed
+            "seen":              [],                # every index ever shown
+            "weak":              [],                # wrong answers → resurface
+            "scores":            {},                # str(session) → {score, total, pct}
+            "per_session":       self.per_session,
+        }
+
+    # ── build the question index list for one session ──────────────────────────
+    def session_indices(self, state: dict, session_num: int) -> list:
+        if not 1 <= session_num <= self.TARGET:
+            return []
+
+        plan   = state.get("plan", [])
+        weak   = list(state.get("weak", []))
+        seen   = set(state.get("seen", []))
+        target = state.get("per_session", self.per_session)
+
+        # New questions planned for this slot
+        new_qs = list(plan[session_num - 1]) if session_num - 1 < len(plan) else []
+
+        # Repetition budget grows over the cycle
+        if session_num <= 5:
+            rep = 0
+        elif session_num <= 10:
+            rep = max(0, target // 4)
+        else:
+            rep = max(0, target // 2)
+
+        random.shuffle(weak)
+        repeats = weak[:rep]
+
+        # Merge: new first, then repeats, deduplicated
+        added   = set()
+        combined = []
+        for idx in (new_qs + repeats):
+            if idx not in added:
+                combined.append(idx)
+                added.add(idx)
+
+        # Top-up with unseen questions if still short
+        if len(combined) < target:
+            unseen = [i for i in range(state["total"]) if i not in seen and i not in added]
+            random.shuffle(unseen)
+            combined.extend(unseen[:target - len(combined)])
+
+        return combined[:target]
+
+    # ── persist results after submission ──────────────────────────────────────
+    @staticmethod
+    def record(state: dict, session_num: int, results: list) -> dict:
+        """
+        results – list of {"index": int, "correct": bool}
+        """
+        seen_set = set(state.get("seen", []))
+        weak_set = set(state.get("weak", []))
+        score    = 0
+
+        for r in results:
+            idx = r["index"]
+            seen_set.add(idx)
+            if r["correct"]:
+                score += 1
+                weak_set.discard(idx)   # mastered — remove from repetition pool
+            else:
+                weak_set.add(idx)       # wrong    — add to repetition pool
+
+        total = len(results)
+        state["seen"]   = list(seen_set)
+        state["weak"]   = list(weak_set)
+        state["done"]   = max(state.get("done", 0), session_num)
+        state["scores"][str(session_num)] = {
+            "score": score, "total": total,
+            "pct":   round(score / total * 100, 1) if total else 0,
+        }
+        return state
+
+    # ── coverage summary ───────────────────────────────────────────────────────
+    @staticmethod
+    def coverage(state: dict) -> dict:
+        total = state.get("total", 1)
+        seen  = len(state.get("seen", []))
+        done  = state.get("done", 0)
+        return {
+            "done":        done,
+            "remaining":   max(0, AdaptiveCBTSystem.TARGET - done),
+            "seen":        seen,
+            "unseen":      max(0, total - seen),
+            "weak":        len(state.get("weak", [])),
+            "pct_seen":    round(seen / total * 100, 1) if total else 0,
+            "complete":    done >= AdaptiveCBTSystem.TARGET,
+        }
+
+    # ── helper ────────────────────────────────────────────────────────────────
+    @staticmethod
+    def _chunks(lst: list, n: int) -> list:
+        size = len(lst)
+        return [lst[(i * size) // n: ((i + 1) * size) // n] for i in range(n)]
 # enable debug logging for session inspection
 app.logger.setLevel(logging.DEBUG)
 
@@ -5524,7 +5662,19 @@ def quiz(subject, mode='cbt'):
                                percentage=percentage, name=name, details=details, mode=mode)
 
     # pass numeric expiry and the chosen indices to the template for JS handling
-    return render_template('quiz.html', subject=subject, questions=questions, expires_at=session.get('expires_at'), indices=indices, mode=mode)
+    # answers_map: {question_index_in_page -> correct_letter} used by JS for per-question reveal
+    answers_map = {}
+    for i, q in enumerate(questions):
+        answers_map[i] = q.get('answer', '')
+    return render_template(
+        'quiz.html',
+        subject=subject,
+        questions=questions,
+        expires_at=session.get('expires_at'),
+        indices=indices,
+        mode=mode,
+        answers_map=json.dumps(answers_map),   # NEW: for per-question reveal buttons
+    )
 
 
 
@@ -5577,6 +5727,414 @@ def cgpa():
 @app.route('/flashcards')
 def flashcards():
     return render_template('flashcards.html', flashcards=FLASHCARDS)
+
+
+# ============================================================================
+# 13-TRIAL LEARNING SYSTEM ROUTES
+# ============================================================================
+
+@app.route('/thirteen-trial/<path:subject>')
+@app.route('/thirteen-trial/<path:subject>/trial/<int:trial_num>')
+def thirteen_trial_start(subject, trial_num=1):
+    """
+    Start or continue the 13-trial learning mode.
+    Ensures all questions are completely loaded across exactly 13 trials.
+    """
+    if subject not in QUESTIONS:
+        flash(f'Subject "{subject}" not found.')
+        return redirect(url_for('index'))
+    
+    if 'username' not in session:
+        flash('Please log in before starting the 13-trial learning mode.')
+        return redirect(url_for('login'))
+    
+    # Validate trial number
+    if trial_num < 1 or trial_num > 13:
+        flash('Trial number must be between 1 and 13.')
+        return redirect(url_for('index'))
+    
+    # Get or create progress tracker for this subject
+    progress_key = f'thirteen_trial_progress_{subject}'
+    if progress_key not in session:
+        tracker = TrialProgressTracker(subject)
+        session[progress_key] = tracker.to_dict()
+        session.modified = True
+    else:
+        tracker_dict = session[progress_key]
+    
+    all_questions = QUESTIONS[subject]
+    
+    # Generate quiz for this trial
+    quiz_data = generate_13_trial_mode_quiz(
+        subject, 
+        all_questions, 
+        trial_num, 
+        tracker_dict
+    )
+    
+    if "error" in quiz_data:
+        flash(quiz_data["error"])
+        return redirect(url_for('index'))
+    
+    # Prepare for rendering
+    questions = quiz_data["questions"]
+    indices = [q.get("id", i) for i, q in enumerate(questions)]
+    
+    return render_template(
+        'thirteen_trial_quiz.html',
+        subject=subject,
+        trial_number=trial_num,
+        total_trials=13,
+        trial_purpose=quiz_data["trial_purpose"],
+        questions=questions,
+        indices=json.dumps(indices),
+        progress=quiz_data["progress"],
+        repetition_intensity=quiz_data["repetition_intensity"]
+    )
+
+
+@app.route('/thirteen-trial/<path:subject>/trial/<int:trial_num>/submit', methods=['POST'])
+def thirteen_trial_submit(subject, trial_num):
+    """
+    Submit and grade a 13-trial mode quiz.
+    """
+    if subject not in QUESTIONS:
+        return redirect(url_for('index'))
+    
+    if 'username' not in session:
+        flash('Session expired. Please log in again.')
+        return redirect(url_for('login'))
+    
+    all_questions = QUESTIONS[subject]
+    
+    # Get posted indices
+    indices_str = request.form.get('indices', '[]')
+    try:
+        indices = json.loads(indices_str)
+    except:
+        indices = []
+    
+    questions = [all_questions[i] for i in indices if i < len(all_questions)]
+    
+    # Grade the submission
+    name = session.get('username', '')
+    score = 0
+    answers = []
+    details = []
+    
+    for i, q in enumerate(questions):
+        selected = request.form.get(f"q{i}")
+        answers.append(selected)
+        
+        correct = (selected is not None) and (selected.lower() == q.get('answer', '').lower())
+        if correct:
+            score += 1
+        
+        details.append({
+            'question': q.get('question', ''),
+            'options': q.get('options', {}),
+            'selected': selected,
+            'answer': q.get('answer', ''),
+            'correct': correct,
+            'explanation': q.get('solution', '')
+        })
+    
+    total = len(questions)
+    percentage = round((score / total * 100), 2) if total > 0 else 0
+    
+    # Update progress tracker
+    progress_key = f'thirteen_trial_progress_{subject}'
+    if progress_key in session:
+        tracker_dict = session[progress_key]
+        tracker = TrialProgressTracker(subject)
+        tracker.progress = tracker_dict
+        tracker.complete_trial(trial_num, score, total, questions)
+        session[progress_key] = tracker.to_dict()
+        session.modified = True
+    
+    # Calculate statistics
+    trial_stats = calculate_trial_statistics({
+        "score": score,
+        "total": total
+    })
+    
+    # Save result
+    result = {
+        'name': name,
+        'subject': subject,
+        'mode': 'thirteen_trial',
+        'trial_number': trial_num,
+        'score': score,
+        'total': total,
+        'percentage': percentage,
+        'indices': indices,
+        'answers': answers,
+        'details': details,
+        'statistics': trial_stats,
+        'timestamp': datetime.utcnow().isoformat()
+    }
+    save_result(result)
+    
+    # Determine next action
+    next_trial = trial_num + 1
+    is_complete = trial_num >= 13
+    
+    return render_template(
+        'thirteen_trial_result.html',
+        subject=subject,
+        trial_number=trial_num,
+        total_trials=13,
+        score=score,
+        total=total,
+        percentage=percentage,
+        name=name,
+        details=details,
+        statistics=trial_stats,
+        next_trial=next_trial if not is_complete else None,
+        is_system_complete=is_complete,
+        mastery_level=trial_stats.get('mastery_level', 'Unknown'),
+        recommendation=trial_stats.get('recommendation', '')
+    )
+
+
+@app.route('/thirteen-trial/<path:subject>/progress')
+def thirteen_trial_progress(subject):
+    """
+    View progress in the 13-trial learning system.
+    """
+    if subject not in QUESTIONS:
+        return redirect(url_for('index'))
+    
+    if 'username' not in session:
+        flash('Please log in to view progress.')
+        return redirect(url_for('login'))
+    
+    progress_key = f'thirteen_trial_progress_{subject}'
+    tracker_dict = session.get(progress_key)
+    
+    if not tracker_dict:
+        tracker = TrialProgressTracker(subject)
+        tracker_dict = tracker.to_dict()
+    
+    all_questions = QUESTIONS[subject]
+    total_questions = len(all_questions)
+    questions_seen = len(tracker_dict.get("questions_seen", []))
+    questions_mastered = len(tracker_dict.get("questions_mastered", []))
+    
+    progress_percentage = (questions_seen / total_questions * 100) if total_questions > 0 else 0
+    mastery_percentage = (questions_mastered / total_questions * 100) if total_questions > 0 else 0
+    
+    trials_completed = len(tracker_dict.get("trials_completed", []))
+    
+    return render_template(
+        'thirteen_trial_progress.html',
+        subject=subject,
+        progress_data={
+            'trials_completed': trials_completed,
+            'total_trials': 13,
+            'questions_seen': questions_seen,
+            'questions_mastered': questions_mastered,
+            'total_questions': total_questions,
+            'progress_percentage': round(progress_percentage, 1),
+            'mastery_percentage': round(mastery_percentage, 1),
+            'current_trial': tracker_dict.get('current_trial', 1),
+            'trial_scores': tracker_dict.get('trial_scores', {}),
+            'is_complete': trials_completed >= 13
+        }
+    )
+
+
+
+
+# ============================================================================
+# ADAPTIVE 15-SESSION CBT ROUTES
+# ============================================================================
+
+@app.route('/adaptive/<path:subject>')
+def adaptive_home(subject):
+    """Landing page — shows coverage progress and lets the student start/continue."""
+    if subject not in QUESTIONS:
+        flash(f'Subject "{subject}" not found.')
+        return redirect(url_for('index'))
+    if 'username' not in session:
+        flash('Please log in before using adaptive CBT.')
+        return redirect(url_for('login'))
+
+    key   = f'adaptive_{subject}'
+    state = session.get(key)
+
+    all_q = QUESTIONS[subject]
+    if not all_q:
+        flash(f'No questions loaded for {subject} yet.')
+        return redirect(url_for('index'))
+
+    if not state:
+        # First visit — initialise fresh state
+        sys = AdaptiveCBTSystem(subject, len(all_q))
+        state = sys.initial_state()
+        session[key] = state
+        session.modified = True
+
+    cov         = AdaptiveCBTSystem.coverage(state)
+    next_session = state['done'] + 1 if not cov['complete'] else None
+
+    return render_template(
+        'adaptive_home.html',
+        subject=subject,
+        coverage=cov,
+        scores=state.get('scores', {}),
+        next_session=next_session,
+        target=AdaptiveCBTSystem.TARGET,
+    )
+
+
+@app.route('/adaptive/<path:subject>/session/<int:session_num>')
+def adaptive_session(subject, session_num):
+    """Render one adaptive CBT session (GET only — questions chosen server-side)."""
+    if subject not in QUESTIONS:
+        flash(f'Subject "{subject}" not found.')
+        return redirect(url_for('index'))
+    if 'username' not in session:
+        flash('Please log in.')
+        return redirect(url_for('login'))
+
+    all_q = QUESTIONS[subject]
+    if not all_q:
+        flash(f'No questions loaded for {subject} yet.')
+        return redirect(url_for('index'))
+
+    key   = f'adaptive_{subject}'
+    state = session.get(key)
+    if not state:
+        sys   = AdaptiveCBTSystem(subject, len(all_q))
+        state = sys.initial_state()
+        session[key] = state
+        session.modified = True
+
+    # Validate session number
+    if session_num < 1 or session_num > AdaptiveCBTSystem.TARGET:
+        flash('Session number out of range.')
+        return redirect(url_for('adaptive_home', subject=subject))
+
+    # Don't allow skipping ahead more than one session
+    if session_num > state['done'] + 1:
+        flash(f'Please complete session {state["done"] + 1} first.')
+        return redirect(url_for('adaptive_home', subject=subject))
+
+    sys     = AdaptiveCBTSystem(subject, len(all_q))
+    indices = sys.session_indices(state, session_num)
+
+    if not indices:
+        flash('No questions could be selected for this session.')
+        return redirect(url_for('adaptive_home', subject=subject))
+
+    questions = [normalize_question(all_q[i]) for i in indices]
+    cov       = AdaptiveCBTSystem.coverage(state)
+
+    return render_template(
+        'adaptive_session.html',
+        subject=subject,
+        session_num=session_num,
+        total_sessions=AdaptiveCBTSystem.TARGET,
+        questions=questions,
+        indices=json.dumps(indices),
+        coverage=cov,
+    )
+
+
+@app.route('/adaptive/<path:subject>/session/<int:session_num>/submit', methods=['POST'])
+def adaptive_submit(subject, session_num):
+    """Grade the submission, update adaptive state, redirect to results."""
+    if subject not in QUESTIONS:
+        return redirect(url_for('index'))
+    if 'username' not in session:
+        flash('Session expired. Please log in again.')
+        return redirect(url_for('login'))
+
+    all_q = QUESTIONS[subject]
+    key   = f'adaptive_{subject}'
+    state = session.get(key, {})
+
+    # Recover question indices posted by the form
+    try:
+        indices = json.loads(request.form.get('indices', '[]'))
+    except Exception:
+        indices = []
+
+    questions = [normalize_question(all_q[i]) for i in indices if i < len(all_q)]
+
+    # Grade
+    score   = 0
+    results = []
+    details = []
+    name    = session.get('username', '')
+
+    for pos, (q, idx) in enumerate(zip(questions, indices)):
+        selected = request.form.get(f'q{pos}')
+        correct  = bool(selected) and selected.lower() == q['answer']
+        if correct:
+            score += 1
+        results.append({'index': idx, 'correct': correct})
+        details.append({
+            'question':    q.get('question', ''),
+            'options':     q.get('options', {}),
+            'selected':    selected,
+            'answer':      q['answer'],
+            'correct':     correct,
+            'explanation': q.get('explanation', ''),
+            'topic':       q.get('topic', ''),
+        })
+
+    total      = len(questions)
+    percentage = round(score / total * 100, 2) if total else 0
+
+    # Update adaptive state
+    if state:
+        state = AdaptiveCBTSystem.record(state, session_num, results)
+        session[key] = state
+        session.modified = True
+
+    cov          = AdaptiveCBTSystem.coverage(state) if state else {}
+    next_session = (session_num + 1) if session_num < AdaptiveCBTSystem.TARGET else None
+
+    # Persist to results.json
+    save_result({
+        'name':        name,
+        'subject':     subject,
+        'mode':        'adaptive_cbt',
+        'session_num': session_num,
+        'score':       score,
+        'total':       total,
+        'percentage':  percentage,
+        'indices':     indices,
+        'details':     details,
+        'coverage':    cov,
+        'timestamp':   datetime.utcnow().isoformat(),
+    })
+
+    return render_template(
+        'adaptive_result.html',
+        subject=subject,
+        session_num=session_num,
+        total_sessions=AdaptiveCBTSystem.TARGET,
+        score=score,
+        total=total,
+        percentage=percentage,
+        name=name,
+        details=details,
+        coverage=cov,
+        next_session=next_session,
+    )
+
+
+@app.route('/adaptive/<path:subject>/reset', methods=['POST'])
+def adaptive_reset(subject):
+    """Clear all adaptive progress for this subject and start fresh."""
+    key = f'adaptive_{subject}'
+    session.pop(key, None)
+    session.modified = True
+    flash(f'Adaptive CBT progress for {subject} has been reset.')
+    return redirect(url_for('adaptive_home', subject=subject))
 
 
 if __name__ == '__main__':
