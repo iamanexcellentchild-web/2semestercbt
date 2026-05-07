@@ -21,6 +21,7 @@
         <div class="mode-buttons">
             <a href="{{ url_for('quiz', subject=subject, mode='quiz') }}" class="mode-btn quiz-btn">Quiz Mode</a>
             <a href="{{ url_for('quiz', subject=subject, mode='cbt') }}" class="mode-btn cbt-btn">CBT Mode</a>
+            <a href="{{ url_for('topics', subject=subject) }}" class="mode-btn topic-btn">📚 Topics</a>
         </div>
     </div>
     {% endfor %}

@@ -105,7 +105,11 @@
     </div>
     <div class="main-content">
         <div class="cbt-header">
-            <h2>{{ subject.title() }} — {{ mode.upper() }} Mode</h2>
+            <h2>
+                {{ subject.title() }} 
+                {% if topic %} — {{ topic }}{% endif %}
+                — {{ mode.upper() }} Mode
+            </h2>
             <p>Candidate: <strong>{{ session.get('username') }}</strong> | Questions: <strong>{{ questions|length }}</strong></p>
         </div>
 

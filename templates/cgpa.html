@@ -179,7 +179,12 @@
   }
 
   function setCourse(si, ci, field, val) {
-    semesters[si].courses[ci][field] = field === 'units' ? (parseInt(val) || 0) : val;
+    if (field === 'units') {
+      var parsed = parseInt(val) || 0;
+      semesters[si].courses[ci][field] = Math.max(0, Math.min(6, parsed));
+    } else {
+      semesters[si].courses[ci][field] = val;
+    }
     render();
   }
 
@@ -197,10 +202,14 @@
     for (var s = 0; s < semesters.length; s++) {
       for (var i = 0; i < semesters[s].courses.length; i++) {
         var c = semesters[s].courses[i];
-        if (c.units > 0) { p += (GP[c.grade] || 0) * c.units; u += c.units; }
+        var units = parseInt(c.units) || 0;
+        if (units > 0 && c.grade && GP.hasOwnProperty(c.grade)) { 
+          p += (GP[c.grade] * units);
+          u += units;
+        }
       }
     }
-    return { cgpa: u ? p / u : 0, pts: p, units: u };
+    return { cgpa: u ? Math.round((p / u) * 1000) / 1000 : 0, pts: Math.round(p), units: u };
   }
 
   function classify(v) {
@@ -239,10 +248,10 @@
           opts += '<option value="' + g + '"' + (c.grade === g ? ' selected' : '') + '>' + g + ' (' + GP[g] + 'pts)</option>';
         }
         rows += '<tr>' +
-          '<td><input type="text" value="' + c.code + '" placeholder="e.g. MTH 102" oninput="setCourse(' + si + ',' + ci + ',\'code\',this.value)"></td>' +
+          '<td><input type="text" value="' + c.code + '" placeholder="e.g. MTH 102" oninput="setCourse(' + si + ',' + ci + ',\'code\',this.value)" style="max-width: 120px;"></td>' +
           '<td><input type="number" value="' + c.units + '" min="0" max="6" step="1" style="width:70px" oninput="setCourse(' + si + ',' + ci + ',\'units\',this.value)"></td>' +
-          '<td><select onchange="setCourse(' + si + ',' + ci + ',\'grade\',this.value)">' + opts + '</select></td>' +
-          '<td class="qp">' + qp + '</td>' +
+          '<td><select onchange="setCourse(' + si + ',' + ci + ',\'grade\',this.value)" style="min-width: 110px;">' + opts + '</select></td>' +
+          '<td class="qp">' + Math.round(qp) + '</td>' +
           '<td><button class="del" onclick="delCourse(' + si + ',' + ci + ')">&#x2715;</button></td>' +
           '</tr>';
       }
@@ -263,13 +272,15 @@
     var r = calcCGPA();
     var cls = classify(r.cgpa);
     document.getElementById('cgpaVal').textContent = r.cgpa.toFixed(2);
-    document.getElementById('statUnits').textContent = r.units;
-    document.getElementById('statPts').textContent = r.pts;
+    document.getElementById('statUnits').textContent = r.units || '0';
+    document.getElementById('statPts').textContent = (r.pts || 0);
     document.getElementById('statSems').textContent = semesters.length;
     var badge = document.getElementById('classBadge');
     badge.textContent = cls.label;
     badge.style.color = cls.color;
     badge.style.borderColor = cls.color;
+    if (r.units === 0) { badge.style.opacity = '0.5'; }
+    else { badge.style.opacity = '1'; }
   }
 
   addSemester();

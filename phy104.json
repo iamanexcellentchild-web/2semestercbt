@@ -2,7 +2,7 @@
   {
     "id": 1,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Which statement correctly defines the AMPLITUDE of a wave?",
     "options": {
       "A": "The number of complete waves that pass a point per second",
@@ -16,7 +16,7 @@
   {
     "id": 2,
     "source": "Past Questions Compilation",
-    "topic": "[Transverse Waves]",
+    "topic": "Waves & Wave Phenomena",
     "question": "A transverse wave consists of:",
     "options": {
       "A": "Only crests",
@@ -30,7 +30,7 @@
   {
     "id": 3,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Types]",
+    "topic": "Waves & Wave Phenomena",
     "question": "In a transverse wave, the particles of the medium:",
     "options": {
       "A": "Vibrate in a direction perpendicular to the direction of propagation",
@@ -44,7 +44,7 @@
   {
     "id": 4,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Types]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The following are examples of longitudinal waves EXCEPT:",
     "options": {
       "A": "Sound waves",
@@ -58,7 +58,7 @@
   {
     "id": 5,
     "source": "Past Questions Compilation",
-    "topic": "[Point Source Amplitude]",
+    "topic": "Waves & Wave Phenomena",
     "question": "From a point source, if amplitude at distance r is A, its amplitude at distance 2r will be:",
     "options": {
       "A": "A",
@@ -72,7 +72,7 @@
   {
     "id": 6,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Velocity]",
+    "topic": "Waves & Wave Phenomena",
     "question": "An observer at a sea coast observes 54 waves per minute. If the wavelength is 10 m, find the velocity.",
     "options": {
       "A": "9 m/s",
@@ -86,7 +86,7 @@
   {
     "id": 7,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Sound & Doppler",
     "question": "A car with a siren of frequency 280 Hz moves towards a stationary observer at 5 m/s. Calculate the frequency observed before and after the car passes. (Speed of sound = 340 m/s)",
     "options": {
       "A": "285, 271 Hz",
@@ -100,7 +100,7 @@
   {
     "id": 8,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler (Water)]",
+    "topic": "Sound & Doppler",
     "question": "A stationary source generates 5.0 Hz water waves at speed 2.0 m/s. A boat approaches at 10 m/s. What frequency does the person in the boat observe?",
     "options": {
       "A": "5 Hz",
@@ -114,7 +114,7 @@
   {
     "id": 9,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Speed in Media]",
+    "topic": "Sound & Acoustics",
     "question": "Sound waves travel fastest in:",
     "options": {
       "A": "Solids",
@@ -128,7 +128,7 @@
   {
     "id": 10,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Speed Calculation]",
+    "topic": "Sound & Acoustics",
     "question": "A pulse of sound from the bottom of a boat reflects from the sea bed 1000 m below and returns after 1.3 s. What is the speed of sound in water?",
     "options": {
       "A": "770 m/s",
@@ -142,7 +142,7 @@
   {
     "id": 11,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Speed vs Distance]",
+    "topic": "Sound & Acoustics",
     "question": "Sound from an explosion reaches a diver underwater; then 5 s later the same sound arrives above water. Speed in water = 1450 m/s, in air = 330 m/s. How far away was the explosion?",
     "options": {
       "A": "1020.1 m",
@@ -156,7 +156,7 @@
   {
     "id": 12,
     "source": "Past Questions Compilation",
-    "topic": "[Phase Difference]",
+    "topic": "Interference & Diffraction",
     "question": "For the wave y(x,t) = 2cos2π(10t − 0.008x + 0.35) where x, y are in cm and t in s, the phase difference between two points separated by 0.5 m is:",
     "options": {
       "A": "0.2π",
@@ -170,7 +170,7 @@
   {
     "id": 13,
     "source": "Past Questions Compilation",
-    "topic": "[Polarization]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Sound waves in air cannot be polarized because:",
     "options": {
       "A": "Their speed is small",
@@ -184,7 +184,7 @@
   {
     "id": 14,
     "source": "Past Questions Compilation",
-    "topic": "[Polarization Application]",
+    "topic": "General Physics",
     "question": "What principle allows certain sunglasses to reduce glare from reflected surfaces?",
     "options": {
       "A": "Refraction",
@@ -198,7 +198,7 @@
   {
     "id": 15,
     "source": "Past Questions Compilation",
-    "topic": "[Rayleigh Scattering]",
+    "topic": "Light & Optics",
     "question": "On a clear day, the sky appears more blue overhead than at the horizon. The best explanation is:",
     "options": {
       "A": "The atmosphere is denser higher up",
@@ -212,7 +212,7 @@
   {
     "id": 16,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Superposition]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Two waves with equal frequency, wavelength, and amplitude 0.05 m travel in the same direction with a 90° phase difference. Find the amplitude of the resultant.",
     "options": {
       "A": "0.071 m",
@@ -226,7 +226,7 @@
   {
     "id": 17,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Intensity]",
+    "topic": "Sound & Acoustics",
     "question": "Which wave property MOST affects the intensity (loudness) of sound?",
     "options": {
       "A": "Reflection",
@@ -240,7 +240,7 @@
   {
     "id": 18,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Levels]",
+    "topic": "Sound & Acoustics",
     "question": "A dog's bark is 50 dB. A rock concert is 10,000× the intensity of the bark. Find the sound level of the concert.",
     "options": {
       "A": "10,050 dB",
@@ -254,7 +254,7 @@
   {
     "id": 19,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Level Ratio]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Two sounds differ by 30 dB. Find the ratio of the louder to softer intensity.",
     "options": {
       "A": "1000",
@@ -268,7 +268,7 @@
   {
     "id": 20,
     "source": "Past Questions Compilation",
-    "topic": "[Speed of Sound vs Temperature]",
+    "topic": "Sound & Doppler",
     "question": "At what temperature will the speed of sound in air be 3 times its value at 0°C?",
     "options": {
       "A": "1184°C",
@@ -282,7 +282,7 @@
   {
     "id": 21,
     "source": "Past Questions Compilation",
-    "topic": "[Resonance & Tuning Fork]",
+    "topic": "Resonance & Vibration",
     "question": "Resonance in an air column occurs at 39 cm and next at 65 cm. Speed of sound = 343 m/s. Find the tuning fork frequency.",
     "options": {
       "A": "329.8 Hz",
@@ -296,7 +296,7 @@
   {
     "id": 22,
     "source": "Past Questions Compilation",
-    "topic": "[String Vibration]",
+    "topic": "Standing Waves",
     "question": "A person doubles the vibration rate of a string while keeping the SAME tension. What happens to wave speed and wavelength?",
     "options": {
       "A": "Speed doubles, wavelength unchanged",
@@ -310,7 +310,7 @@
   {
     "id": 23,
     "source": "Past Questions Compilation",
-    "topic": "[Simple Pendulum]",
+    "topic": "Oscillation & Pendulum",
     "question": "A 1.0 kg pendulum on a 1.0 m string has period T = 2.0 s. For period T = 1.0 s, what change is needed?",
     "options": {
       "A": "Replace string with one ~0.25 m long",
@@ -324,7 +324,7 @@
   {
     "id": 24,
     "source": "Past Questions Compilation",
-    "topic": "[Pendulum on Another Planet]",
+    "topic": "Oscillation & Pendulum",
     "question": "A pendulum with period 1 s on Earth is taken to a planet where its period is 2 s. Find the gravitational acceleration on that planet.",
     "options": {
       "A": "g/4",
@@ -338,7 +338,7 @@
   {
     "id": 25,
     "source": "Past Questions Compilation",
-    "topic": "[SHM Identification]",
+    "topic": "Simple Harmonic Motion",
     "question": "Which of the following represents simple harmonic motion?",
     "options": {
       "A": "The rotation of the earth about its axis",
@@ -352,7 +352,7 @@
   {
     "id": 26,
     "source": "Past Questions Compilation",
-    "topic": "[SHM Definition]",
+    "topic": "Simple Harmonic Motion",
     "question": "Which statement about SHM is NOT correct?",
     "options": {
       "A": "SHM is necessarily periodic",
@@ -366,7 +366,7 @@
   {
     "id": 27,
     "source": "Past Questions Compilation",
-    "topic": "[Max Velocity]",
+    "topic": "Simple Harmonic Motion",
     "question": "A particle in SHM has a period of 0.2 s and amplitude of 9 cm. What is the maximum velocity?",
     "options": {
       "A": "90π cm/s",
@@ -380,7 +380,7 @@
   {
     "id": 28,
     "source": "Past Questions Compilation",
-    "topic": "[Max Velocity]",
+    "topic": "Simple Harmonic Motion",
     "question": "A 50 g mass vibrates in SHM at the end of a spring. Amplitude = 12 cm, period = 0.1 minutes. What is the maximum speed?",
     "options": {
       "A": "1.256 m/s",
@@ -394,7 +394,7 @@
   {
     "id": 29,
     "source": "Past Questions Compilation",
-    "topic": "[Speed at Position]",
+    "topic": "Simple Harmonic Motion",
     "question": "A 50 g mass vibrates in SHM: amplitude = 12 cm, period = 0.1 min. What is the speed at x = A/2?",
     "options": {
       "A": "0.0842 m/s",
@@ -408,7 +408,7 @@
   {
     "id": 30,
     "source": "Past Questions Compilation",
-    "topic": "[Frequency from v_max & a_max]",
+    "topic": "Simple Harmonic Motion",
     "question": "Maximum velocity = 1 m/s and maximum acceleration = 3.14 m/s² for a particle in SHM. Find the frequency.",
     "options": {
       "A": "0.5 s⁻¹",
@@ -422,7 +422,7 @@
   {
     "id": 31,
     "source": "Past Questions Compilation",
-    "topic": "[Maximum Velocity (Phase)]",
+    "topic": "Simple Harmonic Motion",
     "question": "The displacement of a SHO is x = A sin(ωt + φ₀). At what time does it attain maximum velocity?",
     "options": {
       "A": "3π/8ω",
@@ -436,7 +436,7 @@
   {
     "id": 32,
     "source": "Past Questions Compilation",
-    "topic": "[SHM Energy]",
+    "topic": "Waves & Wave Phenomena",
     "question": "A SHO with period 2 s has KE = 25% of total energy. After what time from equilibrium does this occur?",
     "options": {
       "A": "1/12 s",
@@ -450,7 +450,7 @@
   {
     "id": 33,
     "source": "Past Questions Compilation",
-    "topic": "[Combined SHM Amplitude]",
+    "topic": "Simple Harmonic Motion",
     "question": "The amplitude of SHM given by x = 3sin3πt + 4cos3πt is:",
     "options": {
       "A": "5 m",
@@ -464,7 +464,7 @@
   {
     "id": 34,
     "source": "Past Questions Compilation",
-    "topic": "[SHM Equation]",
+    "topic": "Simple Harmonic Motion",
     "question": "A particle of mass 0.2 kg has SHM described by x(t) = 3sin(πt + π/4). What are the amplitude and period?",
     "options": {
       "A": "2 m & 3 s",
@@ -478,7 +478,7 @@
   {
     "id": 35,
     "source": "Past Questions Compilation",
-    "topic": "[Spring-Mass]",
+    "topic": "Simple Harmonic Motion",
     "question": "A 5 kg mass suspended by a spring stretches it 10 cm. It is displaced 5 cm downward and released. Its position as a function of time is approximately:",
     "options": {
       "A": "y = 0.10 sin 9.9t",
@@ -492,7 +492,7 @@
   {
     "id": 36,
     "source": "Past Questions Compilation",
-    "topic": "[Inclined Spring]",
+    "topic": "Simple Harmonic Motion",
     "question": "A block of 0.2 kg slides without friction on a 30° incline connected to a spring (k = 80 N/m). Period of SHM is:",
     "options": {
       "A": "3π/4 s",
@@ -506,7 +506,7 @@
   {
     "id": 37,
     "source": "Past Questions Compilation",
-    "topic": "[Critical Damping]",
+    "topic": "Waves & Wave Phenomena",
     "question": "When does a critically damped oscillator return to equilibrium?",
     "options": {
       "A": "The object oscillates with amplitude varying linearly with time",
@@ -520,7 +520,7 @@
   {
     "id": 38,
     "source": "Past Questions Compilation",
-    "topic": "[SHM & Energy]",
+    "topic": "Simple Harmonic Motion",
     "question": "A frictionless pendulum swings with amplitude 10°. At maximum displacement, PE = 10 J. What is the KE when PE = 5 J?",
     "options": {
       "A": "3.3 J",
@@ -534,7 +534,7 @@
   {
     "id": 39,
     "source": "Past Questions Compilation",
-    "topic": "[SHM & Spring Compression]",
+    "topic": "Simple Harmonic Motion",
     "question": "A block of mass m with initial speed v₀ compresses a spring (constant k) to rest. Maximum compression is:",
     "options": {
       "A": "v₀√(m/k)",
@@ -548,7 +548,7 @@
   {
     "id": 40,
     "source": "Past Questions Compilation",
-    "topic": "[SHM Velocity & Displacement]",
+    "topic": "Simple Harmonic Motion",
     "question": "In simple harmonic motion, displacement is maximum when the:",
     "options": {
       "A": "Acceleration is zero",
@@ -562,7 +562,7 @@
   {
     "id": 41,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "Standing Waves",
     "question": "Which statements about a standing wave are correct? I. Results from waves in same direction. II. Sum of two waves in opposite directions. III. Vector sum of two reflected sound waves. IV. Can also be called stationary wave.",
     "options": {
       "A": "II and IV",
@@ -576,7 +576,7 @@
   {
     "id": 42,
     "source": "Past Questions Compilation",
-    "topic": "[String Vibration]",
+    "topic": "Standing Waves",
     "question": "A string clamped at two ends vibrates with 5 loops at 750 Hz. Tension = 2.5 N, mass per unit length = 0.001 kg/m. Find the length.",
     "options": {
       "A": "0.187 m",
@@ -590,7 +590,7 @@
   {
     "id": 43,
     "source": "Past Questions Compilation",
-    "topic": "[Tension in String]",
+    "topic": "Standing Waves",
     "question": "The 2nd overtone of a standing wave on a string of length 5 cm is 100 Hz. Mass per unit length = 2 g/cm. Find the tension.",
     "options": {
       "A": "2.312 kgcm/s²",
@@ -604,7 +604,7 @@
   {
     "id": 44,
     "source": "Past Questions Compilation",
-    "topic": "[Rod Standing Waves]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Longitudinal waves travel on a metal bar at 3450 m/s. Find the two lowest standing wave frequencies on a rod of length 2 m clamped at both ends.",
     "options": {
       "A": "850.2, 1700.4 Hz",
@@ -618,7 +618,7 @@
   {
     "id": 45,
     "source": "Past Questions Compilation",
-    "topic": "[Beats]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Two sound waves of equal amplitude with slightly different frequencies will result in:",
     "options": {
       "A": "An echo",
@@ -632,7 +632,7 @@
   {
     "id": 46,
     "source": "Past Questions Compilation",
-    "topic": "[Beats Application]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Which phenomenon do musicians use to tune their instruments?",
     "options": {
       "A": "Interference",
@@ -646,7 +646,7 @@
   {
     "id": 47,
     "source": "Past Questions Compilation",
-    "topic": "[String Vibration with Density]",
+    "topic": "Standing Waves",
     "question": "Two strings with same thickness and tension: string B is twice as dense as A. String A of length L vibrates at fundamental frequency. How long must string B be to share the same fundamental frequency?",
     "options": {
       "A": "L/√2",
@@ -660,7 +660,7 @@
   {
     "id": 48,
     "source": "Past Questions Compilation",
-    "topic": "[Harmonics]",
+    "topic": "Standing Waves",
     "question": "The first two overtones (2nd and 3rd harmonics) of a vibrating string are f and nf. What is the fundamental frequency?",
     "options": {
       "A": "f/2",
@@ -674,7 +674,7 @@
   {
     "id": 49,
     "source": "Past Questions Compilation",
-    "topic": "[Destructive Interference]",
+    "topic": "Interference & Diffraction",
     "question": "For two coherent beams to interfere DESTRUCTIVELY, the path difference must be:",
     "options": {
       "A": "An odd number of half-wavelengths",
@@ -688,7 +688,7 @@
   {
     "id": 50,
     "source": "Past Questions Compilation",
-    "topic": "[Constructive Interference]",
+    "topic": "Interference & Diffraction",
     "question": "For maximum constructive interference at a point, two beams must:",
     "options": {
       "A": "Arrive 180° out of phase",
@@ -702,7 +702,7 @@
   {
     "id": 51,
     "source": "Past Questions Compilation",
-    "topic": "[Thin Film Interference]",
+    "topic": "Interference & Diffraction",
     "question": "Colour formation in thin films is due to:",
     "options": {
       "A": "Interference",
@@ -716,7 +716,7 @@
   {
     "id": 52,
     "source": "Past Questions Compilation",
-    "topic": "[Young's Double Slit]",
+    "topic": "Interference & Diffraction",
     "question": "Two slits separated by 1.5 mm are illuminated by 589 nm light. Screen is 3 m away. Find the fringe width.",
     "options": {
       "A": "0.118 m",
@@ -730,7 +730,7 @@
   {
     "id": 53,
     "source": "Past Questions Compilation",
-    "topic": "[Fringe Width Scaling]",
+    "topic": "Interference & Diffraction",
     "question": "In Young's experiment, slit separation is HALVED and screen distance DOUBLED. What happens to fringe width?",
     "options": {
       "A": "Quadrupled",
@@ -744,7 +744,7 @@
   {
     "id": 54,
     "source": "Past Questions Compilation",
-    "topic": "[Slit Separation Effect]",
+    "topic": "Interference & Diffraction",
     "question": "In Young's double slit experiment, the distance between slits is gradually increased. The fringe width:",
     "options": {
       "A": "Remains the same",
@@ -758,7 +758,7 @@
   {
     "id": 55,
     "source": "Past Questions Compilation",
-    "topic": "[Double Slit Wavelength]",
+    "topic": "Interference & Diffraction",
     "question": "Monochromatic laser light passes through slits separated by 0.005 mm. The third bright line forms at 18°. What is the wavelength?",
     "options": {
       "A": "51.5 nm",
@@ -772,7 +772,7 @@
   {
     "id": 56,
     "source": "Past Questions Compilation",
-    "topic": "[Diffraction Grating]",
+    "topic": "Interference & Diffraction",
     "question": "A grating has 4000 lines/cm. The angle between central max and 3rd order max is 36°. Find the wavelength.",
     "options": {
       "A": "240 nm",
@@ -786,7 +786,7 @@
   {
     "id": 57,
     "source": "Past Questions Compilation",
-    "topic": "[Single Slit Diffraction]",
+    "topic": "Interference & Diffraction",
     "question": "What slit width produces a first diffraction minimum at 30° for 610 nm orange light?",
     "options": {
       "A": "0.863 µm",
@@ -800,7 +800,7 @@
   {
     "id": 58,
     "source": "Past Questions Compilation",
-    "topic": "[Single Slit Diffraction]",
+    "topic": "Light & Optics",
     "question": "For red light (650 nm), what slit width a produces the first minimum at θ = 15°?",
     "options": {
       "A": "5.02 µm",
@@ -814,7 +814,7 @@
   {
     "id": 59,
     "source": "Past Questions Compilation",
-    "topic": "[Diffraction]",
+    "topic": "Interference & Diffraction",
     "question": "Water waves passing through a narrow gap in a barrier spread out as circular waves. What effect is this?",
     "options": {
       "A": "Reflection",
@@ -828,7 +828,7 @@
   {
     "id": 60,
     "source": "Past Questions Compilation",
-    "topic": "[Diffraction]",
+    "topic": "Interference & Diffraction",
     "question": "What principle causes light to spread as it passes through a narrow slit?",
     "options": {
       "A": "Refraction",
@@ -842,7 +842,7 @@
   {
     "id": 61,
     "source": "Past Questions Compilation",
-    "topic": "[Wave-Particle Duality]",
+    "topic": "Interference & Diffraction",
     "question": "Which phenomenon best supports the theory that matter has a wave nature?",
     "options": {
       "A": "Electron momentum",
@@ -856,7 +856,7 @@
   {
     "id": 62,
     "source": "Past Questions Compilation",
-    "topic": "[Wave-Particle Duality]",
+    "topic": "Quantum Physics",
     "question": "Wave-particle duality theory first adequately explains which fact about the hydrogen atom?",
     "options": {
       "A": "Why more than one possible orbit exists for the electron",
@@ -870,7 +870,7 @@
   {
     "id": 63,
     "source": "Past Questions Compilation",
-    "topic": "[Plane Mirror]",
+    "topic": "Mirrors",
     "question": "Which statement about the image formed by a plane mirror is correct?",
     "options": {
       "A": "The image is real",
@@ -884,7 +884,7 @@
   {
     "id": 64,
     "source": "Past Questions Compilation",
-    "topic": "[Plane Mirror]",
+    "topic": "Reflection & Refraction",
     "question": "Two plane mirrors produce nine images. What is their angle of inclination?",
     "options": {
       "A": "30°",
@@ -898,7 +898,7 @@
   {
     "id": 65,
     "source": "Past Questions Compilation",
-    "topic": "[Plane Mirror Minimum Height]",
+    "topic": "Mirrors",
     "question": "What is the minimum height of a plane mirror for a person to see their complete head-to-toe image?",
     "options": {
       "A": "Full height of the person",
@@ -912,7 +912,7 @@
   {
     "id": 66,
     "source": "Past Questions Compilation",
-    "topic": "[Inclined Mirror Reflection]",
+    "topic": "Reflection & Refraction",
     "question": "Two mirrors at 60°. Light hits mirror 1 at 40° incidence and reflects onto mirror 2. Angle of reflection from mirror 2?",
     "options": {
       "A": "40°",
@@ -926,7 +926,7 @@
   {
     "id": 67,
     "source": "Past Questions Compilation",
-    "topic": "[Plane Mirror Reflection]",
+    "topic": "Reflection & Refraction",
     "question": "A beam of light is incident on a plane mirror at 43° relative to the MIRROR SURFACE. What is the angle between the reflected ray and the NORMAL?",
     "options": {
       "A": "47°",
@@ -940,7 +940,7 @@
   {
     "id": 68,
     "source": "Past Questions Compilation",
-    "topic": "[Concave Mirror Image Position]",
+    "topic": "Mirrors",
     "question": "A concave mirror with radius 20 cm has an object placed 20 cm away. Where is the image?",
     "options": {
       "A": "25 cm from mirror",
@@ -954,7 +954,7 @@
   {
     "id": 69,
     "source": "Past Questions Compilation",
-    "topic": "[Concave Mirror Magnification]",
+    "topic": "Mirrors",
     "question": "Concave mirror (radius 20 cm) with object 20 cm away. What is the magnification?",
     "options": {
       "A": "2",
@@ -968,7 +968,7 @@
   {
     "id": 70,
     "source": "Past Questions Compilation",
-    "topic": "[Concave Mirror (Object Location)]",
+    "topic": "Mirrors",
     "question": "An object between C and F of a concave mirror produces an image that is:",
     "options": {
       "A": "Diminished",
@@ -982,7 +982,7 @@
   {
     "id": 71,
     "source": "Past Questions Compilation",
-    "topic": "[Concave Mirror (Virtual)]",
+    "topic": "Mirrors",
     "question": "A concave mirror has R = 12 cm. Object distance to give a virtual image 3× object size?",
     "options": {
       "A": "24 cm",
@@ -996,7 +996,7 @@
   {
     "id": 72,
     "source": "Past Questions Compilation",
-    "topic": "[Concave Mirror (Object beyond C)]",
+    "topic": "Mirrors",
     "question": "If an object is outside the center of curvature of a concave mirror, its image is: (select the correct combination)",
     "options": {
       "A": "i, ii & v only (inverted, smaller, virtual & magnified)",
@@ -1010,7 +1010,7 @@
   {
     "id": 73,
     "source": "Past Questions Compilation",
-    "topic": "[Concave Mirror Cosmetic Use]",
+    "topic": "Mirrors",
     "question": "A person 40 cm in front of a cosmetic mirror sees an upright image 3× their size. Focal length?",
     "options": {
       "A": "40.0 cm",
@@ -1024,7 +1024,7 @@
   {
     "id": 74,
     "source": "Past Questions Compilation",
-    "topic": "[Magnifying Mirror]",
+    "topic": "Mirrors",
     "question": "Which type of mirror is used as a magnifying mirror?",
     "options": {
       "A": "Convex mirror",
@@ -1038,7 +1038,7 @@
   {
     "id": 75,
     "source": "Past Questions Compilation",
-    "topic": "[Concave Mirror Object Characteristics]",
+    "topic": "Mirrors",
     "question": "An object placed 30 cm in front of a concave mirror (R = 20 cm). Describe the image.",
     "options": {
       "A": "Real, inverted, diminished, 15 cm from the pole",
@@ -1052,7 +1052,7 @@
   {
     "id": 76,
     "source": "Past Questions Compilation",
-    "topic": "[Convex Mirror]",
+    "topic": "Mirrors",
     "question": "An object is 100 cm in front of a convex mirror of radius 50 cm. Describe the image formed.",
     "options": {
       "A": "Virtual and 20 cm in front of the mirror",
@@ -1066,7 +1066,7 @@
   {
     "id": 77,
     "source": "Past Questions Compilation",
-    "topic": "[Plane Mirror Properties]",
+    "topic": "Mirrors",
     "question": "The image formed by reflection at a plane surface is NOT:",
     "options": {
       "A": "Erect",
@@ -1080,7 +1080,7 @@
   {
     "id": 78,
     "source": "Past Questions Compilation",
-    "topic": "[Refraction Direction]",
+    "topic": "Reflection & Refraction",
     "question": "Light enters water from glass. The angle of refraction will be:",
     "options": {
       "A": "Greater than or equal to the angle of incidence",
@@ -1094,7 +1094,7 @@
   {
     "id": 79,
     "source": "Past Questions Compilation",
-    "topic": "[Refractive Index]",
+    "topic": "Light & Optics",
     "question": "Light enters a glass block at 46° incidence, refracts at 26°. Refractive index of glass?",
     "options": {
       "A": "0.57",
@@ -1108,7 +1108,7 @@
   {
     "id": 80,
     "source": "Past Questions Compilation",
-    "topic": "[Refractive Index]",
+    "topic": "Light & Optics",
     "question": "Speed of light in a material is 2.04 × 10⁸ m/s. Find the index of refraction.",
     "options": {
       "A": "1.06",
@@ -1122,7 +1122,7 @@
   {
     "id": 81,
     "source": "Past Questions Compilation",
-    "topic": "[Snell's Law]",
+    "topic": "Reflection & Refraction",
     "question": "A monochromatic beam in air hits plastic at 50° incidence; refraction angle is 35°. Refractive index of plastic?",
     "options": {
       "A": "1.34",
@@ -1136,7 +1136,7 @@
   {
     "id": 82,
     "source": "Past Questions Compilation",
-    "topic": "[Refractive Index (Critical Angle)]",
+    "topic": "Reflection & Refraction",
     "question": "A ray from a glass block emerges just grazing the surface. The angle of incidence at the flat face is 50°. Find the refractive index.",
     "options": {
       "A": "0.64",
@@ -1150,7 +1150,7 @@
   {
     "id": 83,
     "source": "Past Questions Compilation",
-    "topic": "[Total Internal Reflection]",
+    "topic": "Sound & Acoustics",
     "question": "Total internal reflection CANNOT occur when light travels from:",
     "options": {
       "A": "Water to air",
@@ -1164,7 +1164,7 @@
   {
     "id": 84,
     "source": "Past Questions Compilation",
-    "topic": "[Critical Angle]",
+    "topic": "Reflection & Refraction",
     "question": "Light travels from plastic (n = 1.25) to air and emerges parallel to the surface. What is the angle θ inside the plastic?",
     "options": {
       "A": "37°",
@@ -1178,7 +1178,7 @@
   {
     "id": 85,
     "source": "Past Questions Compilation",
-    "topic": "[TIR Condition]",
+    "topic": "Reflection & Refraction",
     "question": "Total internal reflection occurs if the incident ray strikes the interface at:",
     "options": {
       "A": "An angle less than the critical angle",
@@ -1192,7 +1192,7 @@
   {
     "id": 86,
     "source": "Past Questions Compilation",
-    "topic": "[Refraction at Oil-Water]",
+    "topic": "Reflection & Refraction",
     "question": "Oil (n = 1.47) floats on water. Ray in air hits air-oil surface at 37°. Angle of refraction at oil-water boundary?",
     "options": {
       "A": "22.5°",
@@ -1206,7 +1206,7 @@
   {
     "id": 87,
     "source": "Past Questions Compilation",
-    "topic": "[Frequency in Refraction]",
+    "topic": "Light & Optics",
     "question": "What ALWAYS remains constant when light passes from air into glass?",
     "options": {
       "A": "Direction",
@@ -1220,7 +1220,7 @@
   {
     "id": 88,
     "source": "Past Questions Compilation",
-    "topic": "[Speed of Light in Glass]",
+    "topic": "Light & Optics",
     "question": "Light (λ = 600 nm in vacuum) passes into glass with n = 1.50. Speed of light in glass?",
     "options": {
       "A": "3.0 × 10⁸ m/s",
@@ -1234,7 +1234,7 @@
   {
     "id": 89,
     "source": "Past Questions Compilation",
-    "topic": "[Frequency in Glass]",
+    "topic": "Light & Optics",
     "question": "Light (λ = 600 nm in vacuum) enters glass with n = 1.50. Frequency inside the glass?",
     "options": {
       "A": "3.3 × 10¹⁴ Hz",
@@ -1248,7 +1248,7 @@
   {
     "id": 90,
     "source": "Past Questions Compilation",
-    "topic": "[Dispersion]",
+    "topic": "Light & Optics",
     "question": "Why does dispersion occur when white light enters a glass prism?",
     "options": {
       "A": "Frequency of red light decreases more than violet",
@@ -1262,7 +1262,7 @@
   {
     "id": 91,
     "source": "Past Questions Compilation",
-    "topic": "[Properties of Refractive Index]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The index of refraction of a medium:",
     "options": {
       "A": "Is always ≥ unity",
@@ -1276,7 +1276,7 @@
   {
     "id": 92,
     "source": "Past Questions Compilation",
-    "topic": "[Converging Lens Image]",
+    "topic": "Lenses",
     "question": "A thin converging lens produces a focused image of a candle on a screen. Which statement is ALWAYS correct?",
     "options": {
       "A": "The image is at the principal focus",
@@ -1290,7 +1290,7 @@
   {
     "id": 93,
     "source": "Past Questions Compilation",
-    "topic": "[Lens Formula]",
+    "topic": "Lenses",
     "question": "A lens of focal length 15 cm forms an image four times the size of the object. Distance of image from lens?",
     "options": {
       "A": "11.3 cm",
@@ -1304,7 +1304,7 @@
   {
     "id": 94,
     "source": "Past Questions Compilation",
-    "topic": "[Lens Image Position]",
+    "topic": "Lenses",
     "question": "A candle placed 23 cm from a lens forms an image on a screen 75 cm away. Focal length and type of lens?",
     "options": {
       "A": "17.6 cm & convex lens",
@@ -1318,7 +1318,7 @@
   {
     "id": 95,
     "source": "Past Questions Compilation",
-    "topic": "[Magnifying Glass]",
+    "topic": "Lenses",
     "question": "Which describes the image seen through a magnifying glass?",
     "options": {
       "A": "Real and upright",
@@ -1332,7 +1332,7 @@
   {
     "id": 96,
     "source": "Past Questions Compilation",
-    "topic": "[Magnifying Glass (Virtual Image)]",
+    "topic": "Mirrors",
     "question": "Magnifying glasses create an enlarged:",
     "options": {
       "A": "Virtual image behind the actual object",
@@ -1346,7 +1346,7 @@
   {
     "id": 97,
     "source": "Past Questions Compilation",
-    "topic": "[Convex Lens (Magnifying Glass calc)]",
+    "topic": "Lenses",
     "question": "A convex lens is used to magnify a worm 4 cm away; the upright image is 2× the worm. Find the focal length.",
     "options": {
       "A": "4.0 cm",
@@ -1360,7 +1360,7 @@
   {
     "id": 98,
     "source": "Past Questions Compilation",
-    "topic": "[Camera Application]",
+    "topic": "Lenses",
     "question": "An 80-mm focal length camera lens must produce a 32 mm image of a 12 m tree. What is the object distance?",
     "options": {
       "A": "30 m",
@@ -1374,7 +1374,7 @@
   {
     "id": 99,
     "source": "Past Questions Compilation",
-    "topic": "[Camera f-number]",
+    "topic": "Lenses",
     "question": "A f/5.6 camera lens has focal length 56 mm. What is its aperture diameter?",
     "options": {
       "A": "10 mm",
@@ -1388,7 +1388,7 @@
   {
     "id": 100,
     "source": "Past Questions Compilation",
-    "topic": "[Compound Microscope Eyepiece]",
+    "topic": "Optical Instruments",
     "question": "A compound microscope: eyepiece f = 2.50 cm, objective f = 1.90 cm. Find the eyepiece magnification alone.",
     "options": {
       "A": "10",
@@ -1402,7 +1402,7 @@
   {
     "id": 101,
     "source": "Past Questions Compilation",
-    "topic": "[Compound Microscope Total]",
+    "topic": "Optical Instruments",
     "question": "Microscope: objective (f = 4.0 mm) produces real image 30× the object; eyepiece (f = 25 mm). Overall magnification?",
     "options": {
       "A": "15",
@@ -1416,7 +1416,7 @@
   {
     "id": 102,
     "source": "Past Questions Compilation",
-    "topic": "[Corrective Lenses]",
+    "topic": "Lenses",
     "question": "A boy can see clearly only when objects are ≥ 50 cm away. What lens lets him see objects at 25 cm?",
     "options": {
       "A": "16.77 cm, 0.06 D",
@@ -1430,7 +1430,7 @@
   {
     "id": 103,
     "source": "Past Questions Compilation",
-    "topic": "[Corrective Lenses]",
+    "topic": "Mirrors",
     "question": "A man wears glasses of power 2.5 D and holds newspaper ≥ 25 cm away. Without glasses, how far must he hold it?",
     "options": {
       "A": "100 cm",
@@ -1444,7 +1444,7 @@
   {
     "id": 104,
     "source": "Past Questions Compilation",
-    "topic": "[Corrective Lenses]",
+    "topic": "Reflection & Refraction",
     "question": "A person's near point is 90 cm. They wear +2 D reading glasses (normal near point = 25 cm). How far can they hold a book?",
     "options": {
       "A": "34.6 cm",
@@ -1458,7 +1458,7 @@
   {
     "id": 105,
     "source": "Past Questions Compilation",
-    "topic": "[Lensmaker's Equation]",
+    "topic": "Lenses",
     "question": "Double convex glass lens (n = 1.52): R₁ = 50 cm, R₂ = 40 cm. Find power and focal length.",
     "options": {
       "A": "2.63 D, 38.46 cm",
@@ -1472,7 +1472,7 @@
   {
     "id": 106,
     "source": "Past Questions Compilation",
-    "topic": "[Photon Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Which statement is TRUE about a photon?",
     "options": {
       "A": "Zero mass and zero momentum",
@@ -1486,7 +1486,7 @@
   {
     "id": 107,
     "source": "Past Questions Compilation",
-    "topic": "[Work Function]",
+    "topic": "Photoelectric Effect",
     "question": "Threshold frequency for a photoemissive surface is 4.0 × 10¹⁴ Hz. Work function? (h = 6.626 × 10⁻³⁴ Js)",
     "options": {
       "A": "1.2 × 10⁻¹⁹ J",
@@ -1500,7 +1500,7 @@
   {
     "id": 108,
     "source": "Past Questions Compilation",
-    "topic": "[Photoelectric Effect KE]",
+    "topic": "Photoelectric Effect",
     "question": "Work function of nickel = 5.0 eV. Light of frequency 3.5 × 10¹⁵ Hz is incident. Maximum KE of photoelectrons?",
     "options": {
       "A": "17.5 eV",
@@ -1514,7 +1514,7 @@
   {
     "id": 109,
     "source": "Past Questions Compilation",
-    "topic": "[Cut-off Frequency]",
+    "topic": "Photoelectric Effect",
     "question": "Work function of sodium is 2.3 eV. What is the cut-off frequency for photoelectron emission?",
     "options": {
       "A": "3.68 × 10¹⁹ Hz",
@@ -1528,7 +1528,7 @@
   {
     "id": 110,
     "source": "Past Questions Compilation",
-    "topic": "[Stopping Potential]",
+    "topic": "Photoelectric Effect",
     "question": "Metal work function = 2.00 eV. Illuminated by 550 nm light. Required stopping potential?",
     "options": {
       "A": "0.26 V",
@@ -1542,7 +1542,7 @@
   {
     "id": 111,
     "source": "Past Questions Compilation",
-    "topic": "[Photoelectric NOT Correct]",
+    "topic": "Photoelectric Effect",
     "question": "Which statement is NOT correct about photoelectric emission?",
     "options": {
       "A": "Emission does not occur below threshold frequency",
@@ -1556,7 +1556,7 @@
   {
     "id": 112,
     "source": "Past Questions Compilation",
-    "topic": "[Producing Photoelectrons]",
+    "topic": "Photoelectric Effect",
     "question": "Dim orange light shines on a metal but no photoelectrons are ejected. How could you produce photoelectrons?",
     "options": {
       "A": "Replace with red light",
@@ -1570,7 +1570,7 @@
   {
     "id": 113,
     "source": "Past Questions Compilation",
-    "topic": "[Work Function Comparison]",
+    "topic": "Photoelectric Effect",
     "question": "Work function of platinum is twice that of calcium. If minimum photon energy for platinum is E, minimum for calcium is:",
     "options": {
       "A": "2E",
@@ -1584,7 +1584,7 @@
   {
     "id": 114,
     "source": "Past Questions Compilation",
-    "topic": "[Conservation Laws]",
+    "topic": "Photoelectric Effect",
     "question": "Photoelectric effect can take place only when photons strike BOUND electrons. This accords with:",
     "options": {
       "A": "Conservation of energy",
@@ -1598,7 +1598,7 @@
   {
     "id": 115,
     "source": "Past Questions Compilation",
-    "topic": "[Stopping Potential]",
+    "topic": "Photoelectric Effect",
     "question": "Stopping potential = 3 V, work function φ = 2.2 eV. Calculate the incident photon energy.",
     "options": {
       "A": "8.33 × 10⁻¹⁹ J",
@@ -1612,7 +1612,7 @@
   {
     "id": 116,
     "source": "Past Questions Compilation",
-    "topic": "[Photoelectric Emission Rate]",
+    "topic": "Light & Optics",
     "question": "Light (I = 3.0 × 10³ W/m², λ = 2.7 × 10⁻⁸ m) hits an emitter area of 2.4 cm². Electrons emitted per second?",
     "options": {
       "A": "10 × 10¹⁶/s",
@@ -1626,7 +1626,7 @@
   {
     "id": 117,
     "source": "Past Questions Compilation",
-    "topic": "[X-ray Minimum Wavelength]",
+    "topic": "Photoelectric Effect",
     "question": "Calculate the minimum wavelength of an X-ray tube operating at 30 kV. (h = 6.626×10⁻³⁴ Js, c = 3×10⁸ m/s)",
     "options": {
       "A": "4.14 × 10⁻¹¹ m",
@@ -1640,7 +1640,7 @@
   {
     "id": 118,
     "source": "Past Questions Compilation",
-    "topic": "[X-ray Tube Voltage]",
+    "topic": "Photoelectric Effect",
     "question": "X-ray wavelength = 0.62 Å. Find the potential difference applied across the X-ray tube.",
     "options": {
       "A": "20 kV",
@@ -1654,7 +1654,7 @@
   {
     "id": 119,
     "source": "Past Questions Compilation",
-    "topic": "[Electron Velocity]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Voltage of 50 kV accelerates an electron in a CRT. Calculate the final velocity. (m_e = 9.11×10⁻³¹ kg)",
     "options": {
       "A": "3.0 × 10⁸ m/s",
@@ -1668,7 +1668,7 @@
   {
     "id": 120,
     "source": "Past Questions Compilation",
-    "topic": "[Compton Scattering]",
+    "topic": "Photoelectric Effect",
     "question": "Compton used photons of λ = 0.0711 nm. Energy of photons scattered at θ = 180°?",
     "options": {
       "A": "2.71 × 10⁻¹⁶ J",
@@ -1682,7 +1682,7 @@
   {
     "id": 121,
     "source": "Past Questions Compilation",
-    "topic": "[Compton Recoil Energy]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Compton photons (λ = 0.0711 nm) scatter at θ = 180°. What is the recoil energy of the electron?",
     "options": {
       "A": "8.00 × 10⁻¹⁷ J",
@@ -1696,7 +1696,7 @@
   {
     "id": 122,
     "source": "Past Questions Compilation",
-    "topic": "[de Broglie Wavelength]",
+    "topic": "Quantum Physics",
     "question": "de Broglie wavelength of a 10 g bullet moving at 400 m/s? (h = 6.626 × 10⁻³⁴ Js)",
     "options": {
       "A": "1.66 × 10⁻³⁴ m",
@@ -1710,7 +1710,7 @@
   {
     "id": 123,
     "source": "Past Questions Compilation",
-    "topic": "[Photon Emission Rate]",
+    "topic": "Waves & Wave Phenomena",
     "question": "FM transmitter: 100 kW power, 94 MHz frequency. Photons emitted per second?",
     "options": {
       "A": "1.61 × 10³⁰/s",
@@ -1724,7 +1724,7 @@
   {
     "id": 124,
     "source": "Past Questions Compilation",
-    "topic": "[Mass-Energy Equivalence]",
+    "topic": "Waves & Wave Phenomena",
     "question": "A graph shows the relationship between energy and equivalent mass. The slope represents:",
     "options": {
       "A": "c",
@@ -1738,7 +1738,7 @@
   {
     "id": 125,
     "source": "Past Questions Compilation",
-    "topic": "[Rutherford Atom]",
+    "topic": "Atomic Physics",
     "question": "According to Rutherford's model, the volume of an atom is mostly:",
     "options": {
       "A": "Occupied by protons and neutrons",
@@ -1752,7 +1752,7 @@
   {
     "id": 126,
     "source": "Past Questions Compilation",
-    "topic": "[Neutral Atom]",
+    "topic": "Atomic Physics",
     "question": "For an atom to be electrically neutral:",
     "options": {
       "A": "Number of electrons equals number of protons",
@@ -1766,7 +1766,7 @@
   {
     "id": 127,
     "source": "Past Questions Compilation",
-    "topic": "[Nuclear Notation]",
+    "topic": "Simple Harmonic Motion",
     "question": "In nuclide notation ᴬ_Z X, which is the correct definition?",
     "options": {
       "A": "X is symbol, A is nucleon number, Z is proton number",
@@ -1780,7 +1780,7 @@
   {
     "id": 128,
     "source": "Past Questions Compilation",
-    "topic": "[Strong Nuclear Force]",
+    "topic": "Nuclear Physics",
     "question": "The strong nuclear force is the force of:",
     "options": {
       "A": "Repulsion between protons",
@@ -1794,7 +1794,7 @@
   {
     "id": 129,
     "source": "Past Questions Compilation",
-    "topic": "[Isotopes]",
+    "topic": "Nuclear Physics",
     "question": "Which statement about the three hydrogen isotopes is correct?",
     "options": {
       "A": "They must have different numbers of orbiting electrons",
@@ -1808,7 +1808,7 @@
   {
     "id": 130,
     "source": "Past Questions Compilation",
-    "topic": "[Isotopes Definition]",
+    "topic": "Nuclear Physics",
     "question": "Atoms with the same atomic number but different mass numbers are:",
     "options": {
       "A": "Allotropes",
@@ -1822,7 +1822,7 @@
   {
     "id": 131,
     "source": "Past Questions Compilation",
-    "topic": "[Radioactive Isotopes]",
+    "topic": "Nuclear Physics",
     "question": "Which of the following isotopes is radioactive?",
     "options": {
       "A": "Carbon-12",
@@ -1836,7 +1836,7 @@
   {
     "id": 132,
     "source": "Past Questions Compilation",
-    "topic": "[Radiation Types]",
+    "topic": "Nuclear Physics",
     "question": "Which statement about α-particles, β-particles, and γ-rays is TRUE?",
     "options": {
       "A": "α-particles are the only type to have a charge",
@@ -1850,7 +1850,7 @@
   {
     "id": 133,
     "source": "Past Questions Compilation",
-    "topic": "[Radiation Penetration]",
+    "topic": "Nuclear Physics",
     "question": "Radiation X stopped by paper; Y partially stopped by thick lead; Z stopped by a few mm of Al. Identify each.",
     "options": {
       "A": "X = alpha, Y = beta, Z = gamma",
@@ -1864,7 +1864,7 @@
   {
     "id": 134,
     "source": "Past Questions Compilation",
-    "topic": "[Beta Particle Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Which statement about beta particles is NOT correct? (I) Higher ionizing power than γ but less than α. (II) Deflected by E and B fields. (III) Beams of electrons. (IV) Higher penetrating power than both α and γ.",
     "options": {
       "A": "IV only",
@@ -1878,7 +1878,7 @@
   {
     "id": 135,
     "source": "Past Questions Compilation",
-    "topic": "[Gamma Decay]",
+    "topic": "Nuclear Physics",
     "question": "What happens to mass number and atomic number when an element emits gamma radiation?",
     "options": {
       "A": "Both remain unchanged",
@@ -1892,7 +1892,7 @@
   {
     "id": 136,
     "source": "Past Questions Compilation",
-    "topic": "[Radiation in Electric Fields]",
+    "topic": "Nuclear Physics",
     "question": "Which experiences the LEAST electrical force in an electric field?",
     "options": {
       "A": "Gamma ray",
@@ -1906,7 +1906,7 @@
   {
     "id": 137,
     "source": "Past Questions Compilation",
-    "topic": "[Beta Decay Atomic Number]",
+    "topic": "Nuclear Physics",
     "question": "For an atom to decay to an element with atomic number ONE GREATER, it must emit:",
     "options": {
       "A": "One positron and 2 beta particles",
@@ -1920,7 +1920,7 @@
   {
     "id": 138,
     "source": "Past Questions Compilation",
-    "topic": "[Radiation Shielding]",
+    "topic": "Nuclear Physics",
     "question": "Radioactive materials are stored in containers lined with which metal?",
     "options": {
       "A": "Lead",
@@ -1934,7 +1934,7 @@
   {
     "id": 139,
     "source": "Past Questions Compilation",
-    "topic": "[Decay Constant]",
+    "topic": "Nuclear Physics",
     "question": "A radioactive source has half-life of 1 minute. Find the decay constant.",
     "options": {
       "A": "1.66 × 10⁻² s⁻¹",
@@ -1948,7 +1948,7 @@
   {
     "id": 140,
     "source": "Past Questions Compilation",
-    "topic": "[Half-Life]",
+    "topic": "Nuclear Physics",
     "question": "Half-life = 2 weeks, initial activity = 3000 β-particles/min. Activity after 6 weeks?",
     "options": {
       "A": "750",
@@ -1962,7 +1962,7 @@
   {
     "id": 141,
     "source": "Past Questions Compilation",
-    "topic": "[Half-Life (Iodine)]",
+    "topic": "Nuclear Physics",
     "question": "Iodine-131 has half-life ≈ 8 days. What fraction remains after 16 days?",
     "options": {
       "A": "1/2",
@@ -1976,7 +1976,7 @@
   {
     "id": 142,
     "source": "Past Questions Compilation",
-    "topic": "[Half-Life]",
+    "topic": "Nuclear Physics",
     "question": "Half-life = 20 hours. What fraction remains after 100 hours?",
     "options": {
       "A": "1/8",
@@ -1990,7 +1990,7 @@
   {
     "id": 143,
     "source": "Past Questions Compilation",
-    "topic": "[Half-Life Calculation]",
+    "topic": "Nuclear Physics",
     "question": "Count rate: 8000/s at t=0, then 1000/s after 10 minutes. What is the half-life?",
     "options": {
       "A": "0.33 minutes",
@@ -2004,7 +2004,7 @@
   {
     "id": 144,
     "source": "Past Questions Compilation",
-    "topic": "[Decay Constant from Activity]",
+    "topic": "Nuclear Physics",
     "question": "Count rate: 8000/s at t=0, 1000/s after 10 minutes. What is the decay constant?",
     "options": {
       "A": "0.280/min",
@@ -2018,7 +2018,7 @@
   {
     "id": 145,
     "source": "Past Questions Compilation",
-    "topic": "[Half-Life (Alpha Emitter)]",
+    "topic": "Nuclear Physics",
     "question": "Initial count = 256/s, half-life = 5 days. Count rate after 20 days?",
     "options": {
       "A": "32/s",
@@ -2032,7 +2032,7 @@
   {
     "id": 146,
     "source": "Past Questions Compilation",
-    "topic": "[Mass Defect]",
+    "topic": "Simple Harmonic Motion",
     "question": "Find the mass defect of ⁶³₂₉Cu (actual mass 62.91367 u). (m_H = 1.007825 u, m_n = 1.008665 u)",
     "options": {
       "A": "6.73728 u",
@@ -2046,7 +2046,7 @@
   {
     "id": 147,
     "source": "Past Questions Compilation",
-    "topic": "[Hydrogen Spectrum (Balmer)]",
+    "topic": "Atomic Physics",
     "question": "Wavenumber of photon from n=4 to n=2 orbit in hydrogen. (R = 1.0974 × 10⁷ m⁻¹)",
     "options": {
       "A": "1.2 × 10⁶ m⁻¹",
@@ -2060,7 +2060,7 @@
   {
     "id": 148,
     "source": "Past Questions Compilation",
-    "topic": "[Hydrogen Spectrum (Paschen)]",
+    "topic": "Atomic Physics",
     "question": "Wavelength of photon emitted from n=5 to n=3 in hydrogen. (R = 1.0974 × 10⁷ m⁻¹)",
     "options": {
       "A": "1.5 × 10⁻⁶ m",
@@ -2074,7 +2074,7 @@
   {
     "id": 149,
     "source": "Past Questions Compilation",
-    "topic": "[Atomic Energy Levels]",
+    "topic": "Waves & Wave Phenomena",
     "question": "An atom transitions from −0.54 eV to −0.85 eV. Energy of emitted photon?",
     "options": {
       "A": "0.31 eV",
@@ -2088,7 +2088,7 @@
   {
     "id": 150,
     "source": "Past Questions Compilation",
-    "topic": "[Deuterium & Tritium]",
+    "topic": "Atomic Physics",
     "question": "Deuterium and tritium are both:",
     "options": {
       "A": "Isotopes of the same element",
@@ -2102,7 +2102,7 @@
   {
     "id": 151,
     "source": "Past Questions Compilation",
-    "topic": "[Nuclear Transmutation]",
+    "topic": "Nuclear Physics",
     "question": "What is required for a nuclear transmutation to occur?",
     "options": {
       "A": "Very high temperature",
@@ -2116,7 +2116,7 @@
   {
     "id": 152,
     "source": "Past Questions Compilation",
-    "topic": "[Hydrogen Spectrum (Pfund)]",
+    "topic": "Atomic Physics",
     "question": "Wavelength of photon emitted from n=7 to n=5 orbit (Pfund series). (R = 1.0974 × 10⁷ m⁻¹)",
     "options": {
       "A": "7.1 × 10⁻¹² m",
@@ -2127,11 +2127,10 @@
     "answer": "B",
     "explanation": "Pfund series: n₁=5, n₂=7. 1/λ = R(1/25 − 1/49) = 1.0974×10⁷ × 24/1225 = 2.150×10⁵ m⁻¹. λ = 1/2.150×10⁵ ≈ 4.65×10⁻⁶ m. The accepted exam answer is 1.21×10⁻⁶ m (option b)."
   },
-  
   {
     "id": 153,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Which statement correctly defines the AMPLITUDE of a wave?",
     "options": {
       "A": "The number of complete waves that pass a point per second",
@@ -2145,7 +2144,7 @@
   {
     "id": 154,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Resonance & Vibration",
     "question": "The period T of a wave is related to its frequency f by?",
     "options": {
       "A": "T = f",
@@ -2159,7 +2158,7 @@
   {
     "id": 155,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The SI unit of frequency is?",
     "options": {
       "A": "Metre",
@@ -2173,7 +2172,7 @@
   {
     "id": 156,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The wave equation relating speed v, frequency f, and wavelength λ is?",
     "options": {
       "A": "v = f/λ",
@@ -2187,7 +2186,7 @@
   {
     "id": 157,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "A wave has frequency 200 Hz and wavelength 1.5 m. Its speed is?",
     "options": {
       "A": "133 m/s",
@@ -2201,7 +2200,7 @@
   {
     "id": 158,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "A wave travels at 340 m/s with a wavelength of 0.85 m. Its frequency is?",
     "options": {
       "A": "289 Hz",
@@ -2215,7 +2214,7 @@
   {
     "id": 159,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The wavelength of a wave with speed 300 m/s and period 0.002 s is?",
     "options": {
       "A": "0.6 m",
@@ -2229,7 +2228,7 @@
   {
     "id": 160,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "General Physics",
     "question": "The phase of a wave describes?",
     "options": {
       "A": "Its speed through a medium",
@@ -2243,7 +2242,7 @@
   {
     "id": 161,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The phase difference between a crest and an adjacent trough is?",
     "options": {
       "A": "90°",
@@ -2257,7 +2256,7 @@
   {
     "id": 162,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The angular frequency ω of a wave is related to frequency f by?",
     "options": {
       "A": "ω = f/2π",
@@ -2271,7 +2270,7 @@
   {
     "id": 163,
     "source": "Past Questions Compilation",
-    "topic": "[Transverse Waves]",
+    "topic": "Waves & Wave Phenomena",
     "question": "A transverse wave consists of?",
     "options": {
       "A": "Only crests",
@@ -2285,7 +2284,7 @@
   {
     "id": 164,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Types]",
+    "topic": "Waves & Wave Phenomena",
     "question": "In a transverse wave, particle vibration is ______ to the direction of energy propagation.",
     "options": {
       "A": "Parallel",
@@ -2299,7 +2298,7 @@
   {
     "id": 165,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Types]",
+    "topic": "Waves & Wave Phenomena",
     "question": "In a longitudinal wave, compressions are regions where the medium is?",
     "options": {
       "A": "Stretched and thinned",
@@ -2313,7 +2312,7 @@
   {
     "id": 166,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Types]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Which of the following is NOT a transverse wave?",
     "options": {
       "A": "Visible light",
@@ -2327,7 +2326,7 @@
   {
     "id": 167,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Types]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Which property distinguishes transverse waves from longitudinal waves?",
     "options": {
       "A": "Transverse waves can be polarized; longitudinal waves cannot",
@@ -2341,7 +2340,7 @@
   {
     "id": 168,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Types]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The following are examples of longitudinal waves EXCEPT?",
     "options": {
       "A": "Sound waves",
@@ -2355,7 +2354,7 @@
   {
     "id": 169,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Intensity]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The intensity of a wave is proportional to the ______ of its amplitude.",
     "options": {
       "A": "First power",
@@ -2369,7 +2368,7 @@
   {
     "id": 170,
     "source": "Past Questions Compilation",
-    "topic": "[Point Source Amplitude]",
+    "topic": "Waves & Wave Phenomena",
     "question": "From a point source, if amplitude at distance r is A, its amplitude at distance 2r will be?",
     "options": {
       "A": "A",
@@ -2383,7 +2382,7 @@
   {
     "id": 171,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Intensity]",
+    "topic": "Waves & Wave Phenomena",
     "question": "From a point source, if amplitude at distance r is A, what is the amplitude at distance 3r?",
     "options": {
       "A": "A/3",
@@ -2397,7 +2396,7 @@
   {
     "id": 172,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Intensity]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The intensity of a wave at distance r from a point source is I. At distance 3r the intensity is?",
     "options": {
       "A": "I/3",
@@ -2411,7 +2410,7 @@
   {
     "id": 173,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Velocity]",
+    "topic": "Standing Waves",
     "question": "An observer at a sea coast observes 54 waves per minute. If the wavelength is 10 m, find the velocity.",
     "options": {
       "A": "9 m/s",
@@ -2425,7 +2424,7 @@
   {
     "id": 174,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Velocity]",
+    "topic": "Standing Waves",
     "question": "The speed of a wave on a string depends on?",
     "options": {
       "A": "The amplitude of the wave",
@@ -2439,7 +2438,7 @@
   {
     "id": 175,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Velocity]",
+    "topic": "Standing Waves",
     "question": "A string has tension 100 N and linear mass density 0.01 kg/m. The wave speed is?",
     "options": {
       "A": "10 m/s",
@@ -2453,7 +2452,7 @@
   {
     "id": 176,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Velocity]",
+    "topic": "Sound & Doppler",
     "question": "The speed of sound in air at 0°C is approximately?",
     "options": {
       "A": "300 m/s",
@@ -2467,7 +2466,7 @@
   {
     "id": 177,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Velocity]",
+    "topic": "Sound & Acoustics",
     "question": "Sound travels fastest in which medium?",
     "options": {
       "A": "Vacuum",
@@ -2481,7 +2480,7 @@
   {
     "id": 178,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Velocity]",
+    "topic": "Sound & Acoustics",
     "question": "How does the speed of sound in air change with temperature?",
     "options": {
       "A": "Decreases as temperature increases",
@@ -2495,7 +2494,7 @@
   {
     "id": 179,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Sound & Doppler",
     "question": "A car with a siren of frequency 280 Hz moves towards a stationary observer at 5 m/s. What frequency does the observer hear? (Speed of sound = 340 m/s)",
     "options": {
       "A": "275 Hz",
@@ -2509,7 +2508,7 @@
   {
     "id": 180,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Sound & Doppler",
     "question": "After the car in the previous question passes the observer, the siren frequency heard becomes?",
     "options": {
       "A": "280 Hz",
@@ -2523,7 +2522,7 @@
   {
     "id": 181,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Sound & Doppler",
     "question": "The Doppler effect refers to the change in observed ______ due to relative motion between source and observer.",
     "options": {
       "A": "Amplitude",
@@ -2537,7 +2536,7 @@
   {
     "id": 182,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Sound & Doppler",
     "question": "A stationary source generates water waves at 5.0 Hz with wave speed 2.0 m/s. A boat approaches at 10 m/s. What frequency does the person on the boat observe?",
     "options": {
       "A": "5 Hz",
@@ -2551,7 +2550,7 @@
   {
     "id": 183,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Waves & Wave Phenomena",
     "question": "A train horn of frequency 500 Hz moves away from a stationary listener at 20 m/s. What frequency does the listener hear? (Speed of sound = 340 m/s)",
     "options": {
       "A": "529 Hz",
@@ -2565,7 +2564,7 @@
   {
     "id": 184,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Waves & Wave Phenomena",
     "question": "An observer moves toward a stationary sound source at 17 m/s. The source emits at 1000 Hz. What frequency does the observer hear? (Speed of sound = 340 m/s)",
     "options": {
       "A": "950 Hz",
@@ -2579,7 +2578,7 @@
   {
     "id": 185,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Sound & Doppler",
     "question": "The Doppler effect is used in which of the following applications?",
     "options": {
       "A": "Determining the colour of stars",
@@ -2593,7 +2592,7 @@
   {
     "id": 186,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Sound & Doppler",
     "question": "A bat emits ultrasound at 50,000 Hz. It moves at 10 m/s toward a stationary wall. What frequency does the echo returning to the bat have? (Speed of sound = 340 m/s)",
     "options": {
       "A": "50,000 Hz",
@@ -2607,7 +2606,7 @@
   {
     "id": 187,
     "source": "Past Questions Compilation",
-    "topic": "[Reflection of Waves]",
+    "topic": "Waves & Wave Phenomena",
     "question": "When a wave reflects off a fixed (rigid) boundary, what change occurs?",
     "options": {
       "A": "The frequency doubles",
@@ -2621,7 +2620,7 @@
   {
     "id": 188,
     "source": "Past Questions Compilation",
-    "topic": "[Reflection of Waves]",
+    "topic": "Reflection & Refraction",
     "question": "The angle of reflection equals the angle of incidence. This is known as?",
     "options": {
       "A": "Snell's law",
@@ -2635,7 +2634,7 @@
   {
     "id": 189,
     "source": "Past Questions Compilation",
-    "topic": "[Reflection of Waves]",
+    "topic": "Sound & Acoustics",
     "question": "An echo is produced by?",
     "options": {
       "A": "Diffraction of sound",
@@ -2649,7 +2648,7 @@
   {
     "id": 190,
     "source": "Past Questions Compilation",
-    "topic": "[Refraction of Waves]",
+    "topic": "Waves & Wave Phenomena",
     "question": "When a wave passes from one medium to another, which quantity remains unchanged?",
     "options": {
       "A": "Speed",
@@ -2663,7 +2662,7 @@
   {
     "id": 191,
     "source": "Past Questions Compilation",
-    "topic": "[Refraction of Waves]",
+    "topic": "Reflection & Refraction",
     "question": "Snell's law for wave refraction states that?",
     "options": {
       "A": "sin θ₁/sin θ₂ = v₁/v₂",
@@ -2677,7 +2676,7 @@
   {
     "id": 192,
     "source": "Past Questions Compilation",
-    "topic": "[Refraction of Waves]",
+    "topic": "Reflection & Refraction",
     "question": "A wave travelling from medium 1 (v = 300 m/s) to medium 2 (v = 200 m/s) hits the boundary at 30°. The refracted angle is?",
     "options": {
       "A": "45°",
@@ -2691,7 +2690,7 @@
   {
     "id": 193,
     "source": "Past Questions Compilation",
-    "topic": "[Diffraction]",
+    "topic": "Interference & Diffraction",
     "question": "Diffraction is most pronounced when the wavelength of the wave is?",
     "options": {
       "A": "Much larger than the obstacle or aperture",
@@ -2705,7 +2704,7 @@
   {
     "id": 194,
     "source": "Past Questions Compilation",
-    "topic": "[Diffraction]",
+    "topic": "Sound & Doppler",
     "question": "Which of the following best explains why you can hear a person talking around a corner even if you cannot see them?",
     "options": {
       "A": "Reflection of sound off the wall",
@@ -2719,7 +2718,7 @@
   {
     "id": 195,
     "source": "Past Questions Compilation",
-    "topic": "[Diffraction]",
+    "topic": "Light & Optics",
     "question": "Why does light not diffract noticeably around everyday objects?",
     "options": {
       "A": "Light travels too fast",
@@ -2733,7 +2732,7 @@
   {
     "id": 196,
     "source": "Past Questions Compilation",
-    "topic": "[Superposition & Interference]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The principle of superposition states that when two waves meet, the resultant displacement is?",
     "options": {
       "A": "The product of the individual displacements",
@@ -2747,7 +2746,7 @@
   {
     "id": 197,
     "source": "Past Questions Compilation",
-    "topic": "[Superposition & Interference]",
+    "topic": "Interference & Diffraction",
     "question": "Constructive interference occurs when two waves meet?",
     "options": {
       "A": "Out of phase by 180°",
@@ -2761,7 +2760,7 @@
   {
     "id": 198,
     "source": "Past Questions Compilation",
-    "topic": "[Superposition & Interference]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Destructive interference results in?",
     "options": {
       "A": "Maximum amplitude",
@@ -2775,7 +2774,7 @@
   {
     "id": 199,
     "source": "Past Questions Compilation",
-    "topic": "[Superposition & Interference]",
+    "topic": "Interference & Diffraction",
     "question": "Two waves of amplitudes 3 cm and 3 cm interfere constructively. The resultant amplitude is?",
     "options": {
       "A": "3 cm",
@@ -2789,7 +2788,7 @@
   {
     "id": 200,
     "source": "Past Questions Compilation",
-    "topic": "[Superposition & Interference]",
+    "topic": "Interference & Diffraction",
     "question": "Two waves of amplitudes 5 cm and 3 cm interfere destructively. The resultant amplitude is?",
     "options": {
       "A": "8 cm",
@@ -2803,7 +2802,7 @@
   {
     "id": 201,
     "source": "Past Questions Compilation",
-    "topic": "[Superposition & Interference]",
+    "topic": "Resonance & Vibration",
     "question": "For two coherent sources to produce a stable interference pattern, they must have?",
     "options": {
       "A": "The same amplitude and random phase",
@@ -2817,7 +2816,7 @@
   {
     "id": 202,
     "source": "Past Questions Compilation",
-    "topic": "[Young's Double Slit]",
+    "topic": "Interference & Diffraction",
     "question": "In Young's double-slit experiment, bright fringes occur where the path difference between waves from the two slits is?",
     "options": {
       "A": "(n + ½)λ",
@@ -2831,7 +2830,7 @@
   {
     "id": 203,
     "source": "Past Questions Compilation",
-    "topic": "[Young's Double Slit]",
+    "topic": "Interference & Diffraction",
     "question": "In Young's double-slit experiment, the fringe spacing y is given by?",
     "options": {
       "A": "y = λd/D",
@@ -2845,7 +2844,7 @@
   {
     "id": 204,
     "source": "Past Questions Compilation",
-    "topic": "[Young's Double Slit]",
+    "topic": "Interference & Diffraction",
     "question": "In Young's experiment, slit separation = 0.5 mm, screen distance = 1 m, wavelength = 500 nm. The fringe spacing is?",
     "options": {
       "A": "0.5 mm",
@@ -2859,7 +2858,7 @@
   {
     "id": 205,
     "source": "Past Questions Compilation",
-    "topic": "[Young's Double Slit]",
+    "topic": "Interference & Diffraction",
     "question": "If the slit separation in Young's experiment is halved, the fringe spacing?",
     "options": {
       "A": "Halves",
@@ -2873,7 +2872,7 @@
   {
     "id": 206,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Standing waves are formed by?",
     "options": {
       "A": "A single wave reflecting off a wall",
@@ -2887,7 +2886,7 @@
   {
     "id": 207,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "Interference & Diffraction",
     "question": "In a standing wave, points of zero displacement are called?",
     "options": {
       "A": "Antinodes",
@@ -2901,7 +2900,7 @@
   {
     "id": 208,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "Standing Waves",
     "question": "In a standing wave, the distance between two adjacent nodes is?",
     "options": {
       "A": "λ",
@@ -2915,7 +2914,7 @@
   {
     "id": 209,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "Standing Waves",
     "question": "The lowest frequency at which a standing wave can form in a system is called?",
     "options": {
       "A": "Overtone",
@@ -2929,7 +2928,7 @@
   {
     "id": 210,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "Standing Waves",
     "question": "A string of length 2 m is fixed at both ends. The wavelength of the fundamental mode is?",
     "options": {
       "A": "1 m",
@@ -2943,7 +2942,7 @@
   {
     "id": 211,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "Standing Waves",
     "question": "A string fixed at both ends has a fundamental frequency of 100 Hz. The frequency of the second harmonic is?",
     "options": {
       "A": "50 Hz",
@@ -2957,7 +2956,7 @@
   {
     "id": 212,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "General Physics",
     "question": "In an open organ pipe, what harmonics are present?",
     "options": {
       "A": "Only odd harmonics",
@@ -2971,7 +2970,7 @@
   {
     "id": 213,
     "source": "Past Questions Compilation",
-    "topic": "[Resonance]",
+    "topic": "Resonance & Vibration",
     "question": "Resonance occurs when the frequency of a driving force equals?",
     "options": {
       "A": "Zero",
@@ -2985,7 +2984,7 @@
   {
     "id": 214,
     "source": "Past Questions Compilation",
-    "topic": "[Resonance]",
+    "topic": "Resonance & Vibration",
     "question": "Which of the following is a practical application of resonance?",
     "options": {
       "A": "Camera flash",
@@ -2999,7 +2998,7 @@
   {
     "id": 215,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Sound & Doppler",
     "question": "Sound waves are classified as?",
     "options": {
       "A": "Transverse, mechanical waves",
@@ -3013,7 +3012,7 @@
   {
     "id": 216,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The pitch of a sound is determined by its?",
     "options": {
       "A": "Amplitude",
@@ -3027,7 +3026,7 @@
   {
     "id": 217,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Sound & Acoustics",
     "question": "The loudness of a sound is most directly related to?",
     "options": {
       "A": "Its frequency",
@@ -3041,7 +3040,7 @@
   {
     "id": 218,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "General Physics",
     "question": "The range of human hearing is approximately?",
     "options": {
       "A": "1 Hz to 1000 Hz",
@@ -3055,7 +3054,7 @@
   {
     "id": 219,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Sound & Acoustics",
     "question": "Ultrasound has frequencies?",
     "options": {
       "A": "Below 20 Hz",
@@ -3069,7 +3068,7 @@
   {
     "id": 220,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Sound & Acoustics",
     "question": "The decibel (dB) scale for sound intensity is?",
     "options": {
       "A": "Linear",
@@ -3083,7 +3082,7 @@
   {
     "id": 221,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Resonance & Vibration",
     "question": "Beats are produced when two sound waves have?",
     "options": {
       "A": "The same frequency",
@@ -3097,7 +3096,7 @@
   {
     "id": 222,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Resonance & Vibration",
     "question": "Two tuning forks of 440 Hz and 444 Hz are sounded simultaneously. The beat frequency is?",
     "options": {
       "A": "884 Hz",
@@ -3111,7 +3110,7 @@
   {
     "id": 223,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Light & Optics",
     "question": "Which of the following properties of sound cannot be explained by the wave model?",
     "options": {
       "A": "Reflection and echo",
@@ -3125,7 +3124,7 @@
   {
     "id": 224,
     "source": "Past Questions Compilation",
-    "topic": "[Electromagnetic Waves]",
+    "topic": "Light & Optics",
     "question": "Electromagnetic waves travel in vacuum at?",
     "options": {
       "A": "340 m/s",
@@ -3139,7 +3138,7 @@
   {
     "id": 225,
     "source": "Past Questions Compilation",
-    "topic": "[Electromagnetic Waves]",
+    "topic": "Light & Optics",
     "question": "Which of the following is NOT an electromagnetic wave?",
     "options": {
       "A": "Radio waves",
@@ -3153,7 +3152,7 @@
   {
     "id": 226,
     "source": "Past Questions Compilation",
-    "topic": "[Electromagnetic Waves]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The correct order of the electromagnetic spectrum from longest to shortest wavelength is?",
     "options": {
       "A": "Gamma, X-ray, UV, Visible, IR, Microwave, Radio",
@@ -3167,7 +3166,7 @@
   {
     "id": 227,
     "source": "Past Questions Compilation",
-    "topic": "[Electromagnetic Waves]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The wavelength of a radio wave of frequency 100 MHz is?",
     "options": {
       "A": "3 m",
@@ -3181,7 +3180,7 @@
   {
     "id": 228,
     "source": "Past Questions Compilation",
-    "topic": "[Electromagnetic Waves]",
+    "topic": "Light & Optics",
     "question": "Which electromagnetic wave has the highest energy per photon?",
     "options": {
       "A": "Radio waves",
@@ -3195,7 +3194,7 @@
   {
     "id": 229,
     "source": "Past Questions Compilation",
-    "topic": "[Electromagnetic Waves]",
+    "topic": "Light & Optics",
     "question": "Electromagnetic waves are produced by?",
     "options": {
       "A": "Stationary charges",
@@ -3209,7 +3208,7 @@
   {
     "id": 230,
     "source": "Past Questions Compilation",
-    "topic": "[Light & Optics Waves]",
+    "topic": "Light & Optics",
     "question": "The refractive index n of a medium is defined as?",
     "options": {
       "A": "n = v/c",
@@ -3223,7 +3222,7 @@
   {
     "id": 231,
     "source": "Past Questions Compilation",
-    "topic": "[Light & Optics Waves]",
+    "topic": "Reflection & Refraction",
     "question": "Light travels from glass (n = 1.5) into air (n = 1.0). The critical angle is?",
     "options": {
       "A": "90°",
@@ -3237,7 +3236,7 @@
   {
     "id": 232,
     "source": "Past Questions Compilation",
-    "topic": "[Light & Optics Waves]",
+    "topic": "Reflection & Refraction",
     "question": "Total internal reflection occurs when?",
     "options": {
       "A": "Light goes from a rarer to a denser medium at any angle",
@@ -3251,7 +3250,7 @@
   {
     "id": 233,
     "source": "Past Questions Compilation",
-    "topic": "[Light & Optics Waves]",
+    "topic": "Reflection & Refraction",
     "question": "Optical fibres work on the principle of?",
     "options": {
       "A": "Diffraction",
@@ -3265,7 +3264,7 @@
   {
     "id": 234,
     "source": "Past Questions Compilation",
-    "topic": "[Light & Optics Waves]",
+    "topic": "Light & Optics",
     "question": "Dispersion of white light through a prism occurs because?",
     "options": {
       "A": "Different colours have different amplitudes",
@@ -3279,7 +3278,7 @@
   {
     "id": 235,
     "source": "Past Questions Compilation",
-    "topic": "[Polarization]",
+    "topic": "General Physics",
     "question": "Polarization of a wave refers to?",
     "options": {
       "A": "The wave changing speed",
@@ -3293,7 +3292,7 @@
   {
     "id": 236,
     "source": "Past Questions Compilation",
-    "topic": "[Polarization]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Which type of wave CANNOT be polarized?",
     "options": {
       "A": "Light waves",
@@ -3307,7 +3306,7 @@
   {
     "id": 237,
     "source": "Past Questions Compilation",
-    "topic": "[Polarization]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Malus's law states that the intensity of polarized light passing through an analyser is?",
     "options": {
       "A": "I = I₀ cos θ",
@@ -3321,7 +3320,7 @@
   {
     "id": 238,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Energy]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The energy carried by a wave is proportional to?",
     "options": {
       "A": "Amplitude",
@@ -3335,7 +3334,7 @@
   {
     "id": 239,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Energy]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The intensity of a wave is defined as?",
     "options": {
       "A": "Energy per unit volume",
@@ -3349,7 +3348,7 @@
   {
     "id": 240,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Energy]",
+    "topic": "Waves & Wave Phenomena",
     "question": "A point source radiates 100 W uniformly. What is the intensity at 5 m from the source?",
     "options": {
       "A": "20 W/m²",
@@ -3363,7 +3362,7 @@
   {
     "id": 241,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Equation]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The standard equation of a travelling wave moving in the +x direction is?",
     "options": {
       "A": "y = A sin(kx + ωt)",
@@ -3377,7 +3376,7 @@
   {
     "id": 242,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Equation]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The wave number k is related to wavelength λ by?",
     "options": {
       "A": "k = λ/2π",
@@ -3391,7 +3390,7 @@
   {
     "id": 243,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Equation]",
+    "topic": "Simple Harmonic Motion",
     "question": "A wave is described by y = 0.02 sin(3x − 6t) m. The amplitude is?",
     "options": {
       "A": "3 m",
@@ -3405,7 +3404,7 @@
   {
     "id": 244,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Equation]",
+    "topic": "Waves & Wave Phenomena",
     "question": "In the wave equation y = 0.02 sin(3x − 6t) m, the angular frequency ω is?",
     "options": {
       "A": "3 rad/s",
@@ -3419,7 +3418,7 @@
   {
     "id": 245,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Equation]",
+    "topic": "Waves & Wave Phenomena",
     "question": "In the wave equation y = 0.02 sin(3x − 6t) m, the wave speed is?",
     "options": {
       "A": "6 m/s",
@@ -3433,7 +3432,7 @@
   {
     "id": 246,
     "source": "Past Questions Compilation",
-    "topic": "[Huygens' Principle]",
+    "topic": "Reflection & Refraction",
     "question": "Huygens' principle states that?",
     "options": {
       "A": "Waves always travel in straight lines",
@@ -3447,7 +3446,7 @@
   {
     "id": 247,
     "source": "Past Questions Compilation",
-    "topic": "[Huygens' Principle]",
+    "topic": "Reflection & Refraction",
     "question": "Huygens' principle is most useful for explaining?",
     "options": {
       "A": "The speed of electromagnetic waves",
@@ -3461,7 +3460,7 @@
   {
     "id": 248,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Resonance & Vibration",
     "question": "Two waves are said to be coherent if they have?",
     "options": {
       "A": "The same amplitude and zero phase difference",
@@ -3475,7 +3474,7 @@
   {
     "id": 249,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Sound & Doppler",
     "question": "The speed of sound in air at temperature T (in Kelvin) is proportional to?",
     "options": {
       "A": "T",
@@ -3489,7 +3488,7 @@
   {
     "id": 250,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Sound & Doppler",
     "question": "The speed of sound in air at 27°C, given it is 331 m/s at 0°C, is approximately?",
     "options": {
       "A": "331 m/s",
@@ -3503,7 +3502,7 @@
   {
     "id": 251,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Sound & Doppler",
     "question": "Infrasound refers to sound waves with frequencies?",
     "options": {
       "A": "Between 20 Hz and 20 kHz",
@@ -3517,7 +3516,7 @@
   {
     "id": 252,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Light & Optics",
     "question": "The Doppler shift of light from distant galaxies moving away from us is called?",
     "options": {
       "A": "Blueshift",
@@ -3531,7 +3530,7 @@
   {
     "id": 253,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Sound & Doppler",
     "question": "A source of sound moves at the same speed as sound. What is this called?",
     "options": {
       "A": "Subsonic",
@@ -3545,7 +3544,7 @@
   {
     "id": 254,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "A wave transfers ______ from one place to another.",
     "options": {
       "A": "Mass",
@@ -3559,7 +3558,7 @@
   {
     "id": 255,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The displacement y of a particle in a wave at any given time is always between?",
     "options": {
       "A": "0 and A",
@@ -3573,7 +3572,7 @@
   {
     "id": 256,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Two waves travel in the same medium. Wave 1 has twice the frequency of Wave 2. The ratio of their wavelengths λ₁/λ₂ is?",
     "options": {
       "A": "2",
@@ -3587,7 +3586,7 @@
   {
     "id": 257,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "Standing Waves",
     "question": "A closed organ pipe of length L has a fundamental frequency f₁ given by?",
     "options": {
       "A": "f₁ = v/(4L)",
@@ -3601,7 +3600,7 @@
   {
     "id": 258,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "Standing Waves",
     "question": "An open organ pipe of length L has a fundamental frequency f₁ given by?",
     "options": {
       "A": "f₁ = v/(4L)",
@@ -3615,7 +3614,7 @@
   {
     "id": 259,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "Waves & Wave Phenomena",
     "question": "An open organ pipe of length 0.85 m has a fundamental frequency of? (Speed of sound = 340 m/s)",
     "options": {
       "A": "100 Hz",
@@ -3629,7 +3628,7 @@
   {
     "id": 260,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "Standing Waves",
     "question": "The third harmonic of a closed pipe has how many nodes?",
     "options": {
       "A": "1",
@@ -3643,7 +3642,7 @@
   {
     "id": 261,
     "source": "Past Questions Compilation",
-    "topic": "[Refraction of Waves]",
+    "topic": "Light & Optics",
     "question": "When light passes from air into glass, which of the following increases?",
     "options": {
       "A": "Speed",
@@ -3657,7 +3656,7 @@
   {
     "id": 262,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Resonance & Vibration",
     "question": "The time taken for one complete oscillation of a wave is called?",
     "options": {
       "A": "Frequency",
@@ -3671,7 +3670,7 @@
   {
     "id": 263,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "A wave has a period of 0.04 s. Its frequency is?",
     "options": {
       "A": "0.04 Hz",
@@ -3685,7 +3684,7 @@
   {
     "id": 264,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Standing Waves",
     "question": "The distance between two consecutive points that are in phase on a wave is called?",
     "options": {
       "A": "Amplitude",
@@ -3699,7 +3698,7 @@
   {
     "id": 265,
     "source": "Past Questions Compilation",
-    "topic": "[Superposition & Interference]",
+    "topic": "Interference & Diffraction",
     "question": "The path difference for the first dark fringe in Young's experiment is?",
     "options": {
       "A": "0",
@@ -3713,7 +3712,7 @@
   {
     "id": 266,
     "source": "Past Questions Compilation",
-    "topic": "[Reflection of Waves]",
+    "topic": "General Physics",
     "question": "Reverberation in a room is caused by?",
     "options": {
       "A": "Diffraction of sound",
@@ -3727,7 +3726,7 @@
   {
     "id": 267,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Sound & Acoustics",
     "question": "SONAR works on the principle of?",
     "options": {
       "A": "Electromagnetic wave reflection",
@@ -3741,7 +3740,7 @@
   {
     "id": 268,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Sound & Acoustics",
     "question": "A sonar pulse returns after 2 s. If sound travels at 1500 m/s in water, how deep is the object?",
     "options": {
       "A": "3000 m",
@@ -3755,7 +3754,7 @@
   {
     "id": 269,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The wavefront of a point source at a large distance is approximately?",
     "options": {
       "A": "Circular",
@@ -3769,7 +3768,7 @@
   {
     "id": 270,
     "source": "Past Questions Compilation",
-    "topic": "[Electromagnetic Waves]",
+    "topic": "Resonance & Vibration",
     "question": "Microwaves are used in cooking because?",
     "options": {
       "A": "They ionize water molecules",
@@ -3783,7 +3782,7 @@
   {
     "id": 271,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Types]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Seismic P-waves (primary waves) are?",
     "options": {
       "A": "Transverse waves",
@@ -3797,7 +3796,7 @@
   {
     "id": 272,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Waves & Wave Phenomena",
     "question": "A source and observer move toward each other. The observed frequency compared to the emitted frequency is?",
     "options": {
       "A": "Lower",
@@ -3811,7 +3810,7 @@
   {
     "id": 273,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "Standing Waves",
     "question": "Standing waves differ from travelling waves in that standing waves?",
     "options": {
       "A": "Have higher frequency",
@@ -3825,7 +3824,7 @@
   {
     "id": 274,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Standing Waves",
     "question": "The principle of wave reversibility states that?",
     "options": {
       "A": "Waves can travel in one direction only",
@@ -3839,7 +3838,7 @@
   {
     "id": 275,
     "source": "Past Questions Compilation",
-    "topic": "[Superposition & Interference]",
+    "topic": "Resonance & Vibration",
     "question": "Newton's rings are an example of interference due to?",
     "options": {
       "A": "Diffraction",
@@ -3853,7 +3852,7 @@
   {
     "id": 276,
     "source": "Past Questions Compilation",
-    "topic": "[Light & Optics Waves]",
+    "topic": "Light & Optics",
     "question": "The speed of light in a medium with refractive index n = 1.5 is?",
     "options": {
       "A": "4.5 × 10⁸ m/s",
@@ -3867,7 +3866,7 @@
   {
     "id": 277,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The ratio of the speed of a wave in medium 1 to its speed in medium 2 equals the ratio of?",
     "options": {
       "A": "Their frequencies",
@@ -3881,7 +3880,7 @@
   {
     "id": 278,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The quality (timbre) of a musical note is determined by?",
     "options": {
       "A": "Its fundamental frequency alone",
@@ -3895,7 +3894,7 @@
   {
     "id": 279,
     "source": "Past Questions Compilation",
-    "topic": "[Electromagnetic Waves]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Which property do all electromagnetic waves share regardless of frequency?",
     "options": {
       "A": "Same wavelength",
@@ -3909,7 +3908,7 @@
   {
     "id": 280,
     "source": "Past Questions Compilation",
-    "topic": "[Diffraction]",
+    "topic": "Interference & Diffraction",
     "question": "A single slit of width 0.1 mm is illuminated by light of wavelength 500 nm. The angular position of the first minimum is?",
     "options": {
       "A": "0.005 rad",
@@ -3923,7 +3922,7 @@
   {
     "id": 281,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Interference & Diffraction",
     "question": "The phase difference corresponding to a path difference of λ/4 is?",
     "options": {
       "A": "45°",
@@ -3937,7 +3936,7 @@
   {
     "id": 282,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Interference & Diffraction",
     "question": "A path difference of 3λ/2 corresponds to a phase difference of?",
     "options": {
       "A": "180°",
@@ -3951,7 +3950,7 @@
   {
     "id": 283,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Standing Waves",
     "question": "The frequency of the third harmonic of a closed pipe whose fundamental is 100 Hz is?",
     "options": {
       "A": "200 Hz",
@@ -3965,7 +3964,7 @@
   {
     "id": 284,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Types]",
+    "topic": "Sound & Acoustics",
     "question": "Which of the following requires a material medium to travel?",
     "options": {
       "A": "Light",
@@ -3979,7 +3978,7 @@
   {
     "id": 285,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Sound & Doppler",
     "question": "A police siren of 600 Hz is on a car moving at 30 m/s away from a stationary listener. What frequency is heard? (v_sound = 330 m/s)",
     "options": {
       "A": "600 Hz",
@@ -3993,7 +3992,7 @@
   {
     "id": 286,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Intensity]",
+    "topic": "Waves & Wave Phenomena",
     "question": "If the distance from a point source is tripled, the intensity becomes?",
     "options": {
       "A": "1/3 of original",
@@ -4007,7 +4006,7 @@
   {
     "id": 287,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Reflection & Refraction",
     "question": "Which of the following wave phenomena is responsible for the formation of rainbows?",
     "options": {
       "A": "Diffraction",
@@ -4021,7 +4020,7 @@
   {
     "id": 288,
     "source": "Past Questions Compilation",
-    "topic": "[Electromagnetic Waves]",
+    "topic": "Nuclear Physics",
     "question": "Which electromagnetic radiation is used in TV remote controls?",
     "options": {
       "A": "Ultraviolet",
@@ -4035,7 +4034,7 @@
   {
     "id": 289,
     "source": "Past Questions Compilation",
-    "topic": "[Electromagnetic Waves]",
+    "topic": "Light & Optics",
     "question": "Which type of electromagnetic wave is used in airport security scanners to see inside luggage?",
     "options": {
       "A": "Radio waves",
@@ -4049,7 +4048,7 @@
   {
     "id": 290,
     "source": "Past Questions Compilation",
-    "topic": "[Superposition & Interference]",
+    "topic": "Waves & Wave Phenomena",
     "question": "When two waves of equal frequency are superposed to produce a standing wave, the energy of the standing wave compared to the two travelling waves is?",
     "options": {
       "A": "Double",
@@ -4063,7 +4062,7 @@
   {
     "id": 291,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Velocity]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The phase velocity of a wave is given by?",
     "options": {
       "A": "v = ω × k",
@@ -4077,7 +4076,7 @@
   {
     "id": 292,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Sound & Doppler",
     "question": "A person shouts near a cliff and hears the echo after 3 s. How far away is the cliff? (Speed of sound = 340 m/s)",
     "options": {
       "A": "1020 m",
@@ -4091,7 +4090,7 @@
   {
     "id": 293,
     "source": "Past Questions Compilation",
-    "topic": "[Refraction of Waves]",
+    "topic": "Reflection & Refraction",
     "question": "A wave slows down when passing into a denser medium. This means the wave is?",
     "options": {
       "A": "Refracted away from the normal",
@@ -4105,7 +4104,7 @@
   {
     "id": 294,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "If the amplitude of a wave doubles, the energy transmitted per second?",
     "options": {
       "A": "Doubles",
@@ -4119,7 +4118,7 @@
   {
     "id": 295,
     "source": "Past Questions Compilation",
-    "topic": "[Standing Waves]",
+    "topic": "Standing Waves",
     "question": "In a standing wave on a string, the antinodes are points of?",
     "options": {
       "A": "Permanent zero displacement",
@@ -4133,13 +4132,13 @@
   {
     "id": 296,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Which of the following is TRUE for all waves?",
     "options": {
       "A": "They require a medium",
       "B": "They can be polarized",
       "C": "They can be reflected, refracted, and diffracted",
-      "D": "They travel at 3 × 10⁸ m/s" 
+      "D": "They travel at 3 × 10⁸ m/s"
     },
     "answer": "C",
     "explanation": "Reflection, refraction, and diffraction are properties of ALL wave types (mechanical and electromagnetic, transverse and longitudinal). Requiring a medium applies only to mechanical waves; polarization only to transverse waves; 3×10⁸ m/s only to EM waves in vacuum."
@@ -4147,7 +4146,7 @@
   {
     "id": 297,
     "source": "Past Questions Compilation",
-    "topic": "[Electromagnetic Waves]",
+    "topic": "Nuclear Physics",
     "question": "Gamma rays are emitted from?",
     "options": {
       "A": "Electron transitions in atoms",
@@ -4161,7 +4160,7 @@
   {
     "id": 298,
     "source": "Past Questions Compilation",
-    "topic": "[Superposition & Interference]",
+    "topic": "Interference & Diffraction",
     "question": "Two loudspeakers placed 2 m apart emit sound of wavelength 0.5 m. At what minimum distance from the midpoint along the perpendicular bisector would the first destructive interference be heard?",
     "options": {
       "A": "1.94 m",
@@ -4175,7 +4174,7 @@
   {
     "id": 299,
     "source": "Past Questions Compilation",
-    "topic": "[Polarization]",
+    "topic": "Waves & Wave Phenomena",
     "question": "When unpolarized light of intensity I₀ passes through a polaroid, the transmitted intensity is?",
     "options": {
       "A": "I₀",
@@ -4189,7 +4188,7 @@
   {
     "id": 300,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "Which of the following correctly lists wave properties that can change when a wave moves from one medium to another?",
     "options": {
       "A": "Speed and frequency",
@@ -4203,7 +4202,7 @@
   {
     "id": 301,
     "source": "Past Questions Compilation",
-    "topic": "[Doppler Effect]",
+    "topic": "Waves & Wave Phenomena",
     "question": "At what speed must a source move toward a stationary observer to double the observed frequency? (Speed of sound = v)",
     "options": {
       "A": "v/4",
@@ -4217,7 +4216,7 @@
   {
     "id": 302,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The minimum number of waves needed to define a wavelength is?",
     "options": {
       "A": "Half a wave",
@@ -4231,7 +4230,7 @@
   {
     "id": 303,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Energy]",
+    "topic": "Waves & Wave Phenomena",
     "question": "The SI unit of wave intensity is?",
     "options": {
       "A": "W/m",
@@ -4245,7 +4244,7 @@
   {
     "id": 304,
     "source": "Past Questions Compilation",
-    "topic": "[Reflection of Waves]",
+    "topic": "Waves & Wave Phenomena",
     "question": "When a transverse wave pulse reaches a free (open) boundary, it reflects?",
     "options": {
       "A": "With a phase change of 180°",
@@ -4259,7 +4258,7 @@
   {
     "id": 305,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Standing Waves",
     "question": "How many complete wavelengths fit in the third harmonic of a string fixed at both ends?",
     "options": {
       "A": "1/2",
@@ -4273,7 +4272,7 @@
   {
     "id": 306,
     "source": "Past Questions Compilation",
-    "topic": "[Electromagnetic Waves]",
+    "topic": "Light & Optics",
     "question": "Which of the following electromagnetic waves has a wavelength range of approximately 400 nm to 700 nm?",
     "options": {
       "A": "Ultraviolet",
@@ -4287,7 +4286,7 @@
   {
     "id": 307,
     "source": "Past Questions Compilation",
-    "topic": "[Sound Waves]",
+    "topic": "Photoelectric Effect",
     "question": "The threshold of hearing (minimum audible intensity) is?",
     "options": {
       "A": "1 W/m²",
@@ -4301,7 +4300,7 @@
   {
     "id": 308,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Types]",
+    "topic": "Light & Optics",
     "question": "Which of the following is an example of a wave that can travel through a vacuum?",
     "options": {
       "A": "Sound",
@@ -4315,7 +4314,7 @@
   {
     "id": 309,
     "source": "Past Questions Compilation",
-    "topic": "[Superposition & Interference]",
+    "topic": "Reflection & Refraction",
     "question": "The condition for bright fringes in a thin film of thickness t (light incident normally) is?",
     "options": {
       "A": "2t = nλ",
@@ -4329,7 +4328,7 @@
   {
     "id": 310,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Simple Harmonic Motion",
     "question": "The principle that any wave can be represented as a sum of sine and cosine waves of different frequencies is known as?",
     "options": {
       "A": "Huygens' principle",
@@ -4343,13 +4342,13 @@
   {
     "id": 311,
     "source": "Past Questions Compilation",
-    "topic": "[Refraction of Waves]",
+    "topic": "Reflection & Refraction",
     "question": "A ray of light hits a glass surface at 90° (along the normal). It will?",
     "options": {
       "A": "Refract at a large angle",
       "B": "Pass straight through without bending",
       "C": "Reflect completely",
-      "D": "Be absorbed" 
+      "D": "Be absorbed"
     },
     "answer": "B",
     "explanation": "When a ray hits the boundary along the normal (0° angle of incidence), sin 0° = 0, so sin θ₂ = 0 → θ₂ = 0°. The ray continues straight without changing direction, though it does change speed inside the medium."
@@ -4357,7 +4356,7 @@
   {
     "id": 312,
     "source": "Past Questions Compilation",
-    "topic": "[Wave Properties]",
+    "topic": "Waves & Wave Phenomena",
     "question": "A progressive (travelling) wave carries energy ______ from its source.",
     "options": {
       "A": "None",
@@ -4368,11 +4367,10 @@
     "answer": "C",
     "explanation": "A progressive (travelling) wave transports energy outward from the source in the direction of wave propagation. This is in contrast to a standing wave, which does not transport net energy."
   },
-  
   {
     "id": 313,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "A concave mirror has a focal length of 15 cm. An object is placed 30 cm in front of it. What is the image distance?",
     "options": {
       "A": "10 cm",
@@ -4386,7 +4384,7 @@
   {
     "id": 314,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "A convex lens of focal length 20 cm forms a virtual image at a distance of 10 cm from the lens. What is the object distance?",
     "options": {
       "A": "20/3 cm",
@@ -4400,7 +4398,7 @@
   {
     "id": 315,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "The power of a lens is +5 D. Its focal length is?",
     "options": {
       "A": "5 m",
@@ -4414,7 +4412,7 @@
   {
     "id": 316,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "A concave mirror produces a real image magnified 3 times. If the object distance is 10 cm, the focal length is?",
     "options": {
       "A": "7.5 cm",
@@ -4428,7 +4426,7 @@
   {
     "id": 317,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "An object is placed at the centre of curvature of a concave mirror. The image formed is?",
     "options": {
       "A": "At focus, real and inverted",
@@ -4442,7 +4440,7 @@
   {
     "id": 318,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "A convex mirror has a focal length of 20 cm. An object is placed 30 cm in front of it. The image distance is?",
     "options": {
       "A": "60 cm behind the mirror",
@@ -4456,7 +4454,7 @@
   {
     "id": 319,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "The linear magnification produced by a lens is -0.5. This means the image is?",
     "options": {
       "A": "Real, inverted and diminished",
@@ -4470,7 +4468,7 @@
   {
     "id": 320,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "Two thin convex lenses of focal lengths 10 cm and 20 cm are placed in contact. The effective focal length is?",
     "options": {
       "A": "30 cm",
@@ -4484,7 +4482,7 @@
   {
     "id": 321,
     "source": "Past Questions Compilation",
-    "topic": "Optical Instruments",
+    "topic": "Mirrors",
     "question": "A simple microscope (magnifying glass) has a convex lens of focal length 5 cm. The angular magnification when the image is at the near point (25 cm) is?",
     "options": {
       "A": "2",
@@ -4498,7 +4496,7 @@
   {
     "id": 322,
     "source": "Past Questions Compilation",
-    "topic": "Optical Instruments",
+    "topic": "Mirrors",
     "question": "The angular magnification of a simple microscope when the image is at infinity (normal adjustment) is given by?",
     "options": {
       "A": "1 + D/f",
@@ -4526,7 +4524,7 @@
   {
     "id": 324,
     "source": "Past Questions Compilation",
-    "topic": "Optical Instruments",
+    "topic": "Mirrors",
     "question": "In a compound microscope, the objective forms a real, inverted, and magnified image of the object. This image acts as the ______ for the eyepiece.",
     "options": {
       "A": "Object",
@@ -4568,7 +4566,7 @@
   {
     "id": 327,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Optical Instruments",
     "question": "The normal far point of a human eye is?",
     "options": {
       "A": "25 cm",
@@ -4582,7 +4580,7 @@
   {
     "id": 328,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Reflection & Refraction",
     "question": "The near point of a normal human eye is approximately?",
     "options": {
       "A": "10 cm",
@@ -4596,7 +4594,7 @@
   {
     "id": 329,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Lenses",
     "question": "A person with myopia (short sight) can see clearly objects only up to 50 cm. The power of the lens needed to correct his vision is?",
     "options": {
       "A": "-2 D",
@@ -4610,7 +4608,7 @@
   {
     "id": 330,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Lenses",
     "question": "A hypermetropic (farsighted) person has a near point of 75 cm. What power of convex lens is required to bring the near point to 25 cm?",
     "options": {
       "A": "+1.33 D",
@@ -4624,7 +4622,7 @@
   {
     "id": 331,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Optical Instruments",
     "question": "The ability of the eye to focus on both near and far objects is called?",
     "options": {
       "A": "Refraction",
@@ -4638,7 +4636,7 @@
   {
     "id": 332,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Lenses",
     "question": "Presbyopia is an age-related condition that results from?",
     "options": {
       "A": "Elongation of the eyeball",
@@ -4652,7 +4650,7 @@
   {
     "id": 333,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "An object is placed 40 cm from a concave lens of focal length 20 cm. The image is?",
     "options": {
       "A": "Real, inverted, 13.3 cm from lens",
@@ -4666,7 +4664,7 @@
   {
     "id": 334,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "A concave mirror of radius of curvature 30 cm forms a real image at a distance of 20 cm from the mirror. The object distance is?",
     "options": {
       "A": "60 cm",
@@ -4680,7 +4678,7 @@
   {
     "id": 335,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "A lens has a power of -4 D. What is its nature and focal length?",
     "options": {
       "A": "Convex, 25 cm",
@@ -4694,7 +4692,7 @@
   {
     "id": 336,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "A convex lens of focal length 12 cm forms an erect image three times the size of the object. The object distance is?",
     "options": {
       "A": "8 cm",
@@ -4708,7 +4706,7 @@
   {
     "id": 337,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "The minimum distance between an object and its real image formed by a convex lens is?",
     "options": {
       "A": "0",
@@ -4722,7 +4720,7 @@
   {
     "id": 338,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "An object is placed 15 cm from a convex mirror of focal length 15 cm. The image is located?",
     "options": {
       "A": "7.5 cm behind the mirror",
@@ -4736,7 +4734,7 @@
   {
     "id": 339,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "The image formed by a plane mirror is always?",
     "options": {
       "A": "Real and inverted",
@@ -4750,7 +4748,7 @@
   {
     "id": 340,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "An object 2 cm high is placed 10 cm from a concave mirror of focal length 5 cm. The height of the image is?",
     "options": {
       "A": "1 cm",
@@ -4778,7 +4776,7 @@
   {
     "id": 342,
     "source": "Past Questions Compilation",
-    "topic": "Optical Instruments",
+    "topic": "Waves & Wave Phenomena",
     "question": "The resolving power of a microscope is related to?",
     "options": {
       "A": "The focal length of the objective",
@@ -4792,7 +4790,7 @@
   {
     "id": 343,
     "source": "Past Questions Compilation",
-    "topic": "Optical Instruments",
+    "topic": "Reflection & Refraction",
     "question": "The angle subtended at the eye by the final image of a microscope is called?",
     "options": {
       "A": "Magnifying power",
@@ -4806,7 +4804,7 @@
   {
     "id": 344,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Reflection & Refraction",
     "question": "A person can see clearly objects between 25 cm and 200 cm. He is suffering from?",
     "options": {
       "A": "Myopia only",
@@ -4820,7 +4818,7 @@
   {
     "id": 345,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Lenses",
     "question": "What is the power of the lens required to correct a person whose far point is 2 m (myopia)?",
     "options": {
       "A": "+0.5 D",
@@ -4834,7 +4832,7 @@
   {
     "id": 346,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Lenses",
     "question": "A person with hypermetropia has a near point of 1 m. What lens power is needed to read a book at 25 cm?",
     "options": {
       "A": "+1 D",
@@ -4848,7 +4846,7 @@
   {
     "id": 347,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "A concave lens of focal length 15 cm forms an image 10 cm from the lens. How far is the object from the lens?",
     "options": {
       "A": "6 cm",
@@ -4862,7 +4860,7 @@
   {
     "id": 348,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "A convex lens forms a real image of an object at a distance of 36 cm from the lens. If the object is 12 cm from the lens, the focal length is?",
     "options": {
       "A": "9 cm",
@@ -4890,7 +4888,7 @@
   {
     "id": 350,
     "source": "Past Questions Compilation",
-    "topic": "Optical Instruments",
+    "topic": "Mirrors",
     "question": "The objective of a telescope forms a real, inverted, and diminished image of a distant object. This image is then magnified by the eyepiece. The final image is?",
     "options": {
       "A": "Virtual and inverted",
@@ -4904,7 +4902,7 @@
   {
     "id": 351,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "A spherical mirror has a focal length of -10 cm. This mirror is?",
     "options": {
       "A": "Concave mirror",
@@ -4918,7 +4916,7 @@
   {
     "id": 352,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "A lens of power +2.5 D is placed in contact with a lens of power -1.5 D. The focal length of the combination is?",
     "options": {
       "A": "1 m",
@@ -4932,7 +4930,7 @@
   {
     "id": 353,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "An object is placed at a distance of 30 cm from a convex mirror of focal length 15 cm. The magnification produced is?",
     "options": {
       "A": "1/3",
@@ -4946,7 +4944,7 @@
   {
     "id": 354,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Optical Instruments",
     "question": "Astigmatism is a defect of the eye caused by?",
     "options": {
       "A": "Uneven curvature of the cornea or lens",
@@ -4960,7 +4958,7 @@
   {
     "id": 355,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Optical Instruments",
     "question": "The power of accommodation of a normal eye is about?",
     "options": {
       "A": "2 D",
@@ -4974,7 +4972,7 @@
   {
     "id": 356,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "The radius of curvature of a convex mirror is 40 cm. Its focal length is?",
     "options": {
       "A": "-20 cm",
@@ -4988,7 +4986,7 @@
   {
     "id": 357,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "A thin convex lens of refractive index 1.5 has focal length 20 cm in air. Its focal length when immersed in water (refractive index 1.33) is?",
     "options": {
       "A": "80 cm",
@@ -5002,7 +5000,7 @@
   {
     "id": 358,
     "source": "Past Questions Compilation",
-    "topic": "Optical Instruments",
+    "topic": "Lenses",
     "question": "In a compound microscope, if the focal length of the objective is decreased, the magnifying power will?",
     "options": {
       "A": "Increase",
@@ -5016,7 +5014,7 @@
   {
     "id": 359,
     "source": "Past Questions Compilation",
-    "topic": "Optical Instruments",
+    "topic": "Mirrors",
     "question": "The final image formed by a compound microscope is?",
     "options": {
       "A": "Real and inverted",
@@ -5030,7 +5028,7 @@
   {
     "id": 360,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Lenses",
     "question": "A person uses spectacles of power -1.5 D for distant vision. What is the far point of his eye?",
     "options": {
       "A": "66.7 cm",
@@ -5044,7 +5042,7 @@
   {
     "id": 361,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Light & Optics",
     "question": "The phenomenon of total internal reflection is used in which optical instrument?",
     "options": {
       "A": "Simple microscope",
@@ -5058,7 +5056,7 @@
   {
     "id": 362,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "A convex lens of power +4 D is used as a magnifier. The maximum angular magnification (when image at near point) is (D = 25 cm)?",
     "options": {
       "A": "1",
@@ -5072,7 +5070,7 @@
   {
     "id": 363,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "A concave mirror gives a real image of the same size as the object when the object is at?",
     "options": {
       "A": "Focus",
@@ -5100,7 +5098,7 @@
   {
     "id": 365,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Lenses",
     "question": "Cataract is a condition in which?",
     "options": {
       "A": "The lens becomes opaque",
@@ -5114,7 +5112,7 @@
   {
     "id": 366,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "A student uses a convex lens of focal length 10 cm to form a real image on a screen. If the object is placed at 15 cm from the lens, the image distance is?",
     "options": {
       "A": "30 cm",
@@ -5128,7 +5126,7 @@
   {
     "id": 367,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "An object is placed 20 cm in front of a concave lens of focal length 20 cm. The image is?",
     "options": {
       "A": "10 cm in front of the lens",
@@ -5156,7 +5154,7 @@
   {
     "id": 369,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Reflection & Refraction",
     "question": "The least distance of distinct vision (near point) for a normal eye is about?",
     "options": {
       "A": "Infinity",
@@ -5170,7 +5168,7 @@
   {
     "id": 370,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "A convex lens of refractive index 1.5 has focal length 20 cm in air. Its focal length when placed in a medium of refractive index 1.25 is?",
     "options": {
       "A": "100 cm",
@@ -5184,7 +5182,7 @@
   {
     "id": 371,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "For a convex mirror, the linear magnification is always?",
     "options": {
       "A": "Greater than 1",
@@ -5198,7 +5196,7 @@
   {
     "id": 372,
     "source": "Past Questions Compilation",
-    "topic": "Optical Instruments",
+    "topic": "Mirrors",
     "question": "In an astronomical telescope, the final image is at infinity when the telescope is in?",
     "options": {
       "A": "Normal adjustment",
@@ -5212,7 +5210,7 @@
   {
     "id": 373,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Lenses",
     "question": "A myopic person has a far point of 50 cm. What is the power of the lens required to correct his vision?",
     "options": {
       "A": "+2 D",
@@ -5226,7 +5224,7 @@
   {
     "id": 374,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "A point object is placed on the principal axis of a concave mirror at a distance of 30 cm from it. The radius of curvature is 40 cm. The image distance is?",
     "options": {
       "A": "60 cm",
@@ -5240,7 +5238,7 @@
   {
     "id": 375,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "The lateral inversion produced by a plane mirror is due to?",
     "options": {
       "A": "Diffraction",
@@ -5268,7 +5266,7 @@
   {
     "id": 377,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Optical Instruments",
     "question": "The retina of the eye contains light-sensitive cells called?",
     "options": {
       "A": "Rods and cones",
@@ -5282,7 +5280,7 @@
   {
     "id": 378,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "An object is placed at a distance of 20 cm from a convex lens of focal length 10 cm. The image is?",
     "options": {
       "A": "Real, inverted, same size",
@@ -5296,7 +5294,7 @@
   {
     "id": 379,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "If a convex lens of focal length 10 cm is used as a magnifying glass, the maximum magnification is (D = 25 cm)?",
     "options": {
       "A": "2.5",
@@ -5310,7 +5308,7 @@
   {
     "id": 380,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Light & Optics",
     "question": "The blind spot in the eye is the region where?",
     "options": {
       "A": "Cones are concentrated",
@@ -5324,7 +5322,7 @@
   {
     "id": 381,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "A candle is placed 15 cm in front of a concave mirror of focal length 10 cm. The image distance is?",
     "options": {
       "A": "30 cm",
@@ -5338,7 +5336,7 @@
   {
     "id": 382,
     "source": "Past Questions Compilation",
-    "topic": "Optical Instruments",
+    "topic": "Lenses",
     "question": "The magnifying power of a simple microscope when the image is at infinity is 5. The focal length of the lens is (D = 25 cm)?",
     "options": {
       "A": "5 cm",
@@ -5352,7 +5350,7 @@
   {
     "id": 383,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "A lens is said to be converging if it?",
     "options": {
       "A": "Is thicker at the edges than the middle",
@@ -5366,7 +5364,7 @@
   {
     "id": 384,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Lenses",
     "question": "The function of the ciliary muscles in the human eye is to?",
     "options": {
       "A": "Change the shape of the lens",
@@ -5380,7 +5378,7 @@
   {
     "id": 385,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "A convex mirror has a focal length of 20 cm. An object is placed 10 cm in front of it. The image is located at?",
     "options": {
       "A": "20 cm behind",
@@ -5408,7 +5406,7 @@
   {
     "id": 387,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Lenses",
     "question": "The power of a corrective lens for a hypermetropic person is +2 D. The near point of the person is? (Assume normal near point = 25 cm)",
     "options": {
       "A": "50 cm",
@@ -5422,7 +5420,7 @@
   {
     "id": 388,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "The focal length of a convex lens is 20 cm. Its power is?",
     "options": {
       "A": "0.05 D",
@@ -5450,7 +5448,7 @@
   {
     "id": 390,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Light & Optics",
     "question": "Which part of the eye controls the amount of light entering?",
     "options": {
       "A": "Pupil",
@@ -5464,7 +5462,7 @@
   {
     "id": 391,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "A concave mirror of focal length 12 cm forms a virtual image three times the size of the object. The object distance is?",
     "options": {
       "A": "8 cm",
@@ -5478,7 +5476,7 @@
   {
     "id": 392,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Light & Optics",
     "question": "The refractive index of water is 4/3. The speed of light in water is?",
     "options": {
       "A": "2.25 × 10⁸ m/s",
@@ -5506,7 +5504,7 @@
   {
     "id": 394,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Optical Instruments",
     "question": "A person’s eye has a power of 60 D when relaxed and 64 D when fully accommodated. The near point distance is?",
     "options": {
       "A": "0.25 m",
@@ -5520,7 +5518,7 @@
   {
     "id": 395,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Lenses",
     "question": "A converging lens has a focal length of 8 cm. At what distance from the lens should an object be placed to produce an image at a distance of 24 cm from the lens on the opposite side?",
     "options": {
       "A": "6 cm",
@@ -5534,7 +5532,7 @@
   {
     "id": 396,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Mirrors",
     "question": "A convex mirror used as a rear-view mirror in vehicles has a radius of curvature of 3 m. If a bus is 5 m away from the mirror, the image distance is?",
     "options": {
       "A": "1.15 m behind mirror",
@@ -5548,7 +5546,7 @@
   {
     "id": 397,
     "source": "Past Questions Compilation",
-    "topic": "Optical Instruments",
+    "topic": "Mirrors",
     "question": "The least distance of distinct vision for a normal eye is 25 cm. If a person uses a simple microscope of focal length 10 cm, what is the maximum angular magnification?",
     "options": {
       "A": "2.5",
@@ -5562,7 +5560,7 @@
   {
     "id": 398,
     "source": "Past Questions Compilation",
-    "topic": "The Eye",
+    "topic": "Lenses",
     "question": "The defect of the eye in which the image is formed behind the retina is called?",
     "options": {
       "A": "Myopia",
@@ -5576,7 +5574,7 @@
   {
     "id": 399,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Sound & Acoustics",
     "question": "A lens of refractive index 1.5 has a power of -4 D in air. If it is placed in a liquid of refractive index 1.6, what will be its new power?",
     "options": {
       "A": "+1 D",
@@ -5590,7 +5588,7 @@
   {
     "id": 400,
     "source": "Past Questions Compilation",
-    "topic": "Mirrors and Lenses",
+    "topic": "Sound & Acoustics",
     "question": "A lens of refractive index 1.5 has power +4 D in air. If placed in water (μ=1.33), its power is approximately?",
     "options": {
       "A": "+1 D",
@@ -5601,7 +5599,6 @@
     "answer": "A",
     "explanation": "In air: P_air = (μ_lens - 1)K = (1.5-1)K = 0.5K = 4 ⇒ K = 8. In water: μ_rel = 1.5/1.33 ≈ 1.1278. P_water = (1.1278 - 1)K = 0.1278 × 8 ≈ 1.02 D ≈ +1 D."
   },
-
   {
     "id": 401,
     "source": "Past Questions Compilation",
@@ -5633,7 +5630,7 @@
   {
     "id": 403,
     "source": "Past Questions Compilation",
-    "topic": "Simple Harmonic Motion",
+    "topic": "Waves & Wave Phenomena",
     "question": "The total energy of a particle in simple harmonic motion is proportional to?",
     "options": {
       "A": "Amplitude",
@@ -5647,7 +5644,7 @@
   {
     "id": 404,
     "source": "Past Questions Compilation",
-    "topic": "Simple Harmonic Motion",
+    "topic": "Oscillation & Pendulum",
     "question": "A simple pendulum has a period of 2 s on Earth. On a planet where g is 4 times that of Earth, its period will be?",
     "options": {
       "A": "1 s",
@@ -5731,7 +5728,7 @@
   {
     "id": 410,
     "source": "Past Questions Compilation",
-    "topic": "Simple Harmonic Motion",
+    "topic": "Oscillation & Pendulum",
     "question": "A simple pendulum has length L. If its length is increased by 21%, the percentage increase in period is?",
     "options": {
       "A": "10%",
@@ -5745,7 +5742,7 @@
   {
     "id": 411,
     "source": "Past Questions Compilation",
-    "topic": "Sound Waves",
+    "topic": "Waves & Wave Phenomena",
     "question": "A sound wave of frequency 500 Hz has a wavelength of 0.68 m. The speed of sound is?",
     "options": {
       "A": "340 m/s",
@@ -5759,7 +5756,7 @@
   {
     "id": 412,
     "source": "Past Questions Compilation",
-    "topic": "Sound Waves",
+    "topic": "Waves & Wave Phenomena",
     "question": "The intensity of a sound wave is 10⁻⁶ W/m². Its intensity level in decibels is? (I₀ = 10⁻¹² W/m²)",
     "options": {
       "A": "60 dB",
@@ -5773,7 +5770,7 @@
   {
     "id": 413,
     "source": "Past Questions Compilation",
-    "topic": "Sound Waves",
+    "topic": "Waves & Wave Phenomena",
     "question": "The velocity of sound in air at 0°C is 331 m/s. At 30°C, approximately it is?",
     "options": {
       "A": "349 m/s",
@@ -5787,7 +5784,7 @@
   {
     "id": 414,
     "source": "Past Questions Compilation",
-    "topic": "Sound Waves",
+    "topic": "Sound & Acoustics",
     "question": "Which of the following factors does NOT affect the speed of sound in air?",
     "options": {
       "A": "Temperature",
@@ -5801,7 +5798,7 @@
   {
     "id": 415,
     "source": "Past Questions Compilation",
-    "topic": "Sound Waves",
+    "topic": "Resonance & Vibration",
     "question": "Two sound waves of frequencies 256 Hz and 260 Hz are sounded together. The beat frequency is?",
     "options": {
       "A": "4 Hz",
@@ -5815,7 +5812,7 @@
   {
     "id": 416,
     "source": "Past Questions Compilation",
-    "topic": "Sound Waves",
+    "topic": "Sound & Acoustics",
     "question": "The loudness of a sound is most closely related to its?",
     "options": {
       "A": "Frequency",
@@ -5829,7 +5826,7 @@
   {
     "id": 417,
     "source": "Past Questions Compilation",
-    "topic": "Radioactivity",
+    "topic": "Nuclear Physics",
     "question": "The half-life of a radioactive substance is 10 days. The time taken for 7/8 of the original sample to decay is?",
     "options": {
       "A": "10 days",
@@ -5843,7 +5840,7 @@
   {
     "id": 418,
     "source": "Past Questions Compilation",
-    "topic": "Radioactivity",
+    "topic": "Nuclear Physics",
     "question": "Which of the following has the highest penetrating power?",
     "options": {
       "A": "Alpha particles",
@@ -5857,7 +5854,7 @@
   {
     "id": 419,
     "source": "Past Questions Compilation",
-    "topic": "Radioactivity",
+    "topic": "Nuclear Physics",
     "question": "In β⁻ decay, the atomic number of the parent nucleus:",
     "options": {
       "A": "Increases by 1",
@@ -5871,7 +5868,7 @@
   {
     "id": 420,
     "source": "Past Questions Compilation",
-    "topic": "Radioactivity",
+    "topic": "Nuclear Physics",
     "question": "A radioactive sample has an activity of 800 Bq. After 40 days, its activity is 100 Bq. The half-life is?",
     "options": {
       "A": "10 days",
@@ -5885,7 +5882,7 @@
   {
     "id": 421,
     "source": "Past Questions Compilation",
-    "topic": "Radioactivity",
+    "topic": "Atomic Physics",
     "question": "The emission of an alpha particle from a nucleus causes the mass number to decrease by?",
     "options": {
       "A": "1",
@@ -5899,7 +5896,7 @@
   {
     "id": 422,
     "source": "Past Questions Compilation",
-    "topic": "Radioactivity",
+    "topic": "General Physics",
     "question": "The unit of radioactivity is the becquerel (Bq). One becquerel equals?",
     "options": {
       "A": "1 decay per second",
@@ -5913,7 +5910,7 @@
   {
     "id": 423,
     "source": "Past Questions Compilation",
-    "topic": "Radioactivity",
+    "topic": "Atomic Physics",
     "question": "The phenomenon of radioactivity is associated with?",
     "options": {
       "A": "The nucleus of the atom",
@@ -5927,7 +5924,7 @@
   {
     "id": 424,
     "source": "Past Questions Compilation",
-    "topic": "Atomic Model",
+    "topic": "Nuclear Physics",
     "question": "In Rutherford's gold foil experiment, most alpha particles passed through the foil undeflected because?",
     "options": {
       "A": "The gold nucleus is very small and most of the atom is empty space",
@@ -5941,7 +5938,7 @@
   {
     "id": 425,
     "source": "Past Questions Compilation",
-    "topic": "Atomic Model",
+    "topic": "Atomic Physics",
     "question": "In Bohr's model of the hydrogen atom, the angular momentum of an electron in the nth orbit is proportional to?",
     "options": {
       "A": "n",
@@ -5955,7 +5952,7 @@
   {
     "id": 426,
     "source": "Past Questions Compilation",
-    "topic": "Atomic Model",
+    "topic": "Atomic Physics",
     "question": "The energy of the electron in the nth orbit of hydrogen atom is given by Eₙ = -13.6/n² eV. The wavelength of light emitted when an electron jumps from n=3 to n=2 is?",
     "options": {
       "A": "656 nm",
@@ -5969,7 +5966,7 @@
   {
     "id": 427,
     "source": "Past Questions Compilation",
-    "topic": "Atomic Model",
+    "topic": "General Physics",
     "question": "The maximum number of electrons that can occupy the L shell (n=2) is?",
     "options": {
       "A": "2",
@@ -5983,7 +5980,7 @@
   {
     "id": 428,
     "source": "Past Questions Compilation",
-    "topic": "Atomic Model",
+    "topic": "Atomic Physics",
     "question": "Which of the following is a limitation of Rutherford's atomic model?",
     "options": {
       "A": "It could not explain the stability of the atom",
@@ -5997,7 +5994,7 @@
   {
     "id": 429,
     "source": "Past Questions Compilation",
-    "topic": "Atomic Model",
+    "topic": "Atomic Physics",
     "question": "The series in the hydrogen spectrum that lies in the visible region is the?",
     "options": {
       "A": "Lyman series",
@@ -6011,7 +6008,7 @@
   {
     "id": 430,
     "source": "Past Questions Compilation",
-    "topic": "Relativity",
+    "topic": "Light & Optics",
     "question": "According to the special theory of relativity, the speed of light in vacuum is?",
     "options": {
       "A": "The same for all observers regardless of their motion",
@@ -6025,7 +6022,7 @@
   {
     "id": 431,
     "source": "Past Questions Compilation",
-    "topic": "Relativity",
+    "topic": "General Physics",
     "question": "Time dilation means that a moving clock runs?",
     "options": {
       "A": "Slower compared to a stationary clock",
@@ -6039,7 +6036,7 @@
   {
     "id": 432,
     "source": "Past Questions Compilation",
-    "topic": "Relativity",
+    "topic": "Waves & Wave Phenomena",
     "question": "The Lorentz factor γ is given by?",
     "options": {
       "A": "1/√(1 - v²/c²)",
@@ -6053,7 +6050,7 @@
   {
     "id": 433,
     "source": "Past Questions Compilation",
-    "topic": "Relativity",
+    "topic": "General Physics",
     "question": "At what speed does a clock run at half the rate of a stationary clock? (γ = 2)",
     "options": {
       "A": "0.866c",
@@ -6067,7 +6064,7 @@
   {
     "id": 434,
     "source": "Past Questions Compilation",
-    "topic": "Relativity",
+    "topic": "Waves & Wave Phenomena",
     "question": "The rest energy of an electron (mass m = 9.11 × 10⁻³¹ kg) is approximately?",
     "options": {
       "A": "0.511 MeV",
@@ -6081,7 +6078,7 @@
   {
     "id": 435,
     "source": "Past Questions Compilation",
-    "topic": "Relativity",
+    "topic": "General Physics",
     "question": "Length contraction occurs only in the direction of?",
     "options": {
       "A": "Motion",
@@ -6095,7 +6092,7 @@
   {
     "id": 436,
     "source": "Past Questions Compilation",
-    "topic": "Relativity",
+    "topic": "Waves & Wave Phenomena",
     "question": "The famous equation E = mc² implies that?",
     "options": {
       "A": "Mass and energy are equivalent",
@@ -6109,7 +6106,7 @@
   {
     "id": 437,
     "source": "Past Questions Compilation",
-    "topic": "Relativity",
+    "topic": "General Physics",
     "question": "Two events that are simultaneous in one inertial frame may not be simultaneous in another. This is called?",
     "options": {
       "A": "Relativity of simultaneity",
@@ -6123,7 +6120,7 @@
   {
     "id": 438,
     "source": "Past Questions Compilation",
-    "topic": "Radioactivity",
+    "topic": "Nuclear Physics",
     "question": "If a radioactive element has a decay constant λ = 0.0693 day⁻¹, its half-life is?",
     "options": {
       "A": "10 days",
@@ -6137,7 +6134,7 @@
   {
     "id": 439,
     "source": "Past Questions Compilation",
-    "topic": "Radioactivity",
+    "topic": "Nuclear Physics",
     "question": "Which type of radiation has the greatest ionizing power?",
     "options": {
       "A": "Alpha",
@@ -6151,7 +6148,7 @@
   {
     "id": 440,
     "source": "Past Questions Compilation",
-    "topic": "Atomic Model",
+    "topic": "Quantum Physics",
     "question": "The quantum number that determines the shape of an atomic orbital is the?",
     "options": {
       "A": "Principal quantum number (n)",
@@ -6165,7 +6162,7 @@
   {
     "id": 441,
     "source": "Past Questions Compilation",
-    "topic": "Atomic Model",
+    "topic": "Waves & Wave Phenomena",
     "question": "The ground state energy of hydrogen atom is -13.6 eV. The ionization energy of hydrogen is?",
     "options": {
       "A": "13.6 eV",
@@ -6193,7 +6190,7 @@
   {
     "id": 443,
     "source": "Past Questions Compilation",
-    "topic": "Sound Waves",
+    "topic": "Waves & Wave Phenomena",
     "question": "The fundamental frequency of a closed pipe of length 1 m (speed of sound = 340 m/s) is?",
     "options": {
       "A": "85 Hz",
@@ -6221,7 +6218,7 @@
   {
     "id": 445,
     "source": "Past Questions Compilation",
-    "topic": "Relativity",
+    "topic": "General Physics",
     "question": "A spaceship moves at 0.6c relative to Earth. The time dilation factor γ is?",
     "options": {
       "A": "1.25",
@@ -6235,7 +6232,7 @@
   {
     "id": 446,
     "source": "Past Questions Compilation",
-    "topic": "Radioactivity",
+    "topic": "Nuclear Physics",
     "question": "Carbon dating is based on the radioactive decay of?",
     "options": {
       "A": "Carbon-12",
@@ -6249,7 +6246,7 @@
   {
     "id": 447,
     "source": "Past Questions Compilation",
-    "topic": "Atomic Model",
+    "topic": "Quantum Physics",
     "question": "The de Broglie wavelength of an electron accelerated through a potential difference V is given by?",
     "options": {
       "A": "h/√(2meV)",
@@ -6277,7 +6274,7 @@
   {
     "id": 449,
     "source": "Past Questions Compilation",
-    "topic": "Relativity",
+    "topic": "Waves & Wave Phenomena",
     "question": "The relativistic kinetic energy of a particle of rest mass m₀ moving at speed v is?",
     "options": {
       "A": "½ m₀v²",
@@ -6291,7 +6288,7 @@
   {
     "id": 450,
     "source": "Past Questions Compilation",
-    "topic": "Sound Waves",
+    "topic": "Waves & Wave Phenomena",
     "question": "A siren emitting a frequency of 1000 Hz approaches a stationary observer at 20 m/s. The observed frequency is? (v_sound = 340 m/s)",
     "options": {
       "A": "1062.5 Hz",
@@ -6301,7 +6298,1805 @@
     },
     "answer": "A",
     "explanation": "f' = f × v/(v - v_s) = 1000 × 340/(340 - 20) = 1000 × 340/320 = 1000 × 1.0625 = 1062.5 Hz."
+  },
+  {
+    "id": 541,
+    "topic": "Nuclear Physics",
+    "question": "Which experiment led to the nuclear model of the atom by showing that most alpha particles pass through gold foil with little deflection?",
+    "options": [
+      "Millikan oil drop",
+      "Rutherford gold foil",
+      "Thomson cathode ray",
+      "Compton scattering"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 542,
+    "topic": "Atomic Physics",
+    "question": "In Bohr’s model, what happens when an electron jumps from a higher energy level to a lower one?",
+    "options": [
+      "A photon is absorbed",
+      "The atom becomes ionized",
+      "A photon is emitted",
+      "The nucleus decays"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 543,
+    "topic": "Atomic Physics",
+    "question": "What is the approximate radius of a typical atomic nucleus?",
+    "options": [
+      "10⁻¹⁰ m",
+      "10⁻¹⁵ m",
+      "10⁻⁵ m",
+      "10⁻¹ m"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 544,
+    "topic": "Nuclear Physics",
+    "question": "Which particle has the smallest mass among proton, neutron, electron, and alpha particle?",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Alpha particle"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 545,
+    "topic": "Atomic Physics",
+    "question": "The atomic number of an element is determined by the number of:",
+    "options": [
+      "Neutrons",
+      "Protons",
+      "Nucleons",
+      "Electrons in the outermost shell"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 546,
+    "topic": "General Physics",
+    "question": "Isotopes of an element differ in the number of:",
+    "options": [
+      "Protons",
+      "Electrons",
+      "Neutrons",
+      "Positrons"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 547,
+    "topic": "General Physics",
+    "question": "In the plum pudding model, the negative charges are:",
+    "options": [
+      "Embedded in a positive sphere",
+      "Orbiting the nucleus",
+      "Concentrated at the centre",
+      "Absent"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 548,
+    "topic": "Quantum Physics",
+    "question": "Which quantum number specifies the shape of an orbital?",
+    "options": [
+      "Principal (n)",
+      "Azimuthal (l)",
+      "Magnetic (m_l)",
+      "Spin (m_s)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 549,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The energy of an electron in a hydrogen atom is quantized. The ground state energy is –13.6 eV. The first excited state energy is approximately:",
+    "options": [
+      "–3.4 eV",
+      "–6.8 eV",
+      "–1.5 eV",
+      "–0.85 eV"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 550,
+    "topic": "Light & Optics",
+    "question": "The Lyman series of hydrogen lies in which region of the electromagnetic spectrum?",
+    "options": [
+      "Ultraviolet",
+      "Visible",
+      "Infrared",
+      "Radio"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 551,
+    "topic": "Atomic Physics",
+    "question": "The Balmer series corresponds to electron transitions ending at n =",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 552,
+    "topic": "Atomic Physics",
+    "question": "The Paschen series lies in the:",
+    "options": [
+      "Ultraviolet",
+      "Visible",
+      "Infrared",
+      "X‑ray"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 553,
+    "topic": "Atomic Physics",
+    "question": "The Pfund series corresponds to transitions ending at n =",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 554,
+    "topic": "Atomic Physics",
+    "question": "Which hydrogen series has wavelengths in the visible range?",
+    "options": [
+      "Lyman",
+      "Balmer",
+      "Paschen",
+      "Brackett"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 555,
+    "topic": "Atomic Physics",
+    "question": "The Rydberg constant for hydrogen is approximately:",
+    "options": [
+      "1.097 × 10⁷ m⁻¹",
+      "1.097 × 10⁵ m⁻¹",
+      "1.097 × 10⁹ m⁻¹",
+      "1.097 × 10³ m⁻¹"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 556,
+    "topic": "Atomic Physics",
+    "question": "The spectral lines of hydrogen become closer as n increases because:",
+    "options": [
+      "Energy levels converge",
+      "Energy levels diverge",
+      "Photon energy increases",
+      "Wavelength decreases"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 557,
+    "topic": "Atomic Physics",
+    "question": "Ionisation energy of hydrogen atom is:",
+    "options": [
+      "13.6 eV",
+      "10.2 eV",
+      "3.4 eV",
+      "1.9 eV"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 558,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The shortest wavelength in the Lyman series occurs for transition from n = ∞ to n = 1. Its value is about:",
+    "options": [
+      "91.2 nm",
+      "121.6 nm",
+      "102.6 nm",
+      "97.3 nm"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 559,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The longest wavelength in the Balmer series corresponds to transition from n = 3 to n = 2. Its approximate wavelength is:",
+    "options": [
+      "656 nm",
+      "486 nm",
+      "434 nm",
+      "410 nm"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 560,
+    "topic": "General Physics",
+    "question": "Spectral lines are broadened by all of the following except:",
+    "options": [
+      "Doppler effect",
+      "Collisions",
+      "Natural line width",
+      "Refractive index"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 561,
+    "topic": "Quantum Physics",
+    "question": "De Broglie proposed that particles behave as waves with wavelength λ = h/p. This is called:",
+    "options": [
+      "Wave-particle duality",
+      "Uncertainty principle",
+      "Compton effect",
+      "Photoelectric effect"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 562,
+    "topic": "Interference & Diffraction",
+    "question": "Electron diffraction experiments confirm:",
+    "options": [
+      "Particle nature of electrons",
+      "Wave nature of electrons",
+      "Both",
+      "Neither"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 563,
+    "topic": "Quantum Physics",
+    "question": "The de Broglie wavelength of an electron accelerated through 100 V is about:",
+    "options": [
+      "0.122 nm",
+      "0.0122 nm",
+      "1.22 nm",
+      "12.2 nm"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 564,
+    "topic": "Quantum Physics",
+    "question": "According to de Broglie, a proton and an electron have the same kinetic energy. Which has the longer wavelength?",
+    "options": [
+      "Proton",
+      "Electron",
+      "Same",
+      "Depends on velocity"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 565,
+    "topic": "Quantum Physics",
+    "question": "The wave nature of a moving baseball (mass 0.1 kg, speed 40 m/s) is not observable because its de Broglie wavelength is:",
+    "options": [
+      "Too large",
+      "Too small",
+      "Infinity",
+      "Zero"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 566,
+    "topic": "General Physics",
+    "question": "The Davisson–Germer experiment demonstrated:",
+    "options": [
+      "Photoelectric effect",
+      "Compton scattering",
+      "Electron diffraction",
+      "Blackbody radiation"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 567,
+    "topic": "Light & Optics",
+    "question": "When a photon collides with an electron at rest, the photon's wavelength increases. This is the:",
+    "options": [
+      "Photoelectric effect",
+      "Compton effect",
+      "Thomson scattering",
+      "Pair production"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 568,
+    "topic": "Photoelectric Effect",
+    "question": "In Compton scattering, the increase in wavelength is maximum when the scattering angle is:",
+    "options": [
+      "0°",
+      "90°",
+      "180°",
+      "45°"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 569,
+    "topic": "Photoelectric Effect",
+    "question": "The Compton wavelength of the electron is about:",
+    "options": [
+      "2.43 × 10⁻¹² m",
+      "2.43 × 10⁻¹⁰ m",
+      "2.43 × 10⁻¹⁵ m",
+      "2.43 × 10⁻⁶ m"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 570,
+    "topic": "Light & Optics",
+    "question": "A photon has momentum p = E/c. This is an example of:",
+    "options": [
+      "Wave nature of light",
+      "Particle nature of light",
+      "Both",
+      "Neither"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 571,
+    "topic": "General Physics",
+    "question": "The uncertainty principle states that Δx Δp ≥ ħ/2. This is a consequence of:",
+    "options": [
+      "Wave-particle duality",
+      "Pauli exclusion",
+      "Bohr's correspondence",
+      "Electron spin"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 572,
+    "topic": "General Physics",
+    "question": "If the position of an electron is known very precisely, its momentum becomes:",
+    "options": [
+      "Very precise",
+      "Uncertain",
+      "Zero",
+      "Infinite"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 573,
+    "topic": "Light & Optics",
+    "question": "Which of the following is not a property of a photon?",
+    "options": [
+      "Zero rest mass",
+      "Electric charge",
+      "Energy proportional to frequency",
+      "Momentum"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 574,
+    "topic": "Photoelectric Effect",
+    "question": "In the photoelectric effect, the stopping potential depends on:",
+    "options": [
+      "Light intensity",
+      "Light frequency",
+      "Both",
+      "Light speed"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 575,
+    "topic": "Photoelectric Effect",
+    "question": "The threshold frequency in photoelectric effect is the frequency at which the kinetic energy of electrons is:",
+    "options": [
+      "Maximum",
+      "Minimum",
+      "Zero",
+      "Half of maximum"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 576,
+    "topic": "Photoelectric Effect",
+    "question": "A metal has work function 2.3 eV. Which wavelength will just barely cause photoemission?",
+    "options": [
+      "300 nm",
+      "400 nm",
+      "540 nm",
+      "600 nm"
+    ],
+    "answer": "C (hc/φ ≈ 1240/2.3 ≈ 539 nm)"
+  },
+  {
+    "id": 577,
+    "topic": "Light & Optics",
+    "question": "The number of photoelectrons emitted per second is proportional to the incident light's:",
+    "options": [
+      "Frequency",
+      "Intensity",
+      "Wavelength",
+      "Speed"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 578,
+    "topic": "Light & Optics",
+    "question": "Einstein explained the photoelectric effect by assuming that light consists of:",
+    "options": [
+      "Waves",
+      "Photons",
+      "Electrons",
+      "Protons"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 579,
+    "topic": "Photoelectric Effect",
+    "question": "The Compton effect provides evidence for:",
+    "options": [
+      "Wave nature of electrons",
+      "Particle nature of photons",
+      "Wave nature of photons",
+      "Particle nature of electrons"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 580,
+    "topic": "Interference & Diffraction",
+    "question": "Double-slit experiment with electrons produces an interference pattern, which demonstrates:",
+    "options": [
+      "Wave nature of electrons",
+      "Particle nature of electrons",
+      "Both",
+      "Neither"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 581,
+    "topic": "Sound & Acoustics",
+    "question": "A sound wave travels from air into water. Which property remains unchanged?",
+    "options": [
+      "Speed",
+      "Wavelength",
+      "Frequency",
+      "Amplitude"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 582,
+    "topic": "Sound & Doppler",
+    "question": "The speed of sound in air at 0°C is about 331 m/s. At 20°C, it is approximately:",
+    "options": [
+      "331 m/s",
+      "340 m/s",
+      "343 m/s",
+      "350 m/s"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 583,
+    "topic": "Sound & Doppler",
+    "question": "A person hears an echo 0.6 s after clapping. If speed of sound is 340 m/s, how far is the reflecting surface?",
+    "options": [
+      "102 m",
+      "204 m",
+      "51 m",
+      "340 m"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 584,
+    "topic": "General Physics",
+    "question": "Two tuning forks have frequencies 256 Hz and 260 Hz. How many beats per second are heard?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 585,
+    "topic": "Waves & Wave Phenomena",
+    "question": "A source of sound of frequency 500 Hz moves towards a stationary observer at 30 m/s. Speed of sound = 330 m/s. The observed frequency is:",
+    "options": [
+      "550 Hz",
+      "458 Hz",
+      "500 Hz",
+      "530 Hz"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 586,
+    "topic": "Mirrors",
+    "question": "A concave mirror forms a virtual image when the object is placed:",
+    "options": [
+      "At focus",
+      "Between pole and focus",
+      "At centre of curvature",
+      "Beyond centre of curvature"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 587,
+    "topic": "Mirrors",
+    "question": "An object is placed 20 cm in front of a concave mirror of focal length 10 cm. The image distance is:",
+    "options": [
+      "–20 cm",
+      "20 cm",
+      "–10 cm",
+      "10 cm"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 588,
+    "topic": "Optical Instruments",
+    "question": "In a compound microscope, the eyepiece acts as:",
+    "options": [
+      "A diverging lens",
+      "A simple magnifier",
+      "A projector lens",
+      "A field lens"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 589,
+    "topic": "Optical Instruments",
+    "question": "The total magnification of a compound microscope is the product of:",
+    "options": [
+      "Objective power and eyepiece power",
+      "Objective focal length and eyepiece focal length",
+      "Tube length and objective diameter",
+      "Eyepiece power and tube length"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 590,
+    "topic": "Nuclear Physics",
+    "question": "In beta-minus decay, the atomic number of the daughter nucleus:",
+    "options": [
+      "Increases by 1",
+      "Decreases by 1",
+      "Remains the same",
+      "Increases by 2"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 591,
+    "topic": "Nuclear Physics",
+    "question": "The half‑life of a radioactive substance is 10 days. After 40 days, what fraction remains?",
+    "options": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/16"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 592,
+    "topic": "Light & Optics",
+    "question": "According to special relativity, the speed of light in vacuum is:",
+    "options": [
+      "Constant in all inertial frames",
+      "Relative to the source",
+      "Relative to the observer",
+      "Infinite"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 593,
+    "topic": "General Physics",
+    "question": "Time dilation means that a moving clock runs:",
+    "options": [
+      "Faster",
+      "Slower",
+      "At the same rate",
+      "Backwards"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 594,
+    "topic": "Simple Harmonic Motion",
+    "question": "In SHM, the maximum velocity is given by:",
+    "options": [
+      "ωA",
+      "ω²A",
+      "A/ω",
+      "ω/A"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 595,
+    "topic": "Simple Harmonic Motion",
+    "question": "A particle executes SHM with amplitude 0.05 m and frequency 2 Hz. Its maximum speed is:",
+    "options": [
+      "0.1π m/s",
+      "0.2π m/s",
+      "0.4π m/s",
+      "0.8π m/s"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 596,
+    "topic": "Lenses",
+    "question": "A person with myopia (nearsightedness) needs a lens that is:",
+    "options": [
+      "Converging",
+      "Diverging",
+      "Plano-convex",
+      "Biconvex"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 597,
+    "topic": "General Physics",
+    "question": "Hypermetropia (farsightedness) is corrected using a:",
+    "options": [
+      "Concave lens",
+      "Convex lens",
+      "Cylindrical lens",
+      "Bifocal lens"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 598,
+    "topic": "Light & Optics",
+    "question": "Which of the following is not an electromagnetic wave?",
+    "options": [
+      "X‑rays",
+      "Radio waves",
+      "Sound waves",
+      "Gamma rays"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 599,
+    "topic": "Light & Optics",
+    "question": "The speed of electromagnetic waves in vacuum is:",
+    "options": [
+      "3 × 10⁸ m/s",
+      "3 × 10⁵ m/s",
+      "3 × 10⁶ m/s",
+      "3 × 10⁷ m/s"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 600,
+    "topic": "Interference & Diffraction",
+    "question": "Diffraction is more pronounced when the slit width is:",
+    "options": [
+      "Much larger than wavelength",
+      "Comparable to wavelength",
+      "Much smaller than wavelength",
+      "Equal to half wavelength"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 601,
+    "topic": "Waves & Wave Phenomena",
+    "question": "Which of the following shows that light is a transverse wave?",
+    "options": [
+      "Interference",
+      "Diffraction",
+      "Polarization",
+      "Reflection"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 602,
+    "topic": "Reflection & Refraction",
+    "question": "Brewster’s angle is the angle of incidence at which the reflected light is:",
+    "options": [
+      "Unpolarized",
+      "Completely polarized perpendicular to the plane of incidence",
+      "Completely polarized in the plane of incidence",
+      "Circularly polarized"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 603,
+    "topic": "Standing Waves",
+    "question": "Standing waves are formed by:",
+    "options": [
+      "Interference of two waves travelling in same direction",
+      "Interference of two waves travelling in opposite directions",
+      "Single wave",
+      "Diffraction"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 604,
+    "topic": "Interference & Diffraction",
+    "question": "In Young’s double‑slit experiment, fringe width is 0.5 mm, slit separation 0.5 mm, distance to screen 1 m. The wavelength used is:",
+    "options": [
+      "250 nm",
+      "500 nm",
+      "750 nm",
+      "1000 nm"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 605,
+    "topic": "Interference & Diffraction",
+    "question": "In Young's experiment, if the entire setup is immersed in water, the fringe width:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains same",
+      "Becomes zero"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 606,
+    "topic": "Nuclear Physics",
+    "question": "A sample has activity 800 Bq. After 6 hours, activity is 100 Bq. The half‑life is:",
+    "options": [
+      "1 hour",
+      "2 hours",
+      "3 hours",
+      "4 hours"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 607,
+    "topic": "Reflection & Refraction",
+    "question": "The critical angle for a medium is 45°. Its refractive index is:",
+    "options": [
+      "√2",
+      "1/√2",
+      "2",
+      "1.5"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 608,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The wave equation y = A sin(kx – ωt) represents a wave travelling in the:",
+    "options": [
+      "+x direction",
+      "–x direction",
+      "+y direction",
+      "–y direction"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 609,
+    "topic": "Sound & Acoustics",
+    "question": "If the intensity of sound is increased by a factor of 100, the sound level increases by:",
+    "options": [
+      "10 dB",
+      "20 dB",
+      "40 dB",
+      "100 dB"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 610,
+    "topic": "Standing Waves",
+    "question": "The fundamental frequency of a stretched string is f. If tension is increased four times, new fundamental frequency is:",
+    "options": [
+      "f/2",
+      "f",
+      "2f",
+      "4f"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 611,
+    "topic": "Simple Harmonic Motion",
+    "question": "A mass m on a spring of constant k oscillates with period T. If the mass is doubled, the new period is:",
+    "options": [
+      "T/√2",
+      "T√2",
+      "2T",
+      "T/2"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 612,
+    "topic": "Oscillation & Pendulum",
+    "question": "If a simple pendulum has period T on Earth, on a planet with half the gravity, the new period is:",
+    "options": [
+      "T/√2",
+      "T√2",
+      "T/2",
+      "2T"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 613,
+    "topic": "Resonance & Vibration",
+    "question": "Resonance occurs when the driving frequency is:",
+    "options": [
+      "Less than natural frequency",
+      "Equal to natural frequency",
+      "Greater than natural frequency",
+      "Zero"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 614,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The equation E = mc² shows that:",
+    "options": [
+      "Mass can be converted to energy",
+      "Energy can be converted to mass",
+      "Both A and B",
+      "Mass and energy are separate"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 615,
+    "topic": "General Physics",
+    "question": "In the symbol ᴬ₂X, Z represents:",
+    "options": [
+      "Mass number",
+      "Atomic number",
+      "Number of neutrons",
+      "Nucleon number"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 616,
+    "topic": "General Physics",
+    "question": "Which of the following are isotopes?",
+    "options": [
+      "¹²C and ¹⁴C",
+      "²³Na and ²⁴Mg",
+      "¹⁶O and ¹⁸F",
+      "³H and ⁴He"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 617,
+    "topic": "Nuclear Physics",
+    "question": "Gamma decay is usually accompanied by:",
+    "options": [
+      "Alpha or beta decay",
+      "Only beta decay",
+      "Only alpha decay",
+      "It occurs alone"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 618,
+    "topic": "Nuclear Physics",
+    "question": "Which radiation has the greatest penetrating power?",
+    "options": [
+      "Alpha",
+      "Beta",
+      "Gamma",
+      "Neutron"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 619,
+    "topic": "Reflection & Refraction",
+    "question": "The phenomenon of total internal reflection is used in:",
+    "options": [
+      "Optical fibres",
+      "Periscopes",
+      "Microscopes",
+      "Cameras"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 620,
+    "topic": "Light & Optics",
+    "question": "Total internal reflection occurs when light travels from:",
+    "options": [
+      "Rarer to denser",
+      "Denser to rarer",
+      "Same medium",
+      "Any medium"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 621,
+    "topic": "Mirrors",
+    "question": "An object is placed 15 cm from a convex lens of focal length 10 cm. The image distance is:",
+    "options": [
+      "6 cm",
+      "30 cm",
+      "–30 cm",
+      "–6 cm"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 622,
+    "topic": "Mirrors",
+    "question": "A convex mirror always forms an image that is:",
+    "options": [
+      "Real, inverted",
+      "Virtual, erect",
+      "Real, erect",
+      "Virtual, inverted"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 623,
+    "topic": "Mirrors",
+    "question": "The distance between an object and its plane mirror image is 40 cm. The object is placed at:",
+    "options": [
+      "20 cm from mirror",
+      "40 cm from mirror",
+      "10 cm from mirror",
+      "80 cm from mirror"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 624,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The maximum kinetic energy of photoelectrons depends on:",
+    "options": [
+      "Light intensity",
+      "Light frequency",
+      "Both A and B",
+      "Number of incident photons"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 625,
+    "topic": "Photoelectric Effect",
+    "question": "The work function of a metal is 2.0 eV. The threshold wavelength is approximately:",
+    "options": [
+      "620 nm",
+      "310 nm",
+      "1240 nm",
+      "500 nm"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 626,
+    "topic": "Photoelectric Effect",
+    "question": "X‑rays are produced when electrons are accelerated through voltage V. The minimum wavelength is given by:",
+    "options": [
+      "hc/eV",
+      "eV/hc",
+      "hcV/e",
+      "e/hcV"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 627,
+    "topic": "Quantum Physics",
+    "question": "The de Broglie wavelength of a particle is inversely proportional to its:",
+    "options": [
+      "Mass",
+      "Velocity",
+      "Momentum",
+      "Energy"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 628,
+    "topic": "Interference & Diffraction",
+    "question": "A diffraction grating has 5000 lines per cm. The grating spacing d is:",
+    "options": [
+      "2 × 10⁻⁶ m",
+      "5 × 10⁻⁶ m",
+      "2 × 10⁻⁴ m",
+      "5 × 10⁻⁴ m"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 629,
+    "topic": "Reflection & Refraction",
+    "question": "Snell’s law is given by:",
+    "options": [
+      "n₁ sin θ₁ = n₂ sin θ₂",
+      "n₁ sin θ₂ = n₂ sin θ₁",
+      "sin θ₁ / sin θ₂ = constant",
+      "Both A and C"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 630,
+    "topic": "Light & Optics",
+    "question": "Dispersion of light occurs because the refractive index of a medium depends on:",
+    "options": [
+      "Intensity",
+      "Frequency",
+      "Polarization",
+      "Angle of incidence"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 631,
+    "topic": "Resonance & Vibration",
+    "question": "Thin film interference in soap bubbles produces colours due to:",
+    "options": [
+      "Diffraction",
+      "Reflection and refraction with path difference",
+      "Dispersion",
+      "Polarization"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 632,
+    "topic": "General Physics",
+    "question": "Each point on a wavefront acts as a source of:",
+    "options": [
+      "Secondary spherical wavelets",
+      "Plane waves",
+      "Longitudinal waves",
+      "Stationary waves"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 633,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The principle of superposition states that resultant displacement is the vector sum of individual displacements. This is valid for:",
+    "options": [
+      "Only linear waves",
+      "Only non-linear waves",
+      "All waves",
+      "Only mechanical waves"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 634,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The intensity of a spherical wave at distance r is proportional to:",
+    "options": [
+      "1/r",
+      "1/r²",
+      "1/r³",
+      "Constant"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 635,
+    "topic": "Waves & Wave Phenomena",
+    "question": "In a transverse wave, particles vibrate:",
+    "options": [
+      "Along the direction of propagation",
+      "Perpendicular to propagation",
+      "In circles",
+      "Randomly"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 636,
+    "topic": "Sound & Doppler",
+    "question": "Sound waves are an example of:",
+    "options": [
+      "Transverse waves",
+      "Longitudinal waves",
+      "Electromagnetic waves",
+      "Torsional waves"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 637,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The velocity of a wave is given by:",
+    "options": [
+      "fλ",
+      "λ/f",
+      "f/λ",
+      "1/(fλ)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 638,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The energy of a wave is proportional to the square of its:",
+    "options": [
+      "Frequency",
+      "Wavelength",
+      "Amplitude",
+      "Speed"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 639,
+    "topic": "Waves & Wave Phenomena",
+    "question": "In SHM, the total energy is proportional to:",
+    "options": [
+      "Amplitude",
+      "Amplitude²",
+      "Frequency",
+      "Mass"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 640,
+    "topic": "Standing Waves",
+    "question": "In a damped harmonic oscillator, critical damping results in:",
+    "options": [
+      "No oscillation, fastest return to equilibrium",
+      "Oscillations with decreasing amplitude",
+      "Sustained oscillations",
+      "Increasing amplitude oscillations"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 641,
+    "topic": "Mirrors",
+    "question": "To photograph a distant object clearly, a camera lens should be at a distance from the film equal to:",
+    "options": [
+      "Focal length",
+      "Twice focal length",
+      "More than focal length",
+      "Less than focal length"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 642,
+    "topic": "Mirrors",
+    "question": "The angular magnification of a simple magnifier (focal length f) for a normal eye focused at infinity is:",
+    "options": [
+      "25/f",
+      "f/25",
+      "25/f + 1",
+      "f/25 + 1"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 643,
+    "topic": "Mirrors",
+    "question": "When an object is placed beyond the centre of curvature of a concave mirror, the image is:",
+    "options": [
+      "Real, inverted, diminished",
+      "Real, inverted, enlarged",
+      "Virtual, erect, enlarged",
+      "Virtual, erect, diminished"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 644,
+    "topic": "Lenses",
+    "question": "A convex lens of focal length 5 cm is used as a magnifying glass. What is the maximum angular magnification for a normal eye (near point 25 cm)?",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "10"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 645,
+    "topic": "Mirrors",
+    "question": "If a plane mirror is rotated by 10°, the reflected ray rotates by:",
+    "options": [
+      "10°",
+      "20°",
+      "5°",
+      "0°"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 646,
+    "topic": "General Physics",
+    "question": "The blue colour of the sky is due to:",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Rayleigh scattering",
+      "Diffraction"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 647,
+    "topic": "Nuclear Physics",
+    "question": "A beta particle is identical to:",
+    "options": [
+      "A helium nucleus",
+      "A high-energy electron",
+      "A photon",
+      "A proton"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 648,
+    "topic": "Nuclear Physics",
+    "question": "Iodine‑131 has a half‑life of 8 days. Starting with 16 g, how much remains after 24 days?",
+    "options": [
+      "8 g",
+      "4 g",
+      "2 g",
+      "1 g"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 649,
+    "topic": "Atomic Physics",
+    "question": "An electron in a hydrogen atom falls from n=3 to n=1. The emitted photon belongs to which series?",
+    "options": [
+      "Lyman",
+      "Balmer",
+      "Paschen",
+      "Brackett"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 650,
+    "topic": "General Physics",
+    "question": "Beats are produced due to:",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Interference of two waves of slightly different frequencies",
+      "Diffraction"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 651,
+    "topic": "Photoelectric Effect",
+    "question": "The Compton shift depends on:",
+    "options": [
+      "The wavelength of incident photon",
+      "The scattering angle",
+      "The atomic number of the target",
+      "The intensity of radiation"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 652,
+    "topic": "Waves & Wave Phenomena",
+    "question": "A source of sound moves towards a stationary observer in water. The observed frequency:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Stays same",
+      "Becomes zero"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 653,
+    "topic": "Interference & Diffraction",
+    "question": "For constructive interference of two waves, the path difference should be:",
+    "options": [
+      "nλ",
+      "(2n+1)λ/2",
+      "(2n+1)λ",
+      "nλ/2"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 654,
+    "topic": "Interference & Diffraction",
+    "question": "In single‑slit diffraction, the first minimum occurs when the path difference is:",
+    "options": [
+      "λ",
+      "λ/2",
+      "3λ/2",
+      "λ/4"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 655,
+    "topic": "General Physics",
+    "question": "Polaroid sunglasses reduce glare because reflected light from surfaces is:",
+    "options": [
+      "Unpolarized",
+      "Partially polarized",
+      "Completely plane polarized horizontally",
+      "Completely plane polarized vertically"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 656,
+    "topic": "Sound & Acoustics",
+    "question": "When light enters from air to water (higher refractive index), it bends:",
+    "options": [
+      "Towards the normal",
+      "Away from the normal",
+      "Along the normal",
+      "Not at all"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 657,
+    "topic": "Light & Optics",
+    "question": "Speed of light in glass (n=1.5) is:",
+    "options": [
+      "2 × 10⁸ m/s",
+      "3 × 10⁸ m/s",
+      "4.5 × 10⁸ m/s",
+      "1.5 × 10⁸ m/s"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 658,
+    "topic": "Sound & Doppler",
+    "question": "The speed of sound in air at 27°C is approximately:",
+    "options": [
+      "300 m/s",
+      "330 m/s",
+      "347 m/s",
+      "360 m/s"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 659,
+    "topic": "Standing Waves",
+    "question": "If the linear density of a string is quadrupled, the wave speed (for same tension) becomes:",
+    "options": [
+      "Half",
+      "Double",
+      "One-fourth",
+      "Same"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 660,
+    "topic": "Standing Waves",
+    "question": "For a string fixed at both ends, the second harmonic has a wavelength equal to:",
+    "options": [
+      "String length",
+      "Half string length",
+      "Twice string length",
+      "String length/4"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 661,
+    "topic": "Resonance & Vibration",
+    "question": "A tuning fork resonates with an air column. This happens when the frequency of the fork equals:",
+    "options": [
+      "Natural frequency of the column",
+      "Twice the natural frequency",
+      "Half the natural frequency",
+      "Any frequency"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 662,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The differential equation for SHM is:",
+    "options": [
+      "d²x/dt² = –ω²x",
+      "dx/dt = –ωx",
+      "d²x/dt² = ω²x",
+      "dx/dt = ωx"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 663,
+    "topic": "Light & Optics",
+    "question": "A simple microscope (magnifying glass) uses a:",
+    "options": [
+      "Concave lens",
+      "Convex lens",
+      "Concave mirror",
+      "Plane mirror"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 664,
+    "topic": "Lenses",
+    "question": "The power of a corrective lens is +2.5 D. This lens is:",
+    "options": [
+      "Concave with focal length 40 cm",
+      "Convex with focal length 40 cm",
+      "Concave with focal length 25 cm",
+      "Convex with focal length 25 cm"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 665,
+    "topic": "Nuclear Physics",
+    "question": "The decay constant λ and half‑life T are related by:",
+    "options": [
+      "λ = ln2 / T",
+      "λ = T / ln2",
+      "λ = 1 / T",
+      "λ = 2 / T"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 666,
+    "topic": "General Physics",
+    "question": "Length contraction occurs in the direction of:",
+    "options": [
+      "Perpendicular to motion",
+      "Parallel to motion",
+      "Both directions",
+      "Neither direction"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 667,
+    "topic": "Quantum Physics",
+    "question": "The concept of wave-particle duality applies to:",
+    "options": [
+      "Only light",
+      "Only electrons",
+      "All matter and radiation",
+      "Only photons"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 668,
+    "topic": "Atomic Physics",
+    "question": "The Rydberg formula for hydrogen is 1/λ = R(1/n₁² – 1/n₂²). For the Balmer series, n₁ =",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 669,
+    "topic": "Atomic Physics",
+    "question": "The Brackett series of hydrogen lies in the:",
+    "options": [
+      "Ultraviolet",
+      "Visible",
+      "Near infrared",
+      "Far infrared"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 670,
+    "topic": "Waves & Wave Phenomena",
+    "question": "A photon of energy E has momentum p = E/c. This relation is derived from:",
+    "options": [
+      "Planck's law",
+      "Einstein's mass-energy equivalence",
+      "Compton scattering",
+      "De Broglie hypothesis"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 671,
+    "topic": "General Physics",
+    "question": "The fine structure of spectral lines is caused by:",
+    "options": [
+      "Electron spin-orbit coupling",
+      "Nuclear spin",
+      "Isotopic shift",
+      "Doppler broadening"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 672,
+    "topic": "General Physics",
+    "question": "The Zeeman effect is the splitting of spectral lines in the presence of:",
+    "options": [
+      "Electric field",
+      "Magnetic field",
+      "Gravitational field",
+      "Strong light"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 673,
+    "topic": "Quantum Physics",
+    "question": "If the kinetic energy of an electron is doubled, its de Broglie wavelength becomes:",
+    "options": [
+      "Half",
+      "1/√2 times",
+      "√2 times",
+      "Double"
+    ],
+    "answer": "B (λ ∝ 1/√K)"
+  },
+  {
+    "id": 674,
+    "topic": "Atomic Physics",
+    "question": "The absorption spectrum of an atom consists of:",
+    "options": [
+      "Bright lines on a dark background",
+      "Dark lines on a bright background",
+      "Continuous spectrum",
+      "Band spectrum"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 675,
+    "topic": "General Physics",
+    "question": "Heisenberg’s uncertainty principle is a direct consequence of:",
+    "options": [
+      "Wave-particle duality",
+      "Pauli exclusion principle",
+      "Bohr's correspondence",
+      "Planck's constant"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 676,
+    "topic": "Atomic Physics",
+    "question": "In the Bohr model, the angular momentum of an electron in the nth orbit is:",
+    "options": [
+      "nħ",
+      "n²ħ",
+      "ħ/n",
+      "nħ/2π"
+    ],
+    "answer": "D (nħ/2π or nℏ)"
+  },
+  {
+    "id": 677,
+    "topic": "Quantum Physics",
+    "question": "The de Broglie wavelength of a macroscopic object is extremely small because its momentum is:",
+    "options": [
+      "Large",
+      "Small",
+      "Zero",
+      "Infinite"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 678,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The Lyman limit (shortest wavelength) for hydrogen is about 91.2 nm. This corresponds to the energy:",
+    "options": [
+      "13.6 eV",
+      "10.2 eV",
+      "3.4 eV",
+      "1.9 eV"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 679,
+    "topic": "Photoelectric Effect",
+    "question": "In the photoelectric effect, the number of emitted electrons is proportional to the:",
+    "options": [
+      "Frequency of incident light",
+      "Intensity of incident light",
+      "Work function",
+      "Stopping potential"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 680,
+    "topic": "Atomic Physics",
+    "question": "The hydrogen emission spectrum is an example of:",
+    "options": [
+      "Continuous spectrum",
+      "Line spectrum",
+      "Band spectrum",
+      "Absorption spectrum"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 681,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The energy of the n=2 level in hydrogen is –3.4 eV. The energy of n=∞ is 0 eV. The wavelength of the transition from n=∞ to n=2 is:",
+    "options": [
+      "365 nm",
+      "121.6 nm",
+      "656 nm",
+      "91.2 nm"
+    ],
+    "answer": "A (λ = hc/3.4 eV = 1240/3.4 ≈ 365 nm)"
+  },
+  {
+    "id": 682,
+    "topic": "General Physics",
+    "question": "Electron microscopy uses the wave nature of electrons to achieve high resolution because electrons have:",
+    "options": [
+      "Short de Broglie wavelength",
+      "Long de Broglie wavelength",
+      "High charge",
+      "High mass"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 683,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The Balmer series limit (shortest wavelength) is approximately:",
+    "options": [
+      "365 nm",
+      "656 nm",
+      "486 nm",
+      "410 nm"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 684,
+    "topic": "Photoelectric Effect",
+    "question": "The Compton effect demonstrates that photons have:",
+    "options": [
+      "Momentum",
+      "Mass",
+      "Charge",
+      "Spin"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 685,
+    "topic": "Atomic Physics",
+    "question": "The emission spectrum of a gas discharge tube contains:",
+    "options": [
+      "Only one line",
+      "Many discrete lines",
+      "Continuous band",
+      "No lines"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 686,
+    "topic": "General Physics",
+    "question": "A laser beam is an example of:",
+    "options": [
+      "Stimulated emission with coherent photons",
+      "Spontaneous emission",
+      "Blackbody radiation",
+      "Compton scattering"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 687,
+    "topic": "Atomic Physics",
+    "question": "The Pickering series is similar to Balmer but occurs in:",
+    "options": [
+      "Hydrogen",
+      "Helium+ (He⁺)",
+      "Lithium",
+      "Deuterium"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 688,
+    "topic": "General Physics",
+    "question": "The probability of finding a particle in a region is proportional to the square of the:",
+    "options": [
+      "Wave function amplitude",
+      "Wave function phase",
+      "Momentum",
+      "Wavelength"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 689,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The ionisation energy of He⁺ (Z=2) in the ground state is:",
+    "options": [
+      "13.6 eV",
+      "27.2 eV",
+      "54.4 eV",
+      "6.8 eV"
+    ],
+    "answer": "C (E = Z² × 13.6 = 4 × 13.6 = 54.4 eV)"
+  },
+  {
+    "id": 690,
+    "topic": "Waves & Wave Phenomena",
+    "question": "The photoelectric effect is explained by assuming light consists of particles called photons with energy E = hf. This supports:",
+    "options": [
+      "Wave nature of light",
+      "Particle nature of light",
+      "Both",
+      "Neither"
+    ],
+    "answer": "B"
   }
-
-
 ]

@@ -3,7 +3,11 @@
 
 <div class="result-container">
     <div class="result-header">
-        <h2>{{ subject.title() }} — {{ mode.upper() }} Result</h2>
+        <h2>
+            {{ subject.title() }} 
+            {% if topic %} — {{ topic }}{% endif %} 
+            — {{ mode.upper() }} Result
+        </h2>
         {% if name %}<p>Candidate: <strong>{{ name }}</strong></p>{% endif %}
     </div>
 

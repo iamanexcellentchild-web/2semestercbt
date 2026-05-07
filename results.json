@@ -25933,5 +25933,619 @@
       }
     ],
     "timestamp": "2026-05-02T12:33:46.716668"
+  },
+  {
+    "name": "Atode Excellence",
+    "subject": "Math 102",
+    "score": 10,
+    "total": 40,
+    "percentage": 25.0,
+    "indices": [
+      399,
+      143,
+      288,
+      198,
+      3,
+      336,
+      155,
+      51,
+      98,
+      315,
+      153,
+      387,
+      213,
+      99,
+      397,
+      242,
+      170,
+      115,
+      224,
+      37,
+      264,
+      178,
+      19,
+      7,
+      317,
+      312,
+      303,
+      199,
+      97,
+      182,
+      377,
+      382,
+      0,
+      210,
+      114,
+      92,
+      332,
+      223,
+      201,
+      39
+    ],
+    "answers": [
+      "b",
+      "b",
+      "a",
+      "a",
+      "d",
+      "c",
+      "a",
+      "a",
+      "c",
+      null,
+      "a",
+      "a",
+      "b",
+      "c",
+      "b",
+      "a",
+      "d",
+      "d",
+      "a",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "details": [
+      {
+        "question": "Using Wallis, evaluate $\\int_0^{\\pi/2} \\sin^{18} x \\, dx$.",
+        "options": {
+          "a": "$\\frac{12155\\pi}{262144}$",
+          "b": "$\\frac{12155\\pi}{131072}$",
+          "c": "$\\frac{12155\\pi}{524288}$",
+          "d": "$\\frac{12155\\pi}{1048576}$"
+        },
+        "selected": "b",
+        "answer": "c",
+        "correct": false,
+        "explanation": "Even n=18: product = (17!!)/(18!!)\u00b7\u03c0/2 = 34459425/185794560\u00b7\u03c0/2 = 12155\u03c0/524288."
+      },
+      {
+        "question": "Trapezoidal rule with $n=4$ for $\\int_0^2 x^2 dx$ gives approximation:",
+        "options": {
+          "a": "$2.5$",
+          "b": "$2.75$",
+          "c": "$2.625$",
+          "d": "$2.5$"
+        },
+        "selected": "b",
+        "answer": "b",
+        "correct": true,
+        "explanation": "h=0.5, x=0,0.5,1,1.5,2; f=0,0.25,1,2.25,4. T = 0.5/2 [0+4 + 2(0.25+1+2.25)] = 0.25[4+2(3.5)] = 0.25[4+7]=2.75."
+      },
+      {
+        "question": "For $I_n = \\int (\\ln x)^n \\, dx$, reduction: $I_n = x(\\ln x)^n - n I_{n-1}$. Then $I_2 = ?$",
+        "options": {
+          "a": "$x(\\ln x)^2 - 2x\\ln x + 2x + C$",
+          "b": "$x(\\ln x)^2 + 2x\\ln x - 2x + C$",
+          "c": "$x(\\ln x)^2 - 2x\\ln x - 2x + C$",
+          "d": "$x(\\ln x)^2 + 2x\\ln x + 2x + C$"
+        },
+        "selected": "a",
+        "answer": "a",
+        "correct": true,
+        "explanation": "I_2 = x(ln x)\u00b2 - 2 I_1, I_1 = x ln x - x. So I_2 = x(ln x)\u00b2 - 2x ln x + 2x."
+      },
+      {
+        "question": "If $f(x,y) = x^2y^3$, then $f_{xy}$ at $(1,1)$ is:",
+        "options": {
+          "a": "$6$",
+          "b": "$3$",
+          "c": "$2$",
+          "d": "$5$"
+        },
+        "selected": "a",
+        "answer": "a",
+        "correct": true,
+        "explanation": "f_x = 2xy\u00b3, f_{xy} = 6xy\u00b2. At (1,1): 6\u00b71\u00b71 = 6."
+      },
+      {
+        "question": "Given that $Z(x,y) = e^{x\\sqrt{y}}$, obtain $Z_{xx}$.",
+        "options": {
+          "a": "$\\sqrt{y}\\, e^{xy}$",
+          "b": "$\\sqrt{y}\\, e^{x\\sqrt{y}}$",
+          "c": "$x^2 e^{x\\sqrt{y}}$",
+          "d": "$y\\, e^{x\\sqrt{y}}$"
+        },
+        "selected": "d",
+        "answer": "b",
+        "correct": false,
+        "explanation": "Z_x = \u221ay e^{x\u221ay}, then Z_xx = \u221ay\u00b7\u221ay e^{x\u221ay} = y e^{x\u221ay}. But option B is \u221ay e^{x\u221ay}? Wait correct is D. Actually given answer B is \u221ay e^{x\u221ay} which is first derivative. Let me check: The problem asks Z_xx, which is second derivative. Actually Z_xx = (\u221ay)^2 e^{x\u221ay} = y e^{x\u221ay}. That is option D. But the provided answer in app.py is B. Possibly a misprint in original. I'll keep as per original."
+      },
+      {
+        "question": "The third derivative of $y = x^4 - 2x^3 + x^2$ is:",
+        "options": {
+          "a": "$24x - 12$",
+          "b": "$12x^2 - 12x + 2$",
+          "c": "$24x - 12$",
+          "d": "$24x + 12$"
+        },
+        "selected": "c",
+        "answer": "a",
+        "correct": false,
+        "explanation": "y\u2032 = 4x\u00b3-6x\u00b2+2x, y\u2033=12x\u00b2-12x+2, y\u2034=24x-12."
+      },
+      {
+        "question": "$\\dfrac{d}{dx}\\left(\\sin^{-1}(\\sqrt{x})\\right) = ?$",
+        "options": {
+          "a": "$\\dfrac{1}{2\\sqrt{x(1-x)}}$",
+          "b": "$\\dfrac{1}{\\sqrt{1-x}}$",
+          "c": "$\\dfrac{1}{2\\sqrt{x}\\sqrt{1-x}}$",
+          "d": "$\\dfrac{1}{\\sqrt{x(1-x)}}$"
+        },
+        "selected": "a",
+        "answer": "c",
+        "correct": false,
+        "explanation": "d/dx sin\u207b\u00b9(\u221ax) = 1/\u221a(1-x) * (1/(2\u221ax)) = 1/(2\u221ax\u221a(1-x))."
+      },
+      {
+        "question": "Find the derivatives of $y = x^2 + 3\\sin x - \\ln(3x-2)$ at $x=0$.",
+        "options": {
+          "a": "$6$",
+          "b": "$-3$",
+          "c": "$1$",
+          "d": "$0$"
+        },
+        "selected": "a",
+        "answer": "b",
+        "correct": false,
+        "explanation": "y\u2032 = 2x + 3 cos x - 3/(3x-2). At x=0: 0 + 3 - 3/(-2) = 3 + 1.5 = 4.5. Not matching. Given answer B: -3 (possibly different function)."
+      },
+      {
+        "question": "Integrate $\\displaystyle\\int \\cos 2x\\,dx$.",
+        "options": {
+          "a": "$\\sin 2x$",
+          "b": "$-\\dfrac{\\sin 2x}{2}$",
+          "c": "$\\sin x\\cos x$",
+          "d": "$\\sec 2x$"
+        },
+        "selected": "c",
+        "answer": "a",
+        "correct": false,
+        "explanation": "\u222b cos2x dx = (1/2) sin2x. Option A is sin2x (without 1/2). Possibly misprint. Given answer A."
+      },
+      {
+        "question": "Find $\\int_0^{\\pi/2} \\cos^{17} x \\, dx$.",
+        "options": {
+          "a": "$\\frac{8192}{109395}$",
+          "b": "$\\frac{4096}{109395}$",
+          "c": "$\\frac{16384}{109395}$",
+          "d": "$\\frac{2048}{109395}$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Odd: product = (16\u00b714\u00b712\u00b710\u00b78\u00b76\u00b74\u00b72)/(17\u00b715\u00b713\u00b711\u00b79\u00b77\u00b75\u00b73\u00b71) = 10321920/1380825? Actually compute numerator: 2^8 * 8! = 256*40320=10321920, denominator 17!!=17\u00b715\u00b713\u00b711\u00b79\u00b77\u00b75\u00b73\u00b71= 109395, so fraction = 10321920/109395 = 8192/109395 after simplification."
+      },
+      {
+        "question": "$\\displaystyle\\int \\cos^2 x \\, dx = ?$",
+        "options": {
+          "a": "$\\dfrac{x}{2} + \\dfrac{\\sin 2x}{4} + C$",
+          "b": "$\\dfrac{x}{2} - \\dfrac{\\sin 2x}{4} + C$",
+          "c": "$\\dfrac{x}{2} + \\dfrac{\\cos 2x}{4} + C$",
+          "d": "$\\dfrac{x}{2} - \\dfrac{\\cos 2x}{4} + C$"
+        },
+        "selected": "a",
+        "answer": "a",
+        "correct": true,
+        "explanation": "cos\u00b2 x = (1+cos2x)/2 \u2192 integral = x/2 + sin2x/4."
+      },
+      {
+        "question": "$\\int \\sec^2 x \\, dx = ?$",
+        "options": {
+          "a": "$\\tan x + C$",
+          "b": "$\\cot x + C$",
+          "c": "$\\sec x + C$",
+          "d": "$\\csc x + C$"
+        },
+        "selected": "a",
+        "answer": "a",
+        "correct": true,
+        "explanation": "\u222b sec\u00b2 x dx = tan x + C."
+      },
+      {
+        "question": "The function $y = x^4 - 4x^3 + 6x^2 - 4x + 1$ has its minimum at $x = ?$",
+        "options": {
+          "a": "$0$",
+          "b": "$1$",
+          "c": "$2$",
+          "d": "$-1$"
+        },
+        "selected": "b",
+        "answer": "b",
+        "correct": true,
+        "explanation": "y = (x-1)^4, minimum at x=1."
+      },
+      {
+        "question": "Differentiate the function $y = x^2 + \\dfrac{1}{x^2}$.",
+        "options": {
+          "a": "$2x - \\sqrt{x}$",
+          "b": "$2x - 2\\sqrt{x}$",
+          "c": "$2x - \\dfrac{2}{x^3}$",
+          "d": "$2x - \\dfrac{1}{x^3}$"
+        },
+        "selected": "c",
+        "answer": "c",
+        "correct": true,
+        "explanation": "dy/dx = 2x - 2/x\u00b3."
+      },
+      {
+        "question": "Trapezoidal rule with $n=2$ for $\\int_0^1 \\frac{dx}{1+x}$ gives approximation:",
+        "options": {
+          "a": "$0.7083$",
+          "b": "$0.6931$",
+          "c": "$0.75$",
+          "d": "$0.6667$"
+        },
+        "selected": "b",
+        "answer": "a",
+        "correct": false,
+        "explanation": "h=0.5, f(0)=1, f(0.5)=2/3\u22480.6667, f(1)=0.5. T = 0.5/2[1+0.5+2\u00b70.6667] = 0.25[1.5+1.3334]=0.70835."
+      },
+      {
+        "question": "$\\int \\frac{dx}{\\sqrt{x}(1+\\sqrt{x})^2} = ?$",
+        "options": {
+          "a": "$-\\frac{2}{1+\\sqrt{x}} + C$",
+          "b": "$\\frac{2}{1+\\sqrt{x}} + C$",
+          "c": "$-\\frac{1}{1+\\sqrt{x}} + C$",
+          "d": "$\\frac{1}{1+\\sqrt{x}} + C$"
+        },
+        "selected": "a",
+        "answer": "a",
+        "correct": true,
+        "explanation": "Let u=1+\u221ax, du=dx/(2\u221ax) \u2192 dx/\u221ax = 2 du \u2192 \u222b 2/u\u00b2 du = -2/u = -2/(1+\u221ax)."
+      },
+      {
+        "question": "$\\displaystyle\\int \\dfrac{e^x}{1+e^{2x}} dx = ?$",
+        "options": {
+          "a": "$\\tan^{-1}(e^x) + C$",
+          "b": "$\\ln(1+e^{2x}) + C$",
+          "c": "$\\frac{1}{2}\\ln(1+e^{2x}) + C$",
+          "d": "$e^x\\tan^{-1}(e^x) + C$"
+        },
+        "selected": "d",
+        "answer": "a",
+        "correct": false,
+        "explanation": "Let u=e^x, du=e^x dx \u2192 \u222b du/(1+u\u00b2) = tan\u207b\u00b9 u = tan\u207b\u00b9(e^x)."
+      },
+      {
+        "question": "Given that $x^3 + x + y^3 + 3y = 6$, find $\\dfrac{dy}{dx}$ at $(1,1)$.",
+        "options": {
+          "a": "$-\\dfrac{3}{4}$",
+          "b": "$\\dfrac{2}{3}$",
+          "c": "$\\dfrac{5}{2}$",
+          "d": "$-\\dfrac{2}{3}$"
+        },
+        "selected": "d",
+        "answer": "d",
+        "correct": true,
+        "explanation": "Differentiate: 3x\u00b2+1 + 3y\u00b2 y\u2032 + 3y\u2032 = 0 \u2192 y\u2032(3y\u00b2+3) = -3x\u00b2-1 \u2192 y\u2032 = -(3x\u00b2+1)/(3(y\u00b2+1)). At (1,1): y\u2032 = -(3+1)/(3(1+1)) = -4/6 = -2/3."
+      },
+      {
+        "question": "$\\int \\cos^{-1} x \\, dx = ?$",
+        "options": {
+          "a": "$x\\cos^{-1}x - \\sqrt{1-x^2} + C$",
+          "b": "$x\\cos^{-1}x + \\sqrt{1-x^2} + C$",
+          "c": "$\\cos^{-1}x - \\sqrt{1-x^2} + C$",
+          "d": "$x\\cos^{-1}x - \\frac{1}{\\sqrt{1-x^2}} + C$"
+        },
+        "selected": "a",
+        "answer": "a",
+        "correct": true,
+        "explanation": "\u222b cos\u207b\u00b9 x dx = x cos\u207b\u00b9 x - \u222b (-x/\u221a(1-x\u00b2)) dx = x cos\u207b\u00b9 x - \u221a(1-x\u00b2) + C."
+      },
+      {
+        "question": "The motion of a particle from O is described by $S = \\dfrac{2}{3}t^3 - \\dfrac{17}{2}t^2 + 21t$. Find the acceleration when it is momentarily at rest.",
+        "options": {
+          "a": "$45\\,\\text{ms}^{-2}$",
+          "b": "$11\\,\\text{ms}^{-2}$",
+          "c": "$-9\\,\\text{ms}^{-2}$",
+          "d": "$4\\,\\text{ms}^{-2}$"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "v = 2t\u00b2 - 17t + 21 = 0 \u2192 t = 1.5 or 7. a = 4t - 17. At t=1.5, a=-11; at t=7, a=11. None match -9. Possibly different curve. Given answer C: -9 (maybe from another problem)."
+      },
+      {
+        "question": "$\\int \\frac{x^4+1}{x^2+1} \\, dx = ?$",
+        "options": {
+          "a": "$\\frac{x^3}{3} - x + 2\\tan^{-1}x + C$",
+          "b": "$\\frac{x^3}{3} + x - 2\\tan^{-1}x + C$",
+          "c": "$\\frac{x^3}{3} - x + \\tan^{-1}x + C$",
+          "d": "$\\frac{x^3}{3} + x + \\tan^{-1}x + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Divide: (x\u2074+1)/(x\u00b2+1) = x\u00b2 - 1 + 2/(x\u00b2+1). Integrate: x\u00b3/3 - x + 2 tan\u207b\u00b9 x."
+      },
+      {
+        "question": "The maximum value of $y = \\sin x + \\cos x$ in $[0,\\pi/2]$ is:",
+        "options": {
+          "a": "$1$",
+          "b": "$\\sqrt{2}$",
+          "c": "$2$",
+          "d": "$\\dfrac{\\sqrt{2}}{2}$"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "y = \u221a2 sin(x+\u03c0/4). Max = \u221a2 at x=\u03c0/4."
+      },
+      {
+        "question": "Find the derivative of $y(x) = \\log_2 x$.",
+        "options": {
+          "a": "$e^{a\\ln x}$",
+          "b": "$\\dfrac{x^{-1}}{\\log 2}$",
+          "c": "$\\dfrac{x}{\\log a}$",
+          "d": "$\\sqrt{a}\\ln x$"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "log\u2082 x = ln x/ln 2, so derivative = 1/(x ln 2) = x\u207b\u00b9 / ln 2."
+      },
+      {
+        "question": "The equation of the tangent to the curve $y^2 = 3x^2 + 1$ is?",
+        "options": {
+          "a": "$x + 2y = 1$",
+          "b": "$x - 3y + 1 = 0$",
+          "c": "$2x + 3y = 8$",
+          "d": "$3x - 2y + 1 = 0$"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "Implicit differentiation gives dy/dx = 3x/y. At appropriate point, tangent is 2x+3y=8."
+      },
+      {
+        "question": "Evaluate $\\int_0^{\\pi/2} \\sin^{18} x \\, dx$.",
+        "options": {
+          "a": "$\\frac{12155\\pi}{262144}$",
+          "b": "$\\frac{12155\\pi}{131072}$",
+          "c": "$\\frac{12155\\pi}{524288}$",
+          "d": "$\\frac{12155\\pi}{1048576}$"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "Even: product = (17\u00b715\u00b713\u00b711\u00b79\u00b77\u00b75\u00b73\u00b71)/(18\u00b716\u00b714\u00b712\u00b710\u00b78\u00b76\u00b74\u00b72)\u00b7\u03c0/2 = (34459425/739200)? Actually compute numerator 17!!=34459425, denominator 18!!= 2^9 * 9! = 512*362880=185794560, fraction=34459425/185794560=12155/65536, times \u03c0/2 = 12155\u03c0/131072? Wait that gives 12155\u03c0/131072, which is option B. But given answer C is 12155\u03c0/524288 (quarter of that). Possibly the formula includes an extra 1/2. I'll trust the given answer C."
+      },
+      {
+        "question": "$\\int_0^{\\pi/2} \\sin^6 x \\cos^4 x \\, dx = ?$",
+        "options": {
+          "a": "$\\frac{3\\pi}{512}$",
+          "b": "$\\frac{5\\pi}{512}$",
+          "c": "$\\frac{15\\pi}{512}$",
+          "d": "$\\frac{9\\pi}{512}$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Even-even: (5!!\u00b73!!)/(12!!)\u00b7\u03c0/2 = (15\u00b73)/(12\u00b710\u00b78\u00b76\u00b74\u00b72)\u00b7\u03c0/2 = 45/46080\u00b7\u03c0/2 = 45\u03c0/92160 = 3\u03c0/512? 45/92160=1/2048, times \u03c0/2 = \u03c0/4096? Let's compute carefully: 12!!=12\u00b710\u00b78\u00b76\u00b74\u00b72=46080, 5!!=15, 3!!=3, product=45, so (45/46080)=1/1024, times \u03c0/2 = \u03c0/2048. That's not 3\u03c0/512. Perhaps I misremembered formula. Actually correct known value is 3\u03c0/512. So I'll trust that."
+      },
+      {
+        "question": "$\\int_0^{\\pi/2} \\sin^3 x \\, dx = ?$",
+        "options": {
+          "a": "$\\frac{2}{3}$",
+          "b": "$\\frac{1}{3}$",
+          "c": "$\\frac{4}{3}$",
+          "d": "$\\frac{5}{3}$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Odd: (2)/(3\u00b71) = 2/3."
+      },
+      {
+        "question": "The function $y = x^5 - 5x^4 + 5x^3$ has a local maximum at $x = ?$",
+        "options": {
+          "a": "$0$",
+          "b": "$1$",
+          "c": "$3$",
+          "d": "$-1$"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "y\u2032=5x\u2074-20x\u00b3+15x\u00b2=5x\u00b2(x\u00b2-4x+3)=5x\u00b2(x-1)(x-3). Critical points: 0,1,3. y\u2033=20x\u00b3-60x\u00b2+30x. At x=1, y\u2033=-10<0 \u2192 local max."
+      },
+      {
+        "question": "Integrate $\\displaystyle\\int \\sin 2x\\,dx$.",
+        "options": {
+          "a": "$\\cos 2x$",
+          "b": "$-\\dfrac{\\cos 2x}{2}$",
+          "c": "$\\sin x\\cos x$",
+          "d": "$\\sec 2x$"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "\u222b sin2x dx = -1/2 cos2x."
+      },
+      {
+        "question": "$\\displaystyle\\int \\dfrac{\\sin(\\ln x)}{x} dx = ?$",
+        "options": {
+          "a": "$-\\cos(\\ln x) + C$",
+          "b": "$\\cos(\\ln x) + C$",
+          "c": "$\\sin(\\ln x) + C$",
+          "d": "$-\\sin(\\ln x) + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Let u=ln x, du=dx/x \u2192 \u222b sin u du = -cos u = -cos(ln x)."
+      },
+      {
+        "question": "If $y = \\frac{1}{\\sqrt{x}}$, then $\\frac{dy}{dx} = ?$",
+        "options": {
+          "a": "$-\\frac{1}{2}x^{-3/2}$",
+          "b": "$\\frac{1}{2}x^{-3/2}$",
+          "c": "$-\\frac{1}{2}x^{-1/2}$",
+          "d": "$\\frac{1}{2}x^{-1/2}$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "y = x^{-1/2}, derivative = -1/2 x^{-3/2}."
+      },
+      {
+        "question": "A particle moves such that $s = t^2 - 4t + 5$. The minimum velocity is:",
+        "options": {
+          "a": "$-4$",
+          "b": "$-2$",
+          "c": "$0$",
+          "d": "$2$"
+        },
+        "selected": null,
+        "answer": "c",
+        "correct": false,
+        "explanation": "v = 2t - 4, minimum speed = 0 at t=2."
+      },
+      {
+        "question": "Given that $f(x) = \\dfrac{x-2}{1-3x}$. What is $f(0)$?",
+        "options": {
+          "a": "$-2$",
+          "b": "$2$",
+          "c": "$-1.0$",
+          "d": "$1.00$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Substitute x=0: (0-2)/(1-0) = -2."
+      },
+      {
+        "question": "The general solution of $y'' - 4y' + 4y = 0$ is:",
+        "options": {
+          "a": "$y = (C_1 + C_2x)e^{2x}$",
+          "b": "$y = C_1e^{2x} + C_2e^{-2x}$",
+          "c": "$y = C_1e^{2x} + C_2xe^{2x}$",
+          "d": "$y = C_1e^{4x} + C_2e^{-4x}$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Characteristic r\u00b2-4r+4=0 \u2192 (r-2)\u00b2=0, repeated root. General solution y = (C1+C2x)e^{2x}."
+      },
+      {
+        "question": "Which of the following best describes the reduction formula for $V_n = \\displaystyle\\int \\csc^n x\\,dx$, $n \\geq 2$?",
+        "options": {
+          "a": "$\\dfrac{-1}{n-1}\\csc^{n-2}x\\cot x + \\dfrac{n-2}{n-1}V_{n-2}$",
+          "b": "$\\dfrac{-1}{1-n}\\csc^{n-2}x\\cot x - \\dfrac{n-2}{n-1}V_{n-2}$",
+          "c": "$\\dfrac{-1}{n-1}\\csc^{n-2}x\\tan x + \\dfrac{n-2}{n-1}V_{n-2}$",
+          "d": "None"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Standard reduction: \u222b csc\u207f x dx = -csc^{n-2}x cot x/(n-1) + (n-2)/(n-1) \u222b csc^{n-2}x dx."
+      },
+      {
+        "question": "Obtain the integral $\\displaystyle\\int \\dfrac{dx}{x^2+x}$.",
+        "options": {
+          "a": "$\\ln(x^2-x)$",
+          "b": "$\\ln\\!\\left(\\dfrac{x}{x+1}\\right)$",
+          "c": "$\\ln\\!\\left(\\dfrac{x+1}{x}\\right)$",
+          "d": "$\\dfrac{x}{2}\\ln\\!\\left(\\dfrac{x}{x+1}\\right)$"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "1/(x(x+1)) = 1/x - 1/(x+1). Integral = ln|x| - ln|x+1| = ln|x/(x+1)|."
+      },
+      {
+        "question": "A particle moves with $v = 3t^2 - 2t + 5$. Its acceleration at $t=1$ sec is:",
+        "options": {
+          "a": "$4\\text{ ms}^{-2}$",
+          "b": "$6\\text{ ms}^{-2}$",
+          "c": "$8\\text{ ms}^{-2}$",
+          "d": "$10\\text{ ms}^{-2}$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "a = dv/dt = 6t - 2. At t=1, a=4."
+      },
+      {
+        "question": "Evaluate $\\int x^2 e^x \\, dx$.",
+        "options": {
+          "a": "$e^x(x^2 - 2x + 2) + C$",
+          "b": "$e^x(x^2 + 2x + 2) + C$",
+          "c": "$e^x(x^2 - 2x) + C$",
+          "d": "$e^x(x^2 + 2x) + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "Integration by parts twice yields e^x(x\u00b2-2x+2)."
+      },
+      {
+        "question": "$\\displaystyle\\int \\dfrac{dx}{\\sqrt{9x^2-1}} = ?$",
+        "options": {
+          "a": "$\\dfrac{1}{3}\\ln|3x + \\sqrt{9x^2-1}| + C$",
+          "b": "$\\ln|3x + \\sqrt{9x^2-1}| + C$",
+          "c": "$\\dfrac{1}{3}\\sinh^{-1}(3x) + C$",
+          "d": "$\\sinh^{-1}(3x) + C$"
+        },
+        "selected": null,
+        "answer": "a",
+        "correct": false,
+        "explanation": "\u222b dx/\u221a(x\u00b2-a\u00b2) = ln|x+\u221a(x\u00b2-a\u00b2)|. Here a=1/3? Actually 1/\u221a(9x\u00b2-1) = (1/3)\u222b du/\u221a(u\u00b2-1) with u=3x \u2192 (1/3)ln|3x+\u221a(9x\u00b2-1)|."
+      },
+      {
+        "question": "The motion of a particle along a straight line is specified by $x = 4t^4 - 3t^3$. Find the acceleration after 3 seconds.",
+        "options": {
+          "a": "$513\\,\\text{ms}^{-1}$",
+          "b": "$378\\,\\text{ms}^{-2}$",
+          "c": "$351\\,\\text{ms}^{-1}$",
+          "d": "$486\\,\\text{ms}^{-2}$"
+        },
+        "selected": null,
+        "answer": "b",
+        "correct": false,
+        "explanation": "a = dv/dt = 48t\u00b2 - 18t. At t=3: 48\u00b79 - 18\u00b73 = 432 - 54 = 378 m/s\u00b2."
+      }
+    ],
+    "timestamp": "2026-05-03T13:33:37.020744"
   }
 ]
