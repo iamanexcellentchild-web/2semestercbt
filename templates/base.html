@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title if title else "CBT Quiz App" }}</title>
+    <title>{{ title if title else "CBT Quiz App - Master Your Exams" }}</title>
+
+    <!-- Modern CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/modern.css') }}">
 
     <!-- MathJax for LaTeX rendering -->
     <script>
@@ -423,12 +426,13 @@
 </head>
 <body>
     <header>
-        <h1><strong>Merit Tutorials 👨‍🎓 👓 📚</strong></h1>
+        <h1>🎓 Merit Tutorials</h1>
         <nav>
             {% if session.get('username') %}
-                <span>{{ session.get('username') }}</span>
-                <a href="{{ url_for('flashcards') }}">📚 Study Flashcards</a>
-                <a href="{{ url_for('history') }}">My History</a>
+                <span class="badge-pro">✅ READY</span>
+                <span style="color: white; font-weight: 500;">{{ session.get('username') }}</span>
+                <a href="{{ url_for('flashcards') }}">📚 Flashcards</a>
+                <a href="{{ url_for('history') }}">📊 History</a>
                 <a href="{{ url_for('logout') }}">Logout</a>
             {% else %}
                 <a href="{{ url_for('login') }}">Login</a>
@@ -436,11 +440,14 @@
         </nav>
     </header>
 
-    {% with messages = get_flashed_messages() %}
+    {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
-            <ul class="flashes">
-                {% for m in messages %}<li>{{ m }}</li>{% endfor %}
-            </ul>
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category if category != 'message' else 'info' }}" style="margin: 1rem 2rem 0;">
+                    {{ message }}
+                    <button onclick="this.parentElement.style.display='none';" style="float: right; background: none; border: none; color: inherit; cursor: pointer; font-size: 1.5rem; line-height: 1;">×</button>
+                </div>
+            {% endfor %}
         {% endif %}
     {% endwith %}
 

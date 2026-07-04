@@ -507,7 +507,7 @@
   {
     "id": 37,
     "source": "MAT123 Mechanics",
-    "topic": "Geometry",
+    "topic": "Coordinate Geometry - General",
     "question": "Find the angle θ between the line r = i + 2j - k + λ(i - j + k) and the plane r·(2i - j + k) = 4.",
     "options": {
       "A": "sin⁻¹(2√2/3)",
@@ -673,7 +673,7 @@
   {
     "id": 49,
     "source": "MAT123 Mechanics",
-    "topic": "Kinematics",
+    "topic": "Mechanics - Kinematics",
     "question": "A stone is dropped from a height of 45m. Find the time it takes to hit the ground. (g = 10ms⁻²)",
     "options": null,
     "answer": "3 seconds",
@@ -887,7 +887,7 @@
   {
     "id": 65,
     "source": "MAT123 Mechanics",
-    "topic": "Connected Particles",
+    "topic": "Mechanics - Connected Particles",
     "question": "Particle A of mass 0.26kg and Particle B of mass 0.52kg are attached to ends of a light string over a smooth pulley at top of smooth plane inclined at θ with sinθ=16/65, cosθ=63/65. A is held at rest 2.5m from P, B hangs 0.6m above floor. Find (i) acceleration; (ii) tension; (iii) speed of B at floor; (iv) distance of A from P when it comes to rest.",
     "options": null,
     "answer": "(i) 4.3 ms⁻² (ii) 3.12 N (iii) 2.65 ms⁻¹ (iv) 2.475 m",
@@ -896,7 +896,7 @@
   {
     "id": 66,
     "source": "MAT123 Mechanics",
-    "topic": "Connected Particles",
+    "topic": "Mechanics - Connected Particles",
     "question": "Three masses 2kg, 4kg, 6kg are connected by two light strings. The 4kg mass moves on a smooth horizontal table with 2kg and 6kg hanging on each side over smooth pulleys. Find: (a) the acceleration of each mass when released; (b) acceleration of 4kg after the string connecting to 2kg masses is cut after 1 second.",
     "options": null,
     "answer": "(a) 10/3 ms⁻² (b) 6 ms⁻²",
@@ -905,7 +905,7 @@
   {
     "id": 67,
     "source": "MAT123 Mechanics",
-    "topic": "Connected Particles",
+    "topic": "Mechanics - Connected Particles",
     "question": "Masses of 5kg and 3kg are attached to the ends of a light string which passes over a smooth pulley. When released, find the acceleration and the speed of the masses after 2s.",
     "options": {
       "A": "2.5ms⁻², 5ms⁻¹",
@@ -920,7 +920,7 @@
   {
     "id": 68,
     "source": "MAT123 Mechanics",
-    "topic": "Connected Particles",
+    "topic": "Mechanics - Connected Particles",
     "question": "Masses 5kg and 3kg on a pulley: after the masses move for 2 seconds, the string is cut. How much higher does the lighter mass travel?",
     "options": null,
     "answer": "1.25 m",
@@ -929,7 +929,7 @@
   {
     "id": 69,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A block of mass 5kg placed on a plane inclined at 30° to the horizontal slides down at a slow steady speed. Find: (i) frictional force; (ii) coefficient of friction. If angle had been sin⁻¹(√3/2), find the acceleration.",
     "options": null,
     "answer": "(i) 25 N (ii) 1/√3 ≈0.577 (iii) 3.66 ms⁻²",
@@ -938,7 +938,7 @@
   {
     "id": 70,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A body of mass 6kg lying on a rough surface can just be moved by a horizontal force of 42N. Find the coefficient of friction.",
     "options": {
       "A": "0.1",
@@ -952,7 +952,7 @@
   {
     "id": 71,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A body of mass 8kg rests on a horizontal surface. If the coefficient of friction between the body and surface is 0.65, calculate the maximum horizontal force enough to just move the body.",
     "options": {
       "A": "25N",
@@ -966,7 +966,7 @@
   {
     "id": 72,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A body rests on rough plane inclined at angle α to the horizontal. If the coefficient of friction is 3/5, find the value of α to the nearest degree.",
     "options": {
       "A": "32°",
@@ -980,7 +980,7 @@
   {
     "id": 73,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A block of mass 3.5kg rests on a rough plane inclined at 42° to the horizontal. Coefficient of friction is 0.75. Find the least force P parallel to the plane required to: (a) start the block moving up; (b) prevent the block from sliding down.",
     "options": null,
     "answer": "(a) 43 N (b) 3.92 N",
@@ -989,7 +989,7 @@
   {
     "id": 74,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A ring of mass 1.1kg is threaded on a fixed rough horizontal rod. A light string attached to ring is pulled with force 13N at angle α below horizontal, where tanα = 5/12. Ring is in equilibrium. Find: (a) frictional component; (b) normal component; (c) coefficient of friction (if equilibrium is limiting).",
     "options": null,
     "answer": "(a) 12 N (b) 8 N (c) 0.75",
@@ -998,7 +998,7 @@
   {
     "id": 75,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "A body of mass 8kg is placed on a smooth plane inclined at 30° to the horizontal and acted on by an upward force of magnitude 50N at 45° to the line of greatest slope. Find: (a) acceleration; (b) magnitude of normal reaction.",
     "options": null,
     "answer": "(a) 0.6 ms⁻² (b) 33.9 N",
@@ -1007,7 +1007,7 @@
   {
     "id": 76,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "A particle of mass M kg is placed on a smooth plane inclined at angle x to the horizontal. Find, in N, the horizontal force which can be applied to keep the body in equilibrium.",
     "options": {
       "A": "Mg cosx",
@@ -1021,7 +1021,7 @@
   {
     "id": 77,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "An object of mass 10kg is placed in a smooth plane inclined at 60° to the horizontal. Find the acceleration of the object as it moves down the plane.",
     "options": {
       "A": "5√2 ms⁻²",
@@ -1035,7 +1035,7 @@
   {
     "id": 78,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "Two forces 10N and 6N act in the directions 060° and 330° respectively. Find the x-component of their resultant.",
     "options": {
       "A": "5√3-3",
@@ -1049,7 +1049,7 @@
   {
     "id": 79,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "The resultant of two forces P and Q of magnitude 3N and 4N respectively has a magnitude of √37 N. Find the angle between P and Q.",
     "options": {
       "A": "70°",
@@ -1063,7 +1063,7 @@
   {
     "id": 80,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "Find the resultant of forces 8N and 10N inclined at an angle 120° to each other.",
     "options": {
       "A": "2√61N",
@@ -1078,7 +1078,7 @@
   {
     "id": 81,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "R is the resultant of forces 12N and 7N. If the angle between 7N and R is 40°, find the angle between 12N and R.",
     "options": {
       "A": "24°",
@@ -1092,7 +1092,7 @@
   {
     "id": 82,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "R is the resultant of forces 12N and 7N where angle between 7N and R is 40°. Find the magnitude of R.",
     "options": {
       "A": "14.5N",
@@ -1107,7 +1107,7 @@
   {
     "id": 83,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "Three coplanar forces 4√3, 5√3 and 7N act on a particle in bearings 060°, 180°, 270° respectively. Find the magnitude of their resultant.",
     "options": {
       "A": "5√7N",
@@ -1121,7 +1121,7 @@
   {
     "id": 84,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "Two forces F₁ and F₂ act on a body of mass 2.5kg. F₁ has magnitude 5N in direction N30°E. F₂ has magnitude 8N in direction E. Find the acceleration of the body.",
     "options": {
       "A": "4.54ms⁻²",
@@ -1135,7 +1135,7 @@
   {
     "id": 85,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "Forces 10N, 20N, XN, 30N act along SP, QP, QS and SR of square PQRS in directions indicated by order of letters. If forces are in equilibrium find X.",
     "options": {
       "A": "20√2",
@@ -1149,7 +1149,7 @@
   {
     "id": 86,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "Find the resultant of forces shown in diagram (6N at 140° from 12N, and 3N at 85° below the 6N).",
     "options": {
       "A": "8.46N",
@@ -1163,7 +1163,7 @@
   {
     "id": 87,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A body of weight 50N is suspended by an inextensible string. The body is pulled aside by a horizontal force of kN until the string makes an angle of 47° with the downward vertical. Find (a) Force K; (b) tension in string.",
     "options": null,
     "answer": "(a) 54.3 N (b) 73.3 N",
@@ -1172,7 +1172,7 @@
   {
     "id": 88,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A body of mass 8.5kg is supported by two light inextensible strings inclined at 50° and 60° to the horizontal. Find the tensions in the strings. (g=10ms⁻²)",
     "options": {
       "A": "57.9N (both)",
@@ -1186,7 +1186,7 @@
   {
     "id": 89,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A street lamp of mass 10kg is suspended at position O by two wires OP and OQ across a road such that each wire is inclined at 80° to the upward vertical. Calculate the tension in one of the wires. (g=10ms⁻²)",
     "options": {
       "A": "297.7N",
@@ -1200,7 +1200,7 @@
   {
     "id": 90,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A particle P of mass 2.1kg is attached to strings PA (length 50cm) and PB (length 104cm), where A and B are at same horizontal level 40cm below. Find the tension in PA.",
     "options": null,
     "answer": "20 N",
@@ -1388,7 +1388,7 @@
   {
     "id": 105,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A particle P of mass 2kg is attached to one end of each of two light inextensible strings of lengths 50cm and 104cm. The other ends of the strings are attached to points A and B at the same horizontal level. P hangs in equilibrium 40cm below level of AB. Calculate the tension in string PA.",
     "options": null,
     "answer": "20 N",
@@ -2279,7 +2279,7 @@
   {
     "id": 169,
     "source": "MAT123 Mechanics",
-    "topic": "Elastic Strings",
+    "topic": "Mechanics - Elastic Strings",
     "question": "An elastic string has natural length 2 m and modulus of elasticity 40 N. Find the tension when stretched to 3 m.",
     "options": {
       "A": "20 N",
@@ -2293,7 +2293,7 @@
   {
     "id": 170,
     "source": "MAT123 Mechanics",
-    "topic": "Elastic Strings",
+    "topic": "Mechanics - Elastic Strings",
     "question": "A particle of mass 2 kg hangs in equilibrium from an elastic string of natural length 1 m and modulus 30 N. Find the extension.",
     "options": {
       "A": "0.5 m",
@@ -2307,7 +2307,7 @@
   {
     "id": 171,
     "source": "MAT123 Mechanics",
-    "topic": "Elastic Strings",
+    "topic": "Mechanics - Elastic Strings",
     "question": "A particle is attached to one end of an elastic string of natural length a and modulus λ. The other end is fixed. The particle is pulled down a distance d and released. The period of small oscillations is:",
     "options": {
       "A": "2π√(m/λ)",
@@ -2517,7 +2517,7 @@
   {
     "id": 186,
     "source": "MAT123 Mechanics",
-    "topic": "Elastic Strings",
+    "topic": "Mechanics - Elastic Strings",
     "question": "An elastic string of natural length 1.5 m and modulus 60 N is stretched to 2.0 m. Find the energy stored.",
     "options": {
       "A": "5 J",
@@ -2531,7 +2531,7 @@
   {
     "id": 187,
     "source": "MAT123 Mechanics",
-    "topic": "Elastic Strings",
+    "topic": "Mechanics - Elastic Strings",
     "question": "A particle of mass 0.4 kg is attached to an elastic string of natural length 0.8 m and modulus 16 N. The other end is fixed. The particle is held at the fixed point and released. Find the extension when it first comes to rest (g=10).",
     "options": {
       "A": "0.2 m",
@@ -2685,7 +2685,7 @@
   {
     "id": 198,
     "source": "MAT123 Mechanics",
-    "topic": "Elastic Strings",
+    "topic": "Mechanics - Elastic Strings",
     "question": "A mass of 0.5 kg is attached to an elastic string of natural length 0.5 m and modulus 20 N. The mass is held at the fixed point and released. Find the maximum extension.",
     "options": {
       "A": "0.25 m",
@@ -2699,7 +2699,7 @@
   {
     "id": 199,
     "source": "MAT123 Mechanics",
-    "topic": "Elastic Strings",
+    "topic": "Mechanics - Elastic Strings",
     "question": "A particle of mass m is attached to an elastic string of natural length a and modulus λ. It is pulled down a distance d from equilibrium and released. The period of oscillation is T. If d is doubled, the period becomes:",
     "options": {
       "A": "T/2",
@@ -2811,7 +2811,7 @@
   {
     "id": 207,
     "source": "MAT123 Mechanics",
-    "topic": "Elastic Strings",
+    "topic": "Mechanics - Elastic Strings",
     "question": "An elastic string of natural length 2 m and modulus 50 N is stretched to 3 m. Find the force required to hold it at that length.",
     "options": {
       "A": "25 N",
@@ -2923,7 +2923,7 @@
   {
     "id": 215,
     "source": "MAT123 Mechanics",
-    "topic": "Elastic Strings",
+    "topic": "Mechanics - Elastic Strings",
     "question": "An elastic string of natural length 1.2 m and modulus 36 N is stretched to 1.5 m. Find the elastic potential energy stored.",
     "options": {
       "A": "2.25 J",
@@ -3021,7 +3021,7 @@
   {
     "id": 222,
     "source": "MAT123 Mechanics",
-    "topic": "Elastic Strings",
+    "topic": "Mechanics - Elastic Strings",
     "question": "A particle of mass 1 kg is attached to an elastic string of natural length 1 m and modulus 40 N. It is pulled down 0.2 m from equilibrium and released. Find the period of oscillation.",
     "options": {
       "A": "π/5 s",
@@ -3119,7 +3119,7 @@
   {
     "id": 229,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the vertex of the parabola y² = 8x.",
     "options": {
       "A": "(0,0)",
@@ -3133,7 +3133,7 @@
   {
     "id": 230,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the focus of the parabola y² = 12x.",
     "options": {
       "A": "(0,3)",
@@ -3147,7 +3147,7 @@
   {
     "id": 231,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "For the ellipse x²/25 + y²/9 = 1, find the length of the major axis.",
     "options": {
       "A": "5",
@@ -3161,7 +3161,7 @@
   {
     "id": 232,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the eccentricity of the ellipse x²/16 + y²/7 = 1.",
     "options": {
       "A": "3/4",
@@ -3175,7 +3175,7 @@
   {
     "id": 233,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "For the hyperbola x²/9 - y²/16 = 1, find the length of the transverse axis.",
     "options": {
       "A": "3",
@@ -3189,7 +3189,7 @@
   {
     "id": 234,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the asymptotes of the hyperbola x²/4 - y²/9 = 1.",
     "options": {
       "A": "y = ±(3/2)x",
@@ -3287,7 +3287,7 @@
   {
     "id": 241,
     "source": "MAT123 Mechanics",
-    "topic": "Kinematics",
+    "topic": "Mechanics - Kinematics",
     "question": "A stone is thrown vertically upward with speed 20 m/s. Find the maximum height (g=10 m/s²).",
     "options": {
       "A": "10 m",
@@ -3329,7 +3329,7 @@
   {
     "id": 244,
     "source": "MAT123 Mechanics",
-    "topic": "Kinematics",
+    "topic": "Mechanics - Kinematics",
     "question": "A ball is dropped from a height of 80 m. How long does it take to hit the ground? (g=10 m/s²)",
     "options": {
       "A": "2 s",
@@ -3371,7 +3371,7 @@
   {
     "id": 247,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A ball drops from height 5 m onto a floor and rises to 3.2 m. Find e.",
     "options": {
       "A": "0.6",
@@ -3413,7 +3413,7 @@
   {
     "id": 250,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the equation of the directrix of the parabola y² = 8x.",
     "options": {
       "A": "x = -2",
@@ -3427,7 +3427,7 @@
   {
     "id": 251,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the foci of the ellipse x²/25 + y²/9 = 1.",
     "options": {
       "A": "(±4,0)",
@@ -3441,7 +3441,7 @@
   {
     "id": 252,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the foci of the hyperbola x²/9 - y²/16 = 1.",
     "options": {
       "A": "(±5,0)",
@@ -3497,7 +3497,7 @@
   {
     "id": 256,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "Two identical masses collide elastically. If one is stationary and the other moves with speed u, what are the speeds after collision?",
     "options": {
       "A": "0 and u",
@@ -3525,7 +3525,7 @@
   {
     "id": 258,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the latus rectum of the parabola x² = 16y.",
     "options": {
       "A": "4",
@@ -3581,7 +3581,7 @@
   {
     "id": 262,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A 2 kg mass moving at 4 m/s collides inelastically with a 3 kg mass moving at 1 m/s in the same direction. Find the loss in kinetic energy.",
     "options": {
       "A": "1 J",
@@ -3609,7 +3609,7 @@
   {
     "id": 264,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the eccentricity of the ellipse 9x² + 16y² = 144.",
     "options": {
       "A": "√7/4",
@@ -3693,7 +3693,7 @@
   {
     "id": 270,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the axis of the parabola x² = -4y.",
     "options": {
       "A": "x-axis",
@@ -3777,7 +3777,7 @@
   {
     "id": 276,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the vertices of the hyperbola x²/4 - y²/9 = 1.",
     "options": {
       "A": "(±2,0)",
@@ -3861,7 +3861,7 @@
   {
     "id": 282,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the length of the minor axis of the ellipse x²/25 + y²/9 = 1.",
     "options": {
       "A": "3",
@@ -3917,7 +3917,7 @@
   {
     "id": 286,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A ball is dropped from 10 m and bounces to 6.4 m. Find e.",
     "options": {
       "A": "0.64",
@@ -3945,7 +3945,7 @@
   {
     "id": 288,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the vertex of the parabola (y-2)² = 8(x+1).",
     "options": {
       "A": "(-1,2)",
@@ -4029,7 +4029,7 @@
   {
     "id": 294,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the center of the ellipse 9x² + 4y² - 36x + 8y + 4 = 0.",
     "options": {
       "A": "(2,-1)",
@@ -4085,7 +4085,7 @@
   {
     "id": 298,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A 4 kg mass moving at 3 m/s collides elastically with a 2 kg mass at rest. Find the velocity of the 2 kg after collision.",
     "options": {
       "A": "4 m/s",
@@ -4113,7 +4113,7 @@
   {
     "id": 300,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the asymptotes of the hyperbola xy = 1.",
     "options": {
       "A": "x=0 and y=0",
@@ -4169,7 +4169,7 @@
   {
     "id": 304,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "Two spheres of masses 3 kg and 5 kg move towards each other with speeds 4 m/s and 2 m/s. After collision, the 3 kg moves at 1 m/s opposite direction. Find the velocity of the 5 kg.",
     "options": {
       "A": "1 m/s opposite original direction",
@@ -4197,7 +4197,7 @@
   {
     "id": 306,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the focus of the parabola x² = 12y.",
     "options": {
       "A": "(0,3)",
@@ -4253,7 +4253,7 @@
   {
     "id": 310,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "Before collision, two masses have velocities 5 m/s and 2 m/s in same direction. After collision, velocities are 3 m/s and 4 m/s. Find e.",
     "options": {
       "A": "1/3",
@@ -4281,7 +4281,7 @@
   {
     "id": 312,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the directrices of the ellipse x²/16 + y²/9 = 1.",
     "options": {
       "A": "x = ±16/√7",
@@ -4365,7 +4365,7 @@
   {
     "id": 318,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the eccentricity of the hyperbola x²/4 - y²/12 = 1.",
     "options": {
       "A": "2",
@@ -4449,7 +4449,7 @@
   {
     "id": 324,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the length of the latus rectum of the ellipse x²/9 + y²/4 = 1.",
     "options": {
       "A": "8/3",
@@ -4505,7 +4505,7 @@
   {
     "id": 328,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A ball is dropped from 1 m and rebounds to 0.64 m. Find e.",
     "options": {
       "A": "0.6",
@@ -4533,7 +4533,7 @@
   {
     "id": 330,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the equation of the directrix of the parabola x² = -8y.",
     "options": {
       "A": "y = 2",
@@ -4617,7 +4617,7 @@
   {
     "id": 336,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the length of the transverse axis of hyperbola 9x² - 4y² = 36.",
     "options": {
       "A": "2",
@@ -4701,7 +4701,7 @@
   {
     "id": 342,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the center of ellipse 4x² + 9y² - 16x + 18y - 11 = 0.",
     "options": {
       "A": "(2,-1)",
@@ -4757,7 +4757,7 @@
   {
     "id": 346,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A glass ball dropped from 2 m rebounds to 1.8 m. Find e.",
     "options": {
       "A": "0.9",
@@ -4785,7 +4785,7 @@
   {
     "id": 348,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the vertex of parabola x = y² - 4y + 5.",
     "options": {
       "A": "(1,2)",
@@ -4841,7 +4841,7 @@
   {
     "id": 352,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A 2 kg mass moving at 4 m/s collides elastically with a 6 kg mass at rest. Find the velocity of 2 kg after collision.",
     "options": {
       "A": "-2 m/s",
@@ -4869,7 +4869,7 @@
   {
     "id": 354,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the center of hyperbola (x-1)²/4 - (y+2)²/9 = 1.",
     "options": {
       "A": "(1,-2)",
@@ -4953,7 +4953,7 @@
   {
     "id": 360,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the eccentricity of ellipse 4x²+9y²=36.",
     "options": {
       "A": "√5/3",
@@ -5037,7 +5037,7 @@
   {
     "id": 366,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the length of latus rectum of parabola y² = 8x.",
     "options": {
       "A": "2",
@@ -5121,7 +5121,7 @@
   {
     "id": 372,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the latus rectum of ellipse 16x²+25y²=400.",
     "options": {
       "A": "32/5",
@@ -5205,7 +5205,7 @@
   {
     "id": 378,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the equation of directrix of parabola (y-2)² = 8(x-1).",
     "options": {
       "A": "x = -1",
@@ -5261,7 +5261,7 @@
   {
     "id": 382,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A ball moving at 8 m/s hits a fixed wall elastically. What is its velocity after impact?",
     "options": {
       "A": "0 m/s",
@@ -5289,7 +5289,7 @@
   {
     "id": 384,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the foci of ellipse 9x²+4y²=36.",
     "options": {
       "A": "(0,±√5)",
@@ -5373,7 +5373,7 @@
   {
     "id": 390,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the latus rectum of hyperbola x²/9 - y²/16 = 1.",
     "options": {
       "A": "32/3",
@@ -5457,7 +5457,7 @@
   {
     "id": 396,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the vertex of parabola y = x² - 4x + 5.",
     "options": {
       "A": "(2,1)",
@@ -5513,7 +5513,7 @@
   {
     "id": 400,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "Before collision, velocities are 6 m/s and 2 m/s in same direction. After, velocities are 5 m/s and 3 m/s. Find e.",
     "options": {
       "A": "0.5",
@@ -5541,7 +5541,7 @@
   {
     "id": 402,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the length of the major axis of ellipse x²/9 + y²/4 = 1.",
     "options": {
       "A": "3",
@@ -5597,7 +5597,7 @@
   {
     "id": 406,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "Two spheres of equal mass approach with speeds 3 m/s and 1 m/s in same direction. After collision, the faster sphere moves at 2 m/s. Find e.",
     "options": {
       "A": "0.25",
@@ -5625,7 +5625,7 @@
   {
     "id": 408,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the asymptotes of hyperbola (x-1)²/4 - (y+2)²/9 = 1.",
     "options": {
       "A": "y+2 = ±(3/2)(x-1)",
@@ -5681,7 +5681,7 @@
   {
     "id": 412,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A ball is dropped from height 2 m and bounces to 1.28 m. Find e.",
     "options": {
       "A": "0.64",
@@ -5709,7 +5709,7 @@
   {
     "id": 414,
     "source": "MAT123 Mechanics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the focus of parabola (y-3)² = 4(x-2).",
     "options": {
       "A": "(3,3)",
@@ -5765,7 +5765,7 @@
   {
     "id": 418,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the vertex of the parabola y² = 12x.",
     "options": {
       "A": "(0,0)",
@@ -5779,7 +5779,7 @@
   {
     "id": 419,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the focus of the parabola y² = 8x.",
     "options": {
       "A": "(2,0)",
@@ -5793,7 +5793,7 @@
   {
     "id": 420,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the directrix of the parabola y² = 4x.",
     "options": {
       "A": "x = 1",
@@ -5807,7 +5807,7 @@
   {
     "id": 421,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the latus rectum of the parabola y² = 20x.",
     "options": {
       "A": "5",
@@ -5821,7 +5821,7 @@
   {
     "id": 422,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the equation of the parabola with focus (2,0) and directrix x = -2.",
     "options": {
       "A": "y² = 8x",
@@ -5835,7 +5835,7 @@
   {
     "id": 423,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the axis of the parabola x² = -16y.",
     "options": {
       "A": "x-axis",
@@ -5849,7 +5849,7 @@
   {
     "id": 424,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "For the parabola y² = 12x, the coordinates of the endpoints of the latus rectum are:",
     "options": {
       "A": "(3,6) and (3,-6)",
@@ -5863,7 +5863,7 @@
   {
     "id": 425,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the length of the latus rectum of the parabola x² = -12y.",
     "options": {
       "A": "3",
@@ -5877,7 +5877,7 @@
   {
     "id": 426,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the centre of the ellipse x²/9 + y²/4 = 1.",
     "options": {
       "A": "(0,0)",
@@ -5891,7 +5891,7 @@
   {
     "id": 427,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the length of the major axis of the ellipse x²/25 + y²/9 = 1.",
     "options": {
       "A": "5",
@@ -5905,7 +5905,7 @@
   {
     "id": 428,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the length of the minor axis of the ellipse x²/16 + y²/9 = 1.",
     "options": {
       "A": "4",
@@ -5919,7 +5919,7 @@
   {
     "id": 429,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the eccentricity of the ellipse x²/16 + y²/7 = 1.",
     "options": {
       "A": "3/4",
@@ -5933,7 +5933,7 @@
   {
     "id": 430,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the foci of the ellipse x²/9 + y²/5 = 1.",
     "options": {
       "A": "(±2,0)",
@@ -5947,7 +5947,7 @@
   {
     "id": 431,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the vertices of the ellipse x²/25 + y²/16 = 1.",
     "options": {
       "A": "(±5,0)",
@@ -5961,7 +5961,7 @@
   {
     "id": 432,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "For the ellipse x²/144 + y²/25 = 1, find the distance between its foci.",
     "options": {
       "A": "10",
@@ -5975,7 +5975,7 @@
   {
     "id": 433,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "The ellipse x²/16 + y²/9 = 1 has eccentricity:",
     "options": {
       "A": "√7/4",
@@ -5989,7 +5989,7 @@
   {
     "id": 434,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the equation of the ellipse with foci at (±3,0) and major axis length 10.",
     "options": {
       "A": "x²/25 + y²/16 = 1",
@@ -6003,7 +6003,7 @@
   {
     "id": 435,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the centre of the hyperbola x²/9 - y²/16 = 1.",
     "options": {
       "A": "(0,0)",
@@ -6017,7 +6017,7 @@
   {
     "id": 436,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the length of the transverse axis of the hyperbola x²/9 - y²/16 = 1.",
     "options": {
       "A": "3",
@@ -6031,7 +6031,7 @@
   {
     "id": 437,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the length of the conjugate axis of the hyperbola x²/9 - y²/16 = 1.",
     "options": {
       "A": "3",
@@ -6045,7 +6045,7 @@
   {
     "id": 438,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the eccentricity of the hyperbola x²/9 - y²/16 = 1.",
     "options": {
       "A": "5/4",
@@ -6059,7 +6059,7 @@
   {
     "id": 439,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the foci of the hyperbola x²/9 - y²/16 = 1.",
     "options": {
       "A": "(±5,0)",
@@ -6073,7 +6073,7 @@
   {
     "id": 440,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the asymptotes of the hyperbola x²/4 - y²/9 = 1.",
     "options": {
       "A": "y = ±(3/2)x",
@@ -6087,7 +6087,7 @@
   {
     "id": 441,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the equation of the hyperbola with foci at (±5,0) and transverse axis length 8.",
     "options": {
       "A": "x²/16 - y²/9 = 1",
@@ -6101,7 +6101,7 @@
   {
     "id": 442,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "For the hyperbola y²/9 - x²/16 = 1, the vertices are:",
     "options": {
       "A": "(0,±3)",
@@ -6115,7 +6115,7 @@
   {
     "id": 443,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the equation of the parabola with vertex at (0,0) and focus at (0,3).",
     "options": {
       "A": "x² = 12y",
@@ -6129,7 +6129,7 @@
   {
     "id": 444,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the equation of the parabola with vertex at (0,0) and directrix y = 2.",
     "options": {
       "A": "x² = -8y",
@@ -6143,7 +6143,7 @@
   {
     "id": 445,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the eccentricity of the ellipse 9x² + 25y² = 225.",
     "options": {
       "A": "3/5",
@@ -6157,7 +6157,7 @@
   {
     "id": 446,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the length of the latus rectum of the ellipse x²/25 + y²/9 = 1.",
     "options": {
       "A": "9/5",
@@ -6171,7 +6171,7 @@
   {
     "id": 447,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the latus rectum of the hyperbola x²/16 - y²/9 = 1.",
     "options": {
       "A": "9/2",
@@ -6185,7 +6185,7 @@
   {
     "id": 448,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "The parabola y = 2x² has its focus at:",
     "options": {
       "A": "(0, 1/8)",
@@ -6199,7 +6199,7 @@
   {
     "id": 449,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "The sum of the focal distances of any point on the ellipse x²/9 + y²/4 = 1 is:",
     "options": {
       "A": "4",
@@ -6213,7 +6213,7 @@
   {
     "id": 450,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "The difference of the focal distances of any point on the hyperbola x²/9 - y²/16 = 1 is:",
     "options": {
       "A": "6",
@@ -6227,7 +6227,7 @@
   {
     "id": 451,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the vertex of the parabola y = x² - 4x + 3.",
     "options": {
       "A": "(2,-1)",
@@ -6241,7 +6241,7 @@
   {
     "id": 452,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the centre of the ellipse 4x² + 9y² - 8x + 18y - 23 = 0.",
     "options": {
       "A": "(1,-1)",
@@ -6255,7 +6255,7 @@
   {
     "id": 453,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the centre of the hyperbola 9x² - 16y² - 36x + 32y - 124 = 0.",
     "options": {
       "A": "(2,1)",
@@ -6269,7 +6269,7 @@
   {
     "id": 454,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the equation of the tangent to the parabola y² = 8x at the point (2,4).",
     "options": {
       "A": "y = x + 2",
@@ -6283,7 +6283,7 @@
   {
     "id": 455,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the equation of the tangent to the ellipse x²/16 + y²/9 = 1 at the point (4,0).",
     "options": {
       "A": "x = 4",
@@ -6297,7 +6297,7 @@
   {
     "id": 456,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the equation of the tangent to the hyperbola x²/9 - y²/16 = 1 at the point (3,0).",
     "options": {
       "A": "x = 3",
@@ -6311,7 +6311,7 @@
   {
     "id": 457,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "Find the condition for the line y = mx + c to be tangent to the parabola y² = 4ax.",
     "options": {
       "A": "c = a/m",
@@ -6325,7 +6325,7 @@
   {
     "id": 458,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the condition for the line y = mx + c to be tangent to the ellipse x²/a² + y²/b² = 1.",
     "options": {
       "A": "c² = a²m² + b²",
@@ -6339,7 +6339,7 @@
   {
     "id": 459,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the condition for the line y = mx + c to be tangent to the hyperbola x²/a² - y²/b² = 1.",
     "options": {
       "A": "c² = a²m² - b²",
@@ -6353,7 +6353,7 @@
   {
     "id": 460,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "The equation of the directrix of the parabola x² = -16y is:",
     "options": {
       "A": "y = 4",
@@ -6367,7 +6367,7 @@
   {
     "id": 461,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "Find the eccentricity of the ellipse 4x² + 9y² = 36.",
     "options": {
       "A": "√5/3",
@@ -6381,7 +6381,7 @@
   {
     "id": 462,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "Find the eccentricity of the hyperbola 16x² - 9y² = 144.",
     "options": {
       "A": "5/4",
@@ -6395,7 +6395,7 @@
   {
     "id": 463,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "The focus of the parabola y² = -12x is:",
     "options": {
       "A": "(-3,0)",
@@ -6409,7 +6409,7 @@
   {
     "id": 464,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "The ellipse x²/36 + y²/20 = 1 has latus rectum length:",
     "options": {
       "A": "20/3",
@@ -6423,7 +6423,7 @@
   {
     "id": 465,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Hyperbola",
+    "topic": "Conic Sections - Hyperbola",
     "question": "The hyperbola x²/9 - y²/16 = 1 has latus rectum length:",
     "options": {
       "A": "32/3",
@@ -6437,7 +6437,7 @@
   {
     "id": 466,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Parabola",
+    "topic": "Conic Sections - Parabola",
     "question": "The equation of the axis of the parabola (y-3)² = 8(x+2) is:",
     "options": {
       "A": "y = 3",
@@ -6451,7 +6451,7 @@
   {
     "id": 467,
     "source": "MAT123 Mathematics",
-    "topic": "Conics - Ellipse",
+    "topic": "Conic Sections - Ellipse",
     "question": "The centre of the ellipse 9x² + 4y² - 18x + 16y - 11 = 0 is:",
     "options": {
       "A": "(1,-2)",
@@ -6633,7 +6633,7 @@
   {
     "id": 480,
     "source": "MAT123 Mechanics",
-    "topic": "Elastic Strings",
+    "topic": "Mechanics - Elastic Strings",
     "question": "An elastic string of natural length 0.8 m and modulus 100 N is stretched to 1.0 m. Find the elastic potential energy.",
     "options": {
       "A": "2.5 J",
@@ -6647,7 +6647,7 @@
   {
     "id": 481,
     "source": "MAT123 Mechanics",
-    "topic": "Elastic Strings",
+    "topic": "Mechanics - Elastic Strings",
     "question": "A mass m is attached to an elastic string of natural length a and modulus λ, hanging vertically. The extension at equilibrium is e0. The period of small vertical oscillations is:",
     "options": {
       "A": "2π√(m/λ)",
@@ -6745,7 +6745,7 @@
   {
     "id": 488,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A sphere of mass m moving with speed u strikes an identical stationary sphere obliquely. After collision, they move at 60° to each other. Find the speed of the stationary sphere after impact.",
     "options": {
       "A": "u/2",
@@ -6759,7 +6759,7 @@
   {
     "id": 489,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A bullet of mass 10 g strikes a pendulum bob of mass 2 kg and embeds. The bob rises to height 0.2 m. Find the bullet's speed (g=10).",
     "options": {
       "A": "200 m/s",
@@ -6871,7 +6871,7 @@
   {
     "id": 497,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "Three forces 10 N at 0°, 20 N at 60°, 30 N at 120° act at a point. Find the magnitude of resultant.",
     "options": {
       "A": "10 N",
@@ -6885,7 +6885,7 @@
   {
     "id": 498,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A sphere of weight W rests in a V-shaped groove with angle 90°. The reactions from each inclined plane are:",
     "options": {
       "A": "W/2 each",
@@ -6899,7 +6899,7 @@
   {
     "id": 499,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A uniform rod of length 6 m and weight 60 N rests on two supports at 1 m and 4 m from left end. Find the reaction at the left support.",
     "options": {
       "A": "15 N",
@@ -6983,7 +6983,7 @@
   {
     "id": 505,
     "source": "MAT123 Mechanics",
-    "topic": "Circular Motion",
+    "topic": "Mechanics - Circular Motion",
     "question": "A curve of radius 50 m is banked for speed 20 m/s. Find the banking angle (g=10).",
     "options": {
       "A": "tan⁻¹(0.4)",
@@ -6997,7 +6997,7 @@
   {
     "id": 506,
     "source": "MAT123 Mechanics",
-    "topic": "Circular Motion",
+    "topic": "Mechanics - Circular Motion",
     "question": "A conical pendulum has length 1 m and mass 0.2 kg. It rotates making angle 30° with vertical. Find tension.",
     "options": {
       "A": "2.31 N",
@@ -7039,7 +7039,7 @@
   {
     "id": 509,
     "source": "MAT123 Mechanics",
-    "topic": "Gravitation",
+    "topic": "Mechanics - Gravitation",
     "question": "The period of a satellite in circular orbit of radius R is T. If the radius is increased to 4R, the new period is:",
     "options": {
       "A": "2T",
@@ -7053,7 +7053,7 @@
   {
     "id": 510,
     "source": "MAT123 Mechanics",
-    "topic": "Gravitation",
+    "topic": "Mechanics - Gravitation",
     "question": "Escape velocity from Earth's surface is 11.2 km/s. What is it from a planet of same density but radius 2R?",
     "options": {
       "A": "11.2 km/s",
@@ -7095,7 +7095,7 @@
   {
     "id": 470,
     "source": "MAT123 Mechanics",
-    "topic": "Connected Particles",
+    "topic": "Mechanics - Connected Particles",
     "question": "Two masses m₁ = 2 kg and m₂ = 3 kg are connected by a light string over a smooth pulley at the top of a smooth inclined plane of angle 30°. m₁ is on the incline, m₂ hangs vertically. Find the acceleration of the system (g=10 m/s²).",
     "options": {
       "A": "2 m/s²",
@@ -7109,7 +7109,7 @@
   {
     "id": 471,
     "source": "MAT123 Mechanics",
-    "topic": "Connected Particles",
+    "topic": "Mechanics - Connected Particles",
     "question": "A light string passes over a smooth pulley and carries masses 6 kg and 4 kg. Find the tension in the string (g=10 m/s²).",
     "options": {
       "A": "24 N",
@@ -7123,7 +7123,7 @@
   {
     "id": 472,
     "source": "MAT123 Mechanics",
-    "topic": "Connected Particles",
+    "topic": "Mechanics - Connected Particles",
     "question": "In an Atwood machine with masses 5 kg and 3 kg, after 2 seconds of motion, the string is cut. How much higher does the lighter mass rise after the cut? (g=10 m/s²)",
     "options": {
       "A": "1.25 m",
@@ -7137,7 +7137,7 @@
   {
     "id": 473,
     "source": "MAT123 Mechanics",
-    "topic": "Connected Particles",
+    "topic": "Mechanics - Connected Particles",
     "question": "Three masses 1 kg, 2 kg, 3 kg are connected by two light strings. The 2 kg mass lies on a smooth horizontal table, with 1 kg and 3 kg hanging over pulleys on either side. Find the acceleration of the system.",
     "options": {
       "A": "2 m/s²",
@@ -7725,7 +7725,7 @@
   {
     "id": 515,
     "source": "MAT123 Mechanics",
-    "topic": "Elastic Strings",
+    "topic": "Mechanics - Elastic Strings",
     "question": "An elastic string of natural length 1 m and modulus 20 N is stretched to 1.5 m. Find the tension.",
     "options": {
       "A": "10 N",
@@ -7739,7 +7739,7 @@
   {
     "id": 516,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A body of weight 100 N is suspended by two strings making angles 30° and 60° with the vertical. Find the tension in the string making 30° with vertical.",
     "options": {
       "A": "50 N",
@@ -7753,7 +7753,7 @@
   {
     "id": 517,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A particle of mass 2 kg hangs from two strings of lengths 50 cm and 104 cm attached to points at same horizontal level, with particle 40 cm below the level. Find the tension in the longer string (g=10).",
     "options": {
       "A": "13 N",
@@ -7767,7 +7767,7 @@
   {
     "id": 518,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A lamp of mass 5 kg hangs by two strings each making 60° with the vertical. Find the tension in each string (g=10).",
     "options": {
       "A": "25 N",
@@ -7781,7 +7781,7 @@
   {
     "id": 519,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A body of mass 10 kg is supported by two strings making angles 30° and 60° with the horizontal. Find the tension in the string with 30° (g=10).",
     "options": {
       "A": "50 N",
@@ -7795,7 +7795,7 @@
   {
     "id": 520,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "Three forces 3N, 4N, 5N act along sides of an equilateral triangle. Find the resultant magnitude.",
     "options": {
       "A": "0",
@@ -7809,7 +7809,7 @@
   {
     "id": 521,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "Forces 10N, 20N, XN, 30N act along sides of a square in order. If in equilibrium, find X.",
     "options": {
       "A": "10√2",
@@ -7823,7 +7823,7 @@
   {
     "id": 522,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "A block of mass 2 kg is on a smooth incline of angle 30°. Find the horizontal force needed to keep it stationary (g=10).",
     "options": {
       "A": "5.77 N",
@@ -7837,7 +7837,7 @@
   {
     "id": 523,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "Two forces of 5 N and 12 N act at right angles. Find the resultant.",
     "options": {
       "A": "7 N",
@@ -7851,7 +7851,7 @@
   {
     "id": 524,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "Two forces 6 N east and 8 N north act on a 2 kg mass. Find acceleration.",
     "options": {
       "A": "5 m/s²",
@@ -7865,7 +7865,7 @@
   {
     "id": 525,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "If resultant of two equal forces is √2 times each force, find angle between them.",
     "options": {
       "A": "30°",
@@ -7879,7 +7879,7 @@
   {
     "id": 526,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "Two forces of 6 N and 10 N act at 60°. Find the resultant magnitude.",
     "options": {
       "A": "14 N",
@@ -7893,7 +7893,7 @@
   {
     "id": 527,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "Three forces 4N, 5N, 6N act at 0°, 90°, 180° respectively. Find resultant magnitude.",
     "options": {
       "A": "3 N",
@@ -7907,7 +7907,7 @@
   {
     "id": 528,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "A 5 kg block on a smooth incline of 30° is pulled by a force 40 N parallel to the incline. Find acceleration (g=10).",
     "options": {
       "A": "2 m/s²",
@@ -7921,7 +7921,7 @@
   {
     "id": 529,
     "source": "MAT123 Mechanics",
-    "topic": "Dynamics and Forces",
+    "topic": "Mechanics - Dynamics and Forces",
     "question": "A block of mass 2 kg slides down a smooth incline of 45°. Find acceleration (g=10).",
     "options": {
       "A": "5√2 m/s²",
@@ -7935,7 +7935,7 @@
   {
     "id": 530,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A block of mass 10 kg requires a horizontal force of 40 N to just move. Find μ (g=10).",
     "options": {
       "A": "0.2",
@@ -7949,7 +7949,7 @@
   {
     "id": 531,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A block of mass 5 kg just slides down a rough incline of angle 30°. Find μ.",
     "options": {
       "A": "0.577",
@@ -7963,7 +7963,7 @@
   {
     "id": 532,
     "source": "MAT123 Mechanics",
-    "topic": "Friction and Equilibrium",
+    "topic": "Mechanics - Friction and Equilibrium",
     "question": "A ring of mass 0.5 kg on a rough horizontal rod is pulled by a string at angle 30° to horizontal with force 10 N. If ring is just about to move, find μ (g=10).",
     "options": {
       "A": "0.5",
@@ -7977,7 +7977,7 @@
   {
     "id": 533,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A ball dropped from 20 m rebounds to 10 m. Find e.",
     "options": {
       "A": "0.5",
@@ -7991,7 +7991,7 @@
   {
     "id": 534,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A sphere moving at 4 m/s collides with a stationary sphere of equal mass. After collision, the first sphere moves at 1 m/s. Find e.",
     "options": {
       "A": "0.25",
@@ -8005,7 +8005,7 @@
   {
     "id": 535,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "Definition of coefficient of restitution e is:",
     "options": {
       "A": "relative speed after / relative speed before",
@@ -8019,7 +8019,7 @@
   {
     "id": 536,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A glass ball dropped from 2 m rebounds to 1.6 m. Find e.",
     "options": {
       "A": "0.8",
@@ -8033,7 +8033,7 @@
   {
     "id": 537,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A ball is dropped from 5 m and rises to 3.2 m. The value of e is:",
     "options": {
       "A": "0.64",
@@ -8047,7 +8047,7 @@
   {
     "id": 538,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "Two spheres of equal mass approach each other with speeds 5 m/s and 3 m/s. After collision, they move in the same direction. Find their speeds if e=0.6.",
     "options": {
       "A": "1 m/s and 3 m/s",
@@ -8061,7 +8061,7 @@
   {
     "id": 539,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "A 2 kg sphere moving at 6 m/s collides head-on with a 4 kg sphere moving at 2 m/s in opposite direction. If e=0.5, find the velocity of the 2 kg sphere after impact.",
     "options": {
       "A": "-1 m/s",
@@ -8075,7 +8075,7 @@
   {
     "id": 540,
     "source": "MAT123 Mechanics",
-    "topic": "Collisions",
+    "topic": "Mechanics - Collisions",
     "question": "In a perfectly elastic collision between two equal masses, one initially stationary, the moving mass:",
     "options": {
       "A": "Stops",

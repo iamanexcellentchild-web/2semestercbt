@@ -15,9 +15,108 @@ from thirteen_trial_system import (
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'dev-secret-key')
 
-# ============================================================================
-# ADAPTIVE 15-SESSION CBT SYSTEM
-# ============================================================================
+# ═════════════════════════════════════════════════════════════════════════════
+# FREEMIUM CONFIGURATION
+# ═════════════════════════════════════════════════════════════════════════════
+
+FREE_SUBJECTS = ['Math 102', 'PHY 102']  # Subjects available in free mode
+QUESTIONS_PER_DAY_FREE = 50  # Maximum questions per day for free users
+PRICE_NAIRA = 1500  # ₦1,500 one-time purchase
+ADMIN_PASSWORD = 'merit123admin'  # Admin panel password - CHANGE IN PRODUCTION!
+
+# License codes storage
+LICENSE_CODES_FILE = os.path.join(os.path.dirname(__file__), 'license_codes.json')
+
+def load_license_codes():
+    """Load license codes from JSON file."""
+    if not os.path.isfile(LICENSE_CODES_FILE):
+        return {}
+    try:
+        with open(LICENSE_CODES_FILE, encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        app.logger.warning('load_license_codes failed: %s', e)
+        return {}
+
+def save_license_codes(codes):
+    """Save license codes to JSON file."""
+    try:
+        with open(LICENSE_CODES_FILE, 'w', encoding='utf-8') as f:
+            json.dump(codes, f, indent=2)
+    except Exception as e:
+        app.logger.warning('save_license_codes failed: %s', e)
+
+def generate_license_code(quantity=1, prefix='MERIT'):
+    """Generate unique license codes."""
+    import uuid
+    codes = []
+    existing = load_license_codes()
+    
+    for _ in range(quantity):
+        # Generate code like: MERIT-XXXXX-XXXXX
+        unique_part = str(uuid.uuid4()).replace('-', '')[:10].upper()
+        code = f"{prefix}-{unique_part[:5]}-{unique_part[5:10]}"
+        
+        # Ensure it's unique
+        while code in existing:
+            unique_part = str(uuid.uuid4()).replace('-', '')[:10].upper()
+            code = f"{prefix}-{unique_part[:5]}-{unique_part[5:10]}"
+        
+        existing[code] = {
+            'created': datetime.now().isoformat(),
+            'used': False,
+            'activated_by': None,
+            'activated_date': None
+        }
+        codes.append(code)
+    
+    save_license_codes(existing)
+    return codes
+
+def activate_license_code(code):
+    """Activate a license code for the current user."""
+    codes = load_license_codes()
+    
+    if code not in codes:
+        return False, "Invalid license code"
+    
+    if codes[code]['used']:
+        return False, "This code has already been used"
+    
+    # Mark code as used
+    codes[code]['used'] = True
+    codes[code]['activated_by'] = session.get('username', 'Unknown')
+    codes[code]['activated_date'] = datetime.now().isoformat()
+    save_license_codes(codes)
+    
+    # Mark user as pro
+    session['is_pro'] = True
+    session.permanent = True
+    app.permanent_session_lifetime = timedelta(days=365*10)
+    
+    return True, "Premium activated successfully! Enjoy unlimited access."
+
+def is_pro_user():
+    """All signed-in users have full study access."""
+    return bool(session.get('username'))
+
+def get_available_subjects():
+    """Return the full list of study subjects available after login."""
+    return list(QUESTIONS.keys())
+
+def get_free_questions_today():
+    """Legacy helper retained for compatibility."""
+    return 0
+
+def add_free_question():
+    """Legacy helper retained for compatibility."""
+    return
+
+def check_free_limit():
+    """All signed-in users have full access without a daily limit."""
+    return True
+
+# ═════════════════════════════════════════════════════════════════════════════
 
 class AdaptiveCBTSystem:
     """
@@ -148,6 +247,16 @@ class AdaptiveCBTSystem:
         return [lst[(i * size) // n: ((i + 1) * size) // n] for i in range(n)]
 # enable debug logging for session inspection
 app.logger.setLevel(logging.DEBUG)
+
+@app.before_request
+def require_login():
+    allowed_endpoints = {'login', 'logout', 'static', 'admin'}
+    if request.endpoint in allowed_endpoints:
+        return None
+
+    if not session.get('username'):
+        flash('Please log in to continue.', 'warning')
+        return redirect(url_for('login'))
 
 # Configure persistent sessions with 30-minute lifetime
 app.config['SESSION_COOKIE_HTTPONLY'] = True
@@ -6973,13 +7082,23 @@ def load_additional_questions():
     
     # Load MTH 103
     mth103_path = os.path.join(os.path.dirname(__file__), 'mth103.json')
+    print(f"DEBUG: __file__ = {__file__}")
+    print(f"DEBUG: dirname(__file__) = {os.path.dirname(__file__)}")
+    print(f"DEBUG: Looking for mth103.json at: {mth103_path}")
+    print(f"DEBUG: File exists: {os.path.isfile(mth103_path)}")
     if os.path.isfile(mth103_path):
         try:
             with open(mth103_path, encoding='utf-8') as f:
                 data = json.load(f)
+            print(f"DEBUG: Loaded {len(data)} questions from mth103.json")
+            print(f"DEBUG: Data is list: {isinstance(data, list)}")
             if isinstance(data, list):
                 QUESTIONS['MTH 103'] = data
+                print(f"DEBUG: MTH 103 now has {len(QUESTIONS['MTH 103'])} questions")
         except Exception as e:
+            print(f"DEBUG: Exception loading mth103.json: {e}")
+            import traceback
+            traceback.print_exc()
             app.logger.warning('load_additional_questions (MTH 103) failed: %s', e)
 
     # Load STA 112
@@ -6994,7 +7113,8 @@ def load_additional_questions():
             app.logger.warning('load_additional_questions (STA 112) failed: %s', e)
 
 load_additional_questions()
-
+print(f"DEBUG: After loading, QUESTIONS keys: {list(QUESTIONS.keys())}")
+print(f"DEBUG: MTH 103 has {len(QUESTIONS.get('MTH 103', []))} questions")
 
 # ── FLASHCARDS ────────────────────────────────────────────────────────────────
 def load_flashcards():
@@ -7242,7 +7362,27 @@ def index():
             expires = datetime.fromtimestamp(session['expires_at']).isoformat()
         except Exception:
             expires = session.get('expires_at')
-    return render_template('index.html', subjects=QUESTIONS.keys(), expires_display=expires)
+    
+    available_subjects = list(get_available_subjects())
+
+    return render_template(
+        'index.html',
+        subjects=available_subjects,
+        pro_only_subjects=[],
+        free_subjects=list(FREE_SUBJECTS),
+        is_pro=is_pro_user(),
+        free_remaining=None,
+        expires_display=expires
+    )
+
+
+@app.route('/debug/subjects')
+def debug_subjects():
+    return {
+        'subjects': list(QUESTIONS.keys()),
+        'mth103_count': len(QUESTIONS.get('MTH 103', [])),
+        'all_subjects': QUESTIONS
+    }
 
 
 @app.route('/topics/<path:subject>')
@@ -7264,37 +7404,139 @@ def topics(subject):
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-    # clear anything leftover from a previous session (old expiry strings etc.)
     if request.method == 'GET':
-        session.clear()
-        # also clear the client cookie by sending an empty one
+        if session.get('username'):
+            return redirect(url_for('index'))
         resp = make_response(render_template('login.html'))
-        resp.set_cookie('session', '', expires=0)
         return resp
+
     if request.method == 'POST':
         name = request.form.get('name', '').strip()
         if not name:
-            flash('Please enter a name to log in.')
+            flash('Please enter a name to log in.', 'warning')
             return redirect(url_for('login'))
-        session.permanent = True  # Mark session as permanent
+
+        session.permanent = True
         session['username'] = name
+        session['is_pro'] = True
         now = datetime.utcnow()
         session['start_time'] = now.isoformat()
-        # store expiration as a timestamp (seconds since epoch) to avoid
-        # timezone parsing issues in JavaScript
         session['expires_at'] = (now + timedelta(minutes=60)).timestamp()
-        # debug output
         app.logger.debug('login session contents: %r', dict(session))
-        flash(f'Logged in as {name}. You have 60 minutes and up to 150 questions per subject.')
+        flash(f'Welcome back, {name}! Your study space is ready.', 'success')
         return redirect(url_for('index'))
+
     return render_template('login.html')
 
 
 @app.route('/logout')
 def logout():
     session.clear()
-    flash('Logged out.')
+    flash('Logged out. Please sign in again to continue.', 'info')
+    return redirect(url_for('login'))
+
+
+@app.route('/upgrade')
+def upgrade():
+    """Redirect old upgrade links to the main study area."""
     return redirect(url_for('index'))
+
+
+@app.route('/activate-code', methods=['GET', 'POST'])
+def activate_code():
+    """Activate a license code."""
+    if request.method == 'GET':
+        return render_template('activate_code.html', is_pro=is_pro_user())
+    
+    # POST request
+    code = request.form.get('code', '').strip().upper()
+    
+    if not session.get('username'):
+        flash('❌ Please log in first before activating a code.', 'danger')
+        return redirect(url_for('login'))
+    
+    if not code:
+        flash('❌ Please enter a license code.', 'danger')
+        return redirect(url_for('activate_code'))
+    
+    success, message = activate_license_code(code)
+    
+    if success:
+        flash(f'✅ {message}', 'success')
+        return redirect(url_for('index'))
+    else:
+        flash(f'❌ {message}', 'danger')
+        return redirect(url_for('activate_code'))
+
+
+@app.route('/admin', methods=['GET', 'POST'])
+def admin():
+    """Admin panel for generating license codes."""
+    # Simple password protection
+    if request.method == 'GET':
+        if session.get('admin_authenticated'):
+            codes = load_license_codes()
+            
+            # Calculate stats
+            total_codes = len(codes)
+            used_codes = sum(1 for c in codes.values() if c['used'])
+            available_codes = total_codes - used_codes
+            
+            return render_template('admin_panel.html',
+                                 codes=codes,
+                                 total_codes=total_codes,
+                                 used_codes=used_codes,
+                                 available_codes=available_codes)
+        else:
+            return render_template('admin_login.html')
+    
+    # POST request - either login or generate codes
+    action = request.form.get('action')
+    
+    if action == 'login':
+        password = request.form.get('password', '')
+        if password == ADMIN_PASSWORD:
+            session['admin_authenticated'] = True
+            flash('✅ Admin access granted!', 'success')
+            return redirect(url_for('admin'))
+        else:
+            flash('❌ Invalid admin password.', 'danger')
+            return redirect(url_for('admin'))
+    
+    elif action == 'generate':
+        if not session.get('admin_authenticated'):
+            flash('❌ Admin access required.', 'danger')
+            return redirect(url_for('admin'))
+        
+        try:
+            quantity = int(request.form.get('quantity', 1))
+            if quantity < 1 or quantity > 1000:
+                flash('❌ Enter quantity between 1 and 1000.', 'danger')
+                return redirect(url_for('admin'))
+            
+            prefix = request.form.get('prefix', 'MERIT').strip().upper()
+            codes = generate_license_code(quantity, prefix)
+            
+            flash(f'✅ Generated {quantity} license codes successfully!', 'success')
+            return redirect(url_for('admin'))
+        except ValueError:
+            flash('❌ Invalid quantity.', 'danger')
+            return redirect(url_for('admin'))
+    
+    elif action == 'logout':
+        session.pop('admin_authenticated', None)
+        flash('Logged out from admin panel.', 'success')
+        return redirect(url_for('admin'))
+    
+    return redirect(url_for('admin'))
+
+
+@app.route('/purchase', methods=['POST'])
+def purchase():
+    """Legacy purchase endpoint now simply sends users back to the study dashboard."""
+    flash('All study content is available to signed-in users.', 'info')
+    return redirect(url_for('index'))
+
 
 @app.route('/quiz/<path:subject>', methods=['GET', 'POST'])
 @app.route('/quiz/<path:subject>/<mode>', methods=['GET', 'POST'])
@@ -7361,9 +7603,7 @@ def quiz(subject, mode='cbt', topic=None):
 
     if request.method == 'GET':
         count = min(150, len(all_q_filtered))
-        # Sample from filtered questions
         sample_indices = random.sample(range(len(all_q_filtered)), count) if len(all_q_filtered) > count else list(range(len(all_q_filtered)))
-        # Map back to original indices
         indices = [original_indices[i] for i in sample_indices]
         questions = [normalize_question(all_q[i]) for i in indices]
     else:  # POST

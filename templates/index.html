@@ -1,37 +1,116 @@
 {% extends "base.html" %}
 {% block content %}
+
+<!-- Welcome Banner -->
 <div class="welcome-header">
-    <h1>🎓 Welcome to CBT Quiz App</h1>
-    <p>Choose a subject and select your preferred mode to begin!</p>
+    <h1>🎓 Master Your Exams with Merit Tutorials</h1>
+    <p>Take unlimited practice tests and ace your exams with our comprehensive question bank</p>
     {% if session.get('username') %}
-        <p>Welcome back, <strong>{{ session.get('username') }}</strong>! 
-        {% if expires_display %}Session expires: {{ expires_display }}{% endif %}</p>
+        <p style="margin-top: 1rem;">Welcome back, <strong>{{ session.get('username') }}</strong>! {% if is_pro %}<span class="badge-pro">✨ PRO Member</span>{% else %}<span class="badge-free">Free User</span>{% endif %}</p>
     {% else %}
-        <p><a href="{{ url_for('login') }}" style="color: #fff; text-decoration: underline;">Log in</a> to start a quiz.</p>
+        <p style="margin-top: 1rem;"><a href="{{ url_for('login') }}" style="color: #fff; text-decoration: underline; font-weight: 600;">Log in</a> to track your progress</p>
+    {% endif %}
+    
+    {% if session.get('username') %}
+        <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(255,255,255,0.2); border-radius: 8px;">
+            <p style="margin: 0;">✅ <strong>All study materials are ready for you</strong></p>
+            <p style="margin: 0.5rem 0 0;">Choose a subject below and start practicing right away.</p>
+        </div>
     {% endif %}
 </div>
 
-{% set icons = {'mathematics': '📐', 'physics': '⚡', 'chemistry': '🧪', 'gst': '📖'} %}
-
+<!-- Subject Grid -->
 <div class="subject-grid">
+    {% set icons = {
+        'Math 102': '📐',
+        'MTH 103': '🧮',
+        'PHY 102': '⚡',
+        'PHY 104': '🌊',
+        'GST 112': '📖',
+        'STA 112': '📊'
+    } %}
+    
     {% for subject in subjects %}
     <div class="subject-card">
         <span class="icon">{{ icons.get(subject, '📝') }}</span>
-        <div class="subject-title">{{ subject.title() }}</div>
+        <div class="subject-title">{{ subject }}</div>
+        
+        {% if subject in pro_subjects %}
+            <div style="margin-bottom: 0.75rem;">
+                <span class="badge-pro">PRO</span>
+            </div>
+        {% else %}
+            <div style="margin-bottom: 0.75rem;">
+                <span class="badge-free">FREE</span>
+            </div>
+        {% endif %}
+        
         <div class="mode-buttons">
-            <a href="{{ url_for('quiz', subject=subject, mode='quiz') }}" class="mode-btn quiz-btn">Quiz Mode</a>
-            <a href="{{ url_for('quiz', subject=subject, mode='cbt') }}" class="mode-btn cbt-btn">CBT Mode</a>
-            <a href="{{ url_for('topics', subject=subject) }}" class="mode-btn topic-btn">📚 Topics</a>
+            <a href="{{ url_for('quiz', subject=subject, mode='quiz') }}" class="btn btn-primary" style="font-size: 0.85rem;">Quiz Mode</a>
+            <a href="{{ url_for('quiz', subject=subject, mode='cbt') }}" class="btn btn-secondary" style="font-size: 0.85rem;">CBT Mode</a>
+            <a href="{{ url_for('topics', subject=subject) }}" class="btn btn-accent" style="font-size: 0.85rem;">📚 Topics</a>
         </div>
     </div>
     {% endfor %}
 </div>
 
+
+<!-- Features Section -->
+<div style="margin-top: 4rem;">
+    <h2 style="text-align: center; font-size: 1.8rem; margin-bottom: 2rem; background: linear-gradient(135deg, #6366f1, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Why Choose Merit Tutorials?</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+        <div class="card" style="text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">📚</div>
+            <h3 style="color: #6366f1; margin-bottom: 0.5rem;">Comprehensive Coverage</h3>
+            <p>Access thousands of carefully curated questions from multiple subjects</p>
+        </div>
+        
+        <div class="card" style="text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">⚡</div>
+            <h3 style="color: #ec4899; margin-bottom: 0.5rem;">Multiple Quiz Modes</h3>
+            <p>Practice with Quiz Mode, CBT Mode, Thirteen-Trial, and Adaptive learning</p>
+        </div>
+        
+        <div class="card" style="text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">📊</div>
+            <h3 style="color: #06b6d4; margin-bottom: 0.5rem;">Track Progress</h3>
+            <p>Detailed analytics show your strengths and areas for improvement</p>
+        </div>
+        
+        <div class="card" style="text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">🎓</div>
+            <h3 style="color: #10b981; margin-bottom: 0.5rem;">Expert Content</h3>
+            <p>All questions include detailed solutions and explanations</p>
+        </div>
+        
+        <div class="card" style="text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">📱</div>
+            <h3 style="color: #f59e0b; margin-bottom: 0.5rem;">Study Flashcards</h3>
+            <p>Reinforce learning with interactive flashcards for key concepts</p>
+        </div>
+        
+        <div class="card" style="text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">⏱️</div>
+            <h3 style="color: #ef4444; margin-bottom: 0.5rem;">Timed Sessions</h3>
+            <p>Build speed and accuracy with realistic exam-style time limits</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- User Navigation -->
 {% if session.get('username') %}
 <div class="nav-links">
-    <a href="{{ url_for('grades') }}">View Results</a> |
-    <a href="{{ url_for('history') }}">My History</a> |
-    <a href="{{ url_for('logout') }}">Logout</a>
+    <a href="{{ url_for('grades') }}">📈 View Results</a>
+    <a href="{{ url_for('history') }}">📅 My History</a>
+    <a href="{{ url_for('flashcards') }}">📚 Flashcards</a>
+    <a href="{{ url_for('logout') }}">🚪 Logout</a>
+</div>
+{% else %}
+<div class="nav-links">
+    <a href="{{ url_for('login') }}">🔐 Login</a>
 </div>
 {% endif %}
+
 {% endblock %}

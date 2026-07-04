@@ -86,7 +86,7 @@
   {
     "id": 7,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "A car with a siren of frequency 280 Hz moves towards a stationary observer at 5 m/s. Calculate the frequency observed before and after the car passes. (Speed of sound = 340 m/s)",
     "options": {
       "A": "285, 271 Hz",
@@ -100,7 +100,7 @@
   {
     "id": 8,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "A stationary source generates 5.0 Hz water waves at speed 2.0 m/s. A boat approaches at 10 m/s. What frequency does the person in the boat observe?",
     "options": {
       "A": "5 Hz",
@@ -268,7 +268,7 @@
   {
     "id": 20,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "At what temperature will the speed of sound in air be 3 times its value at 0°C?",
     "options": {
       "A": "1184°C",
@@ -282,7 +282,7 @@
   {
     "id": 21,
     "source": "Past Questions Compilation",
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "Resonance in an air column occurs at 39 cm and next at 65 cm. Speed of sound = 343 m/s. Find the tuning fork frequency.",
     "options": {
       "A": "329.8 Hz",
@@ -296,7 +296,7 @@
   {
     "id": 22,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "A person doubles the vibration rate of a string while keeping the SAME tension. What happens to wave speed and wavelength?",
     "options": {
       "A": "Speed doubles, wavelength unchanged",
@@ -310,7 +310,7 @@
   {
     "id": 23,
     "source": "Past Questions Compilation",
-    "topic": "Oscillation & Pendulum",
+    "topic": "Simple Harmonic Motion",
     "question": "A 1.0 kg pendulum on a 1.0 m string has period T = 2.0 s. For period T = 1.0 s, what change is needed?",
     "options": {
       "A": "Replace string with one ~0.25 m long",
@@ -324,7 +324,7 @@
   {
     "id": 24,
     "source": "Past Questions Compilation",
-    "topic": "Oscillation & Pendulum",
+    "topic": "Simple Harmonic Motion",
     "question": "A pendulum with period 1 s on Earth is taken to a planet where its period is 2 s. Find the gravitational acceleration on that planet.",
     "options": {
       "A": "g/4",
@@ -562,7 +562,7 @@
   {
     "id": 41,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "Which statements about a standing wave are correct? I. Results from waves in same direction. II. Sum of two waves in opposite directions. III. Vector sum of two reflected sound waves. IV. Can also be called stationary wave.",
     "options": {
       "A": "II and IV",
@@ -576,7 +576,7 @@
   {
     "id": 42,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "A string clamped at two ends vibrates with 5 loops at 750 Hz. Tension = 2.5 N, mass per unit length = 0.001 kg/m. Find the length.",
     "options": {
       "A": "0.187 m",
@@ -590,7 +590,7 @@
   {
     "id": 43,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "The 2nd overtone of a standing wave on a string of length 5 cm is 100 Hz. Mass per unit length = 2 g/cm. Find the tension.",
     "options": {
       "A": "2.312 kgcm/s²",
@@ -646,7 +646,7 @@
   {
     "id": 47,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "Two strings with same thickness and tension: string B is twice as dense as A. String A of length L vibrates at fundamental frequency. How long must string B be to share the same fundamental frequency?",
     "options": {
       "A": "L/√2",
@@ -660,7 +660,7 @@
   {
     "id": 48,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "The first two overtones (2nd and 3rd harmonics) of a vibrating string are f and nf. What is the fundamental frequency?",
     "options": {
       "A": "f/2",
@@ -2144,7 +2144,7 @@
   {
     "id": 154,
     "source": "Past Questions Compilation",
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "The period T of a wave is related to its frequency f by?",
     "options": {
       "A": "T = f",
@@ -2410,7 +2410,7 @@
   {
     "id": 173,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "An observer at a sea coast observes 54 waves per minute. If the wavelength is 10 m, find the velocity.",
     "options": {
       "A": "9 m/s",
@@ -2424,7 +2424,7 @@
   {
     "id": 174,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "The speed of a wave on a string depends on?",
     "options": {
       "A": "The amplitude of the wave",
@@ -2438,7 +2438,7 @@
   {
     "id": 175,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "A string has tension 100 N and linear mass density 0.01 kg/m. The wave speed is?",
     "options": {
       "A": "10 m/s",
@@ -2452,7 +2452,7 @@
   {
     "id": 176,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "The speed of sound in air at 0°C is approximately?",
     "options": {
       "A": "300 m/s",
@@ -2494,7 +2494,7 @@
   {
     "id": 179,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "A car with a siren of frequency 280 Hz moves towards a stationary observer at 5 m/s. What frequency does the observer hear? (Speed of sound = 340 m/s)",
     "options": {
       "A": "275 Hz",
@@ -2508,7 +2508,7 @@
   {
     "id": 180,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "After the car in the previous question passes the observer, the siren frequency heard becomes?",
     "options": {
       "A": "280 Hz",
@@ -2522,7 +2522,7 @@
   {
     "id": 181,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "The Doppler effect refers to the change in observed ______ due to relative motion between source and observer.",
     "options": {
       "A": "Amplitude",
@@ -2536,7 +2536,7 @@
   {
     "id": 182,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "A stationary source generates water waves at 5.0 Hz with wave speed 2.0 m/s. A boat approaches at 10 m/s. What frequency does the person on the boat observe?",
     "options": {
       "A": "5 Hz",
@@ -2578,7 +2578,7 @@
   {
     "id": 185,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "The Doppler effect is used in which of the following applications?",
     "options": {
       "A": "Determining the colour of stars",
@@ -2592,7 +2592,7 @@
   {
     "id": 186,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "A bat emits ultrasound at 50,000 Hz. It moves at 10 m/s toward a stationary wall. What frequency does the echo returning to the bat have? (Speed of sound = 340 m/s)",
     "options": {
       "A": "50,000 Hz",
@@ -2704,7 +2704,7 @@
   {
     "id": 194,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "Which of the following best explains why you can hear a person talking around a corner even if you cannot see them?",
     "options": {
       "A": "Reflection of sound off the wall",
@@ -2802,7 +2802,7 @@
   {
     "id": 201,
     "source": "Past Questions Compilation",
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "For two coherent sources to produce a stable interference pattern, they must have?",
     "options": {
       "A": "The same amplitude and random phase",
@@ -2900,7 +2900,7 @@
   {
     "id": 208,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "In a standing wave, the distance between two adjacent nodes is?",
     "options": {
       "A": "λ",
@@ -2914,7 +2914,7 @@
   {
     "id": 209,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "The lowest frequency at which a standing wave can form in a system is called?",
     "options": {
       "A": "Overtone",
@@ -2928,7 +2928,7 @@
   {
     "id": 210,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "A string of length 2 m is fixed at both ends. The wavelength of the fundamental mode is?",
     "options": {
       "A": "1 m",
@@ -2942,7 +2942,7 @@
   {
     "id": 211,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "A string fixed at both ends has a fundamental frequency of 100 Hz. The frequency of the second harmonic is?",
     "options": {
       "A": "50 Hz",
@@ -2970,7 +2970,7 @@
   {
     "id": 213,
     "source": "Past Questions Compilation",
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "Resonance occurs when the frequency of a driving force equals?",
     "options": {
       "A": "Zero",
@@ -2984,7 +2984,7 @@
   {
     "id": 214,
     "source": "Past Questions Compilation",
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "Which of the following is a practical application of resonance?",
     "options": {
       "A": "Camera flash",
@@ -2998,7 +2998,7 @@
   {
     "id": 215,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "Sound waves are classified as?",
     "options": {
       "A": "Transverse, mechanical waves",
@@ -3082,7 +3082,7 @@
   {
     "id": 221,
     "source": "Past Questions Compilation",
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "Beats are produced when two sound waves have?",
     "options": {
       "A": "The same frequency",
@@ -3096,7 +3096,7 @@
   {
     "id": 222,
     "source": "Past Questions Compilation",
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "Two tuning forks of 440 Hz and 444 Hz are sounded simultaneously. The beat frequency is?",
     "options": {
       "A": "884 Hz",
@@ -3460,7 +3460,7 @@
   {
     "id": 248,
     "source": "Past Questions Compilation",
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "Two waves are said to be coherent if they have?",
     "options": {
       "A": "The same amplitude and zero phase difference",
@@ -3474,7 +3474,7 @@
   {
     "id": 249,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "The speed of sound in air at temperature T (in Kelvin) is proportional to?",
     "options": {
       "A": "T",
@@ -3488,7 +3488,7 @@
   {
     "id": 250,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "The speed of sound in air at 27°C, given it is 331 m/s at 0°C, is approximately?",
     "options": {
       "A": "331 m/s",
@@ -3502,7 +3502,7 @@
   {
     "id": 251,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "Infrasound refers to sound waves with frequencies?",
     "options": {
       "A": "Between 20 Hz and 20 kHz",
@@ -3530,7 +3530,7 @@
   {
     "id": 253,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "A source of sound moves at the same speed as sound. What is this called?",
     "options": {
       "A": "Subsonic",
@@ -3586,7 +3586,7 @@
   {
     "id": 257,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "A closed organ pipe of length L has a fundamental frequency f₁ given by?",
     "options": {
       "A": "f₁ = v/(4L)",
@@ -3600,7 +3600,7 @@
   {
     "id": 258,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "An open organ pipe of length L has a fundamental frequency f₁ given by?",
     "options": {
       "A": "f₁ = v/(4L)",
@@ -3628,7 +3628,7 @@
   {
     "id": 260,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "The third harmonic of a closed pipe has how many nodes?",
     "options": {
       "A": "1",
@@ -3656,7 +3656,7 @@
   {
     "id": 262,
     "source": "Past Questions Compilation",
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "The time taken for one complete oscillation of a wave is called?",
     "options": {
       "A": "Frequency",
@@ -3684,7 +3684,7 @@
   {
     "id": 264,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "The distance between two consecutive points that are in phase on a wave is called?",
     "options": {
       "A": "Amplitude",
@@ -3768,7 +3768,7 @@
   {
     "id": 270,
     "source": "Past Questions Compilation",
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "Microwaves are used in cooking because?",
     "options": {
       "A": "They ionize water molecules",
@@ -3810,7 +3810,7 @@
   {
     "id": 273,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "Standing waves differ from travelling waves in that standing waves?",
     "options": {
       "A": "Have higher frequency",
@@ -3824,7 +3824,7 @@
   {
     "id": 274,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "The principle of wave reversibility states that?",
     "options": {
       "A": "Waves can travel in one direction only",
@@ -3838,7 +3838,7 @@
   {
     "id": 275,
     "source": "Past Questions Compilation",
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "Newton's rings are an example of interference due to?",
     "options": {
       "A": "Diffraction",
@@ -3950,7 +3950,7 @@
   {
     "id": 283,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "The frequency of the third harmonic of a closed pipe whose fundamental is 100 Hz is?",
     "options": {
       "A": "200 Hz",
@@ -3978,7 +3978,7 @@
   {
     "id": 285,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "A police siren of 600 Hz is on a car moving at 30 m/s away from a stationary listener. What frequency is heard? (v_sound = 330 m/s)",
     "options": {
       "A": "600 Hz",
@@ -4076,7 +4076,7 @@
   {
     "id": 292,
     "source": "Past Questions Compilation",
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "A person shouts near a cliff and hears the echo after 3 s. How far away is the cliff? (Speed of sound = 340 m/s)",
     "options": {
       "A": "1020 m",
@@ -4118,7 +4118,7 @@
   {
     "id": 295,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "In a standing wave on a string, the antinodes are points of?",
     "options": {
       "A": "Permanent zero displacement",
@@ -4258,7 +4258,7 @@
   {
     "id": 305,
     "source": "Past Questions Compilation",
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "How many complete wavelengths fit in the third harmonic of a string fixed at both ends?",
     "options": {
       "A": "1/2",
@@ -5644,7 +5644,7 @@
   {
     "id": 404,
     "source": "Past Questions Compilation",
-    "topic": "Oscillation & Pendulum",
+    "topic": "Simple Harmonic Motion",
     "question": "A simple pendulum has a period of 2 s on Earth. On a planet where g is 4 times that of Earth, its period will be?",
     "options": {
       "A": "1 s",
@@ -5728,7 +5728,7 @@
   {
     "id": 410,
     "source": "Past Questions Compilation",
-    "topic": "Oscillation & Pendulum",
+    "topic": "Simple Harmonic Motion",
     "question": "A simple pendulum has length L. If its length is increased by 21%, the percentage increase in period is?",
     "options": {
       "A": "10%",
@@ -5798,7 +5798,7 @@
   {
     "id": 415,
     "source": "Past Questions Compilation",
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "Two sound waves of frequencies 256 Hz and 260 Hz are sounded together. The beat frequency is?",
     "options": {
       "A": "4 Hz",
@@ -6793,7 +6793,7 @@
   },
   {
     "id": 582,
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "The speed of sound in air at 0°C is about 331 m/s. At 20°C, it is approximately:",
     "options": [
       "331 m/s",
@@ -6805,7 +6805,7 @@
   },
   {
     "id": 583,
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "A person hears an echo 0.6 s after clapping. If speed of sound is 340 m/s, how far is the reflecting surface?",
     "options": [
       "102 m",
@@ -7045,7 +7045,7 @@
   },
   {
     "id": 603,
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "Standing waves are formed by:",
     "options": [
       "Interference of two waves travelling in same direction",
@@ -7129,7 +7129,7 @@
   },
   {
     "id": 610,
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "The fundamental frequency of a stretched string is f. If tension is increased four times, new fundamental frequency is:",
     "options": [
       "f/2",
@@ -7153,7 +7153,7 @@
   },
   {
     "id": 612,
-    "topic": "Oscillation & Pendulum",
+    "topic": "Simple Harmonic Motion",
     "question": "If a simple pendulum has period T on Earth, on a planet with half the gravity, the new period is:",
     "options": [
       "T/√2",
@@ -7165,7 +7165,7 @@
   },
   {
     "id": 613,
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "Resonance occurs when the driving frequency is:",
     "options": [
       "Less than natural frequency",
@@ -7381,7 +7381,7 @@
   },
   {
     "id": 631,
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "Thin film interference in soap bubbles produces colours due to:",
     "options": [
       "Diffraction",
@@ -7441,7 +7441,7 @@
   },
   {
     "id": 636,
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "Sound waves are an example of:",
     "options": [
       "Transverse waves",
@@ -7489,7 +7489,7 @@
   },
   {
     "id": 640,
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "In a damped harmonic oscillator, critical damping results in:",
     "options": [
       "No oscillation, fastest return to equilibrium",
@@ -7705,7 +7705,7 @@
   },
   {
     "id": 658,
-    "topic": "Sound & Doppler",
+    "topic": "Sound & Acoustics",
     "question": "The speed of sound in air at 27°C is approximately:",
     "options": [
       "300 m/s",
@@ -7717,7 +7717,7 @@
   },
   {
     "id": 659,
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "If the linear density of a string is quadrupled, the wave speed (for same tension) becomes:",
     "options": [
       "Half",
@@ -7729,7 +7729,7 @@
   },
   {
     "id": 660,
-    "topic": "Standing Waves",
+    "topic": "Standing Waves & Resonance",
     "question": "For a string fixed at both ends, the second harmonic has a wavelength equal to:",
     "options": [
       "String length",
@@ -7741,7 +7741,7 @@
   },
   {
     "id": 661,
-    "topic": "Resonance & Vibration",
+    "topic": "Standing Waves & Resonance",
     "question": "A tuning fork resonates with an air column. This happens when the frequency of the fork equals:",
     "options": [
       "Natural frequency of the column",

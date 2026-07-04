@@ -548,7 +548,7 @@
   {
     "id": 40,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "The change in potential energy of a unit charge between two points in an electrical field is called?",
     "options": {
       "A": "Potential difference",
@@ -562,7 +562,7 @@
   {
     "id": 41,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "The S.I. unit of potential difference is?",
     "options": {
       "A": "Volt (J/C)",
@@ -576,7 +576,7 @@
   {
     "id": 42,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "In SI unit, JC⁻¹ is equal to",
     "options": {
       "A": "Volt",
@@ -590,7 +590,7 @@
   {
     "id": 43,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "The rate of change of potential with respect to distance is called as?",
     "options": {
       "A": "Potential difference",
@@ -604,7 +604,7 @@
   {
     "id": 44,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "Electric field is steepest in the direction in which the potential:",
     "options": {
       "A": "Remains constant",
@@ -618,7 +618,7 @@
   {
     "id": 45,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "The value of electric field vector E along the surface of constant potential of 100 V is",
     "options": {
       "A": "100 V/m",
@@ -632,7 +632,7 @@
   {
     "id": 46,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "On an equipotential surface:",
     "options": {
       "A": "The electric potential is zero",
@@ -646,7 +646,7 @@
   {
     "id": 47,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "An equipotential surface is adjacent points with:",
     "options": {
       "A": "Same electric potential",
@@ -660,7 +660,7 @@
   {
     "id": 48,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "Equipotential surfaces cannot:",
     "options": {
       "A": "Be parallel",
@@ -674,7 +674,7 @@
   {
     "id": 49,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "Equipotential surfaces associated with an electric dipole are:",
     "options": {
       "A": "Spheres centered on the dipole",
@@ -688,7 +688,7 @@
   {
     "id": 50,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "The shape of the equipotential surface for an infinite line charge is:",
     "options": {
       "A": "Coaxial cylindrical surfaces",
@@ -702,7 +702,7 @@
   {
     "id": 51,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "The earth is taken at a potential of?",
     "options": {
       "A": "Very low value",
@@ -716,7 +716,7 @@
   {
     "id": 52,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "If electrons flow from the earth to a body, the body is said to have",
     "options": {
       "A": "Zero potential",
@@ -730,7 +730,7 @@
   {
     "id": 53,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "The work done in moving a charge against the electric field is stored as?",
     "options": {
       "A": "Electric flux",
@@ -744,7 +744,7 @@
   {
     "id": 54,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "When a positive charge is moved in an electrostatic field from a point at high potential to a low potential, its kinetic energy:",
     "options": {
       "A": "Remains Constant",
@@ -758,7 +758,7 @@
   {
     "id": 55,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC POTENTIAL & EQUIPOTENTIAL SURFACES",
+    "topic": "ELECTRIC POTENTIAL",
     "question": "One of the following statements about electrical potential energy is incorrect:",
     "options": {
       "A": "It is a scalar quantity",
@@ -1164,7 +1164,7 @@
   {
     "id": 84,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Direction of conventional current is",
     "options": {
       "A": "Direction of neutron flow",
@@ -1178,7 +1178,7 @@
   {
     "id": 85,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The current is zero in a conductor when no potential difference is applied because:",
     "options": {
       "A": "The electrons are not moving",
@@ -1192,7 +1192,7 @@
   {
     "id": 86,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Materials having non-linear voltage-current relationship are",
     "options": {
       "A": "Ohmic",
@@ -1206,7 +1206,7 @@
   {
     "id": 87,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Ohm's law can be used only to a ______________ circuit or component",
     "options": {
       "A": "Unilateral",
@@ -1220,7 +1220,7 @@
   {
     "id": 88,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "For an ohmic resistor, resistance is the proportionality constant for:",
     "options": {
       "A": "Potential difference and electric field",
@@ -1234,7 +1234,7 @@
   {
     "id": 89,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Resistivity of a wire depends on",
     "options": {
       "A": "Length",
@@ -1248,7 +1248,7 @@
   {
     "id": 90,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The unit of resistivity is?",
     "options": {
       "A": "Ohm",
@@ -1262,7 +1262,7 @@
   {
     "id": 91,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The reciprocal of resistivity is ……………",
     "options": {
       "A": "Conductance",
@@ -1276,7 +1276,7 @@
   {
     "id": 92,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The resistance of pure metals………….",
     "options": {
       "A": "Increases with an increase in temperature",
@@ -1290,7 +1290,7 @@
   {
     "id": 93,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "For which of the following substances is resistance decreased with temperature?",
     "options": {
       "A": "Copper",
@@ -1304,7 +1304,7 @@
   {
     "id": 94,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "What is the unit of temperature coefficient?",
     "options": {
       "A": "Ohm/centigrade",
@@ -1318,7 +1318,7 @@
   {
     "id": 95,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The algebraic sum of voltages around any closed path in a network is equal to ……",
     "options": {
       "A": "Infinity",
@@ -1332,7 +1332,7 @@
   {
     "id": 96,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "KCL deals with the conservation of?",
     "options": {
       "A": "Momentum",
@@ -1346,7 +1346,7 @@
   {
     "id": 97,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Four wires meet at a junction. The first carries 4 A into the junction, the second carries 5 A out of the junction, and the third carries 2 A out of the junction. The fourth carries:",
     "options": {
       "A": "3 A into the junction",
@@ -1360,7 +1360,7 @@
   {
     "id": 98,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 20 kΩ resistor is connected in series with a resistance of 40 kΩ. What resistance R must be connected in parallel with its equivalent resistance to give 20 kΩ?",
     "options": {
       "A": "120 kΩ",
@@ -1374,7 +1374,7 @@
   {
     "id": 99,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Resistances of 2.0 Ω, 4.0 Ω, and 6.0 Ω and a 24-V EMF device are all in parallel. The current in the 2.0-Ω resistor is:",
     "options": {
       "A": "12 A",
@@ -1388,7 +1388,7 @@
   {
     "id": 100,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "For a cell with EMF E and internal resistance r connected with external resistor R in a closed circuit. The EMF can be expressed as:",
     "options": {
       "A": "E = IR + Ir",
@@ -1402,7 +1402,7 @@
   {
     "id": 101,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "An external resistance R is connected to a cell of internal resistance r. The current is maximum when:",
     "options": {
       "A": "R < r",
@@ -1416,7 +1416,7 @@
   {
     "id": 102,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The emf of a battery is equal to its terminal potential difference:",
     "options": {
       "A": "Under all conditions",
@@ -1430,7 +1430,7 @@
   {
     "id": 103,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The terminal voltage of a cell supplying energy to a circuit is usually less than its EMF because of the cell's",
     "options": {
       "A": "Size",
@@ -1444,7 +1444,7 @@
   {
     "id": 104,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A wire of resistance 2 Ω is stretched uniformly to twice its original length. The resistance of the new wire will be",
     "options": {
       "A": "1 Ω",
@@ -1458,7 +1458,7 @@
   {
     "id": 105,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "If the resistance of a wire is r Ω, and the wire is stretched to double its length, then its resistance is?",
     "options": {
       "A": "r/2 Ω",
@@ -1472,7 +1472,7 @@
   {
     "id": 106,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Two wires A and B with circular cross-sections have identical lengths and are made of the same material. Wire A has four times the resistance of wire B. How many times greater is the diameter of wire B than wire A?",
     "options": {
       "A": "2.5",
@@ -1486,7 +1486,7 @@
   {
     "id": 107,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A length of wire has a resistance of 10 ohms. What is the resistance of a wire of the same material, three times as long and twice the cross-sectional area?",
     "options": {
       "A": "30 ohms",
@@ -1500,7 +1500,7 @@
   {
     "id": 108,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A potential difference of 240 V is applied across the heating coil of an electric kettle driven by a current of 8 A through the coil. Calculate the resistance of the coil.",
     "options": {
       "A": "3 Ohms",
@@ -1514,7 +1514,7 @@
   {
     "id": 109,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Which of the following is not the same as watt?",
     "options": {
       "A": "Joule/sec",
@@ -1528,7 +1528,7 @@
   {
     "id": 110,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Four 20-Ω resistors are connected in parallel and the combination is connected to a 20-V emf device. The current in the device is:",
     "options": {
       "A": "0.25 A",
@@ -1542,7 +1542,7 @@
   {
     "id": 111,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "What happens to the current in the series circuit if the resistance is doubled?",
     "options": {
       "A": "It becomes half its original value",
@@ -1556,7 +1556,7 @@
   {
     "id": 112,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "If the potential difference across a resistor is doubled:",
     "options": {
       "A": "Only the current is doubled",
@@ -1570,7 +1570,7 @@
   {
     "id": 113,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The sum of the emf's and potential differences around a closed loop equals zero — this is a consequence of:",
     "options": {
       "A": "Newton's third law",
@@ -1584,7 +1584,7 @@
   {
     "id": 114,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The rate at which electrical energy is used may be measured in:",
     "options": {
       "A": "Watt/second",
@@ -1598,7 +1598,7 @@
   {
     "id": 115,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "One kilowatt hour of electrical energy is the same as",
     "options": {
       "A": "36 × 10⁵ watts",
@@ -1612,7 +1612,7 @@
   {
     "id": 116,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A current of 0.3 A is passed through a lamp for 2 minutes using a 6-V power supply. The energy dissipated by this lamp during the 2 minutes is:",
     "options": {
       "A": "1.8 J",
@@ -1626,7 +1626,7 @@
   {
     "id": 117,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 60-watt light bulb carries a current of 0.5 A. The total charge passing through it in one hour is:",
     "options": {
       "A": "3600 C",
@@ -1640,7 +1640,7 @@
   {
     "id": 118,
     "source": "Past Questions Compilation",
-    "topic": "DC CIRCUITS — RESISTANCE, OHM'S LAW & KIRCHHOFF'S LAWS",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "How much current does a 60 W light bulb draw when connected to a voltage of 240 V?",
     "options": {
       "A": "60 A",
@@ -2690,7 +2690,7 @@
   {
     "id": 193,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS & MODERN PHYSICS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "Which of the following statements is TRUE?",
     "options": {
       "A": "Silicon Oxide is a good conductor",
@@ -2704,7 +2704,7 @@
   {
     "id": 194,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS & MODERN PHYSICS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "Which of the following has the least number of valence electrons?",
     "options": {
       "A": "Semiconductor",
@@ -2718,7 +2718,7 @@
   {
     "id": 195,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS & MODERN PHYSICS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "Hall probe is made up of",
     "options": {
       "A": "Metals",
@@ -2732,7 +2732,7 @@
   {
     "id": 196,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS & MODERN PHYSICS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "Which of the following is true about p-n junction diode: i. Forward bias current rises linearly. Reverse bias current is absolutely zero. iii. Width of depletion region is unchanged when forward biased.",
     "options": {
       "A": "i, iii.",
@@ -2746,7 +2746,7 @@
   {
     "id": 197,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS & MODERN PHYSICS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "A charged particle is placed in a uniform magnetic field and negligible gravitational field. When released it will exhibit constant",
     "options": {
       "A": "Acceleration",
@@ -2760,7 +2760,7 @@
   {
     "id": 198,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS & MODERN PHYSICS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "A cyclotron is used to",
     "options": {
       "A": "Accelerate charged particles",
@@ -2774,7 +2774,7 @@
   {
     "id": 199,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS & MODERN PHYSICS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "Derived unit Tesla is related to",
     "options": {
       "A": "A",
@@ -2788,7 +2788,7 @@
   {
     "id": 200,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS & MODERN PHYSICS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "What is the SI unit for magnetic flux?",
     "options": {
       "A": "Gauss (G)",
@@ -2802,7 +2802,7 @@
   {
     "id": 201,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS & MODERN PHYSICS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "In order to increase range of ammeter, value of shunt resistance Rs is",
     "options": {
       "A": "Increased",
@@ -2816,7 +2816,7 @@
   {
     "id": 202,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS & MODERN PHYSICS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "Wheatstone bridge is a ……..",
     "options": {
       "A": "A.C. bridge",
@@ -2830,7 +2830,7 @@
   {
     "id": 203,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS & MODERN PHYSICS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "A Wheatstone bridge is said to be balanced when the current through the galvanometer is……?",
     "options": {
       "A": "1",
@@ -2853,7 +2853,7 @@
       "D": "Watt"
     },
     "answer": "B",
-    "explanation": "The SI unit of electric charge is the Coulomb (C), named after Charles-Augustin de Coulomb. One coulomb is defined as the charge transported by a current of one ampere in one second (1 C = 1 A\u00b7s)."
+    "explanation": "The SI unit of electric charge is the Coulomb (C), named after Charles-Augustin de Coulomb. One coulomb is defined as the charge transported by a current of one ampere in one second (1 C = 1 A·s)."
   },
   {
     "id": 205,
@@ -2895,13 +2895,13 @@
       "D": "Become zero"
     },
     "answer": "B",
-    "explanation": "When a dielectric medium is placed between two charges, F = kq\u2081q\u2082/(\u03b5\u1d63r\u00b2). Since \u03b5\u1d63 > 1 for all real media, the force is smaller than in vacuum."
+    "explanation": "When a dielectric medium is placed between two charges, F = kq₁q₂/(εᵣr²). Since εᵣ > 1 for all real media, the force is smaller than in vacuum."
   },
   {
     "id": 208,
     "source": "Past Questions Compilation",
     "topic": "ELECTROSTATICS & COULOMB'S LAW",
-    "question": "The force between two charges in vacuum is 0.24 N. If the medium changes to one with \u03b5\u1d63 = 2, the new force is?",
+    "question": "The force between two charges in vacuum is 0.24 N. If the medium changes to one with εᵣ = 2, the new force is?",
     "options": {
       "A": "0.339 N",
       "B": "0.18 N",
@@ -2909,13 +2909,13 @@
       "D": "0.48 N"
     },
     "answer": "C",
-    "explanation": "F_medium = F_vacuum / \u03b5\u1d63 = 0.24 / 2 = 0.12 N. The dielectric constant divides the original force."
+    "explanation": "F_medium = F_vacuum / εᵣ = 0.24 / 2 = 0.12 N. The dielectric constant divides the original force."
   },
   {
     "id": 209,
     "source": "Past Questions Compilation",
     "topic": "ELECTROSTATICS & COULOMB'S LAW",
-    "question": "Two charges of 3.0 \u00b5C each exert an attractive force of 6 \u00d7 10\u207b\u00b3 N. How far apart are they?",
+    "question": "Two charges of 3.0 µC each exert an attractive force of 6 × 10⁻³ N. How far apart are they?",
     "options": {
       "A": "3.67 m",
       "B": "9.50 m",
@@ -2923,7 +2923,7 @@
       "D": "12.50 m"
     },
     "answer": "A",
-    "explanation": "F = kq\u00b2/r\u00b2: r\u00b2 = (9\u00d710\u2079 \u00d7 (3\u00d710\u207b\u2076)\u00b2) / (6\u00d710\u207b\u00b3) = 13.5, so r = \u221a13.5 \u2248 3.67 m."
+    "explanation": "F = kq²/r²: r² = (9×10⁹ × (3×10⁻⁶)²) / (6×10⁻³) = 13.5, so r = √13.5 ≈ 3.67 m."
   },
   {
     "id": 210,
@@ -2937,7 +2937,7 @@
       "D": "Decreases 2 times"
     },
     "answer": "B",
-    "explanation": "F \u221d 1/r\u00b2. Doubling r gives F \u2192 F/(2\u00b2) = F/4. The force decreases by a factor of 4."
+    "explanation": "F ∝ 1/r². Doubling r gives F → F/(2²) = F/4. The force decreases by a factor of 4."
   },
   {
     "id": 211,
@@ -2951,7 +2951,7 @@
       "D": "1/4"
     },
     "answer": "C",
-    "explanation": "F \u221d 1/r\u00b2. (6/3)\u00b2 = 4. Halving the distance quadruples the force."
+    "explanation": "F ∝ 1/r². (6/3)² = 4. Halving the distance quadruples the force."
   },
   {
     "id": 212,
@@ -2961,11 +2961,11 @@
     "options": {
       "A": "1/2",
       "B": "2",
-      "C": "\u2013log 2",
+      "C": "–log 2",
       "D": "-2"
     },
     "answer": "D",
-    "explanation": "log F = log(kq\u2081q\u2082) \u2013 2 log r. The slope of log F vs log r is \u20132."
+    "explanation": "log F = log(kq₁q₂) – 2 log r. The slope of log F vs log r is –2."
   },
   {
     "id": 213,
@@ -2979,7 +2979,7 @@
       "D": "3 N"
     },
     "answer": "A",
-    "explanation": "F_new = 96/(4\u00b2) = 96/16 = 6 N. Quadrupling the distance reduces the force by 16."
+    "explanation": "F_new = 96/(4²) = 96/16 = 6 N. Quadrupling the distance reduces the force by 16."
   },
   {
     "id": 214,
@@ -2987,27 +2987,27 @@
     "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The value of Coulomb's constant k in free space is approximately?",
     "options": {
-      "A": "6.67 \u00d7 10\u207b\u00b9\u00b9 N\u00b7m\u00b2/C\u00b2",
-      "B": "9 \u00d7 10\u2079 N\u00b7m\u00b2/C\u00b2",
-      "C": "8.85 \u00d7 10\u207b\u00b9\u00b2 N\u00b7m\u00b2/C\u00b2",
-      "D": "1.6 \u00d7 10\u207b\u00b9\u2079 N\u00b7m\u00b2/C\u00b2"
+      "A": "6.67 × 10⁻¹¹ N·m²/C²",
+      "B": "9 × 10⁹ N·m²/C²",
+      "C": "8.85 × 10⁻¹² N·m²/C²",
+      "D": "1.6 × 10⁻¹⁹ N·m²/C²"
     },
     "answer": "B",
-    "explanation": "Coulomb's constant k = 1/(4\u03c0\u03b5\u2080) \u2248 9 \u00d7 10\u2079 N\u00b7m\u00b2/C\u00b2. It should not be confused with G (gravitational constant) or \u03b5\u2080 (permittivity of free space)."
+    "explanation": "Coulomb's constant k = 1/(4πε₀) ≈ 9 × 10⁹ N·m²/C². It should not be confused with G (gravitational constant) or ε₀ (permittivity of free space)."
   },
   {
     "id": 215,
     "source": "Past Questions Compilation",
     "topic": "ELECTROSTATICS & COULOMB'S LAW",
-    "question": "The permittivity of free space \u03b5\u2080 has the value?",
+    "question": "The permittivity of free space ε₀ has the value?",
     "options": {
-      "A": "9 \u00d7 10\u2079 C\u00b2/N\u00b7m\u00b2",
-      "B": "8.85 \u00d7 10\u207b\u00b9\u00b2 C\u00b2/N\u00b7m\u00b2",
-      "C": "1.6 \u00d7 10\u207b\u00b9\u2079 C\u00b2/N\u00b7m\u00b2",
-      "D": "6.67 \u00d7 10\u207b\u00b9\u00b9 C\u00b2/N\u00b7m\u00b2"
+      "A": "9 × 10⁹ C²/N·m²",
+      "B": "8.85 × 10⁻¹² C²/N·m²",
+      "C": "1.6 × 10⁻¹⁹ C²/N·m²",
+      "D": "6.67 × 10⁻¹¹ C²/N·m²"
     },
     "answer": "B",
-    "explanation": "\u03b5\u2080 = 8.85 \u00d7 10\u207b\u00b9\u00b2 C\u00b2/(N\u00b7m\u00b2) or equivalently F/m. It appears in Coulomb's law as F = q\u2081q\u2082/(4\u03c0\u03b5\u2080r\u00b2)."
+    "explanation": "ε₀ = 8.85 × 10⁻¹² C²/(N·m²) or equivalently F/m. It appears in Coulomb's law as F = q₁q₂/(4πε₀r²)."
   },
   {
     "id": 216,
@@ -3021,7 +3021,7 @@
       "D": "Ampere's law"
     },
     "answer": "B",
-    "explanation": "Both Coulomb's law (F = kq\u2081q\u2082/r\u00b2) and Newton's gravitational law (F = Gm\u2081m\u2082/r\u00b2) follow an inverse-square dependence on distance. The key difference is gravity is always attractive, while electric force can be attractive or repulsive."
+    "explanation": "Both Coulomb's law (F = kq₁q₂/r²) and Newton's gravitational law (F = Gm₁m₂/r²) follow an inverse-square dependence on distance. The key difference is gravity is always attractive, while electric force can be attractive or repulsive."
   },
   {
     "id": 217,
@@ -3029,19 +3029,19 @@
     "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The charge on one electron is approximately?",
     "options": {
-      "A": "1.6 \u00d7 10\u207b\u00b9\u2079 C",
-      "B": "9.1 \u00d7 10\u207b\u00b3\u00b9 C",
-      "C": "6.67 \u00d7 10\u207b\u00b9\u00b9 C",
-      "D": "8.85 \u00d7 10\u207b\u00b9\u00b2 C"
+      "A": "1.6 × 10⁻¹⁹ C",
+      "B": "9.1 × 10⁻³¹ C",
+      "C": "6.67 × 10⁻¹¹ C",
+      "D": "8.85 × 10⁻¹² C"
     },
     "answer": "A",
-    "explanation": "The elementary charge e = 1.6 \u00d7 10\u207b\u00b9\u2079 C. This is the magnitude of charge on one electron (negative) or one proton (positive)."
+    "explanation": "The elementary charge e = 1.6 × 10⁻¹⁹ C. This is the magnitude of charge on one electron (negative) or one proton (positive)."
   },
   {
     "id": 218,
     "source": "Past Questions Compilation",
     "topic": "ELECTROSTATICS & COULOMB'S LAW",
-    "question": "Two charges of +4 \u00b5C and \u20134 \u00b5C are placed 0.2 m apart. The force between them is?",
+    "question": "Two charges of +4 µC and –4 µC are placed 0.2 m apart. The force between them is?",
     "options": {
       "A": "3.6 N attractive",
       "B": "3.6 N repulsive",
@@ -3049,7 +3049,7 @@
       "D": "7.2 N repulsive"
     },
     "answer": "A",
-    "explanation": "F = kq\u2081q\u2082/r\u00b2 = (9\u00d710\u2079)(4\u00d710\u207b\u2076)(4\u00d710\u207b\u2076)/(0.2)\u00b2 = (9\u00d710\u2079 \u00d7 16\u00d710\u207b\u00b9\u00b2)/0.04 = 144\u00d710\u207b\u00b3/0.04 = 3.6 N. Since charges are opposite, the force is attractive."
+    "explanation": "F = kq₁q₂/r² = (9×10⁹)(4×10⁻⁶)(4×10⁻⁶)/(0.2)² = (9×10⁹ × 16×10⁻¹²)/0.04 = 144×10⁻³/0.04 = 3.6 N. Since charges are opposite, the force is attractive."
   },
   {
     "id": 219,
@@ -3063,21 +3063,21 @@
       "D": "Halves"
     },
     "answer": "B",
-    "explanation": "F = k(2q\u2081)(2q\u2082)/(2r)\u00b2 = k\u00b74q\u2081q\u2082/(4r\u00b2) = kq\u2081q\u2082/r\u00b2. The force remains unchanged because doubling charges (\u00d74) is cancelled by doubling distance (\u00f74)."
+    "explanation": "F = k(2q₁)(2q₂)/(2r)² = k·4q₁q₂/(4r²) = kq₁q₂/r². The force remains unchanged because doubling charges (×4) is cancelled by doubling distance (÷4)."
   },
   {
     "id": 220,
     "source": "Past Questions Compilation",
     "topic": "ELECTROSTATICS & COULOMB'S LAW",
-    "question": "A charge of 10 \u00b5C is divided into two parts to maximize the repulsive force between them. Each part should be?",
+    "question": "A charge of 10 µC is divided into two parts to maximize the repulsive force between them. Each part should be?",
     "options": {
-      "A": "3 \u00b5C and 7 \u00b5C",
-      "B": "5 \u00b5C and 5 \u00b5C",
-      "C": "2 \u00b5C and 8 \u00b5C",
-      "D": "1 \u00b5C and 9 \u00b5C"
+      "A": "3 µC and 7 µC",
+      "B": "5 µC and 5 µC",
+      "C": "2 µC and 8 µC",
+      "D": "1 µC and 9 µC"
     },
     "answer": "B",
-    "explanation": "To maximize F = kq(Q\u2013q)/r\u00b2, differentiate with respect to q and set dF/dq = 0. This gives q = Q/2. So both parts should be equal: 5 \u00b5C each."
+    "explanation": "To maximize F = kq(Q–q)/r², differentiate with respect to q and set dF/dq = 0. This gives q = Q/2. So both parts should be equal: 5 µC each."
   },
   {
     "id": 221,
@@ -3102,35 +3102,35 @@
       "A": "0",
       "B": "8.85",
       "C": "1",
-      "D": "9 \u00d7 10\u2079"
+      "D": "9 × 10⁹"
     },
     "answer": "C",
-    "explanation": "The relative permittivity \u03b5\u1d63 of vacuum (and approximately air) is exactly 1 by definition. For all other materials, \u03b5\u1d63 > 1."
+    "explanation": "The relative permittivity εᵣ of vacuum (and approximately air) is exactly 1 by definition. For all other materials, εᵣ > 1."
   },
   {
     "id": 223,
     "source": "Past Questions Compilation",
     "topic": "ELECTROSTATICS & COULOMB'S LAW",
-    "question": "Three charges of +1 \u00b5C are placed at the corners of an equilateral triangle of side 1 m. The net force on any one charge is?",
+    "question": "Three charges of +1 µC are placed at the corners of an equilateral triangle of side 1 m. The net force on any one charge is?",
     "options": {
-      "A": "9 \u00d7 10\u207b\u00b3 N",
-      "B": "9\u221a3 \u00d7 10\u207b\u00b3 N",
-      "C": "18 \u00d7 10\u207b\u00b3 N",
+      "A": "9 × 10⁻³ N",
+      "B": "9√3 × 10⁻³ N",
+      "C": "18 × 10⁻³ N",
       "D": "Zero"
     },
     "answer": "B",
-    "explanation": "Each charge feels two equal repulsive forces of F = k(1\u00d710\u207b\u2076)\u00b2/1\u00b2 = 9\u00d710\u207b\u00b3 N at 60\u00b0 to each other. The resultant = 2F\u00b7cos(30\u00b0) = 2 \u00d7 9\u00d710\u207b\u00b3 \u00d7 (\u221a3/2) = 9\u221a3 \u00d7 10\u207b\u00b3 N."
+    "explanation": "Each charge feels two equal repulsive forces of F = k(1×10⁻⁶)²/1² = 9×10⁻³ N at 60° to each other. The resultant = 2F·cos(30°) = 2 × 9×10⁻³ × (√3/2) = 9√3 × 10⁻³ N."
   },
   {
     "id": 224,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "The SI unit of electric field intensity is?",
     "options": {
-      "A": "N/C\u00b2 ",
+      "A": "N/C² ",
       "B": "N/C",
       "C": "C/N",
-      "D": "V\u00b7m"
+      "D": "V·m"
     },
     "answer": "B",
     "explanation": "Electric field E = F/q, so its SI unit is N/C (Newtons per Coulomb). This is equivalently expressed as V/m (Volts per metre)."
@@ -3138,21 +3138,21 @@
   {
     "id": 225,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "The electric field due to a point charge Q at distance r is?",
     "options": {
       "A": "E = kQ/r",
-      "B": "E = kQ/r\u00b2",
-      "C": "E = kQ\u00b2/r\u00b2",
-      "D": "E = kQ\u00b7r\u00b2"
+      "B": "E = kQ/r²",
+      "C": "E = kQ²/r²",
+      "D": "E = kQ·r²"
     },
     "answer": "B",
-    "explanation": "The electric field E = F/q = kQq/r\u00b2 \u00f7 q = kQ/r\u00b2. It depends only on the source charge Q and distance r, not on the test charge."
+    "explanation": "The electric field E = F/q = kQq/r² ÷ q = kQ/r². It depends only on the source charge Q and distance r, not on the test charge."
   },
   {
     "id": 226,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "Electric field lines always begin on ______ charges and end on ______ charges.",
     "options": {
       "A": "Negative; positive",
@@ -3166,7 +3166,7 @@
   {
     "id": 227,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "Which of the following statements about electric field lines is INCORRECT?",
     "options": {
       "A": "They never cross each other",
@@ -3180,8 +3180,8 @@
   {
     "id": 228,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
-    "question": "A +2 \u00b5C charge is placed in an electric field of 500 N/C. What force acts on it?",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
+    "question": "A +2 µC charge is placed in an electric field of 500 N/C. What force acts on it?",
     "options": {
       "A": "0.001 N",
       "B": "0.01 N",
@@ -3189,12 +3189,12 @@
       "D": "0.25 N"
     },
     "answer": "A",
-    "explanation": "F = qE = (2\u00d710\u207b\u2076)(500) = 10\u207b\u00b3 N = 0.001 N. The force on a charge in an electric field is simply the product of charge and field strength."
+    "explanation": "F = qE = (2×10⁻⁶)(500) = 10⁻³ N = 0.001 N. The force on a charge in an electric field is simply the product of charge and field strength."
   },
   {
     "id": 229,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "The electric field inside a uniformly charged hollow spherical shell is?",
     "options": {
       "A": "Maximum at centre",
@@ -3208,21 +3208,21 @@
   {
     "id": 230,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
-    "question": "The electric field at a point midway between a +5 \u00b5C charge and a \u20135 \u00b5C charge separated by 2 m is?",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
+    "question": "The electric field at a point midway between a +5 µC charge and a –5 µC charge separated by 2 m is?",
     "options": {
       "A": "0 N/C",
-      "B": "9 \u00d7 10\u2074 N/C",
-      "C": "4.5 \u00d7 10\u2074 N/C",
-      "D": "18 \u00d7 10\u2074 N/C"
+      "B": "9 × 10⁴ N/C",
+      "C": "4.5 × 10⁴ N/C",
+      "D": "18 × 10⁴ N/C"
     },
     "answer": "D",
-    "explanation": "At the midpoint (r = 1 m), E due to +5\u00b5C points away and E due to \u20135\u00b5C points toward it \u2014 both in the same direction. E_total = 2 \u00d7 k(5\u00d710\u207b\u2076)/1\u00b2 = 2 \u00d7 9\u00d710\u2079 \u00d7 5\u00d710\u207b\u2076 = 9\u00d710\u2074 \u00d7 2 = 18\u00d710\u2074 N/C."
+    "explanation": "At the midpoint (r = 1 m), E due to +5µC points away and E due to –5µC points toward it — both in the same direction. E_total = 2 × k(5×10⁻⁶)/1² = 2 × 9×10⁹ × 5×10⁻⁶ = 9×10⁴ × 2 = 18×10⁴ N/C."
   },
   {
     "id": 231,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "An electric dipole consists of?",
     "options": {
       "A": "Two equal positive charges",
@@ -3231,26 +3231,26 @@
       "D": "Two unequal charges"
     },
     "answer": "B",
-    "explanation": "An electric dipole is defined as two equal and opposite charges (+q and \u2013q) separated by a small distance d. The dipole moment p = qd."
+    "explanation": "An electric dipole is defined as two equal and opposite charges (+q and –q) separated by a small distance d. The dipole moment p = qd."
   },
   {
     "id": 232,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "The electric field on the axis of a dipole at distance r (r >> d) varies as?",
     "options": {
       "A": "1/r",
-      "B": "1/r\u00b2",
-      "C": "1/r\u00b3",
-      "D": "1/r\u2074"
+      "B": "1/r²",
+      "C": "1/r³",
+      "D": "1/r⁴"
     },
     "answer": "C",
-    "explanation": "On the axial line of a dipole, E \u221d 1/r\u00b3. This is faster decay than a point charge (1/r\u00b2) because the opposite charges partially cancel the field."
+    "explanation": "On the axial line of a dipole, E ∝ 1/r³. This is faster decay than a point charge (1/r²) because the opposite charges partially cancel the field."
   },
   {
     "id": 233,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "The superposition principle in electrostatics states that?",
     "options": {
       "A": "The net field is the product of individual fields",
@@ -3281,13 +3281,13 @@
     "topic": "ELECTRIC POTENTIAL",
     "question": "The electric potential due to a point charge Q at distance r is?",
     "options": {
-      "A": "V = kQ/r\u00b2",
+      "A": "V = kQ/r²",
       "B": "V = kQ/r",
-      "C": "V = kQ\u00b7r",
-      "D": "V = kQ\u00b2/r"
+      "C": "V = kQ·r",
+      "D": "V = kQ²/r"
     },
     "answer": "B",
-    "explanation": "The potential due to a point charge is V = kQ/r. Unlike the electric field (which falls as 1/r\u00b2), the potential falls as 1/r."
+    "explanation": "The potential due to a point charge is V = kQ/r. Unlike the electric field (which falls as 1/r²), the potential falls as 1/r."
   },
   {
     "id": 236,
@@ -3297,7 +3297,7 @@
     "options": {
       "A": "Parallel",
       "B": "Perpendicular",
-      "C": "At 45\u00b0",
+      "C": "At 45°",
       "D": "Antiparallel"
     },
     "answer": "B",
@@ -3315,21 +3315,21 @@
       "D": "7 J"
     },
     "answer": "C",
-    "explanation": "W = qV = 2 \u00d7 5 = 10 J. Work done equals the product of charge and potential difference traversed."
+    "explanation": "W = qV = 2 × 5 = 10 J. Work done equals the product of charge and potential difference traversed."
   },
   {
     "id": 238,
     "source": "Past Questions Compilation",
     "topic": "ELECTRIC POTENTIAL",
-    "question": "The potential energy of a system of two charges q\u2081 and q\u2082 separated by r is?",
+    "question": "The potential energy of a system of two charges q₁ and q₂ separated by r is?",
     "options": {
-      "A": "U = kq\u2081q\u2082/r\u00b2",
-      "B": "U = kq\u2081q\u2082/r",
-      "C": "U = kq\u2081q\u2082\u00b7r",
-      "D": "U = (q\u2081 + q\u2082)k/r"
+      "A": "U = kq₁q₂/r²",
+      "B": "U = kq₁q₂/r",
+      "C": "U = kq₁q₂·r",
+      "D": "U = (q₁ + q₂)k/r"
     },
     "answer": "B",
-    "explanation": "The electrostatic potential energy of two point charges is U = kq\u2081q\u2082/r. It is positive for like charges (repulsive system requires energy to assemble) and negative for unlike charges."
+    "explanation": "The electrostatic potential energy of two point charges is U = kq₁q₂/r. It is positive for like charges (repulsive system requires energy to assemble) and negative for unlike charges."
   },
   {
     "id": 239,
@@ -3352,12 +3352,12 @@
     "question": "If V is the potential at a point, the electric field E is related to V by?",
     "options": {
       "A": "E = V/r",
-      "B": "E = \u2013dV/dr",
+      "B": "E = –dV/dr",
       "C": "E = dV/dr",
-      "D": "E = V \u00d7 r"
+      "D": "E = V × r"
     },
     "answer": "B",
-    "explanation": "The electric field is the negative gradient of potential: E = \u2013dV/dr. The negative sign indicates the field points in the direction of decreasing potential (from high to low potential)."
+    "explanation": "The electric field is the negative gradient of potential: E = –dV/dr. The negative sign indicates the field points in the direction of decreasing potential (from high to low potential)."
   },
   {
     "id": 241,
@@ -3371,21 +3371,21 @@
       "D": "Power"
     },
     "answer": "C",
-    "explanation": "The electron volt (eV) is a unit of energy defined as the work done when an electron moves through a potential difference of 1 volt. 1 eV = 1.6 \u00d7 10\u207b\u00b9\u2079 J."
+    "explanation": "The electron volt (eV) is a unit of energy defined as the work done when an electron moves through a potential difference of 1 volt. 1 eV = 1.6 × 10⁻¹⁹ J."
   },
   {
     "id": 242,
     "source": "Past Questions Compilation",
     "topic": "ELECTRIC POTENTIAL",
-    "question": "The potential at a point midway between charges of +8 \u00b5C and \u20138 \u00b5C separated by 2 m is?",
+    "question": "The potential at a point midway between charges of +8 µC and –8 µC separated by 2 m is?",
     "options": {
       "A": "72000 V",
-      "B": "\u201372000 V",
+      "B": "–72000 V",
       "C": "0 V",
       "D": "144000 V"
     },
     "answer": "C",
-    "explanation": "V = kq/r. V_total = k(+8\u00d710\u207b\u2076)/1 + k(\u20138\u00d710\u207b\u2076)/1 = 0. Potential is a scalar, so opposite contributions cancel completely."
+    "explanation": "V = kq/r. V_total = k(+8×10⁻⁶)/1 + k(–8×10⁻⁶)/1 = 0. Potential is a scalar, so opposite contributions cancel completely."
   },
   {
     "id": 243,
@@ -3393,18 +3393,18 @@
     "topic": "ELECTRIC POTENTIAL",
     "question": "A proton is accelerated from rest through a potential difference of 100 V. Its kinetic energy gained is?",
     "options": {
-      "A": "1.6 \u00d7 10\u207b\u00b2\u00b9 J",
-      "B": "1.6 \u00d7 10\u207b\u00b9\u2077 J",
+      "A": "1.6 × 10⁻²¹ J",
+      "B": "1.6 × 10⁻¹⁷ J",
       "C": "100 J",
-      "D": "3.2 \u00d7 10\u207b\u00b9\u2077 J"
+      "D": "3.2 × 10⁻¹⁷ J"
     },
     "answer": "B",
-    "explanation": "KE = qV = (1.6 \u00d7 10\u207b\u00b9\u2079)(100) = 1.6 \u00d7 10\u207b\u00b9\u2077 J. The charge of a proton equals the elementary charge e = 1.6 \u00d7 10\u207b\u00b9\u2079 C."
+    "explanation": "KE = qV = (1.6 × 10⁻¹⁹)(100) = 1.6 × 10⁻¹⁷ J. The charge of a proton equals the elementary charge e = 1.6 × 10⁻¹⁹ C."
   },
   {
     "id": 244,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
+    "topic": "CAPACITORS",
     "question": "The SI unit of capacitance is?",
     "options": {
       "A": "Volt",
@@ -3413,69 +3413,69 @@
       "D": "Henry"
     },
     "answer": "C",
-    "explanation": "Capacitance C = Q/V, so its unit is C/V, which is given the special name Farad (F), named after Michael Faraday. Practical capacitors are usually in \u00b5F, nF, or pF."
+    "explanation": "Capacitance C = Q/V, so its unit is C/V, which is given the special name Farad (F), named after Michael Faraday. Practical capacitors are usually in µF, nF, or pF."
   },
   {
     "id": 245,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
-    "question": "The capacitance of a parallel plate capacitor with plate area A, separation d, and dielectric constant \u03b5\u1d63 is?",
+    "topic": "CAPACITORS",
+    "question": "The capacitance of a parallel plate capacitor with plate area A, separation d, and dielectric constant εᵣ is?",
     "options": {
-      "A": "C = \u03b5\u2080A/d",
-      "B": "C = \u03b5\u1d63\u03b5\u2080A/d",
-      "C": "C = \u03b5\u1d63\u03b5\u2080d/A",
-      "D": "C = \u03b5\u2080d/A"
+      "A": "C = ε₀A/d",
+      "B": "C = εᵣε₀A/d",
+      "C": "C = εᵣε₀d/A",
+      "D": "C = ε₀d/A"
     },
     "answer": "B",
-    "explanation": "C = \u03b5\u1d63\u03b5\u2080A/d. Capacitance increases with larger plate area, higher dielectric constant, and smaller separation. Without a dielectric, \u03b5\u1d63 = 1 and C = \u03b5\u2080A/d."
+    "explanation": "C = εᵣε₀A/d. Capacitance increases with larger plate area, higher dielectric constant, and smaller separation. Without a dielectric, εᵣ = 1 and C = ε₀A/d."
   },
   {
     "id": 246,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
-    "question": "Three capacitors of 2 \u00b5F, 3 \u00b5F, and 6 \u00b5F are connected in parallel. The total capacitance is?",
+    "topic": "CAPACITORS",
+    "question": "Three capacitors of 2 µF, 3 µF, and 6 µF are connected in parallel. The total capacitance is?",
     "options": {
-      "A": "1 \u00b5F",
-      "B": "11 \u00b5F",
-      "C": "6 \u00b5F",
-      "D": "18 \u00b5F"
+      "A": "1 µF",
+      "B": "11 µF",
+      "C": "6 µF",
+      "D": "18 µF"
     },
     "answer": "B",
-    "explanation": "For parallel capacitors: C_total = C\u2081 + C\u2082 + C\u2083 = 2 + 3 + 6 = 11 \u00b5F. Capacitances add directly in parallel."
+    "explanation": "For parallel capacitors: C_total = C₁ + C₂ + C₃ = 2 + 3 + 6 = 11 µF. Capacitances add directly in parallel."
   },
   {
     "id": 247,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
-    "question": "Three capacitors of 2 \u00b5F, 3 \u00b5F, and 6 \u00b5F are connected in series. The total capacitance is?",
+    "topic": "CAPACITORS",
+    "question": "Three capacitors of 2 µF, 3 µF, and 6 µF are connected in series. The total capacitance is?",
     "options": {
-      "A": "11 \u00b5F",
-      "B": "1 \u00b5F",
-      "C": "6 \u00b5F",
-      "D": "3 \u00b5F"
+      "A": "11 µF",
+      "B": "1 µF",
+      "C": "6 µF",
+      "D": "3 µF"
     },
     "answer": "B",
-    "explanation": "1/C = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1. Therefore C = 1 \u00b5F."
+    "explanation": "1/C = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1. Therefore C = 1 µF."
   },
   {
     "id": 248,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
+    "topic": "CAPACITORS",
     "question": "The energy stored in a capacitor of capacitance C charged to voltage V is?",
     "options": {
       "A": "E = CV",
-      "B": "E = CV\u00b2",
-      "C": "E = \u00bdCV\u00b2",
-      "D": "E = \u00bdQV\u00b2"
+      "B": "E = CV²",
+      "C": "E = ½CV²",
+      "D": "E = ½QV²"
     },
     "answer": "C",
-    "explanation": "Energy stored = \u00bdCV\u00b2 = \u00bdQV = Q\u00b2/(2C). All three expressions are equivalent; \u00bdCV\u00b2 is the most commonly used form."
+    "explanation": "Energy stored = ½CV² = ½QV = Q²/(2C). All three expressions are equivalent; ½CV² is the most commonly used form."
   },
   {
     "id": 249,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
-    "question": "A 10 \u00b5F capacitor is charged to 100 V. The energy stored is?",
+    "topic": "CAPACITORS",
+    "question": "A 10 µF capacitor is charged to 100 V. The energy stored is?",
     "options": {
       "A": "0.05 J",
       "B": "0.5 J",
@@ -3483,12 +3483,12 @@
       "D": "50 J"
     },
     "answer": "A",
-    "explanation": "E = \u00bdCV\u00b2 = \u00bd \u00d7 10\u00d710\u207b\u2076 \u00d7 (100)\u00b2 = \u00bd \u00d7 10\u207b\u2075 \u00d7 10\u2074 = \u00bd \u00d7 0.1 = 0.05 J."
+    "explanation": "E = ½CV² = ½ × 10×10⁻⁶ × (100)² = ½ × 10⁻⁵ × 10⁴ = ½ × 0.1 = 0.05 J."
   },
   {
     "id": 250,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
+    "topic": "CAPACITORS",
     "question": "When a dielectric is inserted into a charged capacitor (isolated from battery), the voltage?",
     "options": {
       "A": "Increases",
@@ -3497,12 +3497,12 @@
       "D": "Becomes zero"
     },
     "answer": "C",
-    "explanation": "When the capacitor is isolated (Q = constant) and a dielectric is inserted: C increases (C' = \u03b5\u1d63C), so V = Q/C decreases. The dielectric's polarization reduces the effective electric field."
+    "explanation": "When the capacitor is isolated (Q = constant) and a dielectric is inserted: C increases (C' = εᵣC), so V = Q/C decreases. The dielectric's polarization reduces the effective electric field."
   },
   {
     "id": 251,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
+    "topic": "CAPACITORS",
     "question": "A capacitor stores charge Q when connected to voltage V. If the voltage is doubled, the charge stored becomes?",
     "options": {
       "A": "Q/2",
@@ -3516,7 +3516,7 @@
   {
     "id": 252,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
+    "topic": "CAPACITORS",
     "question": "The capacitance of a capacitor depends on which of the following?",
     "options": {
       "A": "The charge stored and voltage",
@@ -3525,13 +3525,13 @@
       "D": "The electric field only"
     },
     "answer": "B",
-    "explanation": "Capacitance is determined by the physical configuration: C = \u03b5\u1d63\u03b5\u2080A/d. It depends on plate area (A), separation (d), and the dielectric constant (\u03b5\u1d63). It does NOT depend on Q or V individually."
+    "explanation": "Capacitance is determined by the physical configuration: C = εᵣε₀A/d. It depends on plate area (A), separation (d), and the dielectric constant (εᵣ). It does NOT depend on Q or V individually."
   },
   {
     "id": 253,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
-    "question": "Two capacitors, C\u2081 = 4 \u00b5F and C\u2082 = 4 \u00b5F, are connected in series across a 12 V battery. The voltage across each capacitor is?",
+    "topic": "CAPACITORS",
+    "question": "Two capacitors, C₁ = 4 µF and C₂ = 4 µF, are connected in series across a 12 V battery. The voltage across each capacitor is?",
     "options": {
       "A": "12 V each",
       "B": "6 V each",
@@ -3539,12 +3539,12 @@
       "D": "4 V each"
     },
     "answer": "B",
-    "explanation": "For equal capacitors in series, voltage divides equally: V\u2081 = V\u2082 = 12/2 = 6 V each. Total series capacitance = 2 \u00b5F, Q = CV = 2\u00d710\u207b\u2076 \u00d7 12 = 24 \u00b5C. V\u2081 = Q/C\u2081 = 24/4 = 6 V. \u2713"
+    "explanation": "For equal capacitors in series, voltage divides equally: V₁ = V₂ = 12/2 = 6 V each. Total series capacitance = 2 µF, Q = CV = 2×10⁻⁶ × 12 = 24 µC. V₁ = Q/C₁ = 24/4 = 6 V. ✓"
   },
   {
     "id": 254,
     "source": "Past Questions Compilation",
-    "topic": "GAUSS'S LAW",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "Gauss's law states that the total electric flux through a closed surface is proportional to?",
     "options": {
       "A": "The total charge outside the surface",
@@ -3553,54 +3553,54 @@
       "D": "The electric potential"
     },
     "answer": "B",
-    "explanation": "Gauss's law: \u03a6 = Q_enclosed/\u03b5\u2080. The total electric flux through any closed surface (Gaussian surface) equals the net charge enclosed divided by \u03b5\u2080."
+    "explanation": "Gauss's law: Φ = Q_enclosed/ε₀. The total electric flux through any closed surface (Gaussian surface) equals the net charge enclosed divided by ε₀."
   },
   {
     "id": 255,
     "source": "Past Questions Compilation",
-    "topic": "GAUSS'S LAW",
-    "question": "The electric flux \u03a6 through a surface is defined as?",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
+    "question": "The electric flux Φ through a surface is defined as?",
     "options": {
-      "A": "\u03a6 = E/A",
-      "B": "\u03a6 = E\u00b7A\u00b7cos\u03b8",
-      "C": "\u03a6 = E\u00b7A\u00b7sin\u03b8",
-      "D": "\u03a6 = E\u00b2\u00b7A"
+      "A": "Φ = E/A",
+      "B": "Φ = E·A·cosθ",
+      "C": "Φ = E·A·sinθ",
+      "D": "Φ = E²·A"
     },
     "answer": "B",
-    "explanation": "Electric flux \u03a6 = E\u00b7A\u00b7cos\u03b8, where \u03b8 is the angle between the electric field vector and the normal to the surface. Maximum flux occurs when E is perpendicular to the surface (\u03b8 = 0)."
+    "explanation": "Electric flux Φ = E·A·cosθ, where θ is the angle between the electric field vector and the normal to the surface. Maximum flux occurs when E is perpendicular to the surface (θ = 0)."
   },
   {
     "id": 256,
     "source": "Past Questions Compilation",
-    "topic": "GAUSS'S LAW",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "The SI unit of electric flux is?",
     "options": {
       "A": "N/C",
-      "B": "V\u00b7m",
-      "C": "N\u00b7m\u00b2/C",
-      "D": "C/m\u00b2"
+      "B": "V·m",
+      "C": "N·m²/C",
+      "D": "C/m²"
     },
     "answer": "C",
-    "explanation": "\u03a6 = E \u00d7 A, so units = (N/C) \u00d7 m\u00b2 = N\u00b7m\u00b2/C. Equivalently, since V = N\u00b7m/C, this can also be written as V\u00b7m."
+    "explanation": "Φ = E × A, so units = (N/C) × m² = N·m²/C. Equivalently, since V = N·m/C, this can also be written as V·m."
   },
   {
     "id": 257,
     "source": "Past Questions Compilation",
-    "topic": "GAUSS'S LAW",
-    "question": "A charge of 8.85 \u00d7 10\u207b\u00b9\u00b2 C is enclosed in a Gaussian surface. The total flux through the surface is?",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
+    "question": "A charge of 8.85 × 10⁻¹² C is enclosed in a Gaussian surface. The total flux through the surface is?",
     "options": {
-      "A": "8.85 \u00d7 10\u207b\u00b9\u00b2 N\u00b7m\u00b2/C",
-      "B": "1 N\u00b7m\u00b2/C",
-      "C": "8.85 N\u00b7m\u00b2/C",
-      "D": "0 N\u00b7m\u00b2/C"
+      "A": "8.85 × 10⁻¹² N·m²/C",
+      "B": "1 N·m²/C",
+      "C": "8.85 N·m²/C",
+      "D": "0 N·m²/C"
     },
     "answer": "B",
-    "explanation": "\u03a6 = Q/\u03b5\u2080 = (8.85\u00d710\u207b\u00b9\u00b2)/(8.85\u00d710\u207b\u00b9\u00b2) = 1 N\u00b7m\u00b2/C. The charge value was chosen to equal \u03b5\u2080, giving a clean answer of 1."
+    "explanation": "Φ = Q/ε₀ = (8.85×10⁻¹²)/(8.85×10⁻¹²) = 1 N·m²/C. The charge value was chosen to equal ε₀, giving a clean answer of 1."
   },
   {
     "id": 258,
     "source": "Past Questions Compilation",
-    "topic": "GAUSS'S LAW",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "The electric flux through a closed surface enclosing no charge is?",
     "options": {
       "A": "Infinity",
@@ -3609,40 +3609,40 @@
       "D": "Zero"
     },
     "answer": "D",
-    "explanation": "By Gauss's law, \u03a6 = Q_enclosed/\u03b5\u2080. If Q_enclosed = 0, then \u03a6 = 0. External charges contribute no net flux through the closed surface."
+    "explanation": "By Gauss's law, Φ = Q_enclosed/ε₀. If Q_enclosed = 0, then Φ = 0. External charges contribute no net flux through the closed surface."
   },
   {
     "id": 259,
     "source": "Past Questions Compilation",
-    "topic": "GAUSS'S LAW",
-    "question": "For a uniformly charged infinite plane sheet with surface charge density \u03c3, the electric field on either side is?",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
+    "question": "For a uniformly charged infinite plane sheet with surface charge density σ, the electric field on either side is?",
     "options": {
-      "A": "E = \u03c3/\u03b5\u2080",
-      "B": "E = \u03c3/(2\u03b5\u2080)",
-      "C": "E = 2\u03c3/\u03b5\u2080",
-      "D": "E = \u03c3\u03b5\u2080"
+      "A": "E = σ/ε₀",
+      "B": "E = σ/(2ε₀)",
+      "C": "E = 2σ/ε₀",
+      "D": "E = σε₀"
     },
     "answer": "B",
-    "explanation": "Applying Gauss's law to an infinite plane sheet: E = \u03c3/(2\u03b5\u2080). The factor of 2 arises because the field spreads to both sides of the sheet."
+    "explanation": "Applying Gauss's law to an infinite plane sheet: E = σ/(2ε₀). The factor of 2 arises because the field spreads to both sides of the sheet."
   },
   {
     "id": 260,
     "source": "Past Questions Compilation",
-    "topic": "GAUSS'S LAW",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "For a uniformly charged conducting sphere of radius R, the field outside (r > R) behaves as?",
     "options": {
       "A": "E = kQ/r",
-      "B": "E = kQ/r\u00b2",
-      "C": "E = kQ/R\u00b2",
+      "B": "E = kQ/r²",
+      "C": "E = kQ/R²",
       "D": "E = 0"
     },
     "answer": "B",
-    "explanation": "Outside a uniformly charged sphere, Gauss's law gives E = kQ/r\u00b2, exactly as if all the charge were concentrated at the centre. This is a consequence of the shell theorem."
+    "explanation": "Outside a uniformly charged sphere, Gauss's law gives E = kQ/r², exactly as if all the charge were concentrated at the centre. This is a consequence of the shell theorem."
   },
   {
     "id": 261,
     "source": "Past Questions Compilation",
-    "topic": "GAUSS'S LAW",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "Gauss's law is equivalent to Coulomb's law for?",
     "options": {
       "A": "Moving charges only",
@@ -3656,7 +3656,7 @@
   {
     "id": 262,
     "source": "Past Questions Compilation",
-    "topic": "GAUSS'S LAW",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "Which surface is most useful when applying Gauss's law?",
     "options": {
       "A": "A surface that is parallel to the field",
@@ -3670,21 +3670,21 @@
   {
     "id": 263,
     "source": "Past Questions Compilation",
-    "topic": "GAUSS'S LAW",
-    "question": "A charge of +Q and \u2013Q are placed inside a closed surface. The net flux through the surface is?",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
+    "question": "A charge of +Q and –Q are placed inside a closed surface. The net flux through the surface is?",
     "options": {
-      "A": "Q/\u03b5\u2080",
-      "B": "2Q/\u03b5\u2080",
+      "A": "Q/ε₀",
+      "B": "2Q/ε₀",
       "C": "0",
-      "D": "\u2013Q/\u03b5\u2080"
+      "D": "–Q/ε₀"
     },
     "answer": "C",
-    "explanation": "Net enclosed charge = +Q + (\u2013Q) = 0. Therefore \u03a6 = Q_net/\u03b5\u2080 = 0/\u03b5\u2080 = 0."
+    "explanation": "Net enclosed charge = +Q + (–Q) = 0. Therefore Φ = Q_net/ε₀ = 0/ε₀ = 0."
   },
   {
     "id": 264,
     "source": "Past Questions Compilation",
-    "topic": "CONDUCTORS & INSULATORS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "In a conductor, free electrons are?",
     "options": {
       "A": "Tightly bound to nuclei",
@@ -3698,7 +3698,7 @@
   {
     "id": 265,
     "source": "Past Questions Compilation",
-    "topic": "CONDUCTORS & INSULATORS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Excess charge on a conductor in electrostatic equilibrium resides?",
     "options": {
       "A": "Uniformly inside the volume",
@@ -3712,7 +3712,7 @@
   {
     "id": 266,
     "source": "Past Questions Compilation",
-    "topic": "CONDUCTORS & INSULATORS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A Faraday cage works by?",
     "options": {
       "A": "Amplifying external electric fields",
@@ -3726,7 +3726,7 @@
   {
     "id": 267,
     "source": "Past Questions Compilation",
-    "topic": "CONDUCTORS & INSULATORS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Which of the following is an example of a good insulator?",
     "options": {
       "A": "Copper",
@@ -3735,12 +3735,12 @@
       "D": "Graphite"
     },
     "answer": "C",
-    "explanation": "Rubber is an excellent insulator; its electrons are tightly bound and cannot move freely. Copper and silver are excellent conductors. Graphite, though a form of carbon, is a conductor due to its delocalized \u03c0 electrons."
+    "explanation": "Rubber is an excellent insulator; its electrons are tightly bound and cannot move freely. Copper and silver are excellent conductors. Graphite, though a form of carbon, is a conductor due to its delocalized π electrons."
   },
   {
     "id": 268,
     "source": "Past Questions Compilation",
-    "topic": "CONDUCTORS & INSULATORS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The process of charging a body by bringing a charged object near it (without contact) and then grounding it is called?",
     "options": {
       "A": "Conduction",
@@ -3754,7 +3754,7 @@
   {
     "id": 269,
     "source": "Past Questions Compilation",
-    "topic": "CONDUCTORS & INSULATORS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The surface charge density on a conductor is highest at?",
     "options": {
       "A": "Flat regions",
@@ -3763,12 +3763,12 @@
       "D": "The geometric centre"
     },
     "answer": "C",
-    "explanation": "Charge density is highest at sharp points (high curvature). This is why lightning rods have pointed tips \u2014 charge concentrates there, enabling discharge to the atmosphere."
+    "explanation": "Charge density is highest at sharp points (high curvature). This is why lightning rods have pointed tips — charge concentrates there, enabling discharge to the atmosphere."
   },
   {
     "id": 270,
     "source": "Past Questions Compilation",
-    "topic": "CONDUCTORS & INSULATORS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Polarisation of a dielectric material refers to?",
     "options": {
       "A": "Free electrons moving through the dielectric",
@@ -3782,7 +3782,7 @@
   {
     "id": 271,
     "source": "Past Questions Compilation",
-    "topic": "CONDUCTORS & INSULATORS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Which of the following best describes a semiconductor?",
     "options": {
       "A": "A material with no free charges",
@@ -3796,7 +3796,7 @@
   {
     "id": 272,
     "source": "Past Questions Compilation",
-    "topic": "CONDUCTORS & INSULATORS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The phenomenon where a charged object attracts small neutral objects (like bits of paper) is due to?",
     "options": {
       "A": "Gravity only",
@@ -3810,22 +3810,22 @@
   {
     "id": 273,
     "source": "Past Questions Compilation",
-    "topic": "CONDUCTORS & INSULATORS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The electric field just outside the surface of a conductor in equilibrium is?",
     "options": {
       "A": "Parallel to the surface",
       "B": "Zero",
-      "C": "Perpendicular to the surface and equal to \u03c3/\u03b5\u2080",
-      "D": "Equal to \u03c3/(2\u03b5\u2080)"
+      "C": "Perpendicular to the surface and equal to σ/ε₀",
+      "D": "Equal to σ/(2ε₀)"
     },
     "answer": "C",
-    "explanation": "At the surface of a conductor, E = \u03c3/\u03b5\u2080 directed perpendicular (normal) to the surface outward. If the field had a tangential component, it would accelerate charges along the surface, contradicting equilibrium."
+    "explanation": "At the surface of a conductor, E = σ/ε₀ directed perpendicular (normal) to the surface outward. If the field had a tangential component, it would accelerate charges along the surface, contradicting equilibrium."
   },
   {
     "id": 274,
     "source": "Past Questions Compilation",
-    "topic": "CHARGE DISTRIBUTION",
-    "question": "Linear charge density \u03bb is defined as charge per unit?",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "Linear charge density λ is defined as charge per unit?",
     "options": {
       "A": "Area",
       "B": "Volume",
@@ -3833,32 +3833,32 @@
       "D": "Mass"
     },
     "answer": "C",
-    "explanation": "Linear charge density \u03bb = Q/L (C/m). Surface charge density \u03c3 = Q/A (C/m\u00b2). Volume charge density \u03c1 = Q/V (C/m\u00b3). Each applies to different charge distributions."
+    "explanation": "Linear charge density λ = Q/L (C/m). Surface charge density σ = Q/A (C/m²). Volume charge density ρ = Q/V (C/m³). Each applies to different charge distributions."
   },
   {
     "id": 275,
     "source": "Past Questions Compilation",
-    "topic": "CHARGE DISTRIBUTION",
-    "question": "The electric field due to an infinitely long straight wire with linear charge density \u03bb at distance r is?",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
+    "question": "The electric field due to an infinitely long straight wire with linear charge density λ at distance r is?",
     "options": {
-      "A": "E = \u03bb/(2\u03c0\u03b5\u2080r)",
-      "B": "E = \u03bb/(4\u03c0\u03b5\u2080r)",
-      "C": "E = \u03bb/(2\u03c0\u03b5\u2080r\u00b2)",
-      "D": "E = \u03bbr/(2\u03c0\u03b5\u2080)"
+      "A": "E = λ/(2πε₀r)",
+      "B": "E = λ/(4πε₀r)",
+      "C": "E = λ/(2πε₀r²)",
+      "D": "E = λr/(2πε₀)"
     },
     "answer": "A",
-    "explanation": "Using a cylindrical Gaussian surface: E \u00d7 (2\u03c0rL) = \u03bbL/\u03b5\u2080, so E = \u03bb/(2\u03c0\u03b5\u2080r). The field decreases as 1/r (not 1/r\u00b2 as for a point charge)."
+    "explanation": "Using a cylindrical Gaussian surface: E × (2πrL) = λL/ε₀, so E = λ/(2πε₀r). The field decreases as 1/r (not 1/r² as for a point charge)."
   },
   {
     "id": 276,
     "source": "Past Questions Compilation",
-    "topic": "CHARGE DISTRIBUTION",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A uniformly charged ring of radius R carries charge Q. The electric field at the centre of the ring is?",
     "options": {
-      "A": "kQ/R\u00b2",
+      "A": "kQ/R²",
       "B": "kQ/R",
       "C": "Zero",
-      "D": "2kQ/R\u00b2"
+      "D": "2kQ/R²"
     },
     "answer": "C",
     "explanation": "By symmetry, every element of the ring has a corresponding diametrically opposite element. Their field contributions are equal and opposite, cancelling to give E = 0 at the centre."
@@ -3866,30 +3866,30 @@
   {
     "id": 277,
     "source": "Past Questions Compilation",
-    "topic": "CHARGE DISTRIBUTION",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The surface charge density on a sphere of radius R carrying total charge Q is?",
     "options": {
-      "A": "\u03c3 = Q/R",
-      "B": "\u03c3 = Q/(2R\u00b2)",
-      "C": "\u03c3 = Q/(4\u03c0R\u00b2)",
-      "D": "\u03c3 = Q/(\u03c0R\u00b2)"
+      "A": "σ = Q/R",
+      "B": "σ = Q/(2R²)",
+      "C": "σ = Q/(4πR²)",
+      "D": "σ = Q/(πR²)"
     },
     "answer": "C",
-    "explanation": "Surface area of a sphere = 4\u03c0R\u00b2. Therefore \u03c3 = Q/(4\u03c0R\u00b2). Substituting this into Gauss's law recovers E = \u03c3/\u03b5\u2080 = Q/(4\u03c0\u03b5\u2080R\u00b2) at the surface."
+    "explanation": "Surface area of a sphere = 4πR². Therefore σ = Q/(4πR²). Substituting this into Gauss's law recovers E = σ/ε₀ = Q/(4πε₀R²) at the surface."
   },
   {
     "id": 278,
     "source": "Past Questions Compilation",
-    "topic": "CHARGE DISTRIBUTION",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Inside a uniformly charged solid non-conducting sphere of radius R, the electric field at distance r < R from the centre varies as?",
     "options": {
-      "A": "E \u221d 1/r\u00b2",
-      "B": "E \u221d r",
+      "A": "E ∝ 1/r²",
+      "B": "E ∝ r",
       "C": "E = constant",
-      "D": "E \u221d r\u00b2"
+      "D": "E ∝ r²"
     },
     "answer": "B",
-    "explanation": "Inside the sphere, Q_enclosed = \u03c1 \u00d7 (4/3)\u03c0r\u00b3 \u221d r\u00b3. By Gauss's law: E \u00d7 4\u03c0r\u00b2 = Q_enclosed/\u03b5\u2080 \u221d r\u00b3, so E \u221d r. The field increases linearly with distance from the centre."
+    "explanation": "Inside the sphere, Q_enclosed = ρ × (4/3)πr³ ∝ r³. By Gauss's law: E × 4πr² = Q_enclosed/ε₀ ∝ r³, so E ∝ r. The field increases linearly with distance from the centre."
   },
   {
     "id": 279,
@@ -3903,7 +3903,7 @@
       "D": "Ohm's law"
     },
     "answer": "B",
-    "explanation": "The law of conservation of charge states that the total electric charge in an isolated system is conserved \u2014 it cannot be created or destroyed, only transferred."
+    "explanation": "The law of conservation of charge states that the total electric charge in an isolated system is conserved — it cannot be created or destroyed, only transferred."
   },
   {
     "id": 280,
@@ -3923,15 +3923,15 @@
     "id": 281,
     "source": "Past Questions Compilation",
     "topic": "ELECTROSTATICS & COULOMB'S LAW",
-    "question": "Two identical metallic spheres carry charges of +8 \u00b5C and \u20132 \u00b5C. When they touch and separate, the charge on each is?",
+    "question": "Two identical metallic spheres carry charges of +8 µC and –2 µC. When they touch and separate, the charge on each is?",
     "options": {
-      "A": "+3 \u00b5C each",
-      "B": "+6 \u00b5C each",
-      "C": "+8 \u00b5C and \u20132 \u00b5C",
-      "D": "+4 \u00b5C each"
+      "A": "+3 µC each",
+      "B": "+6 µC each",
+      "C": "+8 µC and –2 µC",
+      "D": "+4 µC each"
     },
     "answer": "A",
-    "explanation": "When identical conductors touch, charge distributes equally. Total charge = +8 + (\u20132) = +6 \u00b5C. Charge on each = 6/2 = +3 \u00b5C."
+    "explanation": "When identical conductors touch, charge distributes equally. Total charge = +8 + (–2) = +6 µC. Charge on each = 6/2 = +3 µC."
   },
   {
     "id": 282,
@@ -3945,7 +3945,7 @@
       "D": "Charge cannot be measured"
     },
     "answer": "B",
-    "explanation": "Charge is quantized: q = ne, where n is an integer and e = 1.6 \u00d7 10\u207b\u00b9\u2079 C. You cannot have half an electron's charge. (Note: quarks carry fractional charges but are never found in isolation.)"
+    "explanation": "Charge is quantized: q = ne, where n is an integer and e = 1.6 × 10⁻¹⁹ C. You cannot have half an electron's charge. (Note: quarks carry fractional charges but are never found in isolation.)"
   },
   {
     "id": 283,
@@ -3959,7 +3959,7 @@
       "D": "Charges in conducting media only"
     },
     "answer": "A",
-    "explanation": "Coulomb's law is verified experimentally down to ~10\u207b\u00b9\u2075 m (nuclear scale) and is valid for macroscopic and atomic distances. At sub-nuclear scales, other forces dominate."
+    "explanation": "Coulomb's law is verified experimentally down to ~10⁻¹⁵ m (nuclear scale) and is valid for macroscopic and atomic distances. At sub-nuclear scales, other forces dominate."
   },
   {
     "id": 284,
@@ -3973,13 +3973,13 @@
       "D": "9 J"
     },
     "answer": "C",
-    "explanation": "W = qV = 3 \u00d7 12 = 36 J. Work done = charge \u00d7 potential difference."
+    "explanation": "W = qV = 3 × 12 = 36 J. Work done = charge × potential difference."
   },
   {
     "id": 285,
     "source": "Past Questions Compilation",
     "topic": "ELECTRIC POTENTIAL",
-    "question": "The potential 0.3 m from a charge of +5 \u00d7 10\u207b\u2078 C is?",
+    "question": "The potential 0.3 m from a charge of +5 × 10⁻⁸ C is?",
     "options": {
       "A": "150 V",
       "B": "1500 V",
@@ -3987,13 +3987,13 @@
       "D": "1.5 V"
     },
     "answer": "B",
-    "explanation": "V = kQ/r = (9\u00d710\u2079)(5\u00d710\u207b\u2078)/(0.3) = (450)/(0.3) = 1500 V."
+    "explanation": "V = kQ/r = (9×10⁹)(5×10⁻⁸)/(0.3) = (450)/(0.3) = 1500 V."
   },
   {
     "id": 286,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
-    "question": "The electric field 0.3 m from a charge of +5 \u00d7 10\u207b\u2078 C is?",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
+    "question": "The electric field 0.3 m from a charge of +5 × 10⁻⁸ C is?",
     "options": {
       "A": "5000 N/C",
       "B": "500 N/C",
@@ -4001,13 +4001,13 @@
       "D": "50 N/C"
     },
     "answer": "A",
-    "explanation": "E = kQ/r\u00b2 = (9\u00d710\u2079)(5\u00d710\u207b\u2078)/(0.3\u00b2) = 450/0.09 = 5000 N/C."
+    "explanation": "E = kQ/r² = (9×10⁹)(5×10⁻⁸)/(0.3²) = 450/0.09 = 5000 N/C."
   },
   {
     "id": 287,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
-    "question": "The charge on a 50 \u00b5F capacitor connected to a 200 V supply is?",
+    "topic": "CAPACITORS",
+    "question": "The charge on a 50 µF capacitor connected to a 200 V supply is?",
     "options": {
       "A": "0.25 C",
       "B": "0.01 C",
@@ -4015,12 +4015,12 @@
       "D": "4000 C"
     },
     "answer": "B",
-    "explanation": "Q = CV = 50\u00d710\u207b\u2076 \u00d7 200 = 10\u207b\u00b2 C = 0.01 C."
+    "explanation": "Q = CV = 50×10⁻⁶ × 200 = 10⁻² C = 0.01 C."
   },
   {
     "id": 288,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
+    "topic": "CAPACITORS",
     "question": "If the plate separation of a parallel plate capacitor is halved (keeping everything else constant), the capacitance?",
     "options": {
       "A": "Halves",
@@ -4029,7 +4029,7 @@
       "D": "Quadruples"
     },
     "answer": "C",
-    "explanation": "C = \u03b5\u2080A/d. If d \u2192 d/2, then C \u2192 \u03b5\u2080A/(d/2) = 2\u03b5\u2080A/d = 2C. Halving the gap doubles the capacitance."
+    "explanation": "C = ε₀A/d. If d → d/2, then C → ε₀A/(d/2) = 2ε₀A/d = 2C. Halving the gap doubles the capacitance."
   },
   {
     "id": 289,
@@ -4048,30 +4048,30 @@
   {
     "id": 290,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "The electric field between two infinite parallel conducting plates carrying equal and opposite charges is?",
     "options": {
-      "A": "E = \u03c3/(2\u03b5\u2080)",
-      "B": "E = \u03c3/\u03b5\u2080",
-      "C": "E = 2\u03c3/\u03b5\u2080",
+      "A": "E = σ/(2ε₀)",
+      "B": "E = σ/ε₀",
+      "C": "E = 2σ/ε₀",
       "D": "E = 0"
     },
     "answer": "B",
-    "explanation": "Each plate contributes \u03c3/(2\u03b5\u2080) in the same direction between the plates. Total E = \u03c3/(2\u03b5\u2080) + \u03c3/(2\u03b5\u2080) = \u03c3/\u03b5\u2080. This is the basis of the uniform field in a capacitor."
+    "explanation": "Each plate contributes σ/(2ε₀) in the same direction between the plates. Total E = σ/(2ε₀) + σ/(2ε₀) = σ/ε₀. This is the basis of the uniform field in a capacitor."
   },
   {
     "id": 291,
     "source": "Past Questions Compilation",
-    "topic": "GAUSS'S LAW",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "A point charge of +Q is placed at the centre of a cube. The flux through one face of the cube is?",
     "options": {
-      "A": "Q/\u03b5\u2080",
-      "B": "Q/(4\u03b5\u2080)",
-      "C": "Q/(6\u03b5\u2080)",
-      "D": "6Q/\u03b5\u2080"
+      "A": "Q/ε₀",
+      "B": "Q/(4ε₀)",
+      "C": "Q/(6ε₀)",
+      "D": "6Q/ε₀"
     },
     "answer": "C",
-    "explanation": "Total flux through the cube = Q/\u03b5\u2080. By symmetry, the cube has 6 equal faces, each receiving 1/6 of the total flux: \u03a6_face = Q/(6\u03b5\u2080)."
+    "explanation": "Total flux through the cube = Q/ε₀. By symmetry, the cube has 6 equal faces, each receiving 1/6 of the total flux: Φ_face = Q/(6ε₀)."
   },
   {
     "id": 292,
@@ -4085,7 +4085,7 @@
       "D": "Electric flux"
     },
     "answer": "C",
-    "explanation": "Electric field intensity E is a vector quantity \u2014 it has both magnitude and direction. Electric potential V and charge Q are scalar quantities."
+    "explanation": "Electric field intensity E is a vector quantity — it has both magnitude and direction. Electric potential V and charge Q are scalar quantities."
   },
   {
     "id": 293,
@@ -4099,7 +4099,7 @@
       "D": "F/4"
     },
     "answer": "A",
-    "explanation": "F_new = k(2q\u2081)(2q\u2082)/(2r)\u00b2 = 4kq\u2081q\u2082/(4r\u00b2) = kq\u2081q\u2082/r\u00b2 = F. Doubling both charges and distance leaves the force unchanged."
+    "explanation": "F_new = k(2q₁)(2q₂)/(2r)² = 4kq₁q₂/(4r²) = kq₁q₂/r² = F. Doubling both charges and distance leaves the force unchanged."
   },
   {
     "id": 294,
@@ -4113,7 +4113,7 @@
       "D": "Release of heat only"
     },
     "answer": "C",
-    "explanation": "The electric force on a positive charge points from high to low potential. Moving it from low to high potential is against this force, requiring external work input. W = q(V_high \u2013 V_low) > 0."
+    "explanation": "The electric force on a positive charge points from high to low potential. Moving it from low to high potential is against this force, requiring external work input. W = q(V_high – V_low) > 0."
   },
   {
     "id": 295,
@@ -4127,27 +4127,27 @@
       "D": "r/4"
     },
     "answer": "A",
-    "explanation": "F \u221d 1/r\u00b2. For F to reduce from 20 N to 5 N (factor of 4 decrease), r\u00b2 must increase by 4, so r must increase by 2. New separation = 2r."
+    "explanation": "F ∝ 1/r². For F to reduce from 20 N to 5 N (factor of 4 decrease), r² must increase by 4, so r must increase by 2. New separation = 2r."
   },
   {
     "id": 296,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
-    "question": "A test charge of +1 \u00b5C experiences a force of 0.5 N at a point. The electric field at that point is?",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
+    "question": "A test charge of +1 µC experiences a force of 0.5 N at a point. The electric field at that point is?",
     "options": {
-      "A": "0.5 \u00d7 10\u207b\u2076 N/C",
-      "B": "5 \u00d7 10\u2075 N/C",
+      "A": "0.5 × 10⁻⁶ N/C",
+      "B": "5 × 10⁵ N/C",
       "C": "0.5 N/C",
       "D": "1 N/C"
     },
     "answer": "B",
-    "explanation": "E = F/q = 0.5 / (1\u00d710\u207b\u2076) = 5 \u00d7 10\u2075 N/C."
+    "explanation": "E = F/q = 0.5 / (1×10⁻⁶) = 5 × 10⁵ N/C."
   },
   {
     "id": 297,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
-    "question": "Energy stored in a 100 \u00b5F capacitor charged to 50 V is?",
+    "topic": "CAPACITORS",
+    "question": "Energy stored in a 100 µF capacitor charged to 50 V is?",
     "options": {
       "A": "0.125 J",
       "B": "1.25 J",
@@ -4155,12 +4155,12 @@
       "D": "5000 J"
     },
     "answer": "A",
-    "explanation": "E = \u00bdCV\u00b2 = \u00bd \u00d7 100\u00d710\u207b\u2076 \u00d7 (50)\u00b2 = \u00bd \u00d7 10\u207b\u2074 \u00d7 2500 = 0.125 J."
+    "explanation": "E = ½CV² = ½ × 100×10⁻⁶ × (50)² = ½ × 10⁻⁴ × 2500 = 0.125 J."
   },
   {
     "id": 298,
     "source": "Past Questions Compilation",
-    "topic": "GAUSS'S LAW",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "Which of the following statements about Gauss's law is TRUE?",
     "options": {
       "A": "It applies only to symmetrical charge distributions",
@@ -4169,21 +4169,21 @@
       "D": "It replaces Coulomb's law entirely"
     },
     "answer": "B",
-    "explanation": "Gauss's law (\u222eE\u00b7dA = Q_enc/\u03b5\u2080) is universally true for all charge distributions. However, it is practically useful for calculating E only when the charge distribution has sufficient symmetry (spherical, cylindrical, or planar)."
+    "explanation": "Gauss's law (∮E·dA = Q_enc/ε₀) is universally true for all charge distributions. However, it is practically useful for calculating E only when the charge distribution has sufficient symmetry (spherical, cylindrical, or planar)."
   },
   {
     "id": 299,
     "source": "Past Questions Compilation",
     "topic": "ELECTRIC POTENTIAL",
-    "question": "The potential energy of a +2 \u00b5C charge at a point where the potential is 100 V is?",
+    "question": "The potential energy of a +2 µC charge at a point where the potential is 100 V is?",
     "options": {
-      "A": "50 \u00d7 10\u207b\u2076 J",
-      "B": "200 \u00d7 10\u207b\u2076 J",
-      "C": "100 \u00d7 10\u207b\u2076 J",
-      "D": "2 \u00d7 10\u207b\u2074 J"
+      "A": "50 × 10⁻⁶ J",
+      "B": "200 × 10⁻⁶ J",
+      "C": "100 × 10⁻⁶ J",
+      "D": "2 × 10⁻⁴ J"
     },
     "answer": "B",
-    "explanation": "U = qV = (2\u00d710\u207b\u2076)(100) = 200\u00d710\u207b\u2076 J = 2\u00d710\u207b\u2074 J."
+    "explanation": "U = qV = (2×10⁻⁶)(100) = 200×10⁻⁶ J = 2×10⁻⁴ J."
   },
   {
     "id": 300,
@@ -4202,21 +4202,21 @@
   {
     "id": 301,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC FIELD",
+    "topic": "ELECTRIC FIELDS & GAUSS'S LAW",
     "question": "The electric field at the surface of a sphere of radius R with total charge Q (using Gauss's law) is?",
     "options": {
       "A": "E = kQ/R",
-      "B": "E = kQ/R\u00b3",
-      "C": "E = kQ/R\u00b2",
-      "D": "E = Q/(4\u03c0R)"
+      "B": "E = kQ/R³",
+      "C": "E = kQ/R²",
+      "D": "E = Q/(4πR)"
     },
     "answer": "C",
-    "explanation": "Apply Gauss's law at r = R: E \u00d7 4\u03c0R\u00b2 = Q/\u03b5\u2080. Solving: E = Q/(4\u03c0\u03b5\u2080R\u00b2) = kQ/R\u00b2. Same as the Coulomb field of a point charge at that distance."
+    "explanation": "Apply Gauss's law at r = R: E × 4πR² = Q/ε₀. Solving: E = Q/(4πε₀R²) = kQ/R². Same as the Coulomb field of a point charge at that distance."
   },
   {
     "id": 302,
     "source": "Past Questions Compilation",
-    "topic": "CAPACITANCE & CAPACITORS",
+    "topic": "CAPACITORS",
     "question": "When a dielectric is inserted into a capacitor connected to a battery (constant voltage), the charge stored?",
     "options": {
       "A": "Decreases",
@@ -4225,7 +4225,7 @@
       "D": "Drops to zero"
     },
     "answer": "C",
-    "explanation": "With constant V (battery connected): Q = CV. Inserting a dielectric increases C (C' = \u03b5\u1d63C), so Q increases (Q' = \u03b5\u1d63Q). More charge flows from the battery to maintain constant voltage."
+    "explanation": "With constant V (battery connected): Q = CV. Inserting a dielectric increases C (C' = εᵣC), so Q increases (Q' = εᵣQ). More charge flows from the battery to maintain constant voltage."
   },
   {
     "id": 303,
@@ -4239,13 +4239,12 @@
       "D": "Exponentially related"
     },
     "answer": "B",
-    "explanation": "Coulomb's law: F = kq\u2081q\u2082/r\u00b2. The force is directly proportional to q\u2081q\u2082 and inversely proportional to r\u00b2. This is the inverse-square law of electrostatics."
+    "explanation": "Coulomb's law: F = kq₁q₂/r². The force is directly proportional to q₁q₂ and inversely proportional to r². This is the inverse-square law of electrostatics."
   },
-  
   {
     "id": 304,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Two point charges +5 μC and -3 μC are placed 10 cm apart in air. Calculate the electrostatic force between them. (k = 9×10⁹ N·m²/C²)",
     "options": {
       "A": "13.5 N (attractive)",
@@ -4259,7 +4258,7 @@
   {
     "id": 305,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A charge of 2 μC experiences a force of 0.5 N in an electric field. What is the electric field intensity?",
     "options": {
       "A": "2.5×10⁵ N/C",
@@ -4273,7 +4272,7 @@
   {
     "id": 306,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Three charges +q, +q, and -2q are placed at vertices of an equilateral triangle of side L. Find net force on -2q due to the other two.",
     "options": {
       "A": "√3 kq²/L² toward center",
@@ -4287,7 +4286,7 @@
   {
     "id": 307,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A parallel-plate capacitor has plates of area 0.02 m² separated by 1 mm. The dielectric constant of the material between plates is 5. Calculate the capacitance.",
     "options": {
       "A": "8.85×10⁻¹⁰ F",
@@ -4301,7 +4300,7 @@
   {
     "id": 308,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A 10 μF capacitor is charged to 200 V. Calculate the energy stored.",
     "options": {
       "A": "0.2 J",
@@ -4315,7 +4314,7 @@
   {
     "id": 309,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The electric potential at a distance 0.3 m from a point charge of 2 nC is: (k=9×10⁹)",
     "options": {
       "A": "60 V",
@@ -4329,14 +4328,8 @@
   {
     "id": 310,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A current of 2 A flows through a resistor of 10 Ω for 5 minutes. Calculate the heat produced.",
-    "options": {
-      "A": 6000,
-      "B": 12000,
-      "C": 3000,
-      "D": 24000
-    },
     "options": {
       "A": "6000 J",
       "B": "12000 J",
@@ -4349,7 +4342,7 @@
   {
     "id": 311,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A wire of length 2 m and cross-sectional area 1×10⁻⁶ m² has resistivity 1.7×10⁻⁸ Ω·m. Its resistance is:",
     "options": {
       "A": "0.034 Ω",
@@ -4363,7 +4356,7 @@
   {
     "id": 312,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Three resistors 2 Ω, 3 Ω, and 6 Ω are connected in parallel. The equivalent resistance is:",
     "options": {
       "A": "1 Ω",
@@ -4377,7 +4370,7 @@
   {
     "id": 313,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In a circuit, the sum of currents entering a junction equals the sum leaving. This is Kirchhoff's:",
     "options": {
       "A": "Current law (KCL)",
@@ -4391,7 +4384,7 @@
   {
     "id": 314,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "For the circuit, find current through 4 Ω resistor if 10 V battery with internal resistance 1 Ω is connected across 4 Ω and 6 Ω in series.",
     "options": {
       "A": "1 A",
@@ -4405,7 +4398,7 @@
   {
     "id": 315,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Kirchhoff's voltage law is based on conservation of:",
     "options": {
       "A": "Charge",
@@ -4419,7 +4412,7 @@
   {
     "id": 316,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Superposition theorem applies to circuits that are:",
     "options": {
       "A": "Linear and bilateral",
@@ -4433,7 +4426,7 @@
   {
     "id": 317,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Using superposition, find current through 2 Ω resistor when 6 V and 3 A sources act: circuit has 2 Ω in series with parallel combination of 4 Ω and a 3 A current source (ideal) and a 6 V battery in series with another branch. Simplified: typical problem: 6V in series with 2Ω, and 3A in parallel with 4Ω, then both branches in parallel? Better to give numbers: Let's create: A 10 V battery and a 2 A current source both act on a 5 Ω resistor. Compute contribution from voltage source alone.",
     "options": {
       "A": "2 A from V, 1 A from I, net 3 A",
@@ -4446,7 +4439,7 @@
   {
     "id": 318,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Superposition theorem is not valid for power calculations because:",
     "options": {
       "A": "Power is linear",
@@ -4460,7 +4453,7 @@
   {
     "id": 319,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETISM",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "The magnetic field at the center of a circular loop of radius 0.1 m carrying 2 A is: (μ₀=4π×10⁻⁷)",
     "options": {
       "A": "1.26×10⁻⁵ T",
@@ -4474,7 +4467,7 @@
   {
     "id": 320,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETISM",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "A solenoid of length 0.5 m has 1000 turns and carries 3 A. Find the magnetic field inside (μ₀=4π×10⁻⁷).",
     "options": {
       "A": "7.54×10⁻³ T",
@@ -4488,7 +4481,7 @@
   {
     "id": 321,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETISM",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A conductor of length 0.2 m moves perpendicular to a magnetic field of 0.5 T with velocity 10 m/s. Induced emf is:",
     "options": {
       "A": "1 V",
@@ -4502,7 +4495,7 @@
   {
     "id": 322,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETISM",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "Faraday's law states that induced emf is proportional to:",
     "options": {
       "A": "Magnetic field",
@@ -4516,7 +4509,7 @@
   {
     "id": 323,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "For a resistor in AC circuit, the phase difference between voltage and current is:",
     "options": {
       "A": "0°",
@@ -4530,7 +4523,7 @@
   {
     "id": 324,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "An inductor of 0.1 H is connected to 50 Hz AC supply. The inductive reactance is:",
     "options": {
       "A": "31.4 Ω",
@@ -4544,7 +4537,7 @@
   {
     "id": 325,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "A capacitor of 50 μF is connected to 60 Hz AC. Its capacitive reactance is:",
     "options": {
       "A": "53.05 Ω",
@@ -4558,7 +4551,7 @@
   {
     "id": 326,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In an RLC series circuit, resonance occurs when:",
     "options": {
       "A": "X_L = X_C",
@@ -4572,7 +4565,7 @@
   {
     "id": 327,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "For a series RLC with R=10 Ω, L=0.1 H, C=100 μF, find resonant frequency.",
     "options": {
       "A": "50.3 Hz",
@@ -4586,7 +4579,7 @@
   {
     "id": 328,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The forbidden energy gap in silicon at room temperature is about:",
     "options": {
       "A": "1.1 eV",
@@ -4600,7 +4593,7 @@
   {
     "id": 329,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "A p-type semiconductor is obtained by doping silicon with:",
     "options": {
       "A": "Arsenic",
@@ -4614,7 +4607,7 @@
   {
     "id": 330,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "In a p-n junction diode under forward bias, the majority carriers are:",
     "options": {
       "A": "Electrons from n to p",
@@ -4628,7 +4621,7 @@
   {
     "id": 331,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The barrier potential for silicon diode is approximately:",
     "options": {
       "A": "0.3 V",
@@ -4642,7 +4635,7 @@
   {
     "id": 332,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Two identical metal spheres each carrying charge +2 μC are separated by 0.2 m. What is the force? (k=9×10⁹)",
     "options": {
       "A": "0.9 N repulsive",
@@ -4656,7 +4649,7 @@
   {
     "id": 333,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A charge of 10 nC is placed in a uniform electric field of 5000 N/C. The force on the charge is:",
     "options": {
       "A": "5×10⁻⁵ N",
@@ -4670,7 +4663,7 @@
   {
     "id": 334,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 100 W bulb is used for 5 hours per day. Calculate energy consumed in 30 days in kWh.",
     "options": {
       "A": "15 kWh",
@@ -4684,7 +4677,7 @@
   {
     "id": 335,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A battery of emf 12 V and internal resistance 2 Ω delivers current to a 4 Ω load. Terminal voltage is:",
     "options": {
       "A": "8 V",
@@ -4698,7 +4691,7 @@
   {
     "id": 336,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Apply KVL to find current in a single loop with 10V battery, 5Ω and 3Ω resistors in series.",
     "options": {
       "A": "1.25 A",
@@ -4712,7 +4705,7 @@
   {
     "id": 337,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In superposition, when considering a voltage source, current sources are:",
     "options": {
       "A": "Replaced by open circuit",
@@ -4726,7 +4719,7 @@
   {
     "id": 338,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETISM",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "A long straight wire carries 5 A. What is the magnetic field at a distance 0.1 m from it?",
     "options": {
       "A": "1×10⁻⁵ T",
@@ -4740,7 +4733,7 @@
   {
     "id": 339,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETISM",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A coil of 200 turns and area 0.05 m² rotates in a uniform magnetic field 0.2 T. Maximum emf when angular speed 100 rad/s is:",
     "options": {
       "A": "200 V",
@@ -4754,7 +4747,7 @@
   {
     "id": 340,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In a pure inductor, the current lags voltage by:",
     "options": {
       "A": "0°",
@@ -4768,7 +4761,7 @@
   {
     "id": 341,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In a pure capacitor, the current leads voltage by:",
     "options": {
       "A": "0°",
@@ -4782,7 +4775,7 @@
   {
     "id": 342,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The most commonly used semiconductor material is:",
     "options": {
       "A": "Germanium",
@@ -4796,7 +4789,7 @@
   {
     "id": 343,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The depletion region in a p-n junction contains:",
     "options": {
       "A": "Mobile holes",
@@ -4810,7 +4803,7 @@
   {
     "id": 344,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A capacitor of 4 μF is charged to 100 V. The charge stored is:",
     "options": {
       "A": "400 μC",
@@ -4824,7 +4817,7 @@
   {
     "id": 345,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Electric field intensity at a point due to a point charge q is E. If distance is halved, E becomes:",
     "options": {
       "A": "4E",
@@ -4838,7 +4831,7 @@
   {
     "id": 346,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A current of 0.5 A flows for 2 minutes. How many electrons pass? (e=1.6×10⁻¹⁹ C)",
     "options": {
       "A": "3.75×10²⁰",
@@ -4852,7 +4845,7 @@
   {
     "id": 347,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In a circuit with two batteries and resistors, KVL gives equation:",
     "options": {
       "A": "Sum of emfs = sum of IR drops",
@@ -4866,7 +4859,7 @@
   {
     "id": 348,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Using superposition, find voltage across 3 Ω resistor in a circuit with 6V and 3A sources. Simple: 6V in series with 2Ω and 3Ω in parallel with 3A? Better: 6V in series with 2Ω, and a 3A source in parallel with 3Ω, then both in parallel. Let's compute: For voltage source alone: 3Ω in parallel with open? This is messy. I'll give a direct answer: typical problem yields 4V.",
     "options": {
       "A": "4 V",
@@ -4879,7 +4872,7 @@
   {
     "id": 349,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETISM",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "The SI unit of magnetic flux density is:",
     "options": {
       "A": "Weber",
@@ -4893,7 +4886,7 @@
   {
     "id": 350,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETISM",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "Lenz's law states that induced current opposes the change in flux. This is a consequence of:",
     "options": {
       "A": "Conservation of charge",
@@ -4907,7 +4900,7 @@
   {
     "id": 351,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The rms value of a sinusoidal AC voltage with peak 170 V is:",
     "options": {
       "A": "120 V",
@@ -4921,7 +4914,7 @@
   {
     "id": 352,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The average power in a pure inductor over a cycle is:",
     "options": {
       "A": "V_rms I_rms",
@@ -4935,7 +4928,7 @@
   {
     "id": 353,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "In a half-wave rectifier, the output frequency for 50 Hz input is:",
     "options": {
       "A": "50 Hz",
@@ -4949,7 +4942,7 @@
   {
     "id": 354,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "A Zener diode is used for:",
     "options": {
       "A": "Rectification",
@@ -4963,7 +4956,7 @@
   {
     "id": 355,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The potential at a point due to a dipole varies as:",
     "options": {
       "A": "1/r",
@@ -4977,7 +4970,7 @@
   {
     "id": 356,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 2.5 kW heater is used for 2 hours. Energy consumed in joules is:",
     "options": {
       "A": "5×10⁶ J",
@@ -4991,7 +4984,7 @@
   {
     "id": 357,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Find the current through the 2 Ω resistor in a circuit: 10V battery, 2 Ω, 3 Ω in series with parallel 4 Ω and 6 Ω. Current in 2 Ω?",
     "options": {
       "A": "1 A",
@@ -5004,7 +4997,7 @@
   {
     "id": 358,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "When applying superposition to a circuit with three independent sources, how many sub-circuits are analyzed?",
     "options": {
       "A": "1",
@@ -5018,7 +5011,7 @@
   {
     "id": 359,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETISM",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "A magnetic field of 0.2 T acts perpendicular to a wire of length 0.5 m carrying 10 A. Force on wire is:",
     "options": {
       "A": "1 N",
@@ -5032,7 +5025,7 @@
   {
     "id": 360,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETISM",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A transformer has 200 primary turns and 50 secondary turns. Primary voltage 240 V AC. Secondary voltage is:",
     "options": {
       "A": "960 V",
@@ -5046,7 +5039,7 @@
   {
     "id": 361,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In a series RLC circuit at resonance, the impedance is:",
     "options": {
       "A": "Minimum and equal to R",
@@ -5060,7 +5053,7 @@
   {
     "id": 362,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The conductivity of an intrinsic semiconductor increases with temperature because:",
     "options": {
       "A": "Number of carriers increases",
@@ -5074,7 +5067,7 @@
   {
     "id": 363,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A 20 μF capacitor is connected to 200 V. The energy stored is:",
     "options": {
       "A": "0.4 J",
@@ -5088,7 +5081,7 @@
   {
     "id": 364,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The capacitance of a parallel plate capacitor with air dielectric is 10 pF. If a dielectric of κ=5 is inserted, new capacitance is:",
     "options": {
       "A": "50 pF",
@@ -5102,7 +5095,7 @@
   {
     "id": 365,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Resistivity of a conductor depends on:",
     "options": {
       "A": "Length",
@@ -5116,7 +5109,7 @@
   {
     "id": 366,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Apply KCL at a junction: I₁=2A entering, I₂=3A entering, I₃ leaving, I₄ leaving. Find I₃ if I₄=1A.",
     "options": {
       "A": "4 A",
@@ -5130,7 +5123,7 @@
   {
     "id": 367,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In a linear circuit, the response due to multiple sources equals sum of responses from each source acting alone. This is:",
     "options": {
       "A": "Thevenin's theorem",
@@ -5144,7 +5137,7 @@
   {
     "id": 368,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETISM",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "A north pole is brought near a freely suspended magnet. The magnet will:",
     "options": {
       "A": "Attract",
@@ -5158,7 +5151,7 @@
   {
     "id": 369,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETISM",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The direction of induced emf is given by:",
     "options": {
       "A": "Fleming's left-hand rule",
@@ -5172,7 +5165,7 @@
   {
     "id": 370,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "A 100 μF capacitor is connected to 50 Hz, 230 V supply. The rms current is:",
     "options": {
       "A": "7.23 A",
@@ -5186,7 +5179,7 @@
   {
     "id": 371,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The width of depletion layer increases with:",
     "options": {
       "A": "Forward bias",
@@ -5200,7 +5193,7 @@
   {
     "id": 372,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "In a common emitter amplifier, the phase difference between input and output is:",
     "options": {
       "A": "0°",
@@ -5214,7 +5207,7 @@
   {
     "id": 373,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Two charges 4 μC and 16 μC are placed 0.3 m apart. Where should a third charge be placed so that net force on it is zero? (between them)",
     "options": {
       "A": "0.1 m from 4 μC",
@@ -5228,7 +5221,7 @@
   {
     "id": 374,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A wire of resistance 10 Ω is stretched to double its length. New resistance is: (volume constant)",
     "options": {
       "A": "40 Ω",
@@ -5242,7 +5235,7 @@
   {
     "id": 375,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In a network with 5 nodes and 6 branches, the number of independent KCL equations is:",
     "options": {
       "A": "5",
@@ -5256,7 +5249,7 @@
   {
     "id": 376,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Superposition theorem is applicable to networks containing:",
     "options": {
       "A": "Linear elements only",
@@ -5270,7 +5263,7 @@
   {
     "id": 377,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETISM",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "The relative permeability of a diamagnetic material is:",
     "options": {
       "A": "Slightly less than 1",
@@ -5284,7 +5277,7 @@
   {
     "id": 378,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETISM",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A coil of 500 turns, area 0.02 m², magnetic field changes from 0 to 0.5 T in 0.1 s. Induced emf is:",
     "options": {
       "A": "50 V",
@@ -5298,7 +5291,7 @@
   {
     "id": 379,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The power factor of a purely resistive circuit is:",
     "options": {
       "A": "0",
@@ -5312,7 +5305,7 @@
   {
     "id": 380,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "In a BJT, the region where both junctions are forward biased is:",
     "options": {
       "A": "Cut-off",
@@ -5323,11 +5316,10 @@
     "answer": "C",
     "explanation": "Saturation: base-emitter forward, base-collector forward."
   },
-  
   {
     "id": 381,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A point charge of 8 μC is placed at the origin. Calculate the electric potential at a point (3 m, 4 m). (k = 9×10⁹ N·m²/C²)",
     "options": {
       "A": "1.44×10⁴ V",
@@ -5341,7 +5333,7 @@
   {
     "id": 382,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Three capacitors 2 μF, 3 μF, and 6 μF are connected in series. The equivalent capacitance is:",
     "options": {
       "A": "1 μF",
@@ -5355,7 +5347,7 @@
   {
     "id": 383,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A parallel plate capacitor has capacitance C. If the plate separation is doubled and a dielectric of constant 4 is inserted, the new capacitance is:",
     "options": {
       "A": "2C",
@@ -5369,7 +5361,7 @@
   {
     "id": 384,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A copper wire of length 2 m and cross-sectional area 0.5 mm² has resistivity 1.68×10⁻⁸ Ω·m. Find its resistance.",
     "options": {
       "A": "0.0672 Ω",
@@ -5383,7 +5375,7 @@
   {
     "id": 385,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 60 W bulb operates on 120 V. What is its resistance?",
     "options": {
       "A": "240 Ω",
@@ -5397,7 +5389,7 @@
   {
     "id": 386,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In the circuit, a 12 V battery with internal resistance 1 Ω is connected to two parallel resistors of 4 Ω and 6 Ω. Find the terminal voltage.",
     "options": {
       "A": "11.2 V",
@@ -5411,7 +5403,7 @@
   {
     "id": 387,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Using Kirchhoff's voltage law, find the current in a single loop with a 15 V battery, a 5 Ω resistor, and a 10 V battery opposing the first.",
     "options": {
       "A": "0.5 A",
@@ -5425,7 +5417,7 @@
   {
     "id": 388,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In a circuit with two voltage sources V1 and V2, the current through a resistor is found to be 2 A when only V1 acts and 1 A when only V2 acts (in opposite direction). The net current when both act is:",
     "options": {
       "A": "1 A",
@@ -5439,7 +5431,7 @@
   {
     "id": 389,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A circuit has a 10 V battery and a 2 A current source. When only the battery acts, current through a resistor is 2 A. When only the current source acts, current through same resistor is 1 A in same direction. Find total current.",
     "options": {
       "A": "3 A",
@@ -5453,7 +5445,7 @@
   {
     "id": 390,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETISM",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "A toroid has 500 turns and carries 2 A. The mean radius is 0.1 m. Find the magnetic field inside (μ₀=4π×10⁻⁷).",
     "options": {
       "A": "2×10⁻³ T",
@@ -5467,7 +5459,7 @@
   {
     "id": 391,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETISM",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "Two parallel wires 0.2 m apart carry currents of 5 A and 8 A in opposite directions. Force per unit length is:",
     "options": {
       "A": "4×10⁻⁵ N/m (repulsive)",
@@ -5481,7 +5473,7 @@
   {
     "id": 392,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETISM",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A coil of area 0.1 m² and 100 turns rotates in a uniform magnetic field of 0.05 T at 50 revolutions per second. Maximum induced emf is:",
     "options": {
       "A": "157 V",
@@ -5495,7 +5487,7 @@
   {
     "id": 393,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETISM",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A 10 mH inductor carries a current that changes uniformly from 2 A to 5 A in 0.1 s. The self-induced emf is:",
     "options": {
       "A": "0.3 V",
@@ -5509,7 +5501,7 @@
   {
     "id": 394,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "A 0.5 H inductor is connected to a 50 Hz AC supply. The inductive reactance is:",
     "options": {
       "A": "157 Ω",
@@ -5523,7 +5515,7 @@
   {
     "id": 395,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "A 20 μF capacitor is connected to a 60 Hz supply. The capacitive reactance is:",
     "options": {
       "A": "132.6 Ω",
@@ -5537,7 +5529,7 @@
   {
     "id": 396,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "An AC voltage v = 100 sin(314t) is applied to a 50 Ω resistor. The rms current is:",
     "options": {
       "A": "2 A",
@@ -5551,7 +5543,7 @@
   {
     "id": 397,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The energy gap in germanium is approximately:",
     "options": {
       "A": "0.7 eV",
@@ -5565,7 +5557,7 @@
   {
     "id": 398,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "In a full-wave rectifier with center-tapped transformer, the number of diodes used is:",
     "options": {
       "A": "1",
@@ -5579,7 +5571,7 @@
   {
     "id": 399,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "A transistor has α = 0.98. Its β is:",
     "options": {
       "A": "49",
@@ -5593,7 +5585,7 @@
   {
     "id": 400,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A 12 pF capacitor is charged to 50 V. The charge on it is:",
     "options": {
       "A": "600 pC",
@@ -5607,7 +5599,7 @@
   {
     "id": 401,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Electric field intensity at a point 0.2 m from a charge of 5 nC is: (k=9×10⁹)",
     "options": {
       "A": "1125 N/C",
@@ -5621,7 +5613,7 @@
   {
     "id": 402,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A battery of emf 9 V and internal resistance 1 Ω is connected to a 2 Ω resistor. The power dissipated in the external resistor is:",
     "options": {
       "A": "18 W",
@@ -5635,7 +5627,7 @@
   {
     "id": 403,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "For the circuit with two batteries: 10 V and 5 V, resistors 2 Ω and 3 Ω in series. Find current.",
     "options": {
       "A": "1 A",
@@ -5649,7 +5641,7 @@
   {
     "id": 404,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In a circuit with two sources, the voltage across a resistor is 4 V from source A and -2 V from source B. The net voltage is:",
     "options": {
       "A": "2 V",
@@ -5663,7 +5655,7 @@
   {
     "id": 405,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETISM",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "A straight wire of length 0.5 m carries 10 A perpendicular to a magnetic field of 0.3 T. The force on the wire is:",
     "options": {
       "A": "1.5 N",
@@ -5677,7 +5669,7 @@
   {
     "id": 406,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETISM",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A magnetic flux of 0.2 Wb linking a coil of 100 turns is reversed in 0.05 s. Average induced emf is:",
     "options": {
       "A": "400 V",
@@ -5691,7 +5683,7 @@
   {
     "id": 407,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In a series RLC circuit, R=10 Ω, X_L=20 Ω, X_C=10 Ω. The impedance is:",
     "options": {
       "A": "10√2 Ω",
@@ -5705,14 +5697,8 @@
   {
     "id": 408,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The rms value of current i = 10 sin(ωt) + 5 sin(3ωt) is:",
-    "options": {
-      "A": "√(50+12.5) = √62.5 ≈ 7.9 A",
-      "B": "√(100+25)=√125=11.18 A",
-      "C": "√(100+6.25)=√106.25=10.3 A",
-      "D": "15 A"
-    },
     "options": {
       "A": "7.9 A",
       "B": "11.18 A",
@@ -5725,7 +5711,7 @@
   {
     "id": 409,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "In a p-n junction under reverse bias, the current is mainly due to:",
     "options": {
       "A": "Majority carriers",
@@ -5739,7 +5725,7 @@
   {
     "id": 410,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The ripple frequency of a full-wave bridge rectifier with 50 Hz input is:",
     "options": {
       "A": "50 Hz",
@@ -5753,7 +5739,7 @@
   {
     "id": 411,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A charge of 2 μC is placed at the center of a spherical Gaussian surface of radius 0.1 m. The electric flux through the surface is: (ε₀=8.85×10⁻¹²)",
     "options": {
       "A": "2.26×10⁵ N·m²/C",
@@ -5767,7 +5753,7 @@
   {
     "id": 412,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 100 m long wire has resistance 20 Ω. If its length is reduced to 25 m by cutting, the resistance of the 25 m wire is:",
     "options": {
       "A": "5 Ω",
@@ -5781,7 +5767,7 @@
   {
     "id": 413,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "For the circuit: 20 V battery, 10 Ω resistor, then a node splitting into 5 Ω and 15 Ω in parallel. Find the current through the 10 Ω resistor.",
     "options": {
       "A": "2 A",
@@ -5795,7 +5781,7 @@
   {
     "id": 414,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A circuit has a 6 V battery and a 3 A current source. When only the battery acts, the current through a resistor is 1.5 A downward. When only the current source acts, the current through the same resistor is 2 A upward. The net current is:",
     "options": {
       "A": "0.5 A downward",
@@ -5809,7 +5795,7 @@
   {
     "id": 415,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETISM",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "A proton moves with velocity 4×10⁶ m/s perpendicular to a magnetic field of 0.5 T. The magnetic force on proton (q=1.6×10⁻¹⁹ C) is:",
     "options": {
       "A": "3.2×10⁻¹³ N",
@@ -5823,7 +5809,7 @@
   {
     "id": 416,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETISM",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A transformer has 200 primary turns and 800 secondary turns. If primary voltage is 100 V, secondary voltage is:",
     "options": {
       "A": "400 V",
@@ -5837,7 +5823,7 @@
   {
     "id": 417,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In a pure capacitor, if the frequency is doubled, the capacitive reactance:",
     "options": {
       "A": "Doubles",
@@ -5851,7 +5837,7 @@
   {
     "id": 418,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The process of adding impurities to a semiconductor is called:",
     "options": {
       "A": "Doping",
@@ -5865,7 +5851,7 @@
   {
     "id": 419,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Two capacitors of 3 μF and 6 μF are connected in parallel across a 100 V supply. The total charge stored is:",
     "options": {
       "A": "900 μC",
@@ -5879,7 +5865,7 @@
   {
     "id": 420,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 4 Ω resistor and a 6 Ω resistor are in parallel. The combination is in series with a 2 Ω resistor. The total resistance is:",
     "options": {
       "A": "4.4 Ω",
@@ -5893,7 +5879,7 @@
   {
     "id": 421,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A node has three currents: I1=2 A entering, I2=3 A entering, I3 leaving. Find I3.",
     "options": {
       "A": "5 A",
@@ -5907,7 +5893,7 @@
   {
     "id": 422,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "When deactivating a voltage source for superposition, it is replaced by:",
     "options": {
       "A": "Open circuit",
@@ -5921,7 +5907,7 @@
   {
     "id": 423,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETISM",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "A magnetic field of 0.4 T passes perpendicularly through a coil of area 0.02 m². The magnetic flux is:",
     "options": {
       "A": "0.008 Wb",
@@ -5935,7 +5921,7 @@
   {
     "id": 424,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETISM",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "Lenz's law is derived from:",
     "options": {
       "A": "Conservation of charge",
@@ -5949,7 +5935,7 @@
   {
     "id": 425,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The average value of sinusoidal current over a full cycle is:",
     "options": {
       "A": "0",
@@ -5963,7 +5949,7 @@
   {
     "id": 426,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTORS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "In a common base configuration, the current gain α is typically:",
     "options": {
       "A": "Less than 1",
@@ -5977,7 +5963,7 @@
   {
     "id": 427,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "What is the work done to move a charge of 5 μC between two points with potential difference 12 V?",
     "options": {
       "A": "60 μJ",
@@ -5991,7 +5977,7 @@
   {
     "id": 428,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A conductor carries 0.5 C of charge in 2 seconds. The current is:",
     "options": {
       "A": "0.25 A",
@@ -6005,7 +5991,7 @@
   {
     "id": 429,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "If a loop has two batteries 12 V and 8 V assisting, and three resistors 2 Ω, 3 Ω, 4 Ω in series, the current is:",
     "options": {
       "A": "2.22 A",
@@ -6019,7 +6005,7 @@
   {
     "id": 430,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETISM",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "The magnetic field at the center of a 100-turn circular coil of radius 0.05 m carrying 2 A is: (μ₀=4π×10⁻⁷)",
     "options": {
       "A": "2.51×10⁻³ T",
@@ -6030,7 +6016,6 @@
     "answer": "A",
     "explanation": "B = μ₀ N I / (2R) = (4π×10⁻⁷ × 100 × 2) / (2×0.05) = (8π×10⁻⁵) / (0.1) = 8π×10⁻⁴ = 2.513×10⁻³ T."
   },
-  
   {
     "id": 431,
     "source": "Past Questions Compilation",
@@ -6090,7 +6075,7 @@
   {
     "id": 435,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A coil of 200 turns has an area of 0.02 m² and is placed in a magnetic field that changes from 0.5 T to 0 T in 0.1 s. The average induced emf is:",
     "options": {
       "A": "20 V",
@@ -6104,7 +6089,7 @@
   {
     "id": 436,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The mutual inductance between two coils is 0.2 H. If the current in the primary changes from 4 A to 0 A in 0.02 s, the induced emf in the secondary is:",
     "options": {
       "A": "40 V",
@@ -6118,7 +6103,7 @@
   {
     "id": 437,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A transformer has 1000 primary turns and 200 secondary turns. If the primary voltage is 240 V AC, the secondary voltage is:",
     "options": {
       "A": "48 V",
@@ -6132,7 +6117,7 @@
   {
     "id": 438,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The back emf in a DC motor is maximum when the motor:",
     "options": {
       "A": "Starts",
@@ -6174,7 +6159,7 @@
   {
     "id": 441,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "A 50 μF capacitor is connected to a 230 V, 50 Hz supply. The rms current is:",
     "options": {
       "A": "1.81 A",
@@ -6188,7 +6173,7 @@
   {
     "id": 442,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In an LCR series circuit, the impedance is 100 Ω at resonance. If the resistance is 100 Ω, the power factor is:",
     "options": {
       "A": "1.0",
@@ -6202,7 +6187,7 @@
   {
     "id": 443,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "A sinusoidal voltage has peak value of 100 V. Its rms value is:",
     "options": {
       "A": "70.7 V",
@@ -6216,7 +6201,7 @@
   {
     "id": 444,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The inductive reactance of a 0.2 H inductor at 100 Hz is:",
     "options": {
       "A": "125.6 Ω",
@@ -6230,7 +6215,7 @@
   {
     "id": 445,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 10 Ω resistor dissipates 1000 J of heat in 10 s. The current through it is:",
     "options": {
       "A": "√10 A ≈ 3.16 A",
@@ -6244,7 +6229,7 @@
   {
     "id": 446,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Two resistors of 6 Ω and 3 Ω are connected in parallel. The equivalent resistance is:",
     "options": {
       "A": "2 Ω",
@@ -6258,7 +6243,7 @@
   {
     "id": 447,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 12 V battery supplies 2 A to a resistor. The resistance is:",
     "options": {
       "A": "6 Ω",
@@ -6272,7 +6257,7 @@
   {
     "id": 448,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The Coulomb force between two point charges is F. If the distance between them is doubled, the new force is:",
     "options": {
       "A": "F/4",
@@ -6286,7 +6271,7 @@
   {
     "id": 449,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The electric field due to a point charge at distance r is E. If the distance is halved, the field becomes:",
     "options": {
       "A": "4E",
@@ -6300,7 +6285,7 @@
   {
     "id": 450,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A capacitor of 2 μF is charged to 100 V. The charge stored is:",
     "options": {
       "A": "200 μC",
@@ -6356,7 +6341,7 @@
   {
     "id": 454,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A coil of area 0.05 m² and 100 turns is placed in a magnetic field of 0.2 T. The flux through the coil when its plane is perpendicular to the field is:",
     "options": {
       "A": "1 Wb",
@@ -6370,7 +6355,7 @@
   {
     "id": 455,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "If the current in an inductor changes from 2 A to 5 A in 0.1 s and the induced emf is 15 V, the inductance is:",
     "options": {
       "A": "0.5 H",
@@ -6384,7 +6369,7 @@
   {
     "id": 456,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The primary of a transformer has 400 turns and secondary 1000 turns. If the primary voltage is 200 V, the secondary voltage is:",
     "options": {
       "A": "500 V",
@@ -6426,7 +6411,7 @@
   {
     "id": 459,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The peak current in an AC circuit is 10 A. The rms current is:",
     "options": {
       "A": "7.07 A",
@@ -6440,7 +6425,7 @@
   {
     "id": 460,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The time period of a 50 Hz AC supply is:",
     "options": {
       "A": "0.02 s",
@@ -6454,7 +6439,7 @@
   {
     "id": 461,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In a series LCR circuit, the phase angle between voltage and current is 60°. The power factor is:",
     "options": {
       "A": "0.5",
@@ -6468,7 +6453,7 @@
   {
     "id": 462,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A wire of length 2 m and cross-sectional area 1 mm² has resistivity 1.7×10⁻⁸ Ω·m. Its resistance is:",
     "options": {
       "A": "0.034 Ω",
@@ -6482,7 +6467,7 @@
   {
     "id": 463,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Two resistors of 4 Ω and 6 Ω are in series with a 10 V battery. The current is:",
     "options": {
       "A": "1 A",
@@ -6496,7 +6481,7 @@
   {
     "id": 464,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The potential difference across a 5 Ω resistor carrying 2 A is:",
     "options": {
       "A": "10 V",
@@ -6510,7 +6495,7 @@
   {
     "id": 465,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The capacitance of a parallel plate capacitor is 10 pF. If the plate separation is doubled, the new capacitance is:",
     "options": {
       "A": "5 pF",
@@ -6524,7 +6509,7 @@
   {
     "id": 466,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The work done in moving a charge of 2 C between two points at a potential difference of 10 V is:",
     "options": {
       "A": "20 J",
@@ -6538,7 +6523,7 @@
   {
     "id": 467,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The electric field at a point 0.2 m from a point charge of 2 μC is: (k = 9×10⁹)",
     "options": {
       "A": "4.5×10⁵ N/C",
@@ -6594,7 +6579,7 @@
   {
     "id": 471,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The phenomenon of producing an induced emf by changing the current in a neighbouring coil is called:",
     "options": {
       "A": "Mutual induction",
@@ -6608,7 +6593,7 @@
   {
     "id": 472,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A coil of 500 turns has a magnetic flux of 0.02 Wb linking it. If the flux is reduced to zero in 0.05 s, the average induced emf is:",
     "options": {
       "A": "200 V",
@@ -6622,7 +6607,7 @@
   {
     "id": 473,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "In a step-down transformer:",
     "options": {
       "A": "N₂ < N₁ and V₂ < V₁",
@@ -6664,7 +6649,7 @@
   {
     "id": 476,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The angular frequency of a 60 Hz AC supply is:",
     "options": {
       "A": "377 rad/s",
@@ -6678,7 +6663,7 @@
   {
     "id": 477,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In a purely capacitive circuit, the current:",
     "options": {
       "A": "Leads voltage by 90°",
@@ -6692,7 +6677,7 @@
   {
     "id": 478,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 100 W bulb is used for 10 hours. The energy consumed in kWh is:",
     "options": {
       "A": "1 kWh",
@@ -6706,7 +6691,7 @@
   {
     "id": 479,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A charge of 5 C flows through a wire in 2 s. The current is:",
     "options": {
       "A": "2.5 A",
@@ -6720,7 +6705,7 @@
   {
     "id": 480,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The dielectric constant of a material is 5. Its permittivity is: (ε₀ = 8.85×10⁻¹² F/m)",
     "options": {
       "A": "4.425×10⁻¹¹ F/m",
@@ -6734,7 +6719,7 @@
   {
     "id": 481,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Two capacitors of 3 μF and 6 μF are connected in series. The equivalent capacitance is:",
     "options": {
       "A": "2 μF",
@@ -6776,7 +6761,7 @@
   {
     "id": 484,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A 2 m long conductor moves at 30 m/s perpendicular to a magnetic field of 0.5 T. The induced emf is:",
     "options": {
       "A": "30 V",
@@ -6790,7 +6775,7 @@
   {
     "id": 485,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The self-inductance of a coil is 0.1 H. If the current changes at 50 A/s, the induced emf is:",
     "options": {
       "A": "5 V",
@@ -6832,7 +6817,7 @@
   {
     "id": 488,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The average power in an AC circuit is given by:",
     "options": {
       "A": "V_rms I_rms cos φ",
@@ -6846,7 +6831,7 @@
   {
     "id": 489,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The reactance of a 10 μF capacitor at 50 Hz is approximately:",
     "options": {
       "A": "318 Ω",
@@ -6860,7 +6845,7 @@
   {
     "id": 490,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 100 Ω resistor is connected to a 200 V source. The current is:",
     "options": {
       "A": "2 A",
@@ -6874,7 +6859,7 @@
   {
     "id": 491,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The resistance of a wire is proportional to its:",
     "options": {
       "A": "Length",
@@ -6888,7 +6873,7 @@
   {
     "id": 492,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The unit of electric field is:",
     "options": {
       "A": "N/C",
@@ -6902,7 +6887,7 @@
   {
     "id": 493,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The potential at a point due to a point charge is 90 V at a distance of 0.1 m. The charge is: (k=9×10⁹)",
     "options": {
       "A": "1×10⁻⁹ C",
@@ -6944,7 +6929,7 @@
   {
     "id": 496,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The induced emf in a conductor moving in a magnetic field is given by:",
     "options": {
       "A": "ε = B l v sinθ",
@@ -6958,7 +6943,7 @@
   {
     "id": 497,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A coil of 200 turns and area 0.02 m² is placed in a magnetic field that changes from 0.1 T to 0.6 T in 0.05 s. The average induced emf is:",
     "options": {
       "A": "40 V",
@@ -6972,7 +6957,7 @@
   {
     "id": 498,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "If the frequency of AC is doubled, the capacitive reactance becomes:",
     "options": {
       "A": "Half",
@@ -6986,7 +6971,7 @@
   {
     "id": 499,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In a purely resistive AC circuit, the phase difference between voltage and current is:",
     "options": {
       "A": "0°",
@@ -7000,7 +6985,7 @@
   {
     "id": 500,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The resistivity of a material depends on:",
     "options": {
       "A": "Temperature",
@@ -7014,7 +6999,7 @@
   {
     "id": 501,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 20 Ω resistor has a current of 0.5 A. The voltage across it is:",
     "options": {
       "A": "10 V",
@@ -7028,7 +7013,7 @@
   {
     "id": 502,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The electric field due to a uniformly charged spherical shell is zero:",
     "options": {
       "A": "Inside the shell",
@@ -7042,7 +7027,7 @@
   {
     "id": 503,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Capacitance is defined as:",
     "options": {
       "A": "C = Q/V",
@@ -7084,7 +7069,7 @@
   {
     "id": 506,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A transformer works on:",
     "options": {
       "A": "AC only",
@@ -7098,7 +7083,7 @@
   {
     "id": 507,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The energy stored in a 2 H inductor carrying 3 A is:",
     "options": {
       "A": "9 J",
@@ -7112,7 +7097,7 @@
   {
     "id": 508,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The peak value of a 230 V AC mains is approximately:",
     "options": {
       "A": "325 V",
@@ -7126,7 +7111,7 @@
   {
     "id": 509,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In an LCR circuit, the power factor is given by:",
     "options": {
       "A": "R/Z",
@@ -7140,7 +7125,7 @@
   {
     "id": 510,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 60 W lamp uses 0.5 A. The supply voltage is:",
     "options": {
       "A": "120 V",
@@ -7154,7 +7139,7 @@
   {
     "id": 511,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The equivalent resistance of 2 Ω, 4 Ω, and 8 Ω in parallel is:",
     "options": {
       "A": "1.14 Ω",
@@ -7168,7 +7153,7 @@
   {
     "id": 512,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The force between two charges is 0.36 N. If the distance is reduced to one-third, the new force is:",
     "options": {
       "A": "3.24 N",
@@ -7182,7 +7167,7 @@
   {
     "id": 513,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The potential at the centre of a uniformly charged sphere of radius R and total charge Q is:",
     "options": {
       "A": "kQ/R",
@@ -7224,7 +7209,7 @@
   {
     "id": 516,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The phenomenon of producing an induced emf in a coil due to change of current in the same coil is called:",
     "options": {
       "A": "Self induction",
@@ -7238,7 +7223,7 @@
   {
     "id": 517,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A 500 W, 200 V lamp is used with a 200 V supply. The current drawn is:",
     "options": {
       "A": "2.5 A",
@@ -7252,7 +7237,7 @@
   {
     "id": 518,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The rms value of an AC is 10 A. Its average value over half cycle is:",
     "options": {
       "A": "9.0 A",
@@ -7266,7 +7251,7 @@
   {
     "id": 519,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The impedance of a series RLC circuit is 50 Ω. If the resistance is 30 Ω, the power factor is:",
     "options": {
       "A": "0.6",
@@ -7280,7 +7265,7 @@
   {
     "id": 520,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The number of electrons constituting 1 C of charge is: (e = 1.6×10⁻¹⁹ C)",
     "options": {
       "A": "6.25×10¹⁸",
@@ -7294,7 +7279,7 @@
   {
     "id": 521,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A heater draws 5 A from a 250 V supply. Its power is:",
     "options": {
       "A": "1250 W",
@@ -7308,7 +7293,7 @@
   {
     "id": 522,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The electric field inside a conductor is zero because:",
     "options": {
       "A": "Free charges redistribute to cancel the field",
@@ -7322,7 +7307,7 @@
   {
     "id": 523,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "Two capacitors 2 μF and 4 μF are in parallel. The equivalent capacitance is:",
     "options": {
       "A": "6 μF",
@@ -7364,7 +7349,7 @@
   {
     "id": 526,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A conductor of length 0.5 m moves at 20 m/s perpendicular to a magnetic field of 0.4 T. The induced emf is:",
     "options": {
       "A": "4 V",
@@ -7378,7 +7363,7 @@
   {
     "id": 527,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The time constant of an LR circuit with L=2 H and R=10 Ω is:",
     "options": {
       "A": "0.2 s",
@@ -7392,7 +7377,7 @@
   {
     "id": 528,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In an AC circuit, the current lags the voltage by 30°. The power factor is:",
     "options": {
       "A": "0.866",
@@ -7406,7 +7391,7 @@
   {
     "id": 529,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The impedance of a 50 Ω resistor in series with a 50 Ω inductive reactance is:",
     "options": {
       "A": "70.7 Ω",
@@ -7420,7 +7405,7 @@
   {
     "id": 530,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 2 kW heater is used for 30 minutes. The energy consumed is:",
     "options": {
       "A": "1 kWh",
@@ -7434,7 +7419,7 @@
   {
     "id": 531,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 10 Ω resistor is connected to a 5 V battery. The power dissipated is:",
     "options": {
       "A": "2.5 W",
@@ -7448,7 +7433,7 @@
   {
     "id": 532,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The capacitance of a parallel plate capacitor depends on:",
     "options": {
       "A": "Plate area and separation",
@@ -7462,7 +7447,7 @@
   {
     "id": 533,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The electric field at a point on the equatorial line of a dipole varies as:",
     "options": {
       "A": "1/r³",
@@ -7504,7 +7489,7 @@
   {
     "id": 536,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The direction of induced current is given by:",
     "options": {
       "A": "Lenz's law",
@@ -7518,7 +7503,7 @@
   {
     "id": 537,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The mutual inductance between two coils is 0.8 H. If the current in the primary changes at 50 A/s, the induced emf in the secondary is:",
     "options": {
       "A": "40 V",
@@ -7532,7 +7517,7 @@
   {
     "id": 538,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The average value of a sinusoidal AC over a full cycle is:",
     "options": {
       "A": "0",
@@ -7546,7 +7531,7 @@
   {
     "id": 539,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The capacitive reactance of a 100 μF capacitor at 200 Hz is:",
     "options": {
       "A": "7.96 Ω",
@@ -7560,7 +7545,7 @@
   {
     "id": 540,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The electrical conductivity of a material is the reciprocal of:",
     "options": {
       "A": "Resistivity",
@@ -7574,7 +7559,7 @@
   {
     "id": 541,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "When a wire is stretched to double its original length, its resistance becomes:",
     "options": {
       "A": "4 times",
@@ -7588,7 +7573,7 @@
   {
     "id": 542,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The potential difference across a capacitor is 100 V. The charge stored is 50 μC. The capacitance is:",
     "options": {
       "A": "0.5 μF",
@@ -7602,7 +7587,7 @@
   {
     "id": 543,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The dielectric constant of a material is defined as the ratio of:",
     "options": {
       "A": "Permittivity of material to permittivity of vacuum",
@@ -7644,7 +7629,7 @@
   {
     "id": 546,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "In an AC generator, the output voltage is maximum when the plane of the coil is:",
     "options": {
       "A": "Parallel to the magnetic field",
@@ -7658,7 +7643,7 @@
   {
     "id": 547,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A step-up transformer increases voltage. The current in the secondary is:",
     "options": {
       "A": "Less than primary current",
@@ -7672,7 +7657,7 @@
   {
     "id": 548,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The phase difference between voltage and current in a pure inductor is:",
     "options": {
       "A": "90° (V leads I)",
@@ -7686,7 +7671,7 @@
   {
     "id": 549,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The resonant frequency of an RLC circuit depends on:",
     "options": {
       "A": "L and C only",
@@ -7700,7 +7685,7 @@
   {
     "id": 550,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The specific resistance of a wire depends on:",
     "options": {
       "A": "Material of the wire",
@@ -7714,7 +7699,7 @@
   {
     "id": 551,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "When resistors are connected in series, the effective resistance is:",
     "options": {
       "A": "Greater than the largest resistance",
@@ -7728,7 +7713,7 @@
   {
     "id": 552,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The work done in moving a charge along an equipotential surface is:",
     "options": {
       "A": "Zero",
@@ -7742,7 +7727,7 @@
   {
     "id": 553,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The capacitance of an isolated sphere of radius R is:",
     "options": {
       "A": "4πε₀R",
@@ -7784,7 +7769,7 @@
   {
     "id": 556,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A coil of area 0.1 m² and 50 turns is placed with its plane perpendicular to a field of 0.2 T. If the field is reduced to zero in 0.02 s, the induced emf is:",
     "options": {
       "A": "50 V",
@@ -7798,7 +7783,7 @@
   {
     "id": 557,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The self-inductance of a coil is 0.5 H. If the current changes uniformly from 2 A to 4 A in 0.1 s, the induced emf is:",
     "options": {
       "A": "10 V",
@@ -7812,7 +7797,7 @@
   {
     "id": 558,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The impedance of a 100 Ω resistor in series with a 100 Ω capacitive reactance is:",
     "options": {
       "A": "141.4 Ω",
@@ -7826,7 +7811,7 @@
   {
     "id": 559,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The peak value of a 50 Hz AC is 10 A. The time taken to reach the peak from zero is:",
     "options": {
       "A": "0.005 s",
@@ -7840,7 +7825,7 @@
   {
     "id": 560,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 24 V battery supplies 0.5 A to a lamp. The resistance of the lamp is:",
     "options": {
       "A": "48 Ω",
@@ -7854,7 +7839,7 @@
   {
     "id": 561,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Which of the following has the highest electrical conductivity?",
     "options": {
       "A": "Silver",
@@ -7868,7 +7853,7 @@
   {
     "id": 562,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The electric field at a point is defined as the force per unit:",
     "options": {
       "A": "Positive charge",
@@ -7882,7 +7867,7 @@
   {
     "id": 563,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A charge of 10 μC is placed in an electric field of 2×10⁵ N/C. The force on it is:",
     "options": {
       "A": "2 N",
@@ -7924,7 +7909,7 @@
   {
     "id": 566,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A coil of 100 turns has a magnetic flux of 0.005 Wb. If the flux is reduced to zero in 0.1 s, the average induced voltage is:",
     "options": {
       "A": "5 V",
@@ -7938,7 +7923,7 @@
   {
     "id": 567,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "A transformer has a turns ratio of 10:1 (primary:secondary). If the primary current is 0.5 A, the secondary current is:",
     "options": {
       "A": "5 A",
@@ -7952,7 +7937,7 @@
   {
     "id": 568,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The average power consumed in a pure capacitor is:",
     "options": {
       "A": "Zero",
@@ -7966,7 +7951,7 @@
   {
     "id": 569,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The rms value of an alternating current is 15 A. Its peak value is:",
     "options": {
       "A": "21.21 A",
@@ -7980,7 +7965,7 @@
   {
     "id": 570,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "Ammeter is always connected in:",
     "options": {
       "A": "Series",
@@ -7994,7 +7979,7 @@
   {
     "id": 571,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The resistance of a 100 W, 200 V bulb is:",
     "options": {
       "A": "400 Ω",
@@ -8008,7 +7993,7 @@
   {
     "id": 572,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "A point charge Q is placed at a distance r from a grounded conducting sphere. The force on it is:",
     "options": {
       "A": "Attractive",
@@ -8022,7 +8007,7 @@
   {
     "id": 573,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROSTATICS",
+    "topic": "ELECTROSTATICS & COULOMB'S LAW",
     "question": "The potential gradient is measured in:",
     "options": {
       "A": "V/m",
@@ -8064,7 +8049,7 @@
   {
     "id": 576,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "Eddy currents are induced in:",
     "options": {
       "A": "Bulk conductors",
@@ -8078,7 +8063,7 @@
   {
     "id": 577,
     "source": "Past Questions Compilation",
-    "topic": "ELECTROMAGNETIC INDUCTION",
+    "topic": "ELECTROMAGNETIC INDUCTION & FARADAY'S LAW",
     "question": "The back emf in a DC motor is maximum when the motor:",
     "options": {
       "A": "Is at rest",
@@ -8092,7 +8077,7 @@
   {
     "id": 578,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In an AC circuit, the current and voltage are given by i = I₀ sin ωt and v = V₀ sin (ωt + π/2). The circuit is:",
     "options": {
       "A": "Purely inductive",
@@ -8106,7 +8091,7 @@
   {
     "id": 579,
     "source": "Past Questions Compilation",
-    "topic": "AC CIRCUITS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The power factor of a circuit is 0.8. The angle of phase difference is:",
     "options": {
       "A": "36.87°",
@@ -8120,7 +8105,7 @@
   {
     "id": 580,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRIC CURRENT",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 12 Ω resistor and a 24 Ω resistor are connected in parallel. The equivalent resistance is:",
     "options": {
       "A": "8 Ω",
@@ -8131,11 +8116,10 @@
     "answer": "A",
     "explanation": "1/R = 1/12 + 1/24 = 2/24 + 1/24 = 3/24 = 1/8 → R = 8 Ω."
   },
-  
   {
     "id": 581,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION THEOREM",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Superposition theorem is applicable only to circuits that are:",
     "options": {
       "A": "Non-linear and unilateral",
@@ -8149,7 +8133,7 @@
   {
     "id": 582,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION THEOREM",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "When using superposition to find the current through a resistor, you must:",
     "options": {
       "A": "Replace voltage sources with short circuits and current sources with open circuits",
@@ -8163,7 +8147,7 @@
   {
     "id": 583,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION THEOREM",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A circuit has two voltage sources: 10 V and 5 V. When only the 10 V source acts, the current through a resistor is 2 A. When only the 5 V source acts (in the same direction), the current is 1 A. The total current with both sources active is:",
     "options": {
       "A": "1 A",
@@ -8177,7 +8161,7 @@
   {
     "id": 584,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION THEOREM",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Why is superposition NOT directly applicable for calculating power in a circuit?",
     "options": {
       "A": "Power is a linear function",
@@ -8191,7 +8175,7 @@
   {
     "id": 585,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In the circuit shown, three resistors R₁=2Ω, R₂=3Ω, R₃=5Ω are connected in series with a 20V battery. The voltage drop across R₂ is:",
     "options": {
       "A": "2 V",
@@ -8205,7 +8189,7 @@
   {
     "id": 586,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A node in a circuit has four branches. The currents in three branches are 2A entering, 5A leaving, and 3A leaving. The fourth branch current and its direction are:",
     "options": {
       "A": "6 A entering",
@@ -8219,7 +8203,7 @@
   {
     "id": 587,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "For the circuit with two batteries: E₁=12V (internal resistance 1Ω), E₂=8V (internal resistance 0.5Ω) connected in series opposing, and an external resistor R=5Ω. The current in the circuit is:",
     "options": {
       "A": "0.5 A",
@@ -8233,7 +8217,7 @@
   {
     "id": 588,
     "source": "Past Questions Compilation",
-    "topic": "WHEATSTONE BRIDGE",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A Wheatstone bridge has four resistors: P=10Ω, Q=20Ω, R=15Ω, S=30Ω. The bridge is:",
     "options": {
       "A": "Balanced, with zero current through galvanometer",
@@ -8247,7 +8231,7 @@
   {
     "id": 589,
     "source": "Past Questions Compilation",
-    "topic": "WHEATSTONE BRIDGE",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In a Wheatstone bridge, P=4Ω, Q=6Ω, R=8Ω. For balance, what should be the value of S?",
     "options": {
       "A": "6 Ω",
@@ -8261,7 +8245,7 @@
   {
     "id": 590,
     "source": "Past Questions Compilation",
-    "topic": "WHEATSTONE BRIDGE",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A Wheatstone bridge is highly sensitive when:",
     "options": {
       "A": "All resistors are equal",
@@ -8275,7 +8259,7 @@
   {
     "id": 591,
     "source": "Past Questions Compilation",
-    "topic": "POTENTIOMETER",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A potentiometer is preferred over a voltmeter for measuring EMF of a cell because:",
     "options": {
       "A": "It is cheaper",
@@ -8289,7 +8273,7 @@
   {
     "id": 592,
     "source": "Past Questions Compilation",
-    "topic": "POTENTIOMETER",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A potentiometer wire of length 10 m has a resistance of 20Ω. A 2V battery with internal resistance 5Ω is connected across the wire. The potential gradient along the wire is:",
     "options": {
       "A": "0.1 V/m",
@@ -8303,7 +8287,7 @@
   {
     "id": 593,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRICAL ENERGY & POWER",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "An electric iron of resistance 50Ω draws a current of 4A. The power consumed and energy consumed in 30 minutes are respectively:",
     "options": {
       "A": "800 W, 1.44 × 10⁶ J",
@@ -8317,7 +8301,7 @@
   {
     "id": 594,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRICAL ENERGY & POWER",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 100 W bulb and a 60 W bulb are both rated at 220 V. Which bulb has higher resistance?",
     "options": {
       "A": "100 W bulb",
@@ -8331,7 +8315,7 @@
   {
     "id": 595,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRICAL ENERGY & POWER",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 2 kW heater is used for 2 hours daily. The cost of energy for 30 days at ₹5 per kWh is:",
     "options": {
       "A": "₹300",
@@ -8345,7 +8329,7 @@
   {
     "id": 596,
     "source": "Past Questions Compilation",
-    "topic": "HALL EFFECT",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "The Hall effect is used to determine:",
     "options": {
       "A": "Type of charge carriers and their density",
@@ -8359,7 +8343,7 @@
   {
     "id": 597,
     "source": "Past Questions Compilation",
-    "topic": "HALL EFFECT",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "The Hall voltage is maximum when the magnetic field is:",
     "options": {
       "A": "Parallel to the current direction",
@@ -8373,7 +8357,7 @@
   {
     "id": 598,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETIC MATERIALS",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "Which of the following materials has the highest relative permeability?",
     "options": {
       "A": "Diamagnetic",
@@ -8387,7 +8371,7 @@
   {
     "id": 599,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETIC MATERIALS",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "Curie temperature is the temperature above which:",
     "options": {
       "A": "A ferromagnetic material becomes paramagnetic",
@@ -8401,7 +8385,7 @@
   {
     "id": 600,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETIC MATERIALS",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "Hysteresis loss in a transformer core is minimized by using:",
     "options": {
       "A": "Soft iron",
@@ -8415,7 +8399,7 @@
   {
     "id": 601,
     "source": "Past Questions Compilation",
-    "topic": "AC GENERATOR",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In an AC generator, the induced EMF is maximum when the angle between the plane of the coil and the magnetic field is:",
     "options": {
       "A": "0°",
@@ -8429,7 +8413,7 @@
   {
     "id": 602,
     "source": "Past Questions Compilation",
-    "topic": "AC GENERATOR",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The frequency of induced EMF in a 4-pole AC generator running at 1500 rpm is:",
     "options": {
       "A": "25 Hz",
@@ -8443,7 +8427,7 @@
   {
     "id": 603,
     "source": "Past Questions Compilation",
-    "topic": "TRANSFORMERS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "A transformer has 200 primary turns and 800 secondary turns. If the primary voltage is 100 V and primary current is 4 A, the secondary current (assuming ideal transformer) is:",
     "options": {
       "A": "1 A",
@@ -8457,7 +8441,7 @@
   {
     "id": 604,
     "source": "Past Questions Compilation",
-    "topic": "TRANSFORMERS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The core of a transformer is laminated to reduce:",
     "options": {
       "A": "Hysteresis loss",
@@ -8471,7 +8455,7 @@
   {
     "id": 605,
     "source": "Past Questions Compilation",
-    "topic": "TRANSFORMERS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "A step-down transformer has a turns ratio of 10:1. If the primary is connected to 220 V AC, the secondary voltage is:",
     "options": {
       "A": "22 V",
@@ -8485,7 +8469,7 @@
   {
     "id": 606,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTOR DIODES",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "A p-n junction diode is forward biased when:",
     "options": {
       "A": "p-side is connected to negative terminal and n-side to positive terminal",
@@ -8499,7 +8483,7 @@
   {
     "id": 607,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTOR DIODES",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The reverse saturation current in a p-n junction diode is due to:",
     "options": {
       "A": "Majority carriers",
@@ -8513,7 +8497,7 @@
   {
     "id": 608,
     "source": "Past Questions Compilation",
-    "topic": "RECTIFIERS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "A half-wave rectifier has an input AC voltage of 230 V (rms). The peak output voltage across a load resistor (neglecting diode drop) is approximately:",
     "options": {
       "A": "230 V",
@@ -8527,7 +8511,7 @@
   {
     "id": 609,
     "source": "Past Questions Compilation",
-    "topic": "RECTIFIERS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The ripple frequency of a full-wave bridge rectifier with 60 Hz AC input is:",
     "options": {
       "A": "60 Hz",
@@ -8541,7 +8525,7 @@
   {
     "id": 610,
     "source": "Past Questions Compilation",
-    "topic": "ZENER DIODE",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "A Zener diode is operated in the:",
     "options": {
       "A": "Forward bias region",
@@ -8555,7 +8539,7 @@
   {
     "id": 611,
     "source": "Past Questions Compilation",
-    "topic": "ZENER DIODE",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "A 10 V Zener diode is used in a voltage regulator. If the input voltage varies from 12 V to 18 V, the output voltage will:",
     "options": {
       "A": "Vary from 10 V to 18 V",
@@ -8569,7 +8553,7 @@
   {
     "id": 612,
     "source": "Past Questions Compilation",
-    "topic": "BIPOLAR JUNCTION TRANSISTOR",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "In an npn transistor, the majority carriers in the base region are:",
     "options": {
       "A": "Electrons",
@@ -8583,7 +8567,7 @@
   {
     "id": 613,
     "source": "Past Questions Compilation",
-    "topic": "BIPOLAR JUNCTION TRANSISTOR",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "For a transistor in common emitter configuration, if the base current is 50 μA and the collector current is 5 mA, the current gain β is:",
     "options": {
       "A": "50",
@@ -8597,7 +8581,7 @@
   {
     "id": 614,
     "source": "Past Questions Compilation",
-    "topic": "BIPOLAR JUNCTION TRANSISTOR",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "In the active region of a transistor, the collector current is approximately:",
     "options": {
       "A": "Independent of collector-emitter voltage",
@@ -8611,7 +8595,7 @@
   {
     "id": 615,
     "source": "Past Questions Compilation",
-    "topic": "LOGIC GATES",
+    "topic": "LOGIC GATES & DIGITAL ELECTRONICS",
     "question": "The output of an AND gate is 1 only when:",
     "options": {
       "A": "All inputs are 0",
@@ -8625,7 +8609,7 @@
   {
     "id": 616,
     "source": "Past Questions Compilation",
-    "topic": "LOGIC GATES",
+    "topic": "LOGIC GATES & DIGITAL ELECTRONICS",
     "question": "A NOR gate is equivalent to an OR gate followed by a:",
     "options": {
       "A": "AND gate",
@@ -8639,7 +8623,7 @@
   {
     "id": 617,
     "source": "Past Questions Compilation",
-    "topic": "LOGIC GATES",
+    "topic": "LOGIC GATES & DIGITAL ELECTRONICS",
     "question": "The Boolean expression for a NAND gate is:",
     "options": {
       "A": "Y = A + B",
@@ -8653,7 +8637,7 @@
   {
     "id": 618,
     "source": "Past Questions Compilation",
-    "topic": "LOGIC GATES",
+    "topic": "LOGIC GATES & DIGITAL ELECTRONICS",
     "question": "An XOR gate produces a HIGH output when:",
     "options": {
       "A": "Both inputs are HIGH",
@@ -8667,7 +8651,7 @@
   {
     "id": 619,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: PHOTOELECTRIC EFFECT",
+    "topic": "MODERN PHYSICS",
     "question": "The photoelectric effect demonstrates that light behaves as:",
     "options": {
       "A": "A wave only",
@@ -8681,7 +8665,7 @@
   {
     "id": 620,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: PHOTOELECTRIC EFFECT",
+    "topic": "MODERN PHYSICS",
     "question": "The stopping potential in photoelectric effect depends on:",
     "options": {
       "A": "Intensity of light only",
@@ -8695,7 +8679,7 @@
   {
     "id": 621,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: PHOTOELECTRIC EFFECT",
+    "topic": "MODERN PHYSICS",
     "question": "The work function of a metal is 2.5 eV. The threshold wavelength for photoelectric emission is: (h = 6.63×10⁻³⁴ J·s, c = 3×10⁸ m/s, 1 eV = 1.6×10⁻¹⁹ J)",
     "options": {
       "A": "496 nm",
@@ -8709,7 +8693,7 @@
   {
     "id": 622,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: ATOMIC MODELS",
+    "topic": "MODERN PHYSICS",
     "question": "According to Bohr's atomic model, the angular momentum of an electron in the nth orbit is:",
     "options": {
       "A": "nh/2π",
@@ -8723,7 +8707,7 @@
   {
     "id": 623,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: ATOMIC MODELS",
+    "topic": "MODERN PHYSICS",
     "question": "The radius of the first Bohr orbit (n=1) for hydrogen atom is approximately:",
     "options": {
       "A": "0.53 Å",
@@ -8737,7 +8721,7 @@
   {
     "id": 624,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: NUCLEAR PHYSICS",
+    "topic": "MODERN PHYSICS",
     "question": "The binding energy of a nucleus is the energy:",
     "options": {
       "A": "Released when nucleons come together",
@@ -8751,7 +8735,7 @@
   {
     "id": 625,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: NUCLEAR PHYSICS",
+    "topic": "MODERN PHYSICS",
     "question": "The half-life of a radioactive substance is 10 days. The time taken for 75% of the sample to decay is:",
     "options": {
       "A": "10 days",
@@ -8765,7 +8749,7 @@
   {
     "id": 626,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION THEOREM",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In superposition theorem, while considering the effect of a voltage source, other voltage sources are replaced by:",
     "options": {
       "A": "Open circuit",
@@ -8779,7 +8763,7 @@
   {
     "id": 627,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A 10 V battery with internal resistance 1Ω is connected to a network of resistors. The terminal voltage is measured to be 8 V. The current supplied by the battery is:",
     "options": {
       "A": "2 A",
@@ -8793,7 +8777,7 @@
   {
     "id": 628,
     "source": "Past Questions Compilation",
-    "topic": "WHEATSTONE BRIDGE",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In a Wheatstone bridge, the galvanometer shows zero deflection when the resistances are: P=5Ω, Q=10Ω, R=15Ω, S=30Ω. The bridge is:",
     "options": {
       "A": "Balanced",
@@ -8807,7 +8791,7 @@
   {
     "id": 629,
     "source": "Past Questions Compilation",
-    "topic": "POTENTIOMETER",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A potentiometer is used to compare the EMFs of two cells E₁ and E₂. The balance lengths are l₁=40 cm and l₂=25 cm. If E₁ = 1.5 V, then E₂ is:",
     "options": {
       "A": "0.94 V",
@@ -8821,7 +8805,7 @@
   {
     "id": 630,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRICAL ENERGY & POWER",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "The cost of running a 1500 W air conditioner for 5 hours per day for 30 days at ₹6 per kWh is:",
     "options": {
       "A": "₹1350",
@@ -8835,7 +8819,7 @@
   {
     "id": 631,
     "source": "Past Questions Compilation",
-    "topic": "HALL EFFECT",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "The Hall coefficient R_H for an n-type semiconductor is:",
     "options": {
       "A": "Positive",
@@ -8849,7 +8833,7 @@
   {
     "id": 632,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETIC MATERIALS",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "Which of the following is a diamagnetic material?",
     "options": {
       "A": "Iron",
@@ -8863,7 +8847,7 @@
   {
     "id": 633,
     "source": "Past Questions Compilation",
-    "topic": "AC GENERATOR",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "A 6-pole AC generator runs at 1000 rpm. The frequency of generated EMF is:",
     "options": {
       "A": "50 Hz",
@@ -8877,7 +8861,7 @@
   {
     "id": 634,
     "source": "Past Questions Compilation",
-    "topic": "TRANSFORMERS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "A transformer has 400 primary turns and 100 secondary turns. If the primary current is 2 A, the secondary current (ideal) is:",
     "options": {
       "A": "8 A",
@@ -8891,7 +8875,7 @@
   {
     "id": 635,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTOR DIODES",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The knee voltage of a silicon diode is approximately:",
     "options": {
       "A": "0.3 V",
@@ -8905,7 +8889,7 @@
   {
     "id": 636,
     "source": "Past Questions Compilation",
-    "topic": "RECTIFIERS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "A full-wave bridge rectifier uses how many diodes?",
     "options": {
       "A": "1",
@@ -8919,7 +8903,7 @@
   {
     "id": 637,
     "source": "Past Questions Compilation",
-    "topic": "ZENER DIODE",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "In a Zener regulator, the series resistor is used to:",
     "options": {
       "A": "Limit the current through the Zener diode",
@@ -8933,7 +8917,7 @@
   {
     "id": 638,
     "source": "Past Questions Compilation",
-    "topic": "BIPOLAR JUNCTION TRANSISTOR",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "In a common emitter amplifier, the phase shift between input and output signals is:",
     "options": {
       "A": "0°",
@@ -8947,7 +8931,7 @@
   {
     "id": 639,
     "source": "Past Questions Compilation",
-    "topic": "LOGIC GATES",
+    "topic": "LOGIC GATES & DIGITAL ELECTRONICS",
     "question": "A NAND gate is called a universal gate because:",
     "options": {
       "A": "It has two inputs",
@@ -8961,7 +8945,7 @@
   {
     "id": 640,
     "source": "Past Questions Compilation",
-    "topic": "LOGIC GATES",
+    "topic": "LOGIC GATES & DIGITAL ELECTRONICS",
     "question": "The Boolean expression Y = \\(\\overline{A + B}\\) represents a:",
     "options": {
       "A": "NOR gate",
@@ -8975,7 +8959,7 @@
   {
     "id": 641,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: PHOTOELECTRIC EFFECT",
+    "topic": "MODERN PHYSICS",
     "question": "If the intensity of incident light is doubled in a photoelectric experiment, the saturation current:",
     "options": {
       "A": "Doubles",
@@ -8989,7 +8973,7 @@
   {
     "id": 642,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: ATOMIC MODELS",
+    "topic": "MODERN PHYSICS",
     "question": "The energy of the electron in the first orbit of hydrogen atom is -13.6 eV. The energy in the n=2 orbit is:",
     "options": {
       "A": "-3.4 eV",
@@ -9003,7 +8987,7 @@
   {
     "id": 643,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: NUCLEAR PHYSICS",
+    "topic": "MODERN PHYSICS",
     "question": "The mass defect of a nucleus is 0.1 u. The binding energy is approximately (1 u = 931.5 MeV/c²):",
     "options": {
       "A": "93.15 MeV",
@@ -9017,7 +9001,7 @@
   {
     "id": 644,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION THEOREM",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "When applying superposition, the response (current or voltage) from each source is:",
     "options": {
       "A": "Added algebraically",
@@ -9031,7 +9015,7 @@
   {
     "id": 645,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A series circuit consists of a 12 V battery, a 3Ω resistor, and a 6Ω resistor. The power dissipated in the 3Ω resistor is:",
     "options": {
       "A": "16 W",
@@ -9045,7 +9029,7 @@
   {
     "id": 646,
     "source": "Past Questions Compilation",
-    "topic": "WHEATSTONE BRIDGE",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In a Wheatstone bridge, if all four resistors are equal and the supply voltage is 10 V, the voltage across the galvanometer (balanced) is:",
     "options": {
       "A": "10 V",
@@ -9059,7 +9043,7 @@
   {
     "id": 647,
     "source": "Past Questions Compilation",
-    "topic": "POTENTIOMETER",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "The sensitivity of a potentiometer can be increased by:",
     "options": {
       "A": "Increasing the potential gradient",
@@ -9073,7 +9057,7 @@
   {
     "id": 648,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRICAL ENERGY & POWER",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "A 220 V electric kettle consumes 2.2 kW. The current drawn and the resistance of its heating element are:",
     "options": {
       "A": "10 A, 22 Ω",
@@ -9087,7 +9071,7 @@
   {
     "id": 649,
     "source": "Past Questions Compilation",
-    "topic": "HALL EFFECT",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "Hall probe is used to measure:",
     "options": {
       "A": "Electric field",
@@ -9101,7 +9085,7 @@
   {
     "id": 650,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETIC MATERIALS",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "Which of the following is true for paramagnetic materials?",
     "options": {
       "A": "They are strongly attracted to magnets",
@@ -9115,7 +9099,7 @@
   {
     "id": 651,
     "source": "Past Questions Compilation",
-    "topic": "AC GENERATOR",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "In an AC generator, the direction of induced EMF is reversed every:",
     "options": {
       "A": "Half cycle",
@@ -9129,7 +9113,7 @@
   {
     "id": 652,
     "source": "Past Questions Compilation",
-    "topic": "TRANSFORMERS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "A transformer on no-load draws a small current called:",
     "options": {
       "A": "Load current",
@@ -9143,7 +9127,7 @@
   {
     "id": 653,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTOR DIODES",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The depletion layer in a p-n junction is:",
     "options": {
       "A": "Rich in majority carriers",
@@ -9157,7 +9141,7 @@
   {
     "id": 654,
     "source": "Past Questions Compilation",
-    "topic": "RECTIFIERS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The efficiency of a half-wave rectifier is approximately:",
     "options": {
       "A": "40.6%",
@@ -9171,7 +9155,7 @@
   {
     "id": 655,
     "source": "Past Questions Compilation",
-    "topic": "ZENER DIODE",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "A Zener diode with Vz = 6 V is used in a regulator. If the input voltage is 12 V and the series resistor is 200 Ω, the Zener current (assuming no load) is:",
     "options": {
       "A": "30 mA",
@@ -9185,7 +9169,7 @@
   {
     "id": 656,
     "source": "Past Questions Compilation",
-    "topic": "BIPOLAR JUNCTION TRANSISTOR",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "In a transistor, the emitter current is:",
     "options": {
       "A": "I_E = I_B + I_C",
@@ -9199,7 +9183,7 @@
   {
     "id": 657,
     "source": "Past Questions Compilation",
-    "topic": "LOGIC GATES",
+    "topic": "LOGIC GATES & DIGITAL ELECTRONICS",
     "question": "The output of a 2-input OR gate is 0 only when:",
     "options": {
       "A": "Both inputs are 0",
@@ -9213,7 +9197,7 @@
   {
     "id": 658,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: PHOTOELECTRIC EFFECT",
+    "topic": "MODERN PHYSICS",
     "question": "The photoelectric work function of a metal is 2 eV. The maximum kinetic energy of emitted electrons when light of wavelength 400 nm falls on it is: (h=6.63×10⁻³⁴ J·s, c=3×10⁸ m/s, 1 eV=1.6×10⁻¹⁹ J)",
     "options": {
       "A": "1.1 eV",
@@ -9227,7 +9211,7 @@
   {
     "id": 659,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: ATOMIC MODELS",
+    "topic": "MODERN PHYSICS",
     "question": "The series in hydrogen spectrum that lies in the visible region is:",
     "options": {
       "A": "Lyman series",
@@ -9241,7 +9225,7 @@
   {
     "id": 660,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: NUCLEAR PHYSICS",
+    "topic": "MODERN PHYSICS",
     "question": "The activity of a radioactive sample decreases from 8000 disintegrations per second to 1000 disintegrations per second in 6 hours. The half-life is:",
     "options": {
       "A": "2 hours",
@@ -9255,7 +9239,7 @@
   {
     "id": 661,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION THEOREM",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A linear circuit is one in which:",
     "options": {
       "A": "Resistance is constant",
@@ -9269,7 +9253,7 @@
   {
     "id": 662,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Applying KVL to a closed loop, the algebraic sum of all voltages is zero. This is based on conservation of:",
     "options": {
       "A": "Charge",
@@ -9283,7 +9267,7 @@
   {
     "id": 663,
     "source": "Past Questions Compilation",
-    "topic": "WHEATSTONE BRIDGE",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In a Wheatstone bridge, P=10Ω, Q=20Ω, R=40Ω, S is unknown. For balance, S should be:",
     "options": {
       "A": "20 Ω",
@@ -9297,7 +9281,7 @@
   {
     "id": 664,
     "source": "Past Questions Compilation",
-    "topic": "POTENTIOMETER",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "A potentiometer wire of length L has a potential gradient k. To measure an unknown EMF E, the balance length is l. Then E is:",
     "options": {
       "A": "k/l",
@@ -9311,7 +9295,7 @@
   {
     "id": 665,
     "source": "Past Questions Compilation",
-    "topic": "ELECTRICAL ENERGY & POWER",
+    "topic": "DC CIRCUITS & OHM'S LAW",
     "question": "An electric bulb rated 60 W, 120 V is used on a 240 V supply. To run it safely, a series resistance of:",
     "options": {
       "A": "240 Ω",
@@ -9325,7 +9309,7 @@
   {
     "id": 666,
     "source": "Past Questions Compilation",
-    "topic": "HALL EFFECT",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "The Hall voltage V_H is proportional to:",
     "options": {
       "A": "Current and magnetic field",
@@ -9339,7 +9323,7 @@
   {
     "id": 667,
     "source": "Past Questions Compilation",
-    "topic": "MAGNETIC MATERIALS",
+    "topic": "MAGNETISM & MAGNETIC FORCE",
     "question": "Which of the following is not a ferromagnetic material?",
     "options": {
       "A": "Iron",
@@ -9353,7 +9337,7 @@
   {
     "id": 668,
     "source": "Past Questions Compilation",
-    "topic": "AC GENERATOR",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The output voltage of an AC generator can be increased by:",
     "options": {
       "A": "Increasing the number of turns",
@@ -9367,7 +9351,7 @@
   {
     "id": 669,
     "source": "Past Questions Compilation",
-    "topic": "TRANSFORMERS",
+    "topic": "AC CIRCUITS, RLC & TRANSFORMERS",
     "question": "The efficiency of a transformer is typically:",
     "options": {
       "A": "Less than 50%",
@@ -9381,7 +9365,7 @@
   {
     "id": 670,
     "source": "Past Questions Compilation",
-    "topic": "SEMICONDUCTOR DIODES",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The dynamic resistance of a p-n junction diode in forward bias is:",
     "options": {
       "A": "Very high",
@@ -9395,7 +9379,7 @@
   {
     "id": 671,
     "source": "Past Questions Compilation",
-    "topic": "RECTIFIERS",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The ripple factor of a half-wave rectifier is approximately:",
     "options": {
       "A": "0.48",
@@ -9409,7 +9393,7 @@
   {
     "id": 672,
     "source": "Past Questions Compilation",
-    "topic": "ZENER DIODE",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "If the load resistance in a Zener regulator becomes very small (approaching short circuit), the Zener diode:",
     "options": {
       "A": "Will stop conducting",
@@ -9423,7 +9407,7 @@
   {
     "id": 673,
     "source": "Past Questions Compilation",
-    "topic": "BIPOLAR JUNCTION TRANSISTOR",
+    "topic": "SEMICONDUCTORS & ELECTRONIC DEVICES",
     "question": "The common-emitter current gain β is defined as:",
     "options": {
       "A": "I_C/I_B",
@@ -9437,7 +9421,7 @@
   {
     "id": 674,
     "source": "Past Questions Compilation",
-    "topic": "LOGIC GATES",
+    "topic": "LOGIC GATES & DIGITAL ELECTRONICS",
     "question": "The truth table of a NOT gate has:",
     "options": {
       "A": "1 input, 1 output",
@@ -9451,7 +9435,7 @@
   {
     "id": 675,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: PHOTOELECTRIC EFFECT",
+    "topic": "MODERN PHYSICS",
     "question": "The stopping potential for a metal is 1.5 V. The maximum kinetic energy of photoelectrons is:",
     "options": {
       "A": "1.5 eV",
@@ -9465,7 +9449,7 @@
   {
     "id": 676,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: ATOMIC MODELS",
+    "topic": "MODERN PHYSICS",
     "question": "The shortest wavelength in the Lyman series of hydrogen is (Rydberg constant R = 1.097×10⁷ m⁻¹):",
     "options": {
       "A": "91.2 nm",
@@ -9479,7 +9463,7 @@
   {
     "id": 677,
     "source": "Past Questions Compilation",
-    "topic": "MODERN PHYSICS: NUCLEAR PHYSICS",
+    "topic": "MODERN PHYSICS",
     "question": "In beta-minus decay, a neutron is converted into:",
     "options": {
       "A": "Proton + electron + antineutrino",
@@ -9493,7 +9477,7 @@
   {
     "id": 678,
     "source": "Past Questions Compilation",
-    "topic": "SUPERPOSITION THEOREM",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "Superposition theorem is not applicable to circuits containing:",
     "options": {
       "A": "Resistors",
@@ -9507,7 +9491,7 @@
   {
     "id": 679,
     "source": "Past Questions Compilation",
-    "topic": "KIRCHHOFF'S LAWS",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "In the circuit with two 10 V batteries in parallel (ideal) connected to a 5 Ω load, the load current is:",
     "options": {
       "A": "2 A",
@@ -9521,7 +9505,7 @@
   {
     "id": 680,
     "source": "Past Questions Compilation",
-    "topic": "WHEATSTONE BRIDGE",
+    "topic": "KIRCHHOFF'S LAWS & NETWORK THEOREMS",
     "question": "The Wheatstone bridge is most accurate for measuring:",
     "options": {
       "A": "Medium resistances (1 Ω to 1 MΩ)",
@@ -9532,7 +9516,4 @@
     "answer": "A",
     "explanation": "Wheatstone bridge is best suited for medium resistances. For low resistances, Kelvin bridge is used (eliminates lead resistance). For high resistances, Megger or resistance bridge is used."
   }
-
-
-
 ]

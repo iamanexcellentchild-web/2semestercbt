@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Hero Section -->
+<div class="welcome-header">
+    <h1>🔐 Activate Premium</h1>
+    <p>Enter your license code to unlock unlimited access</p>
+</div>
+
+<!-- Activation Form -->
+<div style="max-width: 600px; margin: 3rem auto;">
+    
+    {% if not session.get('username') %}
+    <div class="alert alert-warning">
+        📝 <strong>Please log in first</strong> before activating a code.
+        <a href="{{ url_for('login') }}" style="color: #d97706; font-weight: 600; text-decoration: underline;">Go to login →</a>
+    </div>
+    {% endif %}
+    
+    <div class="card" style="padding: 2.5rem;">
+        <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: #1e293b;">Have a License Code?</h2>
+        <p style="color: #64748b; margin-bottom: 2rem;">Enter your code below to activate premium access immediately</p>
+        
+        <form method="POST" action="{{ url_for('activate_code') }}">
+            <div style="margin-bottom: 1.5rem;">
+                <label for="code" style="display: block; font-weight: 600; margin-bottom: 0.75rem; color: #475569;">License Code</label>
+                <input type="text" 
+                       id="code" 
+                       name="code" 
+                       placeholder="e.g., MERIT-XXXXX-XXXXX" 
+                       required 
+                       autofocus
+                       style="font-size: 1.1rem; letter-spacing: 1px; text-transform: uppercase; padding: 1rem;">
+                <p style="font-size: 0.85rem; color: #94a3b8; margin-top: 0.5rem;">Your code is case-insensitive</p>
+            </div>
+            
+            <button type="submit" class="btn btn-success" style="width: 100%; padding: 1rem; font-size: 1rem;">
+                ✅ Activate Code
+            </button>
+        </form>
+        
+        <div style="margin-top: 2rem; padding-top: 2rem; border-top: 2px solid #e2e8f0; text-align: center;">
+            <p style="color: #64748b; margin-bottom: 1rem;">Don't have a code yet?</p>
+            <a href="{{ url_for('upgrade') }}" class="btn btn-primary" style="padding: 0.75rem 2rem;">Learn More About Premium →</a>
+        </div>
+    </div>
+    
+    <!-- What You Get -->
+    <div style="margin-top: 3rem;">
+        <h3 style="text-align: center; margin-bottom: 2rem; font-size: 1.3rem;">What Premium Includes</h3>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+            <div style="text-align: center; padding: 1.5rem; background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(236, 72, 153, 0.1)); border-radius: 12px;">
+                <div style="font-size: 2rem; margin-bottom: 0.75rem;">📚</div>
+                <h4 style="color: #6366f1;">All Subjects</h4>
+                <p style="color: #64748b; font-size: 0.9rem;">Access 6+ subjects</p>
+            </div>
+            
+            <div style="text-align: center; padding: 1.5rem; background: linear-gradient(135deg, rgba(236, 72, 153, 0.1), rgba(6, 182, 212, 0.1)); border-radius: 12px;">
+                <div style="font-size: 2rem; margin-bottom: 0.75rem;">♾️</div>
+                <h4 style="color: #ec4899;">Unlimited Questions</h4>
+                <p style="color: #64748b; font-size: 0.9rem;">No daily limits</p>
+            </div>
+            
+            <div style="text-align: center; padding: 1.5rem; background: linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(16, 185, 129, 0.1)); border-radius: 12px;">
+                <div style="font-size: 2rem; margin-bottom: 0.75rem;">⚡</div>
+                <h4 style="color: #06b6d4;">All Quiz Modes</h4>
+                <p style="color: #64748b; font-size: 0.9rem;">CBT, Adaptive, & more</p>
+            </div>
+            
+            <div style="text-align: center; padding: 1.5rem; background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(245, 158, 11, 0.1)); border-radius: 12px;">
+                <div style="font-size: 2rem; margin-bottom: 0.75rem;">💎</div>
+                <h4 style="color: #10b981;">Lifetime Access</h4>
+                <p style="color: #64748b; font-size: 0.9rem;">Forever included</p>
+            </div>
+            
+            <div style="text-align: center; padding: 1.5rem; background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(239, 68, 68, 0.1)); border-radius: 12px;">
+                <div style="font-size: 2rem; margin-bottom: 0.75rem;">📊</div>
+                <h4 style="color: #f59e0b;">Analytics</h4>
+                <p style="color: #64748b; font-size: 0.9rem;">Track your progress</p>
+            </div>
+            
+            <div style="text-align: center; padding: 1.5rem; background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(99, 102, 241, 0.1)); border-radius: 12px;">
+                <div style="font-size: 2rem; margin-bottom: 0.75rem;">🎯</div>
+                <h4 style="color: #ef4444;">Flashcards</h4>
+                <p style="color: #64748b; font-size: 0.9rem;">Study tools</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- FAQ -->
+    <div style="margin-top: 3rem; padding: 2rem; background: #f8fafc; border-radius: 16px;">
+        <h3 style="margin-bottom: 1.5rem; color: #1e293b;">❓ FAQ</h3>
+        
+        <div style="margin-bottom: 1.5rem;">
+            <h4 style="color: #6366f1; margin-bottom: 0.5rem;">How do I get a license code?</h4>
+            <p style="color: #64748b; margin: 0;">You can purchase a code from our admin or sales team. Just ₦1,500 for lifetime access!</p>
+        </div>
+        
+        <div style="margin-bottom: 1.5rem;">
+            <h4 style="color: #6366f1; margin-bottom: 0.5rem;">Can I use one code on multiple devices?</h4>
+            <p style="color: #64748b; margin: 0;">Yes! Once activated on your account, you can access it from any device while logged in.</p>
+        </div>
+        
+        <div style="margin-bottom: 1.5rem;">
+            <h4 style="color: #6366f1; margin-bottom: 0.5rem;">What if my code doesn't work?</h4>
+            <p style="color: #64748b; margin: 0;">Make sure you entered it correctly (spaces don't matter). If it still doesn't work, contact support.</p>
+        </div>
+        
+        <div>
+            <h4 style="color: #6366f1; margin-bottom: 0.5rem;">Is the access really permanent?</h4>
+            <p style="color: #64748b; margin: 0;">Yes! One activation = lifetime premium access. No subscriptions, no renewal needed.</p>
+        </div>
+    </div>
+
+</div>
+
+<!-- Navigation Back -->
+<div class="nav-links" style="margin-top: 2rem;">
+    <a href="{{ url_for('index') }}">← Back to Home</a>
+</div>
+
+{% endblock %}

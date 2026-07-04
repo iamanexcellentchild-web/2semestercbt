@@ -1,0 +1,280 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Hero Section -->
+<div class="welcome-header">
+    <h1>🚀 Upgrade to Premium</h1>
+    <p>Unlock unlimited access to all subjects and features</p>
+</div>
+
+<!-- Main Pricing Section -->
+<div style="max-width: 1000px; margin: 3rem auto;">
+    
+    <!-- Current Status -->
+    {% if is_pro %}
+    <div class="alert alert-success">
+        ✨ You're already a Premium member! Enjoy unlimited access to all subjects.
+    </div>
+    {% else %}
+    <div class="alert alert-warning">
+        📊 You're currently on the <strong>FREE</strong> plan. Limited to {{ free_subjects|length }} subjects and 50 questions per day.
+    </div>
+    {% endif %}
+
+    <!-- Pricing Cards -->
+    <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 2rem; margin-bottom: 3rem;">
+        
+        <!-- Free Plan -->
+        <div class="pricing-card">
+            <h3 class="pricing-title">Free Plan</h3>
+            <p class="pricing-price">$0<small>/forever</small></p>
+            <p class="pricing-description">Great for getting started</p>
+            
+            <ul class="pricing-features">
+                <li><strong>{{ free_subjects|length }} Free Subjects</strong></li>
+                <li>50 Questions per day</li>
+                <li>Basic Quiz Mode</li>
+                <li>View Solutions</li>
+                <li>Limited Analytics</li>
+                <li class="unavailable">Multiple Quiz Modes</li>
+                <li class="unavailable">{{ pro_subjects|length }} Premium Subjects</li>
+                <li class="unavailable">Unlimited Questions</li>
+                <li class="unavailable">Advanced Analytics</li>
+                <li class="unavailable">Priority Support</li>
+            </ul>
+            
+            <button class="btn btn-outline" disabled style="opacity: 0.7;">Currently Active</button>
+        </div>
+        
+        <!-- Premium Plan -->
+        <div class="pricing-card featured">
+            <span class="badge">🌟 BEST VALUE</span>
+            <h3 class="pricing-title">Premium Plan</h3>
+            <p class="pricing-price">${{ (price/100)|int }}<small>/one-time</small></p>
+            <p class="pricing-description">Lifetime access for one low price</p>
+            
+            <ul class="pricing-features">
+                <li><strong>All {{ (free_subjects|length + pro_subjects|length) }} Subjects</strong></li>
+                <li>✅ Unlimited Questions</li>
+                <li>✅ Quiz Mode</li>
+                <li>✅ CBT Mode</li>
+                <li>✅ Thirteen-Trial Mode</li>
+                <li>✅ Adaptive Learning</li>
+                <li>✅ Detailed Solutions</li>
+                <li>✅ Advanced Analytics</li>
+                <li>✅ Study Flashcards</li>
+                <li>✅ Lifetime Updates</li>
+            </ul>
+            
+            {% if not is_pro %}
+            <form method="POST" action="{{ url_for('purchase') }}" style="margin-top: 1.5rem;">
+                <button type="submit" class="btn btn-success" style="width: 100%; padding: 1rem;">
+                    🎉 Unlock Premium Now - ${{ (price/100)|int }}.99
+                </button>
+            </form>
+            {% else %}
+            <button class="btn btn-outline" disabled style="opacity: 0.7; width: 100%;">✅ Currently Active</button>
+            {% endif %}
+        </div>
+        
+    </div>
+
+    <!-- Comparison Table -->
+    <div style="margin-top: 3rem;">
+        <h2 style="text-align: center; margin-bottom: 2rem; font-size: 1.5rem;">📊 Feature Comparison</h2>
+        
+        <div style="overflow-x: auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th style="text-align: center;">Free Plan</th>
+                        <th style="text-align: center;">Premium Plan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Subjects Access</strong></td>
+                        <td style="text-align: center;">{{ free_subjects|length }}</td>
+                        <td style="text-align: center;">{{ (free_subjects|length + pro_subjects|length) }}</td>
+                    </tr>
+                    <tr>
+                        <td>Quiz Mode</td>
+                        <td style="text-align: center;">✅</td>
+                        <td style="text-align: center;">✅</td>
+                    </tr>
+                    <tr>
+                        <td>Daily Question Limit</td>
+                        <td style="text-align: center;">50</td>
+                        <td style="text-align: center;">Unlimited</td>
+                    </tr>
+                    <tr>
+                        <td>CBT Mode</td>
+                        <td style="text-align: center;">❌</td>
+                        <td style="text-align: center;">✅</td>
+                    </tr>
+                    <tr>
+                        <td>Thirteen-Trial Mode</td>
+                        <td style="text-align: center;">❌</td>
+                        <td style="text-align: center;">✅</td>
+                    </tr>
+                    <tr>
+                        <td>Adaptive Learning</td>
+                        <td style="text-align: center;">❌</td>
+                        <td style="text-align: center;">✅</td>
+                    </tr>
+                    <tr>
+                        <td>View Solutions</td>
+                        <td style="text-align: center;">✅</td>
+                        <td style="text-align: center;">✅</td>
+                    </tr>
+                    <tr>
+                        <td>Analytics Dashboard</td>
+                        <td style="text-align: center;">Basic</td>
+                        <td style="text-align: center;">Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Study Flashcards</td>
+                        <td style="text-align: center;">❌</td>
+                        <td style="text-align: center;">✅</td>
+                    </tr>
+                    <tr>
+                        <td>Performance Tracking</td>
+                        <td style="text-align: center;">Limited</td>
+                        <td style="text-align: center;">Detailed</td>
+                    </tr>
+                    <tr>
+                        <td>Lifetime Access</td>
+                        <td style="text-align: center;">✅</td>
+                        <td style="text-align: center;">✅</td>
+                    </tr>
+                    <tr>
+                        <td>Free Updates</td>
+                        <td style="text-align: center;">✅</td>
+                        <td style="text-align: center;">✅</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Premium Subjects Preview -->
+    <div style="margin-top: 3rem; padding: 2rem; background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(6, 182, 212, 0.1)); border-radius: 16px; border: 2px solid rgba(99, 102, 241, 0.2);">
+        <h3 style="color: #6366f1; margin-bottom: 1.5rem; text-align: center;">🔓 Unlock These Premium Subjects</h3>
+        
+        {% set pro_icons = {
+            'MTH 103': '🧮',
+            'PHY 104': '🌊',
+            'STA 112': '📊'
+        } %}
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+            {% for subject in pro_subjects %}
+            <div class="card" style="text-align: center;">
+                <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">{{ pro_icons.get(subject, '📚') }}</div>
+                <h4 style="color: #1e293b; margin-bottom: 0.5rem;">{{ subject }}</h4>
+                <p style="color: #64748b; font-size: 0.9rem; margin: 0;">Advanced topics</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Benefits Section -->
+    <div style="margin-top: 3rem;">
+        <h2 style="text-align: center; margin-bottom: 2rem; font-size: 1.5rem;">💡 Why Go Premium?</h2>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+            <div class="card">
+                <div style="font-size: 2rem; margin-bottom: 1rem;">📈</div>
+                <h4 style="color: #6366f1; margin-bottom: 0.5rem;">Better Results</h4>
+                <p>Study all subjects and maximize your exam performance with comprehensive preparation.</p>
+            </div>
+            
+            <div class="card">
+                <div style="font-size: 2rem; margin-bottom: 1rem;">⏱️</div>
+                <h4 style="color: #ec4899; margin-bottom: 0.5rem;">No Time Limits</h4>
+                <p>Practice unlimited questions daily. Study as much as you want, whenever you want.</p>
+            </div>
+            
+            <div class="card">
+                <div style="font-size: 2rem; margin-bottom: 1rem;">🎯</div>
+                <h4 style="color: #06b6d4; margin-bottom: 0.5rem;">Flexible Learning</h4>
+                <p>Access all quiz modes: CBT, Thirteen-Trial, Adaptive, and more. Study your way.</p>
+            </div>
+            
+            <div class="card">
+                <div style="font-size: 2rem; margin-bottom: 1rem;">📊</div>
+                <h4 style="color: #10b981; margin-bottom: 0.5rem;">Deep Analytics</h4>
+                <p>Get detailed performance insights to identify weak areas and track improvement.</p>
+            </div>
+            
+            <div class="card">
+                <div style="font-size: 2rem; margin-bottom: 1rem;">💎</div>
+                <h4 style="color: #f59e0b; margin-bottom: 0.5rem;">Lifetime Value</h4>
+                <p>One-time payment gives you permanent access. No subscriptions. No hidden fees.</p>
+            </div>
+            
+            <div class="card">
+                <div style="font-size: 2rem; margin-bottom: 1rem;">🚀</div>
+                <h4 style="color: #ef4444; margin-bottom: 0.5rem;">Stay Updated</h4>
+                <p>Get all future question additions and features for free. Your investment grows.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div style="margin-top: 3rem; padding: 2rem; background: white; border-radius: 16px; box-shadow: var(--card-shadow);">
+        <h2 style="text-align: center; margin-bottom: 2rem; font-size: 1.5rem;">❓ Frequently Asked Questions</h2>
+        
+        <div style="max-width: 700px; margin: 0 auto;">
+            <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #e2e8f0;">
+                <h4 style="color: #6366f1; margin-bottom: 0.5rem;">Is the premium access really lifetime?</h4>
+                <p style="color: #475569; margin: 0;">Yes! One-time payment = lifetime access. No subscriptions, no recurring charges. Just buy once and enjoy forever.</p>
+            </div>
+            
+            <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #e2e8f0;">
+                <h4 style="color: #6366f1; margin-bottom: 0.5rem;">Can I upgrade from free anytime?</h4>
+                <p style="color: #475569; margin: 0;">Absolutely! Upgrade whenever you want. Start free, upgrade when you're ready. Your progress carries over.</p>
+            </div>
+            
+            <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #e2e8f0;">
+                <h4 style="color: #6366f1; margin-bottom: 0.5rem;">What payment methods do you accept?</h4>
+                <p style="color: #475569; margin: 0;">We accept all major credit cards and digital payment methods. Payment is secure and encrypted.</p>
+            </div>
+            
+            <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #e2e8f0;">
+                <h4 style="color: #6366f1; margin-bottom: 0.5rem;">Is there a refund policy?</h4>
+                <p style="color: #475569; margin: 0;">Yes! If you're not satisfied within 30 days, we offer a full refund. No questions asked.</p>
+            </div>
+            
+            <div>
+                <h4 style="color: #6366f1; margin-bottom: 0.5rem;">Will I get future updates?</h4>
+                <p style="color: #475569; margin: 0;">Yes! All new questions and features are included free. Your premium investment grows over time.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div style="margin-top: 3rem; padding: 3rem 2rem; background: linear-gradient(135deg, #6366f1, #ec4899, #06b6d4); border-radius: 16px; text-align: center; color: white;">
+        <h2 style="font-size: 1.8rem; margin-bottom: 1rem;">Ready to Ace Your Exams?</h2>
+        <p style="font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.9;">Join thousands of students using Merit Tutorials to excel in their studies.</p>
+        
+        {% if not is_pro %}
+        <form method="POST" action="{{ url_for('purchase') }}" style="display: inline-block;">
+            <button type="submit" class="btn btn-success" style="padding: 1.2rem 2.5rem; font-size: 1.1rem; background: white; color: #6366f1; border: none;">
+                🎉 Get Premium Now - ${{ (price/100)|int }}.99
+            </button>
+        </form>
+        {% else %}
+        <button class="btn" disabled style="padding: 1.2rem 2.5rem; font-size: 1.1rem; opacity: 0.7;">✅ Already Premium</button>
+        {% endif %}
+    </div>
+
+</div>
+
+<!-- Navigation Back -->
+<div class="nav-links" style="margin-top: 2rem;">
+    <a href="{{ url_for('index') }}">← Back to Home</a>
+</div>
+
+{% endblock %}
